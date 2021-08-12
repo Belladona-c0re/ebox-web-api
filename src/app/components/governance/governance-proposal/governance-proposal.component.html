@@ -1,0 +1,82 @@
+<div class="bg-white text-dark rounded-alot p-3">
+  <!-- deadline -->
+  <div class="d-grid gap-2 mb-3 text-center">
+    <div>
+      <div class="lh-1">Start</div>
+      <small class="text-muted">{{ proposal.startDatetime }}</small>
+    </div>
+    <div>
+      <div class="lh-1">End</div>
+      <small class="text-muted">{{ proposal.endDatetime }}</small>
+    </div>
+  </div>
+  <!-- end of deadline -->
+  
+  <!-- choices -->
+  <div class="d-grid gap-2 mb-3">
+    <div
+      *ngFor="let answer of proposal.answers; let i = index"
+      class="form-check"
+    >
+      <input
+        class="form-check-input"
+        type="radio"
+        (change)="selectedChoice = $event.target.value"
+        [name]="proposalId + '_answers'"
+        [value]="i + 1"
+      />
+      <label class="form-check-label mb-1">
+        {{ answer.answer }}
+      </label>
+      <div *ngIf="proposal.votes" class="progress bg-light rounded-alot align-items-center">
+        <div class="progress-bar bg-eboxprimary rounded-alot" style="width: {{ 100 * proposal.votes.votes[i].answer / proposal.votes.sum }}%; height: 1rem">
+        </div>
+        <span class="ms-2">
+          {{
+            (100 * proposal.votes.votes[i].answer / proposal.votes.sum) | toFixed: 2
+          }}%
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- end of choices -->
+  
+  <!-- button -->
+  <div class="text-center">
+
+    <div class="d-inline-flex flex-column align-items-center">
+      <a href="#votersDetail_{{proposal._id}}" class="text-reset mb-2" data-bs-toggle="modal">
+        Detailled voting results
+      </a>
+      <button
+        [disabled]="isButtonDisabled ? 'disabled' : null"
+        class="btn btn-eboxprimary rounded-alot"
+        (click)="buttonFunction()"
+        >
+        {{ buttonMessage }}
+      </button>
+    </div>
+  
+  </div>
+  <!-- end of button -->
+
+  <!-- voters modal -->
+  <div class="modal fade text-start" [id]="'votersDetail_' + proposal._id" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content rounded-alot">
+        <div class="modal-header">
+          <h5 class="modal-title">Detailled voting results</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3 text-center">
+            <small>A total of {{ proposal.votersDetail?.length }} votes were cast.</small>
+          </div>
+          <app-voter *ngFor="let voter of proposal.votersDetail" [voter]="voter" [isDetailedView]="true"></app-voter>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of voters modal -->
+</div>
+

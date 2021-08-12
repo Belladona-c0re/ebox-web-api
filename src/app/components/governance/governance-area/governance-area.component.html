@@ -1,0 +1,75 @@
+<div class="bg-white rounded-alot shadow">
+    <!-- header -->
+    <div class="d-flex flex-wrap align-items-center justify-content-between p-3 position-relative">
+      <div class="fs-2 text-eboxprimary">
+        <span class="me-2">{{ title }}</span>
+      </div>
+      <div>{{ proposals.length }} Votings</div>
+    </div>
+    <!-- end of header -->
+
+    <!-- proposals -->
+    <div class="d-grid gap-2 p-3 pt-0">
+      <div
+        class="bg-eboxdark text-white rounded-alot p-3" 
+        *ngFor="let proposal of proposals">
+
+        <!-- proposal header -->
+        <div class="position-relative" (click)="proposal._isCollapsed = !proposal._isCollapsed">
+          <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+            <div class="fs-5 fw-bold">
+              <span class="me-2">
+                Voting #{{ proposal.n }}
+              </span>
+              <a href="#collapse_{{proposal._id}}" data-bs-toggle="collapse" class="stretched-link text-reset text-decoration-none me-2">
+                <i
+                  class="bi"
+                  [class.bi-arrows-expand]="proposal._isCollapsed"
+                  [class.bi-arrows-collapse]="!proposal._isCollapsed"></i>
+              </a>
+              <small *ngIf="proposal.hasExpired">
+                (Finished)
+              </small>
+            </div>
+            <div>{{ proposal.answers.length }} Options</div>
+          </div>
+          <div>{{ proposal.question }}</div>
+        </div>
+        <!-- end of proposal header -->
+
+        <div class="collapse" [id]="'collapse_' + proposal._id">
+
+          <!-- eligible users trigger -->
+          <div class="text-center mt-3 mb-2">
+            <a href="#eligibleUsers_{{proposal._id}}" class="text-reset" data-bs-toggle="modal">
+              Eligible voters
+            </a>
+          </div>
+          <!-- end of eligible users trigger -->
+
+          <!-- eligible users -->
+          <div class="modal fade text-dark" [id]="'eligibleUsers_' + proposal._id" tabindex="-1">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content rounded-alot">
+                <div class="modal-header">
+                  <h5 class="modal-title">Eligible voters</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="mb-3 text-center">
+                    <small>There are {{ proposal.eligibleUsers?.length }} eligible voters.</small>
+                  </div>
+                  <app-voter *ngFor="let user of proposal.eligibleUsers" [voter]="user"></app-voter>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of eligible users -->
+
+          <app-governance-proposal [proposal]="proposal"></app-governance-proposal>
+
+        </div>
+      </div>
+    </div>
+    <!-- end of proposals -->
+</div>

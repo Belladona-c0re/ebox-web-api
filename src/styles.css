@@ -1,0 +1,268 @@
+html {
+  transition: filter .2s ease-in-out;
+}
+
+html[theme="dark-mode"] {
+  filter: invert(1) hue-rotate(180deg) contrast(0.9) saturate(0.6) brightness(0.8)
+}
+
+html[theme="dark-mode"] img,
+html[theme="dark-mode"] .btn {
+  filter: invert(1) hue-rotate( 180deg);
+}
+
+.main {
+  min-height: calc(100vh - 128px);
+  margin-top: 64px;
+  animation: bg-from-white-to-transparent 3.5s;
+}
+
+.main > * {
+  animation: fade-in 350ms;
+}
+
+@keyframes bg-from-white-to-transparent {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: transparent;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-skewed {
+  display: inline-block;
+  transform: skewX(-0.5rad);
+  border-radius: 8px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-skewed > a {
+  display: inline-block;
+  transform: skewX(0.5rad);
+  width: 100%;
+}
+
+.centerer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar-height {
+  height: 64px;
+}
+
+.taptarget-height {
+  height: 48px;
+}
+
+.rounded-alot {
+  border-radius: 1rem !important;
+}
+
+.rounded-alot-start {
+  border-radius: 1rem 0 0 1rem !important;
+}
+
+.rounded-alot-end {
+  border-radius: 0 1rem 1rem 0 !important;
+}
+
+.rounded-alot-top {
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.rounded-alot-bottom {
+  border-radius: 0 0 1rem 1rem !important;
+}
+
+.btn-eboxprimary {
+  color: white;
+  background-image: linear-gradient(to bottom right, #afd0ff 12%, #ff00c5);
+  border-color: #afd0ff;
+  background-size: 133% 133%;
+  transition: all .5s;
+}
+
+.btn-eboxprimary:hover {
+  color: white;
+  border-color: #7990b0;
+  background-position: bottom right;
+}
+
+.btn-outline-eboxprimary {
+  color: #7990b0;
+  border-color: #7990b0;
+  background-image: linear-gradient(to bottom right, #fff 50%, #afd0ff 75%, #dc13af 100%);
+  background-size: 333% 333%;
+  transition: all .5s;
+}
+
+.btn-outline-eboxprimary:hover {
+  color: white;
+  border-color: #afd0ff;
+  background-position: bottom right;
+}
+
+.btn-eboxpulser {
+  animation: pulsing-shadow 2s infinite;
+}
+
+@keyframes pulsing-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(220, 19, 175, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(220, 19, 175, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(220, 19, 175, 0.7);
+  }
+}
+
+.bg-eboxprimary {
+  background: linear-gradient(to bottom right, #afd0ff, #dc13af);
+}
+
+.text-eboxprimary {
+  line-height: 1.33333;
+  background-color: #afd0ff;
+  background-image: linear-gradient(to bottom right, #afd0ff, #dc13af);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+.bg-eboxdark {
+  background: linear-gradient(to bottom right, #2d2f31, #2b1a27);
+}
+
+.bg-lightalpha {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+.input-nostyle {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  min-width: 0;
+  outline: none;
+}
+
+.input-nostyle:disabled {
+  color: #B5B0B4;
+}
+
+.container-small {
+  max-width: 420px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-medium {
+  max-width: 840px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mb-alot {
+  margin-bottom: 9rem;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.highlight {
+  position: absolute;
+  z-index: -1;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  left: -1px;
+  background: linear-gradient(
+    to left,
+    #fec803 0%,
+    #afd0ff 21.35%,
+    #618fba 47.4%,
+    #7e75a1 65.1%,
+    #dc13af 80.21%,
+    #f61bd3 100%
+  );
+  background-size: 300% 100%;
+  filter: blur(8px);
+  border-radius: 1rem;
+  animation: animate-bg 3s infinite;
+}
+
+@keyframes animate-bg {
+  0% {
+    background-position: 100% 100%;
+  }
+  30% {
+    background-position: 20% 80%;
+  }
+  50% {
+    background-position: 40% 60%;
+  }
+  70% {
+    background-position: 60% 40%;
+  }
+  90% {
+    background-position: 80% 20%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.bg-completed {
+  background: repeating-linear-gradient(
+    -55deg,
+    #3a3a3a,
+    #3a3a3a 10px,
+    #2f2f2f 10px,
+    #2f2f2f 20px
+  );
+  backdrop-filter: blur(10px);
+}
+
+.bg-disabled {
+  background: repeating-linear-gradient(
+    -55deg,
+    #fff,
+    #fff 10px,
+    #f8f9fa 10px,
+    #f8f9fa 20px
+  );
+  backdrop-filter: blur(10px);
+}
+
+.scale-on-hover:hover {
+  position: relative;
+  transform: scale(0.93);
+  transition: all 0.15s ease-out;
+}

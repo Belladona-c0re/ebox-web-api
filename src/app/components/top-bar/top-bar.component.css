@@ -1,0 +1,14 @@
+.links a.active {
+  border-left: 0.5rem solid #afd0ff;
+}
+
+.links a:hover {
+  background: linear-gradient(to bottom right, #afd0ff, #dc13af);
+}
+
+.tab-active {
+  color: white;
+  background: linear-gradient(to bottom right, #7990b0, #8f0d72);
+  border-color: #7990b0;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.25) !important;
+}

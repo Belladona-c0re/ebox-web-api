@@ -1,0 +1,32 @@
+.progress-line,
+.progress-line::before {
+    height: 0.75rem;
+    width: 100%;
+    margin: 0;
+}
+
+.progress-line {
+    background-color: #afd0ff;
+    display: flex;
+}
+
+.progress-line::before {
+    background: linear-gradient(to right, #afd0ff, #dc13af);
+    content: "";
+    animation: running-progress 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes running-progress {
+    0% {
+        margin-left: 0px;
+        margin-right: 100%;
+    }
+    50% {
+        margin-left: 25%;
+        margin-right: 0%;
+    }
+    100% {
+        margin-left: 100%;
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,38 @@
+<app-body-bg-changer
+  [imgSrc]="'assets/img/governance.jpg'"
+></app-body-bg-changer>
+
+<div class="main py-5 px-3">
+  <!-- header -->
+  <header class="container-medium text-center mb-5">
+    <h1>Governance</h1>
+    <p class="lead">
+        Everyone holding 1 EBOX or above is eligible to voice their opinion in community-related decisions.
+        Votes are weighted accordingly with token balance.
+    </p>
+    <p>For further understanding, please have a look at our <a class="text-reset" href="https://ethbox.medium.com/ethbox-introducing-governance-540f237cda3e" target="_blank">Medium article</a> on governance.</p>
+  </header>
+  <!-- end of header -->
+
+  <!-- clock -->
+  <div class="container-medium text-center mb-5">
+    <h2>{{ datetime }}</h2>
+  </div>
+  <!-- end of clock -->
+
+  <!-- proposals -->
+  <div class="container col-xxl-8">
+
+    <div class="row g-3">
+      <div class="col-lg-6">
+        <app-governance-area title="Governance" [proposals]="governance"></app-governance-area>
+      </div>
+      <div class="col-lg-6">
+        <app-governance-area title="Community" [proposals]="community"></app-governance-area>
+      </div>
+    </div>
+
+    
+  </div>
+  <!-- end of proposals -->
+</div>

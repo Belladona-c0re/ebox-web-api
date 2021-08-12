@@ -1,0 +1,94 @@
+<div class="d-flex flex-column align-items-center">
+  <button
+    data-bs-toggle="modal"
+    [attr.data-bs-target]="'#' + randomId"
+    class="btn text-white"
+    [disabled]="!(contractServ.isAppReady$ | async) || (loadingIndicatorServ.isLoading$ | async) ? 'disabled' : null"
+  >
+    <i class="bi bi-bookmarks-fill"></i>
+  </button>
+</div>
+
+<div [id]="randomId" class="modal">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-alot" style="height: 95vh">
+      <div class="modal-header">
+        <div class="flex-grow-1">
+          <div class="d-flex justify-content-between mb-3">
+            <div>
+              <h5 class="modal-title">Address Book</h5>
+              <small>There are {{ addresses.length }} addresses saved.</small>
+            </div>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="row g-3 mb-3">
+            <div class="col-12 col-md">
+              <input
+                #nameInput
+                (input)="name = nameInput.value"
+                [value]="name"
+                type="text"
+                class="form-control rounded-alot"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-12 col-md">
+              <input
+                #addressInput
+                (input)="address = addressInput.value"
+                [value]="address"
+                type="text"
+                class="form-control rounded-alot"
+                placeholder="Address"
+              />
+            </div>
+            <div class="col-12 col-md-auto">
+              <button
+                (click)="onAddClicked()"
+                class="btn btn-outline-eboxprimary rounded-alot w-100"
+              >
+                Add
+                <i class="bi bi-bookmark-plus"></i>
+              </button>
+            </div>
+          </div>
+          <input
+            #searchInput
+            (input)="search = searchInput.value; filterAddresses()"
+            type="text"
+            class="form-control rounded-alot"
+            placeholder="Search in the list"
+          />
+        </div>
+      </div>
+      <div class="modal-body">
+        <div
+          *ngFor="let addr of filteredAddresses"
+          class="align-items-center border d-flex mb-3 p-3 rounded-alot"
+        >
+          <!-- address item -->
+          <div class="d-flex flex-column flex-md-row align-items-center col-12">
+            <a
+              href="#"
+              data-bs-dismiss="modal"
+              (click)="onAddressSelected.emit(addr)"
+              class="mb-3 mb-md-0 me-auto text-decoration-none text-reset text-truncate col-12 col-sm-9"
+            >
+              <span class="fs-5">{{ addr.label }}</span>
+              <br />
+              <small>{{ addr.address }}</small>
+            </a>
+            <button
+              (click)="onDelClicked(addr.address)"
+              class="btn btn-outline-eboxprimary rounded-alot col-12 col-md-auto"
+            >
+              Del
+              <i class="bi bi-bookmark-x"></i>
+            </button>
+          </div>
+          <!-- end of address item -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
