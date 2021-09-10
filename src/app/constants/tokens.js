@@ -32026,6 +32026,13 @@ export let chainTokenDictionary = {
   // Ethereum testnet
   4: [
     {
+      name: "Ethereum",
+      symbol: "ETH",
+      thumb: "https://assets.coingecko.com/coins/images/279/thumb/ethereum.png",
+      address: "0x0000000000000000000000000000000000000000",
+      decimals: 18,
+    },
+    {
       name: "Test Token",
       symbol: "AAA",
       thumb: "assets/img/crash-test.png",
@@ -32045,13 +32052,6 @@ export let chainTokenDictionary = {
       thumb: "assets/img/crash-test.png",
       address: "0x4B73517Ae7Ac55B46b8B993A41842Af399fbfa25",
       decimals: 18,
-    },
-    {
-      name: "Ethereum",
-      symbol: "ETH",
-      thumb: "https://assets.coingecko.com/coins/images/279/thumb/ethereum.png",
-      address: "0x0000000000000000000000000000000000000000",
-      decimals: 18,
     }
   ],
   // Binance mainnet
@@ -32067,7 +32067,7 @@ export let chainTokenDictionary = {
       name: "Wrapped BNB",
       symbol: "WBNB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png",
+        "https://pancakeswap.finance/images/tokens/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c.png",
       address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
       decimals: "18",
     },
@@ -32075,7 +32075,7 @@ export let chainTokenDictionary = {
       name: "BUSD Token",
       symbol: "BUSD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png",
+        "https://pancakeswap.finance/images/tokens/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56.png",
       address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
       decimals: "18",
     },
@@ -32083,7 +32083,7 @@ export let chainTokenDictionary = {
       name: "SafeMoon",
       symbol: "SAFEMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3.png",
+        "https://pancakeswap.finance/images/tokens/0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3.png",
       address: "0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3",
       decimals: "9",
     },
@@ -32091,7 +32091,7 @@ export let chainTokenDictionary = {
       name: "Tether USD",
       symbol: "USDT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x55d398326f99059fF775485246999027B3197955.png",
+        "https://pancakeswap.finance/images/tokens/0x55d398326f99059fF775485246999027B3197955.png",
       address: "0x55d398326f99059fF775485246999027B3197955",
       decimals: "18",
     },
@@ -32099,7 +32099,7 @@ export let chainTokenDictionary = {
       name: "BELT Token",
       symbol: "BELT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f.png",
+        "https://pancakeswap.finance/images/tokens/0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f.png",
       address: "0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f",
       decimals: "18",
     },
@@ -32107,7 +32107,7 @@ export let chainTokenDictionary = {
       name: "Ethereum Token",
       symbol: "ETH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png",
+        "https://pancakeswap.finance/images/tokens/0x2170Ed0880ac9A755fd29B2688956BD959F933F8.png",
       address: "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
       decimals: "18",
     },
@@ -32115,7 +32115,7 @@ export let chainTokenDictionary = {
       name: "Bunny Token",
       symbol: "BUNNY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51.png",
+        "https://pancakeswap.finance/images/tokens/0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51.png",
       address: "0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51",
       decimals: "18",
     },
@@ -32123,7 +32123,7 @@ export let chainTokenDictionary = {
       name: "BTCB Token",
       symbol: "BTCB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png",
+        "https://pancakeswap.finance/images/tokens/0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c.png",
       address: "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
       decimals: "18",
     },
@@ -32131,7 +32131,7 @@ export let chainTokenDictionary = {
       name: "USD Coin",
       symbol: "USDC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png",
+        "https://pancakeswap.finance/images/tokens/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d.png",
       address: "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
       decimals: "18",
     },
@@ -32139,7 +32139,7 @@ export let chainTokenDictionary = {
       name: "Dai Token",
       symbol: "DAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png",
+        "https://pancakeswap.finance/images/tokens/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3.png",
       address: "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
       decimals: "18",
     },
@@ -32147,7 +32147,7 @@ export let chainTokenDictionary = {
       name: "Polkadot Token",
       symbol: "DOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png",
+        "https://pancakeswap.finance/images/tokens/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402.png",
       address: "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
       decimals: "18",
     },
@@ -32155,7 +32155,7 @@ export let chainTokenDictionary = {
       name: "AUTOv2",
       symbol: "AUTO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa184088a740c695E156F91f5cC086a06bb78b827.png",
+        "https://pancakeswap.finance/images/tokens/0xa184088a740c695E156F91f5cC086a06bb78b827.png",
       address: "0xa184088a740c695E156F91f5cC086a06bb78b827",
       decimals: "18",
     },
@@ -32163,7 +32163,7 @@ export let chainTokenDictionary = {
       name: "VAI Stablecoin",
       symbol: "VAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7.png",
+        "https://pancakeswap.finance/images/tokens/0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7.png",
       address: "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7",
       decimals: "18",
     },
@@ -32171,7 +32171,7 @@ export let chainTokenDictionary = {
       name: "Uniswap",
       symbol: "UNI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png",
+        "https://pancakeswap.finance/images/tokens/0xBf5140A22578168FD562DCcF235E5D43A02ce9B1.png",
       address: "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
       decimals: "18",
     },
@@ -32179,7 +32179,7 @@ export let chainTokenDictionary = {
       name: "Wrapped UST Token",
       symbol: "UST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x23396cF899Ca06c4472205fC903bDB4de249D6fC.png",
+        "https://pancakeswap.finance/images/tokens/0x23396cF899Ca06c4472205fC903bDB4de249D6fC.png",
       address: "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
       decimals: "18",
     },
@@ -32187,7 +32187,7 @@ export let chainTokenDictionary = {
       name: "Cardano Token",
       symbol: "ADA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png",
+        "https://pancakeswap.finance/images/tokens/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47.png",
       address: "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
       decimals: "18",
     },
@@ -32195,7 +32195,7 @@ export let chainTokenDictionary = {
       name: "Ellipsis",
       symbol: "EPS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA7f552078dcC247C2684336020c03648500C6d9F.png",
+        "https://pancakeswap.finance/images/tokens/0xA7f552078dcC247C2684336020c03648500C6d9F.png",
       address: "0xA7f552078dcC247C2684336020c03648500C6d9F",
       decimals: "18",
     },
@@ -32203,7 +32203,7 @@ export let chainTokenDictionary = {
       name: "ChainLink Token",
       symbol: "LINK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png",
+        "https://pancakeswap.finance/images/tokens/0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD.png",
       address: "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
       decimals: "18",
     },
@@ -32211,7 +32211,7 @@ export let chainTokenDictionary = {
       name: "Helmet.insure Governance Token",
       symbol: "Helmet",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8.png",
+        "https://pancakeswap.finance/images/tokens/0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8.png",
       address: "0x948d2a81086A075b3130BAc19e4c6DEe1D2E3fE8",
       decimals: "18",
     },
@@ -32219,7 +32219,7 @@ export let chainTokenDictionary = {
       name: "AlphaToken",
       symbol: "ALPHA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa1faa113cbE53436Df28FF0aEe54275c13B40975.png",
+        "https://pancakeswap.finance/images/tokens/0xa1faa113cbE53436Df28FF0aEe54275c13B40975.png",
       address: "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
       decimals: "18",
     },
@@ -32227,7 +32227,7 @@ export let chainTokenDictionary = {
       name: "XRP Token",
       symbol: "XRP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png",
+        "https://pancakeswap.finance/images/tokens/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE.png",
       address: "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
       decimals: "18",
     },
@@ -32235,7 +32235,7 @@ export let chainTokenDictionary = {
       name: "ElonGate",
       symbol: "ElonGate",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2A9718defF471f3Bb91FA0ECEAB14154F150a385.png",
+        "https://pancakeswap.finance/images/tokens/0x2A9718defF471f3Bb91FA0ECEAB14154F150a385.png",
       address: "0x2A9718defF471f3Bb91FA0ECEAB14154F150a385",
       decimals: "9",
     },
@@ -32243,7 +32243,7 @@ export let chainTokenDictionary = {
       name: "Band Protocol Token",
       symbol: "BAND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18.png",
+        "https://pancakeswap.finance/images/tokens/0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18.png",
       address: "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
       decimals: "18",
     },
@@ -32251,7 +32251,7 @@ export let chainTokenDictionary = {
       name: "Mobox",
       symbol: "MBOX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377.png",
+        "https://pancakeswap.finance/images/tokens/0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377.png",
       address: "0x3203c9E46cA618C8C1cE5dC67e7e9D75f5da2377",
       decimals: "18",
     },
@@ -32259,7 +32259,7 @@ export let chainTokenDictionary = {
       name: "Binance Beacon ETH",
       symbol: "BETH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B.png",
+        "https://pancakeswap.finance/images/tokens/0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B.png",
       address: "0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B",
       decimals: "18",
     },
@@ -32267,7 +32267,7 @@ export let chainTokenDictionary = {
       name: "SafePal Token",
       symbol: "SFP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb.png",
+        "https://pancakeswap.finance/images/tokens/0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb.png",
       address: "0xD41FDb03Ba84762dD66a0af1a6C8540FF1ba5dfb",
       decimals: "18",
     },
@@ -32275,7 +32275,7 @@ export let chainTokenDictionary = {
       name: "Venus",
       symbol: "XVS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63.png",
+        "https://pancakeswap.finance/images/tokens/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63.png",
       address: "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
       decimals: "18",
     },
@@ -32283,7 +32283,7 @@ export let chainTokenDictionary = {
       name: "Swipe",
       symbol: "SXP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A.png",
+        "https://pancakeswap.finance/images/tokens/0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A.png",
       address: "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
       decimals: "18",
     },
@@ -32291,7 +32291,7 @@ export let chainTokenDictionary = {
       name: "Wault Finance",
       symbol: "WAULT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6Ff2d9e5891a7a7c554b80e0D1B791483C78BcE9.png",
+        "https://pancakeswap.finance/images/tokens/0x6Ff2d9e5891a7a7c554b80e0D1B791483C78BcE9.png",
       address: "0x6Ff2d9e5891a7a7c554b80e0D1B791483C78BcE9",
       decimals: "18",
     },
@@ -32299,7 +32299,7 @@ export let chainTokenDictionary = {
       name: "BGOV Token",
       symbol: "BGOV",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf8E026dC4C0860771f691EcFFBbdfe2fa51c77CF.png",
+        "https://pancakeswap.finance/images/tokens/0xf8E026dC4C0860771f691EcFFBbdfe2fa51c77CF.png",
       address: "0xf8E026dC4C0860771f691EcFFBbdfe2fa51c77CF",
       decimals: "18",
     },
@@ -32307,7 +32307,7 @@ export let chainTokenDictionary = {
       name: "AlpacaToken",
       symbol: "ALPACA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F.png",
+        "https://pancakeswap.finance/images/tokens/0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F.png",
       address: "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
       decimals: "18",
     },
@@ -32315,7 +32315,7 @@ export let chainTokenDictionary = {
       name: "Compound Coin",
       symbol: "COMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8.png",
+        "https://pancakeswap.finance/images/tokens/0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8.png",
       address: "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
       decimals: "18",
     },
@@ -32323,7 +32323,7 @@ export let chainTokenDictionary = {
       name: "Trust Wallet",
       symbol: "TWT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4B0F1812e5Df2A09796481Ff14017e6005508003.png",
+        "https://pancakeswap.finance/images/tokens/0x4B0F1812e5Df2A09796481Ff14017e6005508003.png",
       address: "0x4B0F1812e5Df2A09796481Ff14017e6005508003",
       decimals: "18",
     },
@@ -32331,7 +32331,7 @@ export let chainTokenDictionary = {
       name: "Woonkly Power",
       symbol: "WOOP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8b303d5BbfBbf46F1a4d9741E491e06986894e18.png",
+        "https://pancakeswap.finance/images/tokens/0x8b303d5BbfBbf46F1a4d9741E491e06986894e18.png",
       address: "0x8b303d5BbfBbf46F1a4d9741E491e06986894e18",
       decimals: "18",
     },
@@ -32339,7 +32339,7 @@ export let chainTokenDictionary = {
       name: "SushiToken",
       symbol: "SUSHI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x947950BcC74888a40Ffa2593C5798F11Fc9124C4.png",
+        "https://pancakeswap.finance/images/tokens/0x947950BcC74888a40Ffa2593C5798F11Fc9124C4.png",
       address: "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4",
       decimals: "18",
     },
@@ -32347,7 +32347,7 @@ export let chainTokenDictionary = {
       name: "Nerve",
       symbol: "NRV",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096.png",
+        "https://pancakeswap.finance/images/tokens/0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096.png",
       address: "0x42F6f551ae042cBe50C739158b4f0CAC0Edb9096",
       decimals: "18",
     },
@@ -32355,7 +32355,7 @@ export let chainTokenDictionary = {
       name: "Badger Sett Badger",
       symbol: "bBADGER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1F7216fdB338247512Ec99715587bb97BBf96eae.png",
+        "https://pancakeswap.finance/images/tokens/0x1F7216fdB338247512Ec99715587bb97BBf96eae.png",
       address: "0x1F7216fdB338247512Ec99715587bb97BBf96eae",
       decimals: "18",
     },
@@ -32363,7 +32363,7 @@ export let chainTokenDictionary = {
       name: "SafeMars",
       symbol: "SAFEMARS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88.png",
+        "https://pancakeswap.finance/images/tokens/0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88.png",
       address: "0x3aD9594151886Ce8538C1ff615EFa2385a8C3A88",
       decimals: "9",
     },
@@ -32371,7 +32371,7 @@ export let chainTokenDictionary = {
       name: "DODO bird",
       symbol: "DODO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2.png",
+        "https://pancakeswap.finance/images/tokens/0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2.png",
       address: "0x67ee3Cb086F8a16f34beE3ca72FAD36F7Db929e2",
       decimals: "18",
     },
@@ -32379,7 +32379,7 @@ export let chainTokenDictionary = {
       name: "Litentry",
       symbol: "LIT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723.png",
+        "https://pancakeswap.finance/images/tokens/0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723.png",
       address: "0xb59490aB09A0f526Cc7305822aC65f2Ab12f9723",
       decimals: "18",
     },
@@ -32387,7 +32387,7 @@ export let chainTokenDictionary = {
       name: "Reef.finance",
       symbol: "REEF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e.png",
+        "https://pancakeswap.finance/images/tokens/0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e.png",
       address: "0xF21768cCBC73Ea5B6fd3C687208a7c2def2d966e",
       decimals: "18",
     },
@@ -32395,7 +32395,7 @@ export let chainTokenDictionary = {
       name: "TokenPocket Token",
       symbol: "TPT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xECa41281c24451168a37211F0bc2b8645AF45092.png",
+        "https://pancakeswap.finance/images/tokens/0xECa41281c24451168a37211F0bc2b8645AF45092.png",
       address: "0xECa41281c24451168a37211F0bc2b8645AF45092",
       decimals: "4",
     },
@@ -32403,7 +32403,7 @@ export let chainTokenDictionary = {
       name: "Wrapped SOTE",
       symbol: "wSOTE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x541E619858737031A1244A5d0Cd47E5ef480342c.png",
+        "https://pancakeswap.finance/images/tokens/0x541E619858737031A1244A5d0Cd47E5ef480342c.png",
       address: "0x541E619858737031A1244A5d0Cd47E5ef480342c",
       decimals: "18",
     },
@@ -32411,7 +32411,7 @@ export let chainTokenDictionary = {
       name: "Bella Protocol",
       symbol: "BEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8443f091997f06a61670B735ED92734F5628692F.png",
+        "https://pancakeswap.finance/images/tokens/0x8443f091997f06a61670B735ED92734F5628692F.png",
       address: "0x8443f091997f06a61670B735ED92734F5628692F",
       decimals: "18",
     },
@@ -32419,7 +32419,7 @@ export let chainTokenDictionary = {
       name: "bDollar",
       symbol: "BDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x190b589cf9Fb8DDEabBFeae36a813FFb2A702454.png",
+        "https://pancakeswap.finance/images/tokens/0x190b589cf9Fb8DDEabBFeae36a813FFb2A702454.png",
       address: "0x190b589cf9Fb8DDEabBFeae36a813FFb2A702454",
       decimals: "18",
     },
@@ -32427,7 +32427,7 @@ export let chainTokenDictionary = {
       name: "Goose Golden Egg",
       symbol: "EGG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6.png",
+        "https://pancakeswap.finance/images/tokens/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6.png",
       address: "0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6",
       decimals: "18",
     },
@@ -32435,7 +32435,7 @@ export let chainTokenDictionary = {
       name: "Berry Tributes",
       symbol: "BRY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830.png",
+        "https://pancakeswap.finance/images/tokens/0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830.png",
       address: "0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830",
       decimals: "18",
     },
@@ -32443,7 +32443,7 @@ export let chainTokenDictionary = {
       name: "Zilliqa",
       symbol: "ZIL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787.png",
+        "https://pancakeswap.finance/images/tokens/0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787.png",
       address: "0xb86AbCb37C3A4B64f74f59301AFF131a1BEcC787",
       decimals: "12",
     },
@@ -32451,7 +32451,7 @@ export let chainTokenDictionary = {
       name: "Fuel Token",
       symbol: "Fuel",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2090c8295769791ab7A3CF1CC6e0AA19F35e441A.png",
+        "https://pancakeswap.finance/images/tokens/0x2090c8295769791ab7A3CF1CC6e0AA19F35e441A.png",
       address: "0x2090c8295769791ab7A3CF1CC6e0AA19F35e441A",
       decimals: "18",
     },
@@ -32459,7 +32459,7 @@ export let chainTokenDictionary = {
       name: "Tokocrypto Token",
       symbol: "TKO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9f589e3eabe42ebC94A44727b3f3531C0c877809.png",
+        "https://pancakeswap.finance/images/tokens/0x9f589e3eabe42ebC94A44727b3f3531C0c877809.png",
       address: "0x9f589e3eabe42ebC94A44727b3f3531C0c877809",
       decimals: "18",
     },
@@ -32467,7 +32467,7 @@ export let chainTokenDictionary = {
       name: "Switcheo Token",
       symbol: "SWTH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C.png",
+        "https://pancakeswap.finance/images/tokens/0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C.png",
       address: "0x250b211EE44459dAd5Cd3bCa803dD6a7EcB5d46C",
       decimals: "8",
     },
@@ -32475,7 +32475,7 @@ export let chainTokenDictionary = {
       name: "BSCX",
       symbol: "BSCX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5Ac52EE5b2a633895292Ff6d8A89bB9190451587.png",
+        "https://pancakeswap.finance/images/tokens/0x5Ac52EE5b2a633895292Ff6d8A89bB9190451587.png",
       address: "0x5Ac52EE5b2a633895292Ff6d8A89bB9190451587",
       decimals: "18",
     },
@@ -32483,7 +32483,7 @@ export let chainTokenDictionary = {
       name: "SafeGalaxy",
       symbol: "SAFEGALAXY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6b51231c43B1604815313801dB5E9E614914d6e4.png",
+        "https://pancakeswap.finance/images/tokens/0x6b51231c43B1604815313801dB5E9E614914d6e4.png",
       address: "0x6b51231c43B1604815313801dB5E9E614914d6e4",
       decimals: "9",
     },
@@ -32491,7 +32491,7 @@ export let chainTokenDictionary = {
       name: "StandardBTCHashrateToken",
       symbol: "BTCST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78650B139471520656b9E7aA7A5e9276814a38e9.png",
+        "https://pancakeswap.finance/images/tokens/0x78650B139471520656b9E7aA7A5e9276814a38e9.png",
       address: "0x78650B139471520656b9E7aA7A5e9276814a38e9",
       decimals: "17",
     },
@@ -32499,7 +32499,7 @@ export let chainTokenDictionary = {
       name: "Injective Protocol",
       symbol: "INJ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa2B726B1145A4773F68593CF171187d8EBe4d495.png",
+        "https://pancakeswap.finance/images/tokens/0xa2B726B1145A4773F68593CF171187d8EBe4d495.png",
       address: "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
       decimals: "18",
     },
@@ -32507,7 +32507,7 @@ export let chainTokenDictionary = {
       name: "Eleven.finance",
       symbol: "ELE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0.png",
+        "https://pancakeswap.finance/images/tokens/0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0.png",
       address: "0xAcD7B3D9c10e97d0efA418903C0c7669E702E4C0",
       decimals: "18",
     },
@@ -32515,7 +32515,7 @@ export let chainTokenDictionary = {
       name: "IoTeX Network",
       symbol: "IOTX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9678E42ceBEb63F23197D726B29b1CB20d0064E5.png",
+        "https://pancakeswap.finance/images/tokens/0x9678E42ceBEb63F23197D726B29b1CB20d0064E5.png",
       address: "0x9678E42ceBEb63F23197D726B29b1CB20d0064E5",
       decimals: "18",
     },
@@ -32523,7 +32523,7 @@ export let chainTokenDictionary = {
       name: "Linear Token",
       symbol: "LINA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x762539b45A1dCcE3D36d080F74d1AED37844b878.png",
+        "https://pancakeswap.finance/images/tokens/0x762539b45A1dCcE3D36d080F74d1AED37844b878.png",
       address: "0x762539b45A1dCcE3D36d080F74d1AED37844b878",
       decimals: "18",
     },
@@ -32531,7 +32531,7 @@ export let chainTokenDictionary = {
       name: "Nominex",
       symbol: "NMX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd32d01A43c869EdcD1117C640fBDcfCFD97d9d65.png",
+        "https://pancakeswap.finance/images/tokens/0xd32d01A43c869EdcD1117C640fBDcfCFD97d9d65.png",
       address: "0xd32d01A43c869EdcD1117C640fBDcfCFD97d9d65",
       decimals: "18",
     },
@@ -32539,7 +32539,7 @@ export let chainTokenDictionary = {
       name: "SafeStar",
       symbol: "SAFESTAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3C00F8FCc8791fa78DAA4A480095Ec7D475781e2.png",
+        "https://pancakeswap.finance/images/tokens/0x3C00F8FCc8791fa78DAA4A480095Ec7D475781e2.png",
       address: "0x3C00F8FCc8791fa78DAA4A480095Ec7D475781e2",
       decimals: "9",
     },
@@ -32547,7 +32547,7 @@ export let chainTokenDictionary = {
       name: "τBitcoin",
       symbol: "τBTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2cD1075682b0FCCaADd0Ca629e138E64015Ba11c.png",
+        "https://pancakeswap.finance/images/tokens/0x2cD1075682b0FCCaADd0Ca629e138E64015Ba11c.png",
       address: "0x2cD1075682b0FCCaADd0Ca629e138E64015Ba11c",
       decimals: "9",
     },
@@ -32555,7 +32555,7 @@ export let chainTokenDictionary = {
       name: "dego.finance",
       symbol: "DEGO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3FdA9383A84C05eC8f7630Fe10AdF1fAC13241CC.png",
+        "https://pancakeswap.finance/images/tokens/0x3FdA9383A84C05eC8f7630Fe10AdF1fAC13241CC.png",
       address: "0x3FdA9383A84C05eC8f7630Fe10AdF1fAC13241CC",
       decimals: "18",
     },
@@ -32563,7 +32563,7 @@ export let chainTokenDictionary = {
       name: "OPEN Governance Token",
       symbol: "bOPEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF35262a9d427F96d2437379eF090db986eaE5d42.png",
+        "https://pancakeswap.finance/images/tokens/0xF35262a9d427F96d2437379eF090db986eaE5d42.png",
       address: "0xF35262a9d427F96d2437379eF090db986eaE5d42",
       decimals: "18",
     },
@@ -32571,7 +32571,7 @@ export let chainTokenDictionary = {
       name: "Cosmos Token",
       symbol: "ATOM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0Eb3a705fc54725037CC9e008bDede697f62F335.png",
+        "https://pancakeswap.finance/images/tokens/0x0Eb3a705fc54725037CC9e008bDede697f62F335.png",
       address: "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
       decimals: "18",
     },
@@ -32579,7 +32579,7 @@ export let chainTokenDictionary = {
       name: "FOX",
       symbol: "FOX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFAd8E46123D7b4e77496491769C167FF894d2ACB.png",
+        "https://pancakeswap.finance/images/tokens/0xFAd8E46123D7b4e77496491769C167FF894d2ACB.png",
       address: "0xFAd8E46123D7b4e77496491769C167FF894d2ACB",
       decimals: "9",
     },
@@ -32587,7 +32587,7 @@ export let chainTokenDictionary = {
       name: "beefy.finance",
       symbol: "BIFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCa3F508B8e4Dd382eE878A314789373D80A5190A.png",
+        "https://pancakeswap.finance/images/tokens/0xCa3F508B8e4Dd382eE878A314789373D80A5190A.png",
       address: "0xCa3F508B8e4Dd382eE878A314789373D80A5190A",
       decimals: "18",
     },
@@ -32595,7 +32595,7 @@ export let chainTokenDictionary = {
       name: "Badger Sett Digg",
       symbol: "bDIGG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5986D5c77c65e5801a5cAa4fAE80089f870A71dA.png",
+        "https://pancakeswap.finance/images/tokens/0x5986D5c77c65e5801a5cAa4fAE80089f870A71dA.png",
       address: "0x5986D5c77c65e5801a5cAa4fAE80089f870A71dA",
       decimals: "18",
     },
@@ -32603,7 +32603,7 @@ export let chainTokenDictionary = {
       name: "ALICE",
       symbol: "ALICE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAC51066d7bEC65Dc4589368da368b212745d63E8.png",
+        "https://pancakeswap.finance/images/tokens/0xAC51066d7bEC65Dc4589368da368b212745d63E8.png",
       address: "0xAC51066d7bEC65Dc4589368da368b212745d63E8",
       decimals: "6",
     },
@@ -32611,7 +32611,7 @@ export let chainTokenDictionary = {
       name: "Standard on xDai on BSC",
       symbol: "xMARK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x26A5dFab467d4f58fB266648CAe769503CEC9580.png",
+        "https://pancakeswap.finance/images/tokens/0x26A5dFab467d4f58fB266648CAe769503CEC9580.png",
       address: "0x26A5dFab467d4f58fB266648CAe769503CEC9580",
       decimals: "9",
     },
@@ -32619,7 +32619,7 @@ export let chainTokenDictionary = {
       name: "SWINGBY token",
       symbol: "SWINGBY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x71DE20e0C4616E7fcBfDD3f875d568492cBE4739.png",
+        "https://pancakeswap.finance/images/tokens/0x71DE20e0C4616E7fcBfDD3f875d568492cBE4739.png",
       address: "0x71DE20e0C4616E7fcBfDD3f875d568492cBE4739",
       decimals: "18",
     },
@@ -32627,7 +32627,7 @@ export let chainTokenDictionary = {
       name: "Nuls",
       symbol: "NULS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B.png",
+        "https://pancakeswap.finance/images/tokens/0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B.png",
       address: "0x8CD6e29d3686d24d3C2018CEe54621eA0f89313B",
       decimals: "8",
     },
@@ -32635,7 +32635,7 @@ export let chainTokenDictionary = {
       name: "Bogged Finance",
       symbol: "BOG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD7B729ef857Aa773f47D37088A1181bB3fbF0099.png",
+        "https://pancakeswap.finance/images/tokens/0xD7B729ef857Aa773f47D37088A1181bB3fbF0099.png",
       address: "0xD7B729ef857Aa773f47D37088A1181bB3fbF0099",
       decimals: "18",
     },
@@ -32643,7 +32643,7 @@ export let chainTokenDictionary = {
       name: "RAMP DEFI",
       symbol: "RAMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8519EA49c997f50cefFa444d240fB655e89248Aa.png",
+        "https://pancakeswap.finance/images/tokens/0x8519EA49c997f50cefFa444d240fB655e89248Aa.png",
       address: "0x8519EA49c997f50cefFa444d240fB655e89248Aa",
       decimals: "18",
     },
@@ -32651,7 +32651,7 @@ export let chainTokenDictionary = {
       name: "Frontier Token",
       symbol: "FRONT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b.png",
+        "https://pancakeswap.finance/images/tokens/0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b.png",
       address: "0x928e55daB735aa8260AF3cEDadA18B5f70C72f1b",
       decimals: "18",
     },
@@ -32659,7 +32659,7 @@ export let chainTokenDictionary = {
       name: "IceToken",
       symbol: "ICE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf16e81dce15B08F326220742020379B855B87DF9.png",
+        "https://pancakeswap.finance/images/tokens/0xf16e81dce15B08F326220742020379B855B87DF9.png",
       address: "0xf16e81dce15B08F326220742020379B855B87DF9",
       decimals: "18",
     },
@@ -32667,7 +32667,7 @@ export let chainTokenDictionary = {
       name: "Multiplier",
       symbol: "bMXX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4131b87F74415190425ccD873048C708F8005823.png",
+        "https://pancakeswap.finance/images/tokens/0x4131b87F74415190425ccD873048C708F8005823.png",
       address: "0x4131b87F74415190425ccD873048C708F8005823",
       decimals: "18",
     },
@@ -32675,7 +32675,7 @@ export let chainTokenDictionary = {
       name: "Sheesha Finance",
       symbol: "SHEESHA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x232FB065D9d24c34708eeDbF03724f2e95ABE768.png",
+        "https://pancakeswap.finance/images/tokens/0x232FB065D9d24c34708eeDbF03724f2e95ABE768.png",
       address: "0x232FB065D9d24c34708eeDbF03724f2e95ABE768",
       decimals: "18",
     },
@@ -32683,7 +32683,7 @@ export let chainTokenDictionary = {
       name: "UNFI",
       symbol: "UNFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B.png",
+        "https://pancakeswap.finance/images/tokens/0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B.png",
       address: "0x728C5baC3C3e370E372Fc4671f9ef6916b814d8B",
       decimals: "18",
     },
@@ -32691,7 +32691,7 @@ export let chainTokenDictionary = {
       name: "The Force Token",
       symbol: "FOR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x658A109C5900BC6d2357c87549B651670E5b0539.png",
+        "https://pancakeswap.finance/images/tokens/0x658A109C5900BC6d2357c87549B651670E5b0539.png",
       address: "0x658A109C5900BC6d2357c87549B651670E5b0539",
       decimals: "18",
     },
@@ -32699,7 +32699,7 @@ export let chainTokenDictionary = {
       name: "BitcoinAsset",
       symbol: "BTA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAd9787017e82f6368BbE4893b475CaadA2258564.png",
+        "https://pancakeswap.finance/images/tokens/0xAd9787017e82f6368BbE4893b475CaadA2258564.png",
       address: "0xAd9787017e82f6368BbE4893b475CaadA2258564",
       decimals: "18",
     },
@@ -32707,7 +32707,7 @@ export let chainTokenDictionary = {
       name: "Moon Token",
       symbol: "MOONTOKEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x81E4d494b85A24a58a6BA45c9B418b32a4E039de.png",
+        "https://pancakeswap.finance/images/tokens/0x81E4d494b85A24a58a6BA45c9B418b32a4E039de.png",
       address: "0x81E4d494b85A24a58a6BA45c9B418b32a4E039de",
       decimals: "18",
     },
@@ -32715,7 +32715,7 @@ export let chainTokenDictionary = {
       name: "EOS Token",
       symbol: "EOS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png",
+        "https://pancakeswap.finance/images/tokens/0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6.png",
       address: "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
       decimals: "18",
     },
@@ -32723,7 +32723,7 @@ export let chainTokenDictionary = {
       name: "Hakka Finance on xDai on BSC",
       symbol: "HAKKA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1D1eb8E8293222e1a29d2C0E4cE6C0Acfd89AaaC.png",
+        "https://pancakeswap.finance/images/tokens/0x1D1eb8E8293222e1a29d2C0E4cE6C0Acfd89AaaC.png",
       address: "0x1D1eb8E8293222e1a29d2C0E4cE6C0Acfd89AaaC",
       decimals: "18",
     },
@@ -32731,7 +32731,7 @@ export let chainTokenDictionary = {
       name: "yearn.finance",
       symbol: "YFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e.png",
+        "https://pancakeswap.finance/images/tokens/0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e.png",
       address: "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
       decimals: "18",
     },
@@ -32739,7 +32739,7 @@ export let chainTokenDictionary = {
       name: "pTokens BTC",
       symbol: "pBTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xeD28A457A5A76596ac48d87C0f577020F6Ea1c4C.png",
+        "https://pancakeswap.finance/images/tokens/0xeD28A457A5A76596ac48d87C0f577020F6Ea1c4C.png",
       address: "0xeD28A457A5A76596ac48d87C0f577020F6Ea1c4C",
       decimals: "18",
     },
@@ -32747,7 +32747,7 @@ export let chainTokenDictionary = {
       name: "Cyclone Protocol",
       symbol: "CYC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x810EE35443639348aDbbC467b33310d2AB43c168.png",
+        "https://pancakeswap.finance/images/tokens/0x810EE35443639348aDbbC467b33310d2AB43c168.png",
       address: "0x810EE35443639348aDbbC467b33310d2AB43c168",
       decimals: "18",
     },
@@ -32755,7 +32755,7 @@ export let chainTokenDictionary = {
       name: "DFuture Token",
       symbol: "DFT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x42712dF5009c20fee340B245b510c0395896cF6e.png",
+        "https://pancakeswap.finance/images/tokens/0x42712dF5009c20fee340B245b510c0395896cF6e.png",
       address: "0x42712dF5009c20fee340B245b510c0395896cF6e",
       decimals: "18",
     },
@@ -32763,7 +32763,7 @@ export let chainTokenDictionary = {
       name: "SafeBTC",
       symbol: "SAFEBTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x380624A4a7e69dB1cA07deEcF764025FC224D056.png",
+        "https://pancakeswap.finance/images/tokens/0x380624A4a7e69dB1cA07deEcF764025FC224D056.png",
       address: "0x380624A4a7e69dB1cA07deEcF764025FC224D056",
       decimals: "9",
     },
@@ -32771,7 +32771,7 @@ export let chainTokenDictionary = {
       name: "AllianceBlock Token",
       symbol: "bALBT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x72fAa679E1008Ad8382959FF48E392042A8b06f7.png",
+        "https://pancakeswap.finance/images/tokens/0x72fAa679E1008Ad8382959FF48E392042A8b06f7.png",
       address: "0x72fAa679E1008Ad8382959FF48E392042A8b06f7",
       decimals: "18",
     },
@@ -32779,7 +32779,7 @@ export let chainTokenDictionary = {
       name: "yieldwatch",
       symbol: "WATCH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7A9f28EB62C791422Aa23CeAE1dA9C847cBeC9b0.png",
+        "https://pancakeswap.finance/images/tokens/0x7A9f28EB62C791422Aa23CeAE1dA9C847cBeC9b0.png",
       address: "0x7A9f28EB62C791422Aa23CeAE1dA9C847cBeC9b0",
       decimals: "18",
     },
@@ -32787,7 +32787,7 @@ export let chainTokenDictionary = {
       name: "Euler.Tools",
       symbol: "EULER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3920123482070C1a2dff73AaD695c60e7c6F6862.png",
+        "https://pancakeswap.finance/images/tokens/0x3920123482070C1a2dff73AaD695c60e7c6F6862.png",
       address: "0x3920123482070C1a2dff73AaD695c60e7c6F6862",
       decimals: "18",
     },
@@ -32795,7 +32795,7 @@ export let chainTokenDictionary = {
       name: "Zeppelin.dao",
       symbol: "ZEP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2E291e1c9f85a86d0C58Ae15621aaC005a8b2EAD.png",
+        "https://pancakeswap.finance/images/tokens/0x2E291e1c9f85a86d0C58Ae15621aaC005a8b2EAD.png",
       address: "0x2E291e1c9f85a86d0C58Ae15621aaC005a8b2EAD",
       decimals: "9",
     },
@@ -32803,7 +32803,7 @@ export let chainTokenDictionary = {
       name: "Tixl Token",
       symbol: "TXL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1FFD0b47127fdd4097E54521C9E2c7f0D66AafC5.png",
+        "https://pancakeswap.finance/images/tokens/0x1FFD0b47127fdd4097E54521C9E2c7f0D66AafC5.png",
       address: "0x1FFD0b47127fdd4097E54521C9E2c7f0D66AafC5",
       decimals: "18",
     },
@@ -32811,7 +32811,7 @@ export let chainTokenDictionary = {
       name: "LTO Network",
       symbol: "LTO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x857B222Fc79e1cBBf8Ca5f78CB133d1b7CF34BBd.png",
+        "https://pancakeswap.finance/images/tokens/0x857B222Fc79e1cBBf8Ca5f78CB133d1b7CF34BBd.png",
       address: "0x857B222Fc79e1cBBf8Ca5f78CB133d1b7CF34BBd",
       decimals: "18",
     },
@@ -32819,7 +32819,7 @@ export let chainTokenDictionary = {
       name: "UniTrade",
       symbol: "TRADE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7af173F350D916358AF3e218Bdf2178494Beb748.png",
+        "https://pancakeswap.finance/images/tokens/0x7af173F350D916358AF3e218Bdf2178494Beb748.png",
       address: "0x7af173F350D916358AF3e218Bdf2178494Beb748",
       decimals: "18",
     },
@@ -32827,7 +32827,7 @@ export let chainTokenDictionary = {
       name: "DeXe",
       symbol: "DEXE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x039cB485212f996A9DBb85A9a75d898F94d38dA6.png",
+        "https://pancakeswap.finance/images/tokens/0x039cB485212f996A9DBb85A9a75d898F94d38dA6.png",
       address: "0x039cB485212f996A9DBb85A9a75d898F94d38dA6",
       decimals: "18",
     },
@@ -32835,7 +32835,7 @@ export let chainTokenDictionary = {
       name: "pTokens CGG",
       symbol: "CGG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2.png",
+        "https://pancakeswap.finance/images/tokens/0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2.png",
       address: "0x1613957159E9B0ac6c80e824F7Eea748a32a0AE2",
       decimals: "18",
     },
@@ -32843,7 +32843,7 @@ export let chainTokenDictionary = {
       name: "BoringDAO Token",
       symbol: "BOR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x92D7756c60dcfD4c689290E8A9F4d263b3b32241.png",
+        "https://pancakeswap.finance/images/tokens/0x92D7756c60dcfD4c689290E8A9F4d263b3b32241.png",
       address: "0x92D7756c60dcfD4c689290E8A9F4d263b3b32241",
       decimals: "18",
     },
@@ -32851,7 +32851,7 @@ export let chainTokenDictionary = {
       name: "Exeedme",
       symbol: "XED",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5621b5A3f4a8008c4CCDd1b942B121c8B1944F1f.png",
+        "https://pancakeswap.finance/images/tokens/0x5621b5A3f4a8008c4CCDd1b942B121c8B1944F1f.png",
       address: "0x5621b5A3f4a8008c4CCDd1b942B121c8B1944F1f",
       decimals: "18",
     },
@@ -32859,7 +32859,7 @@ export let chainTokenDictionary = {
       name: "Australian Shepherd Token",
       symbol: "ASS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7c63F96fEAFACD84e75a594C00faC3693386FBf0.png",
+        "https://pancakeswap.finance/images/tokens/0x7c63F96fEAFACD84e75a594C00faC3693386FBf0.png",
       address: "0x7c63F96fEAFACD84e75a594C00faC3693386FBf0",
       decimals: "9",
     },
@@ -32867,7 +32867,7 @@ export let chainTokenDictionary = {
       name: "lien on xDai from xDai",
       symbol: "LIEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5d684ADaf3FcFe9CFb5ceDe3abf02F0Cdd1012E3.png",
+        "https://pancakeswap.finance/images/tokens/0x5d684ADaf3FcFe9CFb5ceDe3abf02F0Cdd1012E3.png",
       address: "0x5d684ADaf3FcFe9CFb5ceDe3abf02F0Cdd1012E3",
       decimals: "8",
     },
@@ -32875,7 +32875,7 @@ export let chainTokenDictionary = {
       name: "ARPA Token",
       symbol: "ARPA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e.png",
+        "https://pancakeswap.finance/images/tokens/0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e.png",
       address: "0x6F769E65c14Ebd1f68817F5f1DcDb61Cfa2D6f7e",
       decimals: "18",
     },
@@ -32883,7 +32883,7 @@ export let chainTokenDictionary = {
       name: "Wrapped MIR Token",
       symbol: "MIR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9.png",
+        "https://pancakeswap.finance/images/tokens/0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9.png",
       address: "0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9",
       decimals: "18",
     },
@@ -32891,7 +32891,7 @@ export let chainTokenDictionary = {
       name: "BUX Token",
       symbol: "BUX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x211FfbE424b90e25a15531ca322adF1559779E45.png",
+        "https://pancakeswap.finance/images/tokens/0x211FfbE424b90e25a15531ca322adF1559779E45.png",
       address: "0x211FfbE424b90e25a15531ca322adF1559779E45",
       decimals: "18",
     },
@@ -32899,7 +32899,7 @@ export let chainTokenDictionary = {
       name: "SWGb",
       symbol: "SWGb",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE40255C5d7fa7ceEc5120408C78C787CECB4cfdb.png",
+        "https://pancakeswap.finance/images/tokens/0xE40255C5d7fa7ceEc5120408C78C787CECB4cfdb.png",
       address: "0xE40255C5d7fa7ceEc5120408C78C787CECB4cfdb",
       decimals: "18",
     },
@@ -32907,7 +32907,7 @@ export let chainTokenDictionary = {
       name: "SavePlanetEarth",
       symbol: "SPE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdBaAa36B347d56b77Ce0e36f050fCeEBbF9fbc38.png",
+        "https://pancakeswap.finance/images/tokens/0xdBaAa36B347d56b77Ce0e36f050fCeEBbF9fbc38.png",
       address: "0xdBaAa36B347d56b77Ce0e36f050fCeEBbF9fbc38",
       decimals: "9",
     },
@@ -32915,7 +32915,7 @@ export let chainTokenDictionary = {
       name: "bDollar Share",
       symbol: "sBDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0d9319565be7f53CeFE84Ad201Be3f40feAE2740.png",
+        "https://pancakeswap.finance/images/tokens/0x0d9319565be7f53CeFE84Ad201Be3f40feAE2740.png",
       address: "0x0d9319565be7f53CeFE84Ad201Be3f40feAE2740",
       decimals: "18",
     },
@@ -32923,7 +32923,7 @@ export let chainTokenDictionary = {
       name: "Everlasting Parachain Token",
       symbol: "ELP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE3894CB9E92ca78524Fb6a30Ff072FA5E533c162.png",
+        "https://pancakeswap.finance/images/tokens/0xE3894CB9E92ca78524Fb6a30Ff072FA5E533c162.png",
       address: "0xE3894CB9E92ca78524Fb6a30Ff072FA5E533c162",
       decimals: "18",
     },
@@ -32931,7 +32931,7 @@ export let chainTokenDictionary = {
       name: "Alien Worlds Trilium",
       symbol: "TLM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2222227E22102Fe3322098e4CBfE18cFebD57c95.png",
+        "https://pancakeswap.finance/images/tokens/0x2222227E22102Fe3322098e4CBfE18cFebD57c95.png",
       address: "0x2222227E22102Fe3322098e4CBfE18cFebD57c95",
       decimals: "4",
     },
@@ -32939,7 +32939,7 @@ export let chainTokenDictionary = {
       name: "ZeroSwapToken",
       symbol: "ZEE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x44754455564474A89358B2C2265883DF993b12F0.png",
+        "https://pancakeswap.finance/images/tokens/0x44754455564474A89358B2C2265883DF993b12F0.png",
       address: "0x44754455564474A89358B2C2265883DF993b12F0",
       decimals: "18",
     },
@@ -32947,7 +32947,7 @@ export let chainTokenDictionary = {
       name: "Contentos",
       symbol: "COS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x96Dd399F9c3AFda1F194182F71600F1B65946501.png",
+        "https://pancakeswap.finance/images/tokens/0x96Dd399F9c3AFda1F194182F71600F1B65946501.png",
       address: "0x96Dd399F9c3AFda1F194182F71600F1B65946501",
       decimals: "18",
     },
@@ -32955,7 +32955,7 @@ export let chainTokenDictionary = {
       name: "ITAM",
       symbol: "ITAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x04C747b40Be4D535fC83D09939fb0f626F32800B.png",
+        "https://pancakeswap.finance/images/tokens/0x04C747b40Be4D535fC83D09939fb0f626F32800B.png",
       address: "0x04C747b40Be4D535fC83D09939fb0f626F32800B",
       decimals: "18",
     },
@@ -32963,7 +32963,7 @@ export let chainTokenDictionary = {
       name: "Moon Rat Token",
       symbol: "MRAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471.png",
+        "https://pancakeswap.finance/images/tokens/0x6D949f9297A522c0f97C232CC209a67Bd7CfA471.png",
       address: "0x6D949f9297A522c0f97C232CC209a67Bd7CfA471",
       decimals: "9",
     },
@@ -32971,7 +32971,7 @@ export let chainTokenDictionary = {
       name: "Dusk Network",
       symbol: "DUSK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB2BD0749DBE21f623d9BABa856D3B0f0e1BFEc9C.png",
+        "https://pancakeswap.finance/images/tokens/0xB2BD0749DBE21f623d9BABa856D3B0f0e1BFEc9C.png",
       address: "0xB2BD0749DBE21f623d9BABa856D3B0f0e1BFEc9C",
       decimals: "18",
     },
@@ -32979,7 +32979,7 @@ export let chainTokenDictionary = {
       name: "Moonshot",
       symbol: "MOONSHOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd27D3F7f329D93d897612E413F207A4dbe8bF799.png",
+        "https://pancakeswap.finance/images/tokens/0xd27D3F7f329D93d897612E413F207A4dbe8bF799.png",
       address: "0xd27D3F7f329D93d897612E413F207A4dbe8bF799",
       decimals: "9",
     },
@@ -32987,7 +32987,7 @@ export let chainTokenDictionary = {
       name: "Bondly Token",
       symbol: "BONDLY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x96058f8C3e16576D9BD68766f3836d9A33158f89.png",
+        "https://pancakeswap.finance/images/tokens/0x96058f8C3e16576D9BD68766f3836d9A33158f89.png",
       address: "0x96058f8C3e16576D9BD68766f3836d9A33158f89",
       decimals: "18",
     },
@@ -32995,7 +32995,7 @@ export let chainTokenDictionary = {
       name: "Perlin",
       symbol: "PERL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0F9E4D49f25de22c2202aF916B681FBB3790497B.png",
+        "https://pancakeswap.finance/images/tokens/0x0F9E4D49f25de22c2202aF916B681FBB3790497B.png",
       address: "0x0F9E4D49f25de22c2202aF916B681FBB3790497B",
       decimals: "18",
     },
@@ -33003,7 +33003,7 @@ export let chainTokenDictionary = {
       name: "Elrond",
       symbol: "EGLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe.png",
+        "https://pancakeswap.finance/images/tokens/0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe.png",
       address: "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
       decimals: "18",
     },
@@ -33011,7 +33011,7 @@ export let chainTokenDictionary = {
       name: "Nyan Cat Token",
       symbol: "NCAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D.png",
+        "https://pancakeswap.finance/images/tokens/0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D.png",
       address: "0x0cF011A946f23a03CeFF92A4632d5f9288c6C70D",
       decimals: "9",
     },
@@ -33019,7 +33019,7 @@ export let chainTokenDictionary = {
       name: "Tenet",
       symbol: "TEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdFF8cb622790b7F92686c722b02CaB55592f152C.png",
+        "https://pancakeswap.finance/images/tokens/0xdFF8cb622790b7F92686c722b02CaB55592f152C.png",
       address: "0xdFF8cb622790b7F92686c722b02CaB55592f152C",
       decimals: "18",
     },
@@ -33027,7 +33027,7 @@ export let chainTokenDictionary = {
       name: "OddzToken",
       symbol: "ODDZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCD40F2670CF58720b694968698A5514e924F742d.png",
+        "https://pancakeswap.finance/images/tokens/0xCD40F2670CF58720b694968698A5514e924F742d.png",
       address: "0xCD40F2670CF58720b694968698A5514e924F742d",
       decimals: "18",
     },
@@ -33035,7 +33035,7 @@ export let chainTokenDictionary = {
       name: "HARD",
       symbol: "HARD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4.png",
+        "https://pancakeswap.finance/images/tokens/0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4.png",
       address: "0xf79037F6f6bE66832DE4E7516be52826BC3cBcc4",
       decimals: "6",
     },
@@ -33043,7 +33043,7 @@ export let chainTokenDictionary = {
       name: "PolyCrowns",
       symbol: "pCWS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd.png",
+        "https://pancakeswap.finance/images/tokens/0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd.png",
       address: "0xbcf39F0EDDa668C58371E519AF37CA705f2bFcbd",
       decimals: "18",
     },
@@ -33051,7 +33051,7 @@ export let chainTokenDictionary = {
       name: "GourmetGalaxy",
       symbol: "GUM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc53708664b99DF348dd27C3Ac0759d2DA9c40462.png",
+        "https://pancakeswap.finance/images/tokens/0xc53708664b99DF348dd27C3Ac0759d2DA9c40462.png",
       address: "0xc53708664b99DF348dd27C3Ac0759d2DA9c40462",
       decimals: "18",
     },
@@ -33059,7 +33059,7 @@ export let chainTokenDictionary = {
       name: "Octans",
       symbol: "OCTA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x86c3E4FfAcdB3AF628ef985a518cd6ee22A22b28.png",
+        "https://pancakeswap.finance/images/tokens/0x86c3E4FfAcdB3AF628ef985a518cd6ee22A22b28.png",
       address: "0x86c3E4FfAcdB3AF628ef985a518cd6ee22A22b28",
       decimals: "9",
     },
@@ -33067,7 +33067,7 @@ export let chainTokenDictionary = {
       name: "BSCPAD.com",
       symbol: "BSCPAD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700.png",
+        "https://pancakeswap.finance/images/tokens/0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700.png",
       address: "0x5A3010d4d8D3B5fB49f8B6E57FB9E48063f16700",
       decimals: "18",
     },
@@ -33075,7 +33075,7 @@ export let chainTokenDictionary = {
       name: "HooToken",
       symbol: "HOO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE1d1F66215998786110Ba0102ef558b22224C016.png",
+        "https://pancakeswap.finance/images/tokens/0xE1d1F66215998786110Ba0102ef558b22224C016.png",
       address: "0xE1d1F66215998786110Ba0102ef558b22224C016",
       decimals: "8",
     },
@@ -33083,7 +33083,7 @@ export let chainTokenDictionary = {
       name: "bearn.fi",
       symbol: "BFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x81859801b01764D4f0Fa5E64729f5a6C3b91435b.png",
+        "https://pancakeswap.finance/images/tokens/0x81859801b01764D4f0Fa5E64729f5a6C3b91435b.png",
       address: "0x81859801b01764D4f0Fa5E64729f5a6C3b91435b",
       decimals: "18",
     },
@@ -33091,7 +33091,7 @@ export let chainTokenDictionary = {
       name: "Cub Finance",
       symbol: "CUB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x50D809c74e0B8e49e7B4c65BB3109AbE3Ff4C1C1.png",
+        "https://pancakeswap.finance/images/tokens/0x50D809c74e0B8e49e7B4c65BB3109AbE3Ff4C1C1.png",
       address: "0x50D809c74e0B8e49e7B4c65BB3109AbE3Ff4C1C1",
       decimals: "18",
     },
@@ -33099,7 +33099,7 @@ export let chainTokenDictionary = {
       name: "Bonfire",
       symbol: "BONFIRE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590.png",
+        "https://pancakeswap.finance/images/tokens/0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590.png",
       address: "0x5e90253fbae4Dab78aa351f4E6fed08A64AB5590",
       decimals: "9",
     },
@@ -33107,7 +33107,7 @@ export let chainTokenDictionary = {
       name: "ROOBEE",
       symbol: "bROOBEE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE64F5Cb844946C1F102Bd25bBD87a5aB4aE89Fbe.png",
+        "https://pancakeswap.finance/images/tokens/0xE64F5Cb844946C1F102Bd25bBD87a5aB4aE89Fbe.png",
       address: "0xE64F5Cb844946C1F102Bd25bBD87a5aB4aE89Fbe",
       decimals: "18",
     },
@@ -33115,7 +33115,7 @@ export let chainTokenDictionary = {
       name: "Gambit",
       symbol: "GMT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x99e92123eB77Bc8f999316f622e5222498438784.png",
+        "https://pancakeswap.finance/images/tokens/0x99e92123eB77Bc8f999316f622e5222498438784.png",
       address: "0x99e92123eB77Bc8f999316f622e5222498438784",
       decimals: "18",
     },
@@ -33123,7 +33123,7 @@ export let chainTokenDictionary = {
       name: "Dogecoin",
       symbol: "DOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4206931337dc273a630d328dA6441786BfaD668f.png",
+        "https://pancakeswap.finance/images/tokens/0x4206931337dc273a630d328dA6441786BfaD668f.png",
       address: "0x4206931337dc273a630d328dA6441786BfaD668f",
       decimals: "8",
     },
@@ -33131,7 +33131,7 @@ export let chainTokenDictionary = {
       name: "RiskMoon",
       symbol: "RISKMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa96f3414334F5A0A529ff5d9D8ea95f42147b8C9.png",
+        "https://pancakeswap.finance/images/tokens/0xa96f3414334F5A0A529ff5d9D8ea95f42147b8C9.png",
       address: "0xa96f3414334F5A0A529ff5d9D8ea95f42147b8C9",
       decimals: "9",
     },
@@ -33139,7 +33139,7 @@ export let chainTokenDictionary = {
       name: "Filecoin",
       symbol: "FIL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153.png",
+        "https://pancakeswap.finance/images/tokens/0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153.png",
       address: "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
       decimals: "18",
     },
@@ -33147,7 +33147,7 @@ export let chainTokenDictionary = {
       name: "Suterusu",
       symbol: "Suter",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4CfbBdfBd5BF0814472fF35C72717Bd095ADa055.png",
+        "https://pancakeswap.finance/images/tokens/0x4CfbBdfBd5BF0814472fF35C72717Bd095ADa055.png",
       address: "0x4CfbBdfBd5BF0814472fF35C72717Bd095ADa055",
       decimals: "18",
     },
@@ -33155,7 +33155,7 @@ export let chainTokenDictionary = {
       name: "Eclipse",
       symbol: "ECP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x375483CfA7Fc18F6b455E005D835A8335FbdbB1f.png",
+        "https://pancakeswap.finance/images/tokens/0x375483CfA7Fc18F6b455E005D835A8335FbdbB1f.png",
       address: "0x375483CfA7Fc18F6b455E005D835A8335FbdbB1f",
       decimals: "9",
     },
@@ -33163,7 +33163,7 @@ export let chainTokenDictionary = {
       name: "AlpaToken",
       symbol: "ALPA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc5E6689C9c8B02be7C49912Ef19e79cF24977f03.png",
+        "https://pancakeswap.finance/images/tokens/0xc5E6689C9c8B02be7C49912Ef19e79cF24977f03.png",
       address: "0xc5E6689C9c8B02be7C49912Ef19e79cF24977f03",
       decimals: "18",
     },
@@ -33171,7 +33171,7 @@ export let chainTokenDictionary = {
       name: "xBLZDToken",
       symbol: "xBLZD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9a946c3Cb16c08334b69aE249690C236Ebd5583E.png",
+        "https://pancakeswap.finance/images/tokens/0x9a946c3Cb16c08334b69aE249690C236Ebd5583E.png",
       address: "0x9a946c3Cb16c08334b69aE249690C236Ebd5583E",
       decimals: "18",
     },
@@ -33179,7 +33179,7 @@ export let chainTokenDictionary = {
       name: "MoonBoys",
       symbol: "MBS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe361344013cC906c56bbA111bDE00C421852c73b.png",
+        "https://pancakeswap.finance/images/tokens/0xe361344013cC906c56bbA111bDE00C421852c73b.png",
       address: "0xe361344013cC906c56bbA111bDE00C421852c73b",
       decimals: "9",
     },
@@ -33187,7 +33187,7 @@ export let chainTokenDictionary = {
       name: "Pig Token",
       symbol: "PIG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8850D2c68c632E3B258e612abAA8FadA7E6958E5.png",
+        "https://pancakeswap.finance/images/tokens/0x8850D2c68c632E3B258e612abAA8FadA7E6958E5.png",
       address: "0x8850D2c68c632E3B258e612abAA8FadA7E6958E5",
       decimals: "9",
     },
@@ -33195,7 +33195,7 @@ export let chainTokenDictionary = {
       name: "APYSwap",
       symbol: "APYS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7.png",
+        "https://pancakeswap.finance/images/tokens/0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7.png",
       address: "0x37dfACfaeDA801437Ff648A1559d73f4C40aAcb7",
       decimals: "18",
     },
@@ -33203,7 +33203,7 @@ export let chainTokenDictionary = {
       name: "CEEZEE",
       symbol: "SAFU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x407405a150E3D660DA171F7DD21fDC6d9ba0726F.png",
+        "https://pancakeswap.finance/images/tokens/0x407405a150E3D660DA171F7DD21fDC6d9ba0726F.png",
       address: "0x407405a150E3D660DA171F7DD21fDC6d9ba0726F",
       decimals: "18",
     },
@@ -33211,7 +33211,7 @@ export let chainTokenDictionary = {
       name: "Horizon Protocol",
       symbol: "HZN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC0eFf7749b125444953ef89682201Fb8c6A917CD.png",
+        "https://pancakeswap.finance/images/tokens/0xC0eFf7749b125444953ef89682201Fb8c6A917CD.png",
       address: "0xC0eFf7749b125444953ef89682201Fb8c6A917CD",
       decimals: "18",
     },
@@ -33219,7 +33219,7 @@ export let chainTokenDictionary = {
       name: "Bat True Dollar",
       symbol: "BTD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD1102332a213E21faF78B69C03572031F3552c33.png",
+        "https://pancakeswap.finance/images/tokens/0xD1102332a213E21faF78B69C03572031F3552c33.png",
       address: "0xD1102332a213E21faF78B69C03572031F3552c33",
       decimals: "18",
     },
@@ -33227,7 +33227,7 @@ export let chainTokenDictionary = {
       name: "SeedifyFund",
       symbol: "SFUND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x477bC8d23c634C154061869478bce96BE6045D12.png",
+        "https://pancakeswap.finance/images/tokens/0x477bC8d23c634C154061869478bce96BE6045D12.png",
       address: "0x477bC8d23c634C154061869478bce96BE6045D12",
       decimals: "18",
     },
@@ -33235,7 +33235,7 @@ export let chainTokenDictionary = {
       name: "Juggernaut DeFi",
       symbol: "JGN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC13B7a43223BB9Bf4B69BD68Ab20ca1B79d81C75.png",
+        "https://pancakeswap.finance/images/tokens/0xC13B7a43223BB9Bf4B69BD68Ab20ca1B79d81C75.png",
       address: "0xC13B7a43223BB9Bf4B69BD68Ab20ca1B79d81C75",
       decimals: "18",
     },
@@ -33243,7 +33243,7 @@ export let chainTokenDictionary = {
       name: "Litecoin Token",
       symbol: "LTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94.png",
+        "https://pancakeswap.finance/images/tokens/0x4338665CBB7B2485A8855A139b75D5e34AB0DB94.png",
       address: "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
       decimals: "18",
     },
@@ -33251,7 +33251,7 @@ export let chainTokenDictionary = {
       name: "oxbull.tech",
       symbol: "OXB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3fd5B5746315E3F8d43A46b09c826a001EBb977d.png",
+        "https://pancakeswap.finance/images/tokens/0x3fd5B5746315E3F8d43A46b09c826a001EBb977d.png",
       address: "0x3fd5B5746315E3F8d43A46b09c826a001EBb977d",
       decimals: "9",
     },
@@ -33259,7 +33259,7 @@ export let chainTokenDictionary = {
       name: "CREAMPYE",
       symbol: "PYE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAaD87f47CDEa777FAF87e7602E91e3a6AFbe4D57.png",
+        "https://pancakeswap.finance/images/tokens/0xAaD87f47CDEa777FAF87e7602E91e3a6AFbe4D57.png",
       address: "0xAaD87f47CDEa777FAF87e7602E91e3a6AFbe4D57",
       decimals: "18",
     },
@@ -33267,7 +33267,7 @@ export let chainTokenDictionary = {
       name: "EASY",
       symbol: "EASY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7C17c8bED8d14bAccE824D020f994F4880D6Ab3B.png",
+        "https://pancakeswap.finance/images/tokens/0x7C17c8bED8d14bAccE824D020f994F4880D6Ab3B.png",
       address: "0x7C17c8bED8d14bAccE824D020f994F4880D6Ab3B",
       decimals: "18",
     },
@@ -33275,7 +33275,7 @@ export let chainTokenDictionary = {
       name: "RocketMoon",
       symbol: "RMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78bc22a215C1eF8a2e41Fa1c39CD7BDC09bd5174.png",
+        "https://pancakeswap.finance/images/tokens/0x78bc22a215C1eF8a2e41Fa1c39CD7BDC09bd5174.png",
       address: "0x78bc22a215C1eF8a2e41Fa1c39CD7BDC09bd5174",
       decimals: "9",
     },
@@ -33283,7 +33283,7 @@ export let chainTokenDictionary = {
       name: "DeFireX on BSC",
       symbol: "DFX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x74B3abB94e9e1ECc25Bd77d6872949B4a9B2aACF.png",
+        "https://pancakeswap.finance/images/tokens/0x74B3abB94e9e1ECc25Bd77d6872949B4a9B2aACF.png",
       address: "0x74B3abB94e9e1ECc25Bd77d6872949B4a9B2aACF",
       decimals: "18",
     },
@@ -33291,7 +33291,7 @@ export let chainTokenDictionary = {
       name: "EarnX",
       symbol: "EarnX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9C28E48Ea9170d9A9cB76d338655b8bd4124BC7A.png",
+        "https://pancakeswap.finance/images/tokens/0x9C28E48Ea9170d9A9cB76d338655b8bd4124BC7A.png",
       address: "0x9C28E48Ea9170d9A9cB76d338655b8bd4124BC7A",
       decimals: "9",
     },
@@ -33299,7 +33299,7 @@ export let chainTokenDictionary = {
       name: "Wrapped Mirror GOOGL Token",
       symbol: "mGOOGL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f.png",
+        "https://pancakeswap.finance/images/tokens/0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f.png",
       address: "0x62D71B23bF15218C7d2D7E48DBbD9e9c650B173f",
       decimals: "18",
     },
@@ -33307,7 +33307,7 @@ export let chainTokenDictionary = {
       name: "Wrapped Mirror AMZN Token",
       symbol: "mAMZN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3947B992DC0147D2D89dF0392213781b04B25075.png",
+        "https://pancakeswap.finance/images/tokens/0x3947B992DC0147D2D89dF0392213781b04B25075.png",
       address: "0x3947B992DC0147D2D89dF0392213781b04B25075",
       decimals: "18",
     },
@@ -33315,7 +33315,7 @@ export let chainTokenDictionary = {
       name: "Wrapped Mirror TSLA Token",
       symbol: "mTSLA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF215A127A196e3988C09d052e16BcFD365Cd7AA3.png",
+        "https://pancakeswap.finance/images/tokens/0xF215A127A196e3988C09d052e16BcFD365Cd7AA3.png",
       address: "0xF215A127A196e3988C09d052e16BcFD365Cd7AA3",
       decimals: "18",
     },
@@ -33323,7 +33323,7 @@ export let chainTokenDictionary = {
       name: "Hedget",
       symbol: "HGET",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731.png",
+        "https://pancakeswap.finance/images/tokens/0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731.png",
       address: "0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731",
       decimals: "6",
     },
@@ -33331,7 +33331,7 @@ export let chainTokenDictionary = {
       name: "ALIA",
       symbol: "ALIA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x13861C017735d3b2F0678A546948D67AD51AC07B.png",
+        "https://pancakeswap.finance/images/tokens/0x13861C017735d3b2F0678A546948D67AD51AC07B.png",
       address: "0x13861C017735d3b2F0678A546948D67AD51AC07B",
       decimals: "18",
     },
@@ -33339,7 +33339,7 @@ export let chainTokenDictionary = {
       name: "Orfano",
       symbol: "ORFANO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEF2ec90e0b8D4CdFdB090989EA1Bc663F0D680BF.png",
+        "https://pancakeswap.finance/images/tokens/0xEF2ec90e0b8D4CdFdB090989EA1Bc663F0D680BF.png",
       address: "0xEF2ec90e0b8D4CdFdB090989EA1Bc663F0D680BF",
       decimals: "9",
     },
@@ -33347,7 +33347,7 @@ export let chainTokenDictionary = {
       name: "Midas Dollar",
       symbol: "MDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x35e869B7456462b81cdB5e6e42434bD27f3F788c.png",
+        "https://pancakeswap.finance/images/tokens/0x35e869B7456462b81cdB5e6e42434bD27f3F788c.png",
       address: "0x35e869B7456462b81cdB5e6e42434bD27f3F788c",
       decimals: "18",
     },
@@ -33355,7 +33355,7 @@ export let chainTokenDictionary = {
       name: "PooCoin",
       symbol: "POOCOIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB27ADAfFB9fEa1801459a1a81B17218288c097cc.png",
+        "https://pancakeswap.finance/images/tokens/0xB27ADAfFB9fEa1801459a1a81B17218288c097cc.png",
       address: "0xB27ADAfFB9fEa1801459a1a81B17218288c097cc",
       decimals: "8",
     },
@@ -33363,7 +33363,7 @@ export let chainTokenDictionary = {
       name: "MoonStar",
       symbol: "MOONSTAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCe5814eFfF15D53EFd8025B9F2006D4d7D640b9B.png",
+        "https://pancakeswap.finance/images/tokens/0xCe5814eFfF15D53EFd8025B9F2006D4d7D640b9B.png",
       address: "0xCe5814eFfF15D53EFd8025B9F2006D4d7D640b9B",
       decimals: "9",
     },
@@ -33371,7 +33371,7 @@ export let chainTokenDictionary = {
       name: "ACryptoS",
       symbol: "ACS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4197C6EF3879a08cD51e5560da5064B773aa1d29.png",
+        "https://pancakeswap.finance/images/tokens/0x4197C6EF3879a08cD51e5560da5064B773aa1d29.png",
       address: "0x4197C6EF3879a08cD51e5560da5064B773aa1d29",
       decimals: "18",
     },
@@ -33379,7 +33379,7 @@ export let chainTokenDictionary = {
       name: "Lightning",
       symbol: "LIGHT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7B9c3Df47F3326FbC0674d51dc3EB0f2Df29F37F.png",
+        "https://pancakeswap.finance/images/tokens/0x7B9c3Df47F3326FbC0674d51dc3EB0f2Df29F37F.png",
       address: "0x7B9c3Df47F3326FbC0674d51dc3EB0f2Df29F37F",
       decimals: "8",
     },
@@ -33387,7 +33387,7 @@ export let chainTokenDictionary = {
       name: "Climb Token Finance",
       symbol: "CLIMB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2A1d286ed5edAD78BeFD6E0d8BEb38791e8cD69d.png",
+        "https://pancakeswap.finance/images/tokens/0x2A1d286ed5edAD78BeFD6E0d8BEb38791e8cD69d.png",
       address: "0x2A1d286ed5edAD78BeFD6E0d8BEb38791e8cD69d",
       decimals: "8",
     },
@@ -33395,7 +33395,7 @@ export let chainTokenDictionary = {
       name: "Fair Safe",
       symbol: "FSAFE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEE738a9e5FB78c24D26ceCD30389ED977C38D0Ca.png",
+        "https://pancakeswap.finance/images/tokens/0xEE738a9e5FB78c24D26ceCD30389ED977C38D0Ca.png",
       address: "0xEE738a9e5FB78c24D26ceCD30389ED977C38D0Ca",
       decimals: "9",
     },
@@ -33403,7 +33403,7 @@ export let chainTokenDictionary = {
       name: "lizardtoken.finance",
       symbol: "LIZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfCb520B47f5601031E0Eb316F553A3641FF4B13C.png",
+        "https://pancakeswap.finance/images/tokens/0xfCb520B47f5601031E0Eb316F553A3641FF4B13C.png",
       address: "0xfCb520B47f5601031E0Eb316F553A3641FF4B13C",
       decimals: "8",
     },
@@ -33411,7 +33411,7 @@ export let chainTokenDictionary = {
       name: "Pitbull",
       symbol: "PIT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50.png",
+        "https://pancakeswap.finance/images/tokens/0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50.png",
       address: "0xA57ac35CE91Ee92CaEfAA8dc04140C8e232c2E50",
       decimals: "9",
     },
@@ -33419,7 +33419,7 @@ export let chainTokenDictionary = {
       name: "Dimsum",
       symbol: "DMS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7CCE48f8F4B67E2318f22F676975C49ff58D0FbE.png",
+        "https://pancakeswap.finance/images/tokens/0x7CCE48f8F4B67E2318f22F676975C49ff58D0FbE.png",
       address: "0x7CCE48f8F4B67E2318f22F676975C49ff58D0FbE",
       decimals: "18",
     },
@@ -33427,7 +33427,7 @@ export let chainTokenDictionary = {
       name: "Wrapped Mirror NFLX Token",
       symbol: "mNFLX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc.png",
+        "https://pancakeswap.finance/images/tokens/0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc.png",
       address: "0xa04F060077D90Fe2647B61e4dA4aD1F97d6649dc",
       decimals: "18",
     },
@@ -33435,7 +33435,7 @@ export let chainTokenDictionary = {
       name: "KickPad",
       symbol: "KPAD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCFEfA64B0dDD611b125157C41cD3827f2e8e8615.png",
+        "https://pancakeswap.finance/images/tokens/0xCFEfA64B0dDD611b125157C41cD3827f2e8e8615.png",
       address: "0xCFEfA64B0dDD611b125157C41cD3827f2e8e8615",
       decimals: "18",
     },
@@ -33443,7 +33443,7 @@ export let chainTokenDictionary = {
       name: "Ditto",
       symbol: "DITTO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x233d91A0713155003fc4DcE0AFa871b508B3B715.png",
+        "https://pancakeswap.finance/images/tokens/0x233d91A0713155003fc4DcE0AFa871b508B3B715.png",
       address: "0x233d91A0713155003fc4DcE0AFa871b508B3B715",
       decimals: "9",
     },
@@ -33451,7 +33451,7 @@ export let chainTokenDictionary = {
       name: "VNDC",
       symbol: "VNDC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xDDE5B33a56f3F1C22e5a6bd8429E6ad508BFF24E.png",
+        "https://pancakeswap.finance/images/tokens/0xDDE5B33a56f3F1C22e5a6bd8429E6ad508BFF24E.png",
       address: "0xDDE5B33a56f3F1C22e5a6bd8429E6ad508BFF24E",
       decimals: "0",
     },
@@ -33459,7 +33459,7 @@ export let chainTokenDictionary = {
       name: "Holdefi Token",
       symbol: "HLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD520ddbdf81323F4B9a0Ea0AdBb692eBEf6cE280.png",
+        "https://pancakeswap.finance/images/tokens/0xD520ddbdf81323F4B9a0Ea0AdBb692eBEf6cE280.png",
       address: "0xD520ddbdf81323F4B9a0Ea0AdBb692eBEf6cE280",
       decimals: "18",
     },
@@ -33467,7 +33467,7 @@ export let chainTokenDictionary = {
       name: "Swirl.Cash",
       symbol: "SWIRL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x52d86850bc8207b520340B7E39cDaF22561b9E56.png",
+        "https://pancakeswap.finance/images/tokens/0x52d86850bc8207b520340B7E39cDaF22561b9E56.png",
       address: "0x52d86850bc8207b520340B7E39cDaF22561b9E56",
       decimals: "18",
     },
@@ -33475,7 +33475,7 @@ export let chainTokenDictionary = {
       name: "CodexToken",
       symbol: "CODEX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9E95cB3D0560f9Cba88991f828322526851BFb56.png",
+        "https://pancakeswap.finance/images/tokens/0x9E95cB3D0560f9Cba88991f828322526851BFb56.png",
       address: "0x9E95cB3D0560f9Cba88991f828322526851BFb56",
       decimals: "18",
     },
@@ -33483,7 +33483,7 @@ export let chainTokenDictionary = {
       name: "HappyCoin",
       symbol: "HAPPY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB0B924C4a31b7d4581a7F78F57ceE1E65736Be1D.png",
+        "https://pancakeswap.finance/images/tokens/0xB0B924C4a31b7d4581a7F78F57ceE1E65736Be1D.png",
       address: "0xB0B924C4a31b7d4581a7F78F57ceE1E65736Be1D",
       decimals: "9",
     },
@@ -33491,7 +33491,7 @@ export let chainTokenDictionary = {
       name: "AIOZ Network",
       symbol: "AIOZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png",
+        "https://pancakeswap.finance/images/tokens/0x33d08D8C7a168333a85285a68C0042b39fC3741D.png",
       address: "0x33d08D8C7a168333a85285a68C0042b39fC3741D",
       decimals: "18",
     },
@@ -33499,7 +33499,7 @@ export let chainTokenDictionary = {
       name: "https://degen.trade/",
       symbol: "DGN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x72f28c09be1342447fa01Ebc76eF508473d08c5c.png",
+        "https://pancakeswap.finance/images/tokens/0x72f28c09be1342447fa01Ebc76eF508473d08c5c.png",
       address: "0x72f28c09be1342447fa01Ebc76eF508473d08c5c",
       decimals: "18",
     },
@@ -33507,7 +33507,7 @@ export let chainTokenDictionary = {
       name: "Bafe.io",
       symbol: "BAFE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7bb362962F2a4E2089466C79566572B37CFc5D78.png",
+        "https://pancakeswap.finance/images/tokens/0x7bb362962F2a4E2089466C79566572B37CFc5D78.png",
       address: "0x7bb362962F2a4E2089466C79566572B37CFc5D78",
       decimals: "9",
     },
@@ -33515,7 +33515,7 @@ export let chainTokenDictionary = {
       name: "ArgonToken",
       symbol: "ARGON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x851F7a700c5d67DB59612b871338a85526752c25.png",
+        "https://pancakeswap.finance/images/tokens/0x851F7a700c5d67DB59612b871338a85526752c25.png",
       address: "0x851F7a700c5d67DB59612b871338a85526752c25",
       decimals: "18",
     },
@@ -33523,7 +33523,7 @@ export let chainTokenDictionary = {
       name: "420x",
       symbol: "420x",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC4b790e1D5f0c3d8AA526F0A8098eD2A1ff0886a.png",
+        "https://pancakeswap.finance/images/tokens/0xC4b790e1D5f0c3d8AA526F0A8098eD2A1ff0886a.png",
       address: "0xC4b790e1D5f0c3d8AA526F0A8098eD2A1ff0886a",
       decimals: "9",
     },
@@ -33531,7 +33531,7 @@ export let chainTokenDictionary = {
       name: "GorillaDiamond",
       symbol: "GDT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb7F2bca9b034f8cc143339Dd12bb31D3D50Cf27a.png",
+        "https://pancakeswap.finance/images/tokens/0xb7F2bca9b034f8cc143339Dd12bb31D3D50Cf27a.png",
       address: "0xb7F2bca9b034f8cc143339Dd12bb31D3D50Cf27a",
       decimals: "9",
     },
@@ -33539,7 +33539,7 @@ export let chainTokenDictionary = {
       name: "Toad Network",
       symbol: "TOAD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x463E737D8F740395ABf44f7aac2D9531D8D539E9.png",
+        "https://pancakeswap.finance/images/tokens/0x463E737D8F740395ABf44f7aac2D9531D8D539E9.png",
       address: "0x463E737D8F740395ABf44f7aac2D9531D8D539E9",
       decimals: "18",
     },
@@ -33547,7 +33547,7 @@ export let chainTokenDictionary = {
       name: "TOOLS",
       symbol: "TOOLS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1311b352467d2B5c296881BaDEA82850bcd8f886.png",
+        "https://pancakeswap.finance/images/tokens/0x1311b352467d2B5c296881BaDEA82850bcd8f886.png",
       address: "0x1311b352467d2B5c296881BaDEA82850bcd8f886",
       decimals: "18",
     },
@@ -33555,7 +33555,7 @@ export let chainTokenDictionary = {
       name: "XKATToken",
       symbol: "XKAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x513f20943c7a5B46C084c7254C0a5533FA72459C.png",
+        "https://pancakeswap.finance/images/tokens/0x513f20943c7a5B46C084c7254C0a5533FA72459C.png",
       address: "0x513f20943c7a5B46C084c7254C0a5533FA72459C",
       decimals: "18",
     },
@@ -33563,7 +33563,7 @@ export let chainTokenDictionary = {
       name: "PANDADAO",
       symbol: "PDAO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1af3B59a839e97e944C65177aB3a024B499133F8.png",
+        "https://pancakeswap.finance/images/tokens/0x1af3B59a839e97e944C65177aB3a024B499133F8.png",
       address: "0x1af3B59a839e97e944C65177aB3a024B499133F8",
       decimals: "9",
     },
@@ -33571,7 +33571,7 @@ export let chainTokenDictionary = {
       name: "CertiK Token",
       symbol: "CTK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA8c2B8eec3d368C0253ad3dae65a5F2BBB89c929.png",
+        "https://pancakeswap.finance/images/tokens/0xA8c2B8eec3d368C0253ad3dae65a5F2BBB89c929.png",
       address: "0xA8c2B8eec3d368C0253ad3dae65a5F2BBB89c929",
       decimals: "6",
     },
@@ -33579,7 +33579,7 @@ export let chainTokenDictionary = {
       name: "IMO",
       symbol: "IMO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x94D79c325268C898d2902050730f27A478C56cC1.png",
+        "https://pancakeswap.finance/images/tokens/0x94D79c325268C898d2902050730f27A478C56cC1.png",
       address: "0x94D79c325268C898d2902050730f27A478C56cC1",
       decimals: "18",
     },
@@ -33587,7 +33587,7 @@ export let chainTokenDictionary = {
       name: "Pablo Token",
       symbol: "PBT ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7cA89B3A7159D3fD20812A8b45b9Aff6d9aDC9a4.png",
+        "https://pancakeswap.finance/images/tokens/0x7cA89B3A7159D3fD20812A8b45b9Aff6d9aDC9a4.png",
       address: "0x7cA89B3A7159D3fD20812A8b45b9Aff6d9aDC9a4",
       decimals: "18",
     },
@@ -33595,7 +33595,7 @@ export let chainTokenDictionary = {
       name: "Propane",
       symbol: "Pane",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x74dF7f5C3120335dF1Ed873682B6697E32Aaf6Ec.png",
+        "https://pancakeswap.finance/images/tokens/0x74dF7f5C3120335dF1Ed873682B6697E32Aaf6Ec.png",
       address: "0x74dF7f5C3120335dF1Ed873682B6697E32Aaf6Ec",
       decimals: "18",
     },
@@ -33603,7 +33603,7 @@ export let chainTokenDictionary = {
       name: "DeFiYieldProtocol",
       symbol: "DYP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17.png",
+        "https://pancakeswap.finance/images/tokens/0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17.png",
       address: "0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17",
       decimals: "18",
     },
@@ -33611,7 +33611,7 @@ export let chainTokenDictionary = {
       name: "Ebirah Token",
       symbol: "EBRH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEae68564C96b1e1c471093A539836ae8Bf7C1B65.png",
+        "https://pancakeswap.finance/images/tokens/0xEae68564C96b1e1c471093A539836ae8Bf7C1B65.png",
       address: "0xEae68564C96b1e1c471093A539836ae8Bf7C1B65",
       decimals: "18",
     },
@@ -33619,7 +33619,7 @@ export let chainTokenDictionary = {
       name: "Hugo Finance",
       symbol: "HUGO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCE195c777e1ce96C30ebeC54C91d20417a068706.png",
+        "https://pancakeswap.finance/images/tokens/0xCE195c777e1ce96C30ebeC54C91d20417a068706.png",
       address: "0xCE195c777e1ce96C30ebeC54C91d20417a068706",
       decimals: "9",
     },
@@ -33627,7 +33627,7 @@ export let chainTokenDictionary = {
       name: "HUNGRY BEAR",
       symbol: "HUNGRY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x812Ff2420EC87eB40Da80a596f14756ACf98Dacc.png",
+        "https://pancakeswap.finance/images/tokens/0x812Ff2420EC87eB40Da80a596f14756ACf98Dacc.png",
       address: "0x812Ff2420EC87eB40Da80a596f14756ACf98Dacc",
       decimals: "8",
     },
@@ -33635,7 +33635,7 @@ export let chainTokenDictionary = {
       name: "MTLX-ERC20",
       symbol: "anyMTLX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5921DEE8556c4593EeFCFad3CA5e2f618606483b.png",
+        "https://pancakeswap.finance/images/tokens/0x5921DEE8556c4593EeFCFad3CA5e2f618606483b.png",
       address: "0x5921DEE8556c4593EeFCFad3CA5e2f618606483b",
       decimals: "18",
     },
@@ -33643,7 +33643,7 @@ export let chainTokenDictionary = {
       name: "Octree Finance",
       symbol: "OCT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x49277cC5be56b519901E561096bfD416277b4F6d.png",
+        "https://pancakeswap.finance/images/tokens/0x49277cC5be56b519901E561096bfD416277b4F6d.png",
       address: "0x49277cC5be56b519901E561096bfD416277b4F6d",
       decimals: "8",
     },
@@ -33651,7 +33651,7 @@ export let chainTokenDictionary = {
       name: "FREE coin BSC",
       symbol: "FREE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x12e34cDf6A031a10FE241864c32fB03a4FDaD739.png",
+        "https://pancakeswap.finance/images/tokens/0x12e34cDf6A031a10FE241864c32fB03a4FDaD739.png",
       address: "0x12e34cDf6A031a10FE241864c32fB03a4FDaD739",
       decimals: "18",
     },
@@ -33659,7 +33659,7 @@ export let chainTokenDictionary = {
       name: "Carillonium",
       symbol: "CAROM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x71f3ED37567E013f8294aa0c6c1C92332d2944F3.png",
+        "https://pancakeswap.finance/images/tokens/0x71f3ED37567E013f8294aa0c6c1C92332d2944F3.png",
       address: "0x71f3ED37567E013f8294aa0c6c1C92332d2944F3",
       decimals: "9",
     },
@@ -33667,7 +33667,7 @@ export let chainTokenDictionary = {
       name: "Nicheman",
       symbol: "Nicheman",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF27580F6a58FF785c60B7c15fD394AB442aAA451.png",
+        "https://pancakeswap.finance/images/tokens/0xF27580F6a58FF785c60B7c15fD394AB442aAA451.png",
       address: "0xF27580F6a58FF785c60B7c15fD394AB442aAA451",
       decimals: "9",
     },
@@ -33675,7 +33675,7 @@ export let chainTokenDictionary = {
       name: "Swampy",
       symbol: "SWAMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc5A49b4CBe004b6FD55B30Ba1dE6AC360FF9765d.png",
+        "https://pancakeswap.finance/images/tokens/0xc5A49b4CBe004b6FD55B30Ba1dE6AC360FF9765d.png",
       address: "0xc5A49b4CBe004b6FD55B30Ba1dE6AC360FF9765d",
       decimals: "18",
     },
@@ -33683,7 +33683,7 @@ export let chainTokenDictionary = {
       name: "BSC Wrapped Jupiter",
       symbol: "bwJUP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0231f91e02DebD20345Ae8AB7D71A41f8E140cE7.png",
+        "https://pancakeswap.finance/images/tokens/0x0231f91e02DebD20345Ae8AB7D71A41f8E140cE7.png",
       address: "0x0231f91e02DebD20345Ae8AB7D71A41f8E140cE7",
       decimals: "18",
     },
@@ -33691,7 +33691,7 @@ export let chainTokenDictionary = {
       name: "Safe Token",
       symbol: "SAFETOKEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x31045e7023e6c388F9447E632a3f9EaFF90393fa.png",
+        "https://pancakeswap.finance/images/tokens/0x31045e7023e6c388F9447E632a3f9EaFF90393fa.png",
       address: "0x31045e7023e6c388F9447E632a3f9EaFF90393fa",
       decimals: "18",
     },
@@ -33699,7 +33699,7 @@ export let chainTokenDictionary = {
       name: "SUPER-ERC20",
       symbol: "SUPER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D.png",
+        "https://pancakeswap.finance/images/tokens/0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D.png",
       address: "0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D",
       decimals: "18",
     },
@@ -33707,7 +33707,7 @@ export let chainTokenDictionary = {
       name: "MacaronSwap Token",
       symbol: "MCRN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xacb2d47827C9813AE26De80965845D80935afd0B.png",
+        "https://pancakeswap.finance/images/tokens/0xacb2d47827C9813AE26De80965845D80935afd0B.png",
       address: "0xacb2d47827C9813AE26De80965845D80935afd0B",
       decimals: "18",
     },
@@ -33715,7 +33715,7 @@ export let chainTokenDictionary = {
       name: "DeFiDrop Token",
       symbol: "DROPS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4D2E266267f756D54c09AfD1d1473c7739EB7020.png",
+        "https://pancakeswap.finance/images/tokens/0x4D2E266267f756D54c09AfD1d1473c7739EB7020.png",
       address: "0x4D2E266267f756D54c09AfD1d1473c7739EB7020",
       decimals: "18",
     },
@@ -33723,7 +33723,7 @@ export let chainTokenDictionary = {
       name: "MarshmallowDeFi Token",
       symbol: "MASH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x787732f27D18495494cea3792ed7946BbCFF8db2.png",
+        "https://pancakeswap.finance/images/tokens/0x787732f27D18495494cea3792ed7946BbCFF8db2.png",
       address: "0x787732f27D18495494cea3792ed7946BbCFF8db2",
       decimals: "18",
     },
@@ -33731,7 +33731,7 @@ export let chainTokenDictionary = {
       name: "UBUToken",
       symbol: "UBU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd2DdFba7bb12f6e70c2AAB6B6bf9EdaEf42ed22F.png",
+        "https://pancakeswap.finance/images/tokens/0xd2DdFba7bb12f6e70c2AAB6B6bf9EdaEf42ed22F.png",
       address: "0xd2DdFba7bb12f6e70c2AAB6B6bf9EdaEf42ed22F",
       decimals: "18",
     },
@@ -33739,7 +33739,7 @@ export let chainTokenDictionary = {
       name: "ETNA Network",
       symbol: "ETNA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x51F35073FF7cF54c9e86b7042E59A8cC9709FC46.png",
+        "https://pancakeswap.finance/images/tokens/0x51F35073FF7cF54c9e86b7042E59A8cC9709FC46.png",
       address: "0x51F35073FF7cF54c9e86b7042E59A8cC9709FC46",
       decimals: "18",
     },
@@ -33747,7 +33747,7 @@ export let chainTokenDictionary = {
       name: "MoonDao",
       symbol: "MNDAO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x069B2619Eb24367A46Fda638Bd1b88Aa4daD7879.png",
+        "https://pancakeswap.finance/images/tokens/0x069B2619Eb24367A46Fda638Bd1b88Aa4daD7879.png",
       address: "0x069B2619Eb24367A46Fda638Bd1b88Aa4daD7879",
       decimals: "9",
     },
@@ -33755,7 +33755,7 @@ export let chainTokenDictionary = {
       name: "Fairmoon",
       symbol: "FAIR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCa578afEe65FD2268D383f8Fc4a9fc6Ae1d2Def0.png",
+        "https://pancakeswap.finance/images/tokens/0xCa578afEe65FD2268D383f8Fc4a9fc6Ae1d2Def0.png",
       address: "0xCa578afEe65FD2268D383f8Fc4a9fc6Ae1d2Def0",
       decimals: "9",
     },
@@ -33763,7 +33763,7 @@ export let chainTokenDictionary = {
       name: "GFORCE",
       symbol: "GFCE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x94BaBBE728D9411612Ee41b20241a6FA251b26Ce.png",
+        "https://pancakeswap.finance/images/tokens/0x94BaBBE728D9411612Ee41b20241a6FA251b26Ce.png",
       address: "0x94BaBBE728D9411612Ee41b20241a6FA251b26Ce",
       decimals: "9",
     },
@@ -33771,7 +33771,7 @@ export let chainTokenDictionary = {
       name: "Titscoin",
       symbol: "TITS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFE7E350009a1f3915352022B1BFc2087D7B1D1CD.png",
+        "https://pancakeswap.finance/images/tokens/0xFE7E350009a1f3915352022B1BFc2087D7B1D1CD.png",
       address: "0xFE7E350009a1f3915352022B1BFc2087D7B1D1CD",
       decimals: "9",
     },
@@ -33779,7 +33779,7 @@ export let chainTokenDictionary = {
       name: "BEP20 LEO",
       symbol: "bLEO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6421531AF54C7B14Ea805719035EBf1e3661c44A.png",
+        "https://pancakeswap.finance/images/tokens/0x6421531AF54C7B14Ea805719035EBf1e3661c44A.png",
       address: "0x6421531AF54C7B14Ea805719035EBf1e3661c44A",
       decimals: "3",
     },
@@ -33787,7 +33787,7 @@ export let chainTokenDictionary = {
       name: "BR34P",
       symbol: "BR34P",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa86d305A36cDB815af991834B46aD3d7FbB38523.png",
+        "https://pancakeswap.finance/images/tokens/0xa86d305A36cDB815af991834B46aD3d7FbB38523.png",
       address: "0xa86d305A36cDB815af991834B46aD3d7FbB38523",
       decimals: "8",
     },
@@ -33795,7 +33795,7 @@ export let chainTokenDictionary = {
       name: "Satisfi Token",
       symbol: "SAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA1928c0D8F83C0bFB7ebE51B412b1FD29A277893.png",
+        "https://pancakeswap.finance/images/tokens/0xA1928c0D8F83C0bFB7ebE51B412b1FD29A277893.png",
       address: "0xA1928c0D8F83C0bFB7ebE51B412b1FD29A277893",
       decimals: "18",
     },
@@ -33803,7 +33803,7 @@ export let chainTokenDictionary = {
       name: "Vira-lata Finance",
       symbol: "REAU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344.png",
+        "https://pancakeswap.finance/images/tokens/0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344.png",
       address: "0x4c79b8c9cB0BD62B047880603a9DEcf36dE28344",
       decimals: "9",
     },
@@ -33811,7 +33811,7 @@ export let chainTokenDictionary = {
       name: "Stabilize BSC Token",
       symbol: "STBB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE1316066af35fbfF54f870eA6d1468255602a696.png",
+        "https://pancakeswap.finance/images/tokens/0xE1316066af35fbfF54f870eA6d1468255602a696.png",
       address: "0xE1316066af35fbfF54f870eA6d1468255602a696",
       decimals: "18",
     },
@@ -33819,7 +33819,7 @@ export let chainTokenDictionary = {
       name: "FairEclipse",
       symbol: "FECLIPSE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4f45F6025be6C65573dAa0b9965a75e837848Da0.png",
+        "https://pancakeswap.finance/images/tokens/0x4f45F6025be6C65573dAa0b9965a75e837848Da0.png",
       address: "0x4f45F6025be6C65573dAa0b9965a75e837848Da0",
       decimals: "9",
     },
@@ -33827,7 +33827,7 @@ export let chainTokenDictionary = {
       name: "Moonpirate",
       symbol: "MOONPIRATE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf09b7B6bA6dAb7CccC3AE477a174b164c39f4C66.png",
+        "https://pancakeswap.finance/images/tokens/0xf09b7B6bA6dAb7CccC3AE477a174b164c39f4C66.png",
       address: "0xf09b7B6bA6dAb7CccC3AE477a174b164c39f4C66",
       decimals: "9",
     },
@@ -33835,7 +33835,7 @@ export let chainTokenDictionary = {
       name: "SPI Governance",
       symbol: "GSPI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB42e1c3902b85b410334f5fff79cDc51fBeE6950.png",
+        "https://pancakeswap.finance/images/tokens/0xB42e1c3902b85b410334f5fff79cDc51fBeE6950.png",
       address: "0xB42e1c3902b85b410334f5fff79cDc51fBeE6950",
       decimals: "18",
     },
@@ -33843,7 +33843,7 @@ export let chainTokenDictionary = {
       name: "FRIDGE TOKEN",
       symbol: "FRIDGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x145fAD68704371b4CA62A44845b46d12F46137e8.png",
+        "https://pancakeswap.finance/images/tokens/0x145fAD68704371b4CA62A44845b46d12F46137e8.png",
       address: "0x145fAD68704371b4CA62A44845b46d12F46137e8",
       decimals: "18",
     },
@@ -33851,7 +33851,7 @@ export let chainTokenDictionary = {
       name: "Raven X",
       symbol: "RX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8891de345808E77228677f0eFb56125DB1E93a49.png",
+        "https://pancakeswap.finance/images/tokens/0x8891de345808E77228677f0eFb56125DB1E93a49.png",
       address: "0x8891de345808E77228677f0eFb56125DB1E93a49",
       decimals: "9",
     },
@@ -33859,7 +33859,7 @@ export let chainTokenDictionary = {
       name: "FOMO",
       symbol: "FOMO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5EEF8c4320e2Bf8D1e6231A31500FD7a87D02985.png",
+        "https://pancakeswap.finance/images/tokens/0x5EEF8c4320e2Bf8D1e6231A31500FD7a87D02985.png",
       address: "0x5EEF8c4320e2Bf8D1e6231A31500FD7a87D02985",
       decimals: "18",
     },
@@ -33867,7 +33867,7 @@ export let chainTokenDictionary = {
       name: "Kebab Token",
       symbol: "KEBAB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7979F6C54ebA05E18Ded44C4F986F49a5De551c2.png",
+        "https://pancakeswap.finance/images/tokens/0x7979F6C54ebA05E18Ded44C4F986F49a5De551c2.png",
       address: "0x7979F6C54ebA05E18Ded44C4F986F49a5De551c2",
       decimals: "18",
     },
@@ -33875,7 +33875,7 @@ export let chainTokenDictionary = {
       name: "FastMoon",
       symbol: "FASTMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x869Dd7A64AfBe5370a8c591d9B8650BE60c0B8f6.png",
+        "https://pancakeswap.finance/images/tokens/0x869Dd7A64AfBe5370a8c591d9B8650BE60c0B8f6.png",
       address: "0x869Dd7A64AfBe5370a8c591d9B8650BE60c0B8f6",
       decimals: "9",
     },
@@ -33883,7 +33883,7 @@ export let chainTokenDictionary = {
       name: "BlimpsRock",
       symbol: "BlimpsRock",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdF6d9fC61Bd8163b59d6381EC93aE1D3a4D95bB2.png",
+        "https://pancakeswap.finance/images/tokens/0xdF6d9fC61Bd8163b59d6381EC93aE1D3a4D95bB2.png",
       address: "0xdF6d9fC61Bd8163b59d6381EC93aE1D3a4D95bB2",
       decimals: "9",
     },
@@ -33891,7 +33891,7 @@ export let chainTokenDictionary = {
       name: "Full Send",
       symbol: "FULLSEND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd8c202fc83792D98FB94c1FA2FdaC5702A75dF1C.png",
+        "https://pancakeswap.finance/images/tokens/0xd8c202fc83792D98FB94c1FA2FdaC5702A75dF1C.png",
       address: "0xd8c202fc83792D98FB94c1FA2FdaC5702A75dF1C",
       decimals: "9",
     },
@@ -33899,7 +33899,7 @@ export let chainTokenDictionary = {
       name: "unidexbot.com",
       symbol: "bUNDB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3Dc8311B7d0FBc88eF600174E079bb0A34D370E6.png",
+        "https://pancakeswap.finance/images/tokens/0x3Dc8311B7d0FBc88eF600174E079bb0A34D370E6.png",
       address: "0x3Dc8311B7d0FBc88eF600174E079bb0A34D370E6",
       decimals: "18",
     },
@@ -33907,7 +33907,7 @@ export let chainTokenDictionary = {
       name: "SparkPoint Fuel",
       symbol: "SFUEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x37Ac4D6140e54304D77437A5c11924f61a2D976f.png",
+        "https://pancakeswap.finance/images/tokens/0x37Ac4D6140e54304D77437A5c11924f61a2D976f.png",
       address: "0x37Ac4D6140e54304D77437A5c11924f61a2D976f",
       decimals: "18",
     },
@@ -33915,7 +33915,7 @@ export let chainTokenDictionary = {
       name: "TacoCat",
       symbol: "TACOCAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA8fcEe78B782eF97380326E90DF80D72f025f020.png",
+        "https://pancakeswap.finance/images/tokens/0xA8fcEe78B782eF97380326E90DF80D72f025f020.png",
       address: "0xA8fcEe78B782eF97380326E90DF80D72f025f020",
       decimals: "9",
     },
@@ -33923,7 +33923,7 @@ export let chainTokenDictionary = {
       name: "Shield Network",
       symbol: "SHILD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0E690ee6fCC26Bc09FeD2D2287268C23d4a81e42.png",
+        "https://pancakeswap.finance/images/tokens/0x0E690ee6fCC26Bc09FeD2D2287268C23d4a81e42.png",
       address: "0x0E690ee6fCC26Bc09FeD2D2287268C23d4a81e42",
       decimals: "18",
     },
@@ -33931,7 +33931,7 @@ export let chainTokenDictionary = {
       name: "pDollar",
       symbol: "PDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5BCcFbd33873A5498F8406146868eDdd5E998962.png",
+        "https://pancakeswap.finance/images/tokens/0x5BCcFbd33873A5498F8406146868eDdd5E998962.png",
       address: "0x5BCcFbd33873A5498F8406146868eDdd5E998962",
       decimals: "18",
     },
@@ -33939,7 +33939,7 @@ export let chainTokenDictionary = {
       name: "Squirrel Finance",
       symbol: "NUTS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8893D5fA71389673C5c4b9b3cb4EE1ba71207556.png",
+        "https://pancakeswap.finance/images/tokens/0x8893D5fA71389673C5c4b9b3cb4EE1ba71207556.png",
       address: "0x8893D5fA71389673C5c4b9b3cb4EE1ba71207556",
       decimals: "18",
     },
@@ -33947,7 +33947,7 @@ export let chainTokenDictionary = {
       name: "BSCS Token",
       symbol: "BSCS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbcb24AFb019BE7E93EA9C43B7E22Bb55D5B7f45D.png",
+        "https://pancakeswap.finance/images/tokens/0xbcb24AFb019BE7E93EA9C43B7E22Bb55D5B7f45D.png",
       address: "0xbcb24AFb019BE7E93EA9C43B7E22Bb55D5B7f45D",
       decimals: "18",
     },
@@ -33955,7 +33955,7 @@ export let chainTokenDictionary = {
       name: "Papel",
       symbol: "PAPEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x557dd6700e66818AF340ccE17FD4508CED81fBc1.png",
+        "https://pancakeswap.finance/images/tokens/0x557dd6700e66818AF340ccE17FD4508CED81fBc1.png",
       address: "0x557dd6700e66818AF340ccE17FD4508CED81fBc1",
       decimals: "9",
     },
@@ -33963,7 +33963,7 @@ export let chainTokenDictionary = {
       name: "CumRocket",
       symbol: "CUMMIES",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d.png",
+        "https://pancakeswap.finance/images/tokens/0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d.png",
       address: "0x27Ae27110350B98d564b9A3eeD31bAeBc82d878d",
       decimals: "18",
     },
@@ -33971,7 +33971,7 @@ export let chainTokenDictionary = {
       name: "Bami Token",
       symbol: "BAMI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8249BC1dEA00660d2d38dF126b53C6c9A733e942.png",
+        "https://pancakeswap.finance/images/tokens/0x8249BC1dEA00660d2d38dF126b53C6c9A733e942.png",
       address: "0x8249BC1dEA00660d2d38dF126b53C6c9A733e942",
       decimals: "18",
     },
@@ -33979,7 +33979,7 @@ export let chainTokenDictionary = {
       name: "BSCstarter",
       symbol: "START",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x31D0a7AdA4d4c131Eb612DB48861211F63e57610.png",
+        "https://pancakeswap.finance/images/tokens/0x31D0a7AdA4d4c131Eb612DB48861211F63e57610.png",
       address: "0x31D0a7AdA4d4c131Eb612DB48861211F63e57610",
       decimals: "18",
     },
@@ -33987,7 +33987,7 @@ export let chainTokenDictionary = {
       name: "BLinkToken",
       symbol: "blink",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F.png",
+        "https://pancakeswap.finance/images/tokens/0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F.png",
       address: "0x63870A18B6e42b01Ef1Ad8A2302ef50B7132054F",
       decimals: "6",
     },
@@ -33995,7 +33995,7 @@ export let chainTokenDictionary = {
       name: "CheesecakeSwap Token",
       symbol: "CCAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc7091AA18598b87588e37501b6Ce865263CD67Ce.png",
+        "https://pancakeswap.finance/images/tokens/0xc7091AA18598b87588e37501b6Ce865263CD67Ce.png",
       address: "0xc7091AA18598b87588e37501b6Ce865263CD67Ce",
       decimals: "18",
     },
@@ -34003,7 +34003,7 @@ export let chainTokenDictionary = {
       name: "Astroape",
       symbol: "Astroape",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x95df1652cBAB65fd566C088531B7760C9dA19f5F.png",
+        "https://pancakeswap.finance/images/tokens/0x95df1652cBAB65fd566C088531B7760C9dA19f5F.png",
       address: "0x95df1652cBAB65fd566C088531B7760C9dA19f5F",
       decimals: "9",
     },
@@ -34011,7 +34011,7 @@ export let chainTokenDictionary = {
       name: "SafeLight",
       symbol: "SAFELIGHT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa5360c2070FaECFc231fd6bd743FE88382F2991d.png",
+        "https://pancakeswap.finance/images/tokens/0xa5360c2070FaECFc231fd6bd743FE88382F2991d.png",
       address: "0xa5360c2070FaECFc231fd6bd743FE88382F2991d",
       decimals: "9",
     },
@@ -34019,7 +34019,7 @@ export let chainTokenDictionary = {
       name: "BSCLauncher.finance",
       symbol: "BSCL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2eea102F84080f37dADda3feF02308D0B8600330.png",
+        "https://pancakeswap.finance/images/tokens/0x2eea102F84080f37dADda3feF02308D0B8600330.png",
       address: "0x2eea102F84080f37dADda3feF02308D0B8600330",
       decimals: "18",
     },
@@ -34027,7 +34027,7 @@ export let chainTokenDictionary = {
       name: "TRIFORCE",
       symbol: "TFC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x339f6e1553E923FD27412dfaF18b5721EA580A15.png",
+        "https://pancakeswap.finance/images/tokens/0x339f6e1553E923FD27412dfaF18b5721EA580A15.png",
       address: "0x339f6e1553E923FD27412dfaF18b5721EA580A15",
       decimals: "18",
     },
@@ -34035,7 +34035,7 @@ export let chainTokenDictionary = {
       name: "zSeedToken",
       symbol: "zSEED",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5cd50Aae14E14B3fdF3fF13c7A40e8cf5ae8b0A5.png",
+        "https://pancakeswap.finance/images/tokens/0x5cd50Aae14E14B3fdF3fF13c7A40e8cf5ae8b0A5.png",
       address: "0x5cd50Aae14E14B3fdF3fF13c7A40e8cf5ae8b0A5",
       decimals: "18",
     },
@@ -34043,7 +34043,7 @@ export let chainTokenDictionary = {
       name: "VNDC International Digital Banking",
       symbol: "VIDB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x90Dc17d47d739Ee84d61Bd0Ec828a24881e2A0B4.png",
+        "https://pancakeswap.finance/images/tokens/0x90Dc17d47d739Ee84d61Bd0Ec828a24881e2A0B4.png",
       address: "0x90Dc17d47d739Ee84d61Bd0Ec828a24881e2A0B4",
       decimals: "8",
     },
@@ -34051,7 +34051,7 @@ export let chainTokenDictionary = {
       name: "Martian DAO",
       symbol: "MDAO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x904d7Ac5d005d16DBDc69f713D029e3C1800F8Ca.png",
+        "https://pancakeswap.finance/images/tokens/0x904d7Ac5d005d16DBDc69f713D029e3C1800F8Ca.png",
       address: "0x904d7Ac5d005d16DBDc69f713D029e3C1800F8Ca",
       decimals: "9",
     },
@@ -34059,7 +34059,7 @@ export let chainTokenDictionary = {
       name: "wGOLD",
       symbol: "wGOLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51.png",
+        "https://pancakeswap.finance/images/tokens/0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51.png",
       address: "0x7Ab6eedd9443e0e98E5Ea93667CA5B250b8ddA51",
       decimals: "18",
     },
@@ -34067,7 +34067,7 @@ export let chainTokenDictionary = {
       name: "Mirror",
       symbol: "MOR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x85e5682Cc4513358f765cb8Df98f1DD140c6cF86.png",
+        "https://pancakeswap.finance/images/tokens/0x85e5682Cc4513358f765cb8Df98f1DD140c6cF86.png",
       address: "0x85e5682Cc4513358f765cb8Df98f1DD140c6cF86",
       decimals: "18",
     },
@@ -34075,7 +34075,7 @@ export let chainTokenDictionary = {
       name: "HASH",
       symbol: "HASH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEB1112Ac78D537853150E2a07E8b765E29d3F019.png",
+        "https://pancakeswap.finance/images/tokens/0xEB1112Ac78D537853150E2a07E8b765E29d3F019.png",
       address: "0xEB1112Ac78D537853150E2a07E8b765E29d3F019",
       decimals: "18",
     },
@@ -34083,7 +34083,7 @@ export let chainTokenDictionary = {
       name: "APETools.gg",
       symbol: "NANA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x355ad7aBB7bdD53beC94c068F3ABbCB2E2571d0D.png",
+        "https://pancakeswap.finance/images/tokens/0x355ad7aBB7bdD53beC94c068F3ABbCB2E2571d0D.png",
       address: "0x355ad7aBB7bdD53beC94c068F3ABbCB2E2571d0D",
       decimals: "9",
     },
@@ -34091,7 +34091,7 @@ export let chainTokenDictionary = {
       name: "Bat True Share",
       symbol: "BTS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc2e1acef50aE55661855E8dcB72adB182A3cC259.png",
+        "https://pancakeswap.finance/images/tokens/0xc2e1acef50aE55661855E8dcB72adB182A3cC259.png",
       address: "0xc2e1acef50aE55661855E8dcB72adB182A3cC259",
       decimals: "18",
     },
@@ -34099,7 +34099,7 @@ export let chainTokenDictionary = {
       name: "PancakeTools",
       symbol: "Tcake",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3b831d36ed418e893F42d46ff308C326C239429f.png",
+        "https://pancakeswap.finance/images/tokens/0x3b831d36ed418e893F42d46ff308C326C239429f.png",
       address: "0x3b831d36ed418e893F42d46ff308C326C239429f",
       decimals: "18",
     },
@@ -34107,7 +34107,7 @@ export let chainTokenDictionary = {
       name: "PIXL",
       symbol: "PXL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5B2b5BD1e5C53870fE135Fb7b289D686f762858d.png",
+        "https://pancakeswap.finance/images/tokens/0x5B2b5BD1e5C53870fE135Fb7b289D686f762858d.png",
       address: "0x5B2b5BD1e5C53870fE135Fb7b289D686f762858d",
       decimals: "9",
     },
@@ -34115,7 +34115,7 @@ export let chainTokenDictionary = {
       name: "FRAT BEP-20 Token",
       symbol: "FRAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7352eEBeda1Ff0E625452Cc27D811A88216243fB.png",
+        "https://pancakeswap.finance/images/tokens/0x7352eEBeda1Ff0E625452Cc27D811A88216243fB.png",
       address: "0x7352eEBeda1Ff0E625452Cc27D811A88216243fB",
       decimals: "18",
     },
@@ -34123,7 +34123,7 @@ export let chainTokenDictionary = {
       name: "Lava Token",
       symbol: "Lava",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfaFf5251EA98f90540D6BacDf7A458f61b456C06.png",
+        "https://pancakeswap.finance/images/tokens/0xfaFf5251EA98f90540D6BacDf7A458f61b456C06.png",
       address: "0xfaFf5251EA98f90540D6BacDf7A458f61b456C06",
       decimals: "9",
     },
@@ -34131,7 +34131,7 @@ export let chainTokenDictionary = {
       name: "WenMoon Token",
       symbol: "WENMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb93ba7DC61ECFced69067151FC00C41cA369A797.png",
+        "https://pancakeswap.finance/images/tokens/0xb93ba7DC61ECFced69067151FC00C41cA369A797.png",
       address: "0xb93ba7DC61ECFced69067151FC00C41cA369A797",
       decimals: "7",
     },
@@ -34139,7 +34139,7 @@ export let chainTokenDictionary = {
       name: "WSB Token",
       symbol: "WSB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x22168882276e5D5e1da694343b41DD7726eeb288.png",
+        "https://pancakeswap.finance/images/tokens/0x22168882276e5D5e1da694343b41DD7726eeb288.png",
       address: "0x22168882276e5D5e1da694343b41DD7726eeb288",
       decimals: "18",
     },
@@ -34147,7 +34147,7 @@ export let chainTokenDictionary = {
       name: "VANCAT Token",
       symbol: "VANCAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8597ba143AC509189E89aaB3BA28d661A5dD9830.png",
+        "https://pancakeswap.finance/images/tokens/0x8597ba143AC509189E89aaB3BA28d661A5dD9830.png",
       address: "0x8597ba143AC509189E89aaB3BA28d661A5dD9830",
       decimals: "0",
     },
@@ -34155,7 +34155,7 @@ export let chainTokenDictionary = {
       name: "Waffle",
       symbol: "WAF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x650febe5aD8A17A8f27F17EC80fD208E23E9246C.png",
+        "https://pancakeswap.finance/images/tokens/0x650febe5aD8A17A8f27F17EC80fD208E23E9246C.png",
       address: "0x650febe5aD8A17A8f27F17EC80fD208E23E9246C",
       decimals: "18",
     },
@@ -34163,7 +34163,7 @@ export let chainTokenDictionary = {
       name: "STRITE Token",
       symbol: "STRI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9b93c29595dd603f75854EbA3C5f4EE078EE4454.png",
+        "https://pancakeswap.finance/images/tokens/0x9b93c29595dd603f75854EbA3C5f4EE078EE4454.png",
       address: "0x9b93c29595dd603f75854EbA3C5f4EE078EE4454",
       decimals: "18",
     },
@@ -34171,7 +34171,7 @@ export let chainTokenDictionary = {
       name: "DxChain Token",
       symbol: "DX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcA7bBEC6839965aC8dfe077b52EBB6519fFFe155.png",
+        "https://pancakeswap.finance/images/tokens/0xcA7bBEC6839965aC8dfe077b52EBB6519fFFe155.png",
       address: "0xcA7bBEC6839965aC8dfe077b52EBB6519fFFe155",
       decimals: "18",
     },
@@ -34179,7 +34179,7 @@ export let chainTokenDictionary = {
       name: "SafeNebula.com",
       symbol: "SNBL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa1FD60c51C0BDAC1Ff5BB6067A24d61441E39569.png",
+        "https://pancakeswap.finance/images/tokens/0xa1FD60c51C0BDAC1Ff5BB6067A24d61441E39569.png",
       address: "0xa1FD60c51C0BDAC1Ff5BB6067A24d61441E39569",
       decimals: "18",
     },
@@ -34187,7 +34187,7 @@ export let chainTokenDictionary = {
       name: "World of Whales",
       symbol: "WoW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2DD337F94A36449C6e5fD4f523Ce2e55A5Ad1008.png",
+        "https://pancakeswap.finance/images/tokens/0x2DD337F94A36449C6e5fD4f523Ce2e55A5Ad1008.png",
       address: "0x2DD337F94A36449C6e5fD4f523Ce2e55A5Ad1008",
       decimals: "9",
     },
@@ -34195,7 +34195,7 @@ export let chainTokenDictionary = {
       name: "BSCVIEW.com",
       symbol: "BSCV",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbB3837Fa11d4B789717C8f622Ec4f6eee5375C49.png",
+        "https://pancakeswap.finance/images/tokens/0xbB3837Fa11d4B789717C8f622Ec4f6eee5375C49.png",
       address: "0xbB3837Fa11d4B789717C8f622Ec4f6eee5375C49",
       decimals: "18",
     },
@@ -34203,7 +34203,7 @@ export let chainTokenDictionary = {
       name: "ComfyToken",
       symbol: "COMFY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC737B44CB0Aa18815a1F6918EB338dEe7e7E6bD7.png",
+        "https://pancakeswap.finance/images/tokens/0xC737B44CB0Aa18815a1F6918EB338dEe7e7E6bD7.png",
       address: "0xC737B44CB0Aa18815a1F6918EB338dEe7e7E6bD7",
       decimals: "9",
     },
@@ -34211,7 +34211,7 @@ export let chainTokenDictionary = {
       name: "Xpool",
       symbol: "XPO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xeBB59CeBFb63f218db6B5094DC14AbF34d56D35D.png",
+        "https://pancakeswap.finance/images/tokens/0xeBB59CeBFb63f218db6B5094DC14AbF34d56D35D.png",
       address: "0xeBB59CeBFb63f218db6B5094DC14AbF34d56D35D",
       decimals: "18",
     },
@@ -34219,7 +34219,7 @@ export let chainTokenDictionary = {
       name: "MustangToken",
       symbol: "MUST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa042d20aBE198E516d885Da52a633B6D44F339B9.png",
+        "https://pancakeswap.finance/images/tokens/0xa042d20aBE198E516d885Da52a633B6D44F339B9.png",
       address: "0xa042d20aBE198E516d885Da52a633B6D44F339B9",
       decimals: "9",
     },
@@ -34227,7 +34227,7 @@ export let chainTokenDictionary = {
       name: "SPONGE",
       symbol: "SPG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3aabCf53A1930A42E18D938C019E83Ebee50a849.png",
+        "https://pancakeswap.finance/images/tokens/0x3aabCf53A1930A42E18D938C019E83Ebee50a849.png",
       address: "0x3aabCf53A1930A42E18D938C019E83Ebee50a849",
       decimals: "9",
     },
@@ -34235,7 +34235,7 @@ export let chainTokenDictionary = {
       name: "CryptEx Token",
       symbol: "CRX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x97a30C692eCe9C317235d48287d23d358170FC40.png",
+        "https://pancakeswap.finance/images/tokens/0x97a30C692eCe9C317235d48287d23d358170FC40.png",
       address: "0x97a30C692eCe9C317235d48287d23d358170FC40",
       decimals: "18",
     },
@@ -34243,7 +34243,7 @@ export let chainTokenDictionary = {
       name: "farm.space",
       symbol: "SPACE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0abd3E3502c15ec252f90F64341cbA74a24fba06.png",
+        "https://pancakeswap.finance/images/tokens/0x0abd3E3502c15ec252f90F64341cbA74a24fba06.png",
       address: "0x0abd3E3502c15ec252f90F64341cbA74a24fba06",
       decimals: "18",
     },
@@ -34251,7 +34251,7 @@ export let chainTokenDictionary = {
       name: "Odin Protocol",
       symbol: "ODIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2802eb3a20f5892956D5B9528F6Bf13E648534DB.png",
+        "https://pancakeswap.finance/images/tokens/0x2802eb3a20f5892956D5B9528F6Bf13E648534DB.png",
       address: "0x2802eb3a20f5892956D5B9528F6Bf13E648534DB",
       decimals: "18",
     },
@@ -34259,7 +34259,7 @@ export let chainTokenDictionary = {
       name: "Orakuru",
       symbol: "ORK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCed0CE92F4bdC3c2201E255FAF12f05cf8206dA8.png",
+        "https://pancakeswap.finance/images/tokens/0xCed0CE92F4bdC3c2201E255FAF12f05cf8206dA8.png",
       address: "0xCed0CE92F4bdC3c2201E255FAF12f05cf8206dA8",
       decimals: "18",
     },
@@ -34267,7 +34267,7 @@ export let chainTokenDictionary = {
       name: "Rupee Token",
       symbol: "RUPEE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7B0409A3A3f79bAa284035d48E1DFd581d7d7654.png",
+        "https://pancakeswap.finance/images/tokens/0x7B0409A3A3f79bAa284035d48E1DFd581d7d7654.png",
       address: "0x7B0409A3A3f79bAa284035d48E1DFd581d7d7654",
       decimals: "18",
     },
@@ -34275,7 +34275,7 @@ export let chainTokenDictionary = {
       name: "Rubic",
       symbol: "BRBC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8E3BCC334657560253B83f08331d85267316e08a.png",
+        "https://pancakeswap.finance/images/tokens/0x8E3BCC334657560253B83f08331d85267316e08a.png",
       address: "0x8E3BCC334657560253B83f08331d85267316e08a",
       decimals: "18",
     },
@@ -34283,7 +34283,7 @@ export let chainTokenDictionary = {
       name: "OurGlass",
       symbol: "GLASS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9c9d4302A1A550b446401e56000F76Bc761C3A33.png",
+        "https://pancakeswap.finance/images/tokens/0x9c9d4302A1A550b446401e56000F76Bc761C3A33.png",
       address: "0x9c9d4302A1A550b446401e56000F76Bc761C3A33",
       decimals: "9",
     },
@@ -34291,7 +34291,7 @@ export let chainTokenDictionary = {
       name: "bscShiba",
       symbol: "bShiba",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6158b3435DC3bc54a19A32Da2A2ed22aeC3bEF3e.png",
+        "https://pancakeswap.finance/images/tokens/0x6158b3435DC3bc54a19A32Da2A2ed22aeC3bEF3e.png",
       address: "0x6158b3435DC3bc54a19A32Da2A2ed22aeC3bEF3e",
       decimals: "9",
     },
@@ -34299,7 +34299,7 @@ export let chainTokenDictionary = {
       name: "XSPACE",
       symbol: "XSPACE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAD90c05BC51672eEdfeE36E58b3ff1A78bbC146d.png",
+        "https://pancakeswap.finance/images/tokens/0xAD90c05BC51672eEdfeE36E58b3ff1A78bbC146d.png",
       address: "0xAD90c05BC51672eEdfeE36E58b3ff1A78bbC146d",
       decimals: "9",
     },
@@ -34307,7 +34307,7 @@ export let chainTokenDictionary = {
       name: "Supersonic",
       symbol: "SSN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x89d453108bD94B497bBB4496729cd26f92Aba533.png",
+        "https://pancakeswap.finance/images/tokens/0x89d453108bD94B497bBB4496729cd26f92Aba533.png",
       address: "0x89d453108bD94B497bBB4496729cd26f92Aba533",
       decimals: "9",
     },
@@ -34315,7 +34315,7 @@ export let chainTokenDictionary = {
       name: "DxSale.Network",
       symbol: "SALE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x97BB08BA41f033bEaac315169fc566AC9E0DAF52.png",
+        "https://pancakeswap.finance/images/tokens/0x97BB08BA41f033bEaac315169fc566AC9E0DAF52.png",
       address: "0x97BB08BA41f033bEaac315169fc566AC9E0DAF52",
       decimals: "18",
     },
@@ -34323,7 +34323,7 @@ export let chainTokenDictionary = {
       name: "PYXIS (pyxis.network)",
       symbol: "PYX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3ebb316D8c387ef235BAa38978cbB9B97C8C3017.png",
+        "https://pancakeswap.finance/images/tokens/0x3ebb316D8c387ef235BAa38978cbB9B97C8C3017.png",
       address: "0x3ebb316D8c387ef235BAa38978cbB9B97C8C3017",
       decimals: "18",
     },
@@ -34331,7 +34331,7 @@ export let chainTokenDictionary = {
       name: "XBN Community Token",
       symbol: "XBC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0321394309CaD7E0E424650844c3AB3b659315d3.png",
+        "https://pancakeswap.finance/images/tokens/0x0321394309CaD7E0E424650844c3AB3b659315d3.png",
       address: "0x0321394309CaD7E0E424650844c3AB3b659315d3",
       decimals: "9",
     },
@@ -34339,7 +34339,7 @@ export let chainTokenDictionary = {
       name: "CAZI",
       symbol: "CAZI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x45E4ec2d4e2BA648052F1f08C7c73dFdc0744Fc0.png",
+        "https://pancakeswap.finance/images/tokens/0x45E4ec2d4e2BA648052F1f08C7c73dFdc0744Fc0.png",
       address: "0x45E4ec2d4e2BA648052F1f08C7c73dFdc0744Fc0",
       decimals: "18",
     },
@@ -34347,7 +34347,7 @@ export let chainTokenDictionary = {
       name: "YesToken",
       symbol: "YES",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x164Fa1e6CF4125769df68245e942ea2F456aD47C.png",
+        "https://pancakeswap.finance/images/tokens/0x164Fa1e6CF4125769df68245e942ea2F456aD47C.png",
       address: "0x164Fa1e6CF4125769df68245e942ea2F456aD47C",
       decimals: "18",
     },
@@ -34355,7 +34355,7 @@ export let chainTokenDictionary = {
       name: "GAPTT",
       symbol: "GAPT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x63a4644142CA6dc83CfE0E2bdba8d62174491fD8.png",
+        "https://pancakeswap.finance/images/tokens/0x63a4644142CA6dc83CfE0E2bdba8d62174491fD8.png",
       address: "0x63a4644142CA6dc83CfE0E2bdba8d62174491fD8",
       decimals: "9",
     },
@@ -34363,7 +34363,7 @@ export let chainTokenDictionary = {
       name: "FEGtoken",
       symbol: "FEG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xacFC95585D80Ab62f67A14C566C1b7a49Fe91167.png",
+        "https://pancakeswap.finance/images/tokens/0xacFC95585D80Ab62f67A14C566C1b7a49Fe91167.png",
       address: "0xacFC95585D80Ab62f67A14C566C1b7a49Fe91167",
       decimals: "9",
     },
@@ -34371,7 +34371,7 @@ export let chainTokenDictionary = {
       name: "ACryptoS(I)",
       symbol: "ACSI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5b17b4d5e4009B5C43e3e3d63A5229F794cBA389.png",
+        "https://pancakeswap.finance/images/tokens/0x5b17b4d5e4009B5C43e3e3d63A5229F794cBA389.png",
       address: "0x5b17b4d5e4009B5C43e3e3d63A5229F794cBA389",
       decimals: "18",
     },
@@ -34379,7 +34379,7 @@ export let chainTokenDictionary = {
       name: "ZCore Finance",
       symbol: "ZEFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07.png",
+        "https://pancakeswap.finance/images/tokens/0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07.png",
       address: "0x0288D3E353fE2299F11eA2c2e1696b4A648eCC07",
       decimals: "18",
     },
@@ -34387,7 +34387,7 @@ export let chainTokenDictionary = {
       name: "Fusible | Fusible.io",
       symbol: "FUSII",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3A50d6daacc82f17A2434184fE904fC45542A734.png",
+        "https://pancakeswap.finance/images/tokens/0x3A50d6daacc82f17A2434184fE904fC45542A734.png",
       address: "0x3A50d6daacc82f17A2434184fE904fC45542A734",
       decimals: "18",
     },
@@ -34395,7 +34395,7 @@ export let chainTokenDictionary = {
       name: "SafeBNB Token",
       symbol: "SBNB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9f0AE06E8b2478266C894e6464F8f1e5045E38d7.png",
+        "https://pancakeswap.finance/images/tokens/0x9f0AE06E8b2478266C894e6464F8f1e5045E38d7.png",
       address: "0x9f0AE06E8b2478266C894e6464F8f1e5045E38d7",
       decimals: "9",
     },
@@ -34403,7 +34403,7 @@ export let chainTokenDictionary = {
       name: "Extend Finance",
       symbol: "EXF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6306e883493824Ccf606D90E25F68a28e47b98a3.png",
+        "https://pancakeswap.finance/images/tokens/0x6306e883493824Ccf606D90E25F68a28e47b98a3.png",
       address: "0x6306e883493824Ccf606D90E25F68a28e47b98a3",
       decimals: "9",
     },
@@ -34411,7 +34411,7 @@ export let chainTokenDictionary = {
       name: "Polaris",
       symbol: "POLAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3a5325F0E5Ee4da06a285E988f052D4e45Aa64b4.png",
+        "https://pancakeswap.finance/images/tokens/0x3a5325F0E5Ee4da06a285E988f052D4e45Aa64b4.png",
       address: "0x3a5325F0E5Ee4da06a285E988f052D4e45Aa64b4",
       decimals: "18",
     },
@@ -34419,7 +34419,7 @@ export let chainTokenDictionary = {
       name: "Blind Boxes Token",
       symbol: "BLES",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x393d87E44C7b1F5Ba521b351532C24ECE253B849.png",
+        "https://pancakeswap.finance/images/tokens/0x393d87E44C7b1F5Ba521b351532C24ECE253B849.png",
       address: "0x393d87E44C7b1F5Ba521b351532C24ECE253B849",
       decimals: "18",
     },
@@ -34427,7 +34427,7 @@ export let chainTokenDictionary = {
       name: "UniCrypt on xDai on BSC",
       symbol: "UNCX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x09a6c44c3947B69E2B45F4D51b67E6a39ACfB506.png",
+        "https://pancakeswap.finance/images/tokens/0x09a6c44c3947B69E2B45F4D51b67E6a39ACfB506.png",
       address: "0x09a6c44c3947B69E2B45F4D51b67E6a39ACfB506",
       decimals: "18",
     },
@@ -34435,7 +34435,7 @@ export let chainTokenDictionary = {
       name: "Chain Games",
       symbol: "bCHAIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x35DE111558F691F77f791fb0c08b2D6B931A9d47.png",
+        "https://pancakeswap.finance/images/tokens/0x35DE111558F691F77f791fb0c08b2D6B931A9d47.png",
       address: "0x35DE111558F691F77f791fb0c08b2D6B931A9d47",
       decimals: "18",
     },
@@ -34443,7 +34443,7 @@ export let chainTokenDictionary = {
       name: "LIGHTENING.CASH",
       symbol: "LIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3e900195B93423b8E7bdDD63d1d51c02fD18CCdf.png",
+        "https://pancakeswap.finance/images/tokens/0x3e900195B93423b8E7bdDD63d1d51c02fD18CCdf.png",
       address: "0x3e900195B93423b8E7bdDD63d1d51c02fD18CCdf",
       decimals: "18",
     },
@@ -34451,7 +34451,7 @@ export let chainTokenDictionary = {
       name: "SafeLaunchPad",
       symbol: "SLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8A9030c0ED9A5b9C7Ab39EBfEE11D90aF9945f6F.png",
+        "https://pancakeswap.finance/images/tokens/0x8A9030c0ED9A5b9C7Ab39EBfEE11D90aF9945f6F.png",
       address: "0x8A9030c0ED9A5b9C7Ab39EBfEE11D90aF9945f6F",
       decimals: "9",
     },
@@ -34459,7 +34459,7 @@ export let chainTokenDictionary = {
       name: "Modefi",
       symbol: "MOD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd4fBc57B6233F268E7FbA3b66E62719D74deecBc.png",
+        "https://pancakeswap.finance/images/tokens/0xd4fBc57B6233F268E7FbA3b66E62719D74deecBc.png",
       address: "0xd4fBc57B6233F268E7FbA3b66E62719D74deecBc",
       decimals: "18",
     },
@@ -34467,7 +34467,7 @@ export let chainTokenDictionary = {
       name: "Midas Dollar Share",
       symbol: "MDS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x242E46490397ACCa94ED930F2C4EdF16250237fa.png",
+        "https://pancakeswap.finance/images/tokens/0x242E46490397ACCa94ED930F2C4EdF16250237fa.png",
       address: "0x242E46490397ACCa94ED930F2C4EdF16250237fa",
       decimals: "18",
     },
@@ -34475,7 +34475,7 @@ export let chainTokenDictionary = {
       name: "Yellow Road",
       symbol: "ROAD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1A3057027032a1AF433f6f596CAB15271e4D8196.png",
+        "https://pancakeswap.finance/images/tokens/0x1A3057027032a1AF433f6f596CAB15271e4D8196.png",
       address: "0x1A3057027032a1AF433f6f596CAB15271e4D8196",
       decimals: "18",
     },
@@ -34483,7 +34483,7 @@ export let chainTokenDictionary = {
       name: "PEAKDEFI",
       symbol: "PEAK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78.png",
+        "https://pancakeswap.finance/images/tokens/0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78.png",
       address: "0x630d98424eFe0Ea27fB1b3Ab7741907DFFEaAd78",
       decimals: "8",
     },
@@ -34491,7 +34491,7 @@ export let chainTokenDictionary = {
       name: "Crypto BRL",
       symbol: "CBRL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9E691FD624410D631c082202b050694233031cB7.png",
+        "https://pancakeswap.finance/images/tokens/0x9E691FD624410D631c082202b050694233031cB7.png",
       address: "0x9E691FD624410D631c082202b050694233031cB7",
       decimals: "6",
     },
@@ -34499,7 +34499,7 @@ export let chainTokenDictionary = {
       name: "Dino Token",
       symbol: "DINO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf317932ee2C30fa5d0E14416775977801734812D.png",
+        "https://pancakeswap.finance/images/tokens/0xf317932ee2C30fa5d0E14416775977801734812D.png",
       address: "0xf317932ee2C30fa5d0E14416775977801734812D",
       decimals: "18",
     },
@@ -34507,7 +34507,7 @@ export let chainTokenDictionary = {
       name: "Wheat Token",
       symbol: "WHEAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3ab63309F85df5D4c3351ff8EACb87980E05Da4E.png",
+        "https://pancakeswap.finance/images/tokens/0x3ab63309F85df5D4c3351ff8EACb87980E05Da4E.png",
       address: "0x3ab63309F85df5D4c3351ff8EACb87980E05Da4E",
       decimals: "18",
     },
@@ -34515,7 +34515,7 @@ export let chainTokenDictionary = {
       name: "Mist",
       symbol: "MIST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x68E374F856bF25468D365E539b700b648Bf94B67.png",
+        "https://pancakeswap.finance/images/tokens/0x68E374F856bF25468D365E539b700b648Bf94B67.png",
       address: "0x68E374F856bF25468D365E539b700b648Bf94B67",
       decimals: "18",
     },
@@ -34523,7 +34523,7 @@ export let chainTokenDictionary = {
       name: "Super Launcher",
       symbol: "LAUNCH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb5389A679151C4b8621b1098C6E0961A3CFEe8d4.png",
+        "https://pancakeswap.finance/images/tokens/0xb5389A679151C4b8621b1098C6E0961A3CFEe8d4.png",
       address: "0xb5389A679151C4b8621b1098C6E0961A3CFEe8d4",
       decimals: "18",
     },
@@ -34531,7 +34531,7 @@ export let chainTokenDictionary = {
       name: "finance.vote Token",
       symbol: "FVT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0A232cb2005Bda62D3DE7Ab5DEb3ffe4c456165a.png",
+        "https://pancakeswap.finance/images/tokens/0x0A232cb2005Bda62D3DE7Ab5DEb3ffe4c456165a.png",
       address: "0x0A232cb2005Bda62D3DE7Ab5DEb3ffe4c456165a",
       decimals: "18",
     },
@@ -34539,7 +34539,7 @@ export let chainTokenDictionary = {
       name: "Typhoon",
       symbol: "TYPH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4090e535F2e251F5F88518998B18b54d26B3b07c.png",
+        "https://pancakeswap.finance/images/tokens/0x4090e535F2e251F5F88518998B18b54d26B3b07c.png",
       address: "0x4090e535F2e251F5F88518998B18b54d26B3b07c",
       decimals: "18",
     },
@@ -34547,7 +34547,7 @@ export let chainTokenDictionary = {
       name: "HYVE",
       symbol: "HYVE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF6565A97Dc832d93DC83B75EE9aa5c7e8ecB0F9d.png",
+        "https://pancakeswap.finance/images/tokens/0xF6565A97Dc832d93DC83B75EE9aa5c7e8ecB0F9d.png",
       address: "0xF6565A97Dc832d93DC83B75EE9aa5c7e8ecB0F9d",
       decimals: "18",
     },
@@ -34555,7 +34555,7 @@ export let chainTokenDictionary = {
       name: "KAVA",
       symbol: "KAVA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5F88AB06e8dfe89DF127B2430Bba4Af600866035.png",
+        "https://pancakeswap.finance/images/tokens/0x5F88AB06e8dfe89DF127B2430Bba4Af600866035.png",
       address: "0x5F88AB06e8dfe89DF127B2430Bba4Af600866035",
       decimals: "6",
     },
@@ -34563,7 +34563,7 @@ export let chainTokenDictionary = {
       name: "Vault",
       symbol: "VLT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x82DA15e36F23A4b603Bc8A57c27813F2fAEb04B2.png",
+        "https://pancakeswap.finance/images/tokens/0x82DA15e36F23A4b603Bc8A57c27813F2fAEb04B2.png",
       address: "0x82DA15e36F23A4b603Bc8A57c27813F2fAEb04B2",
       decimals: "18",
     },
@@ -34571,7 +34571,7 @@ export let chainTokenDictionary = {
       name: "QUAMNETWORK.COM",
       symbol: "QUAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1AdE17B4B38B472B5259BbC938618226dF7b5Ca8.png",
+        "https://pancakeswap.finance/images/tokens/0x1AdE17B4B38B472B5259BbC938618226dF7b5Ca8.png",
       address: "0x1AdE17B4B38B472B5259BbC938618226dF7b5Ca8",
       decimals: "18",
     },
@@ -34579,7 +34579,7 @@ export let chainTokenDictionary = {
       name: "Revomon",
       symbol: "REVO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409.png",
+        "https://pancakeswap.finance/images/tokens/0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409.png",
       address: "0x155040625D7ae3e9caDA9a73E3E44f76D3Ed1409",
       decimals: "18",
     },
@@ -34587,7 +34587,7 @@ export let chainTokenDictionary = {
       name: "SafeTesla",
       symbol: "SAFETESLA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA1efCe38CB265Af369e891bC3026d0285545D4E5.png",
+        "https://pancakeswap.finance/images/tokens/0xA1efCe38CB265Af369e891bC3026d0285545D4E5.png",
       address: "0xA1efCe38CB265Af369e891bC3026d0285545D4E5",
       decimals: "9",
     },
@@ -34595,7 +34595,7 @@ export let chainTokenDictionary = {
       name: "AP3.TOWN",
       symbol: "AP3",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe459c0b11c62e3fD83da52537BD6191B56aB1b5A.png",
+        "https://pancakeswap.finance/images/tokens/0xe459c0b11c62e3fD83da52537BD6191B56aB1b5A.png",
       address: "0xe459c0b11c62e3fD83da52537BD6191B56aB1b5A",
       decimals: "18",
     },
@@ -34603,7 +34603,7 @@ export let chainTokenDictionary = {
       name: "Oraichain Token",
       symbol: "ORAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA325Ad6D9c92B55A3Fc5aD7e412B1518F96441C0.png",
+        "https://pancakeswap.finance/images/tokens/0xA325Ad6D9c92B55A3Fc5aD7e412B1518F96441C0.png",
       address: "0xA325Ad6D9c92B55A3Fc5aD7e412B1518F96441C0",
       decimals: "18",
     },
@@ -34611,7 +34611,7 @@ export let chainTokenDictionary = {
       name: "Hope",
       symbol: "HOPE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6F2aFbF4f5e5e804C5b954889d7Bf3768A3C9a45.png",
+        "https://pancakeswap.finance/images/tokens/0x6F2aFbF4f5e5e804C5b954889d7Bf3768A3C9a45.png",
       address: "0x6F2aFbF4f5e5e804C5b954889d7Bf3768A3C9a45",
       decimals: "18",
     },
@@ -34619,7 +34619,7 @@ export let chainTokenDictionary = {
       name: "OrcaX",
       symbol: "OX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x139dd9203c8E46d15B3896814Dc9424c5e5559fA.png",
+        "https://pancakeswap.finance/images/tokens/0x139dd9203c8E46d15B3896814Dc9424c5e5559fA.png",
       address: "0x139dd9203c8E46d15B3896814Dc9424c5e5559fA",
       decimals: "9",
     },
@@ -34627,7 +34627,7 @@ export let chainTokenDictionary = {
       name: "Wealth",
       symbol: "WLT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb7b262b0Ac4939D8936685E20189D809BDB5daC6.png",
+        "https://pancakeswap.finance/images/tokens/0xb7b262b0Ac4939D8936685E20189D809BDB5daC6.png",
       address: "0xb7b262b0Ac4939D8936685E20189D809BDB5daC6",
       decimals: "9",
     },
@@ -34635,7 +34635,7 @@ export let chainTokenDictionary = {
       name: "RCUBE",
       symbol: "RCUBE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa6e53f07bD410df069e20Ced725bdC9135146Fe9.png",
+        "https://pancakeswap.finance/images/tokens/0xa6e53f07bD410df069e20Ced725bdC9135146Fe9.png",
       address: "0xa6e53f07bD410df069e20Ced725bdC9135146Fe9",
       decimals: "8",
     },
@@ -34643,7 +34643,7 @@ export let chainTokenDictionary = {
       name: "Moon Bud",
       symbol: "MBUD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbE8183612F145986A41ad8e8fCFefED1C2F9dEbA.png",
+        "https://pancakeswap.finance/images/tokens/0xbE8183612F145986A41ad8e8fCFefED1C2F9dEbA.png",
       address: "0xbE8183612F145986A41ad8e8fCFefED1C2F9dEbA",
       decimals: "9",
     },
@@ -34651,7 +34651,7 @@ export let chainTokenDictionary = {
       name: "Aquagoat",
       symbol: "AQUAGOAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x07af67b392B7A202fAD8E0FBc64C34F33102165B.png",
+        "https://pancakeswap.finance/images/tokens/0x07af67b392B7A202fAD8E0FBc64C34F33102165B.png",
       address: "0x07af67b392B7A202fAD8E0FBc64C34F33102165B",
       decimals: "9",
     },
@@ -34659,7 +34659,7 @@ export let chainTokenDictionary = {
       name: "Goatcoin",
       symbol: "GOAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7c67DCCb04b67d4666fd97B2a00bb6D9B8D82E3F.png",
+        "https://pancakeswap.finance/images/tokens/0x7c67DCCb04b67d4666fd97B2a00bb6D9B8D82E3F.png",
       address: "0x7c67DCCb04b67d4666fd97B2a00bb6D9B8D82E3F",
       decimals: "18",
     },
@@ -34667,7 +34667,7 @@ export let chainTokenDictionary = {
       name: "The Lab Finance",
       symbol: "LABO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x171401a3d18B21BFa3f9bF4F9637F3691158365A.png",
+        "https://pancakeswap.finance/images/tokens/0x171401a3d18B21BFa3f9bF4F9637F3691158365A.png",
       address: "0x171401a3d18B21BFa3f9bF4F9637F3691158365A",
       decimals: "18",
     },
@@ -34675,7 +34675,7 @@ export let chainTokenDictionary = {
       name: "TosDis",
       symbol: "DIS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x57efFdE2759b68d86C544e88F7977e3314144859.png",
+        "https://pancakeswap.finance/images/tokens/0x57efFdE2759b68d86C544e88F7977e3314144859.png",
       address: "0x57efFdE2759b68d86C544e88F7977e3314144859",
       decimals: "18",
     },
@@ -34683,7 +34683,7 @@ export let chainTokenDictionary = {
       name: "Trade Butler Bot",
       symbol: "bTBB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB1aC5dAC9099fDA18390901371Ce03c5eC637C89.png",
+        "https://pancakeswap.finance/images/tokens/0xB1aC5dAC9099fDA18390901371Ce03c5eC637C89.png",
       address: "0xB1aC5dAC9099fDA18390901371Ce03c5eC637C89",
       decimals: "18",
     },
@@ -34691,7 +34691,7 @@ export let chainTokenDictionary = {
       name: "Scooby",
       symbol: "SBD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf0AB4b8Daa51F6Abf6b4C9FEf0ccA5d127029AA9.png",
+        "https://pancakeswap.finance/images/tokens/0xf0AB4b8Daa51F6Abf6b4C9FEf0ccA5d127029AA9.png",
       address: "0xf0AB4b8Daa51F6Abf6b4C9FEf0ccA5d127029AA9",
       decimals: "18",
     },
@@ -34699,7 +34699,7 @@ export let chainTokenDictionary = {
       name: "eSwapping",
       symbol: "ESWAP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1b79708EeA29900DbbbcA8A5Ae620aC741618ae4.png",
+        "https://pancakeswap.finance/images/tokens/0x1b79708EeA29900DbbbcA8A5Ae620aC741618ae4.png",
       address: "0x1b79708EeA29900DbbbcA8A5Ae620aC741618ae4",
       decimals: "8",
     },
@@ -34707,7 +34707,7 @@ export let chainTokenDictionary = {
       name: "BSC Wrapped Wagerr",
       symbol: "WGR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdBf8265B1d5244A13424f13977723AcF5395eAB2.png",
+        "https://pancakeswap.finance/images/tokens/0xdBf8265B1d5244A13424f13977723AcF5395eAB2.png",
       address: "0xdBf8265B1d5244A13424f13977723AcF5395eAB2",
       decimals: "18",
     },
@@ -34715,7 +34715,7 @@ export let chainTokenDictionary = {
       name: "Rai.Finance",
       symbol: "Rai",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0e128Fb9f266F0CFedEb3B789f6fd4AF50d51b84.png",
+        "https://pancakeswap.finance/images/tokens/0x0e128Fb9f266F0CFedEb3B789f6fd4AF50d51b84.png",
       address: "0x0e128Fb9f266F0CFedEb3B789f6fd4AF50d51b84",
       decimals: "18",
     },
@@ -34723,7 +34723,7 @@ export let chainTokenDictionary = {
       name: "MoonMoon",
       symbol: "MOONMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0e0e877894a101Ad8711AE3A0194Fa44Ca837a79.png",
+        "https://pancakeswap.finance/images/tokens/0x0e0e877894a101Ad8711AE3A0194Fa44Ca837a79.png",
       address: "0x0e0e877894a101Ad8711AE3A0194Fa44Ca837a79",
       decimals: "9",
     },
@@ -34731,7 +34731,7 @@ export let chainTokenDictionary = {
       name: "ZD",
       symbol: "ZD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1c213179C2c08906fB759878860652a61727Ed14.png",
+        "https://pancakeswap.finance/images/tokens/0x1c213179C2c08906fB759878860652a61727Ed14.png",
       address: "0x1c213179C2c08906fB759878860652a61727Ed14",
       decimals: "18",
     },
@@ -34739,7 +34739,7 @@ export let chainTokenDictionary = {
       name: "SparkPoint",
       symbol: "bSRK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x14b1166aB53A237c8cEaeE2BBc4BbCa200cb7da8.png",
+        "https://pancakeswap.finance/images/tokens/0x14b1166aB53A237c8cEaeE2BBc4BbCa200cb7da8.png",
       address: "0x14b1166aB53A237c8cEaeE2BBc4BbCa200cb7da8",
       decimals: "18",
     },
@@ -34747,7 +34747,7 @@ export let chainTokenDictionary = {
       name: "Husky Token",
       symbol: "HUSKY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe5DC23D22Cfc60e3de2a131FD5bf2A0b393fAeE6.png",
+        "https://pancakeswap.finance/images/tokens/0xe5DC23D22Cfc60e3de2a131FD5bf2A0b393fAeE6.png",
       address: "0xe5DC23D22Cfc60e3de2a131FD5bf2A0b393fAeE6",
       decimals: "18",
     },
@@ -34755,7 +34755,7 @@ export let chainTokenDictionary = {
       name: "WOWswap",
       symbol: "WOW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4DA996C5Fe84755C80e108cf96Fe705174c5e36A.png",
+        "https://pancakeswap.finance/images/tokens/0x4DA996C5Fe84755C80e108cf96Fe705174c5e36A.png",
       address: "0x4DA996C5Fe84755C80e108cf96Fe705174c5e36A",
       decimals: "18",
     },
@@ -34763,7 +34763,7 @@ export let chainTokenDictionary = {
       name: "JBPTOKEN",
       symbol: "JBP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1ba292a599F9C4F5618616c14bA38daec29e7E08.png",
+        "https://pancakeswap.finance/images/tokens/0x1ba292a599F9C4F5618616c14bA38daec29e7E08.png",
       address: "0x1ba292a599F9C4F5618616c14bA38daec29e7E08",
       decimals: "9",
     },
@@ -34771,7 +34771,7 @@ export let chainTokenDictionary = {
       name: "GoSwapp",
       symbol: "GOFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea.png",
+        "https://pancakeswap.finance/images/tokens/0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea.png",
       address: "0x6B8227A0E18bd35A10849601dB194B24aAB2C8ea",
       decimals: "18",
     },
@@ -34779,7 +34779,7 @@ export let chainTokenDictionary = {
       name: "KLend",
       symbol: "KLT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf95995d642c652e9a7D124d546A7bDF297c6d0fB.png",
+        "https://pancakeswap.finance/images/tokens/0xf95995d642c652e9a7D124d546A7bDF297c6d0fB.png",
       address: "0xf95995d642c652e9a7D124d546A7bDF297c6d0fB",
       decimals: "18",
     },
@@ -34787,7 +34787,7 @@ export let chainTokenDictionary = {
       name: "SPUNGE",
       symbol: "SPUNGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78dF9f9731139905c7AA4c0eac3e7B7847608154.png",
+        "https://pancakeswap.finance/images/tokens/0x78dF9f9731139905c7AA4c0eac3e7B7847608154.png",
       address: "0x78dF9f9731139905c7AA4c0eac3e7B7847608154",
       decimals: "9",
     },
@@ -34795,7 +34795,7 @@ export let chainTokenDictionary = {
       name: "Blank Token",
       symbol: "BLANK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAec7e1f531Bb09115103C53ba76829910Ec48966.png",
+        "https://pancakeswap.finance/images/tokens/0xAec7e1f531Bb09115103C53ba76829910Ec48966.png",
       address: "0xAec7e1f531Bb09115103C53ba76829910Ec48966",
       decimals: "18",
     },
@@ -34803,7 +34803,7 @@ export let chainTokenDictionary = {
       name: "NFTL Token",
       symbol: "NFTL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE5904E9816b309d3eD4d061c922f5aa8f3B24C92.png",
+        "https://pancakeswap.finance/images/tokens/0xE5904E9816b309d3eD4d061c922f5aa8f3B24C92.png",
       address: "0xE5904E9816b309d3eD4d061c922f5aa8f3B24C92",
       decimals: "18",
     },
@@ -34811,7 +34811,7 @@ export let chainTokenDictionary = {
       name: "MelloToken",
       symbol: "Mello",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x651BfbB26455294408Aabc61a7ADF427bf149898.png",
+        "https://pancakeswap.finance/images/tokens/0x651BfbB26455294408Aabc61a7ADF427bf149898.png",
       address: "0x651BfbB26455294408Aabc61a7ADF427bf149898",
       decimals: "9",
     },
@@ -34819,7 +34819,7 @@ export let chainTokenDictionary = {
       name: "Wrapped MASS",
       symbol: "WMASS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7e396BfC8a2f84748701167c2d622F041A1D7a17.png",
+        "https://pancakeswap.finance/images/tokens/0x7e396BfC8a2f84748701167c2d622F041A1D7a17.png",
       address: "0x7e396BfC8a2f84748701167c2d622F041A1D7a17",
       decimals: "8",
     },
@@ -34827,7 +34827,7 @@ export let chainTokenDictionary = {
       name: "100xCoin",
       symbol: "100x",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4cC20A024324B6c487f50Ba448999Ae29f8F6022.png",
+        "https://pancakeswap.finance/images/tokens/0x4cC20A024324B6c487f50Ba448999Ae29f8F6022.png",
       address: "0x4cC20A024324B6c487f50Ba448999Ae29f8F6022",
       decimals: "18",
     },
@@ -34835,7 +34835,7 @@ export let chainTokenDictionary = {
       name: "SakeToken",
       symbol: "SAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8BD778B12b15416359A227F0533Ce2D91844e1eD.png",
+        "https://pancakeswap.finance/images/tokens/0x8BD778B12b15416359A227F0533Ce2D91844e1eD.png",
       address: "0x8BD778B12b15416359A227F0533Ce2D91844e1eD",
       decimals: "18",
     },
@@ -34843,7 +34843,7 @@ export let chainTokenDictionary = {
       name: "SUPERDOGE",
       symbol: "$SUPDOG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x622A1297057ea233287ce77bdBF2AB4E63609F23.png",
+        "https://pancakeswap.finance/images/tokens/0x622A1297057ea233287ce77bdBF2AB4E63609F23.png",
       address: "0x622A1297057ea233287ce77bdBF2AB4E63609F23",
       decimals: "9",
     },
@@ -34851,7 +34851,7 @@ export let chainTokenDictionary = {
       name: "ThunderBolt",
       symbol: "BOLT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x01eC3200a0895F2C92a9E38a104362442D77658b.png",
+        "https://pancakeswap.finance/images/tokens/0x01eC3200a0895F2C92a9E38a104362442D77658b.png",
       address: "0x01eC3200a0895F2C92a9E38a104362442D77658b",
       decimals: "8",
     },
@@ -34859,7 +34859,7 @@ export let chainTokenDictionary = {
       name: "DEGENR",
       symbol: "DEGENR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4d6d0335E3B715341eB4F10b5751771cbCb7cEa3.png",
+        "https://pancakeswap.finance/images/tokens/0x4d6d0335E3B715341eB4F10b5751771cbCb7cEa3.png",
       address: "0x4d6d0335E3B715341eB4F10b5751771cbCb7cEa3",
       decimals: "18",
     },
@@ -34867,7 +34867,7 @@ export let chainTokenDictionary = {
       name: "Octree Finance",
       symbol: "OAK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4e0f2fd3cAda61d891C653a7fbbF2DF7e2214757.png",
+        "https://pancakeswap.finance/images/tokens/0x4e0f2fd3cAda61d891C653a7fbbF2DF7e2214757.png",
       address: "0x4e0f2fd3cAda61d891C653a7fbbF2DF7e2214757",
       decimals: "18",
     },
@@ -34875,7 +34875,7 @@ export let chainTokenDictionary = {
       name: "MooCow",
       symbol: "MOO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x88C926CA9234Ee194dc47be6e91d35e8CCbEed51.png",
+        "https://pancakeswap.finance/images/tokens/0x88C926CA9234Ee194dc47be6e91d35e8CCbEed51.png",
       address: "0x88C926CA9234Ee194dc47be6e91d35e8CCbEed51",
       decimals: "9",
     },
@@ -34883,7 +34883,7 @@ export let chainTokenDictionary = {
       name: "YoloDraw",
       symbol: "YoloDraw",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF19A0a7bDAbD710fa2C33dF432760c9BEC195011.png",
+        "https://pancakeswap.finance/images/tokens/0xF19A0a7bDAbD710fa2C33dF432760c9BEC195011.png",
       address: "0xF19A0a7bDAbD710fa2C33dF432760c9BEC195011",
       decimals: "18",
     },
@@ -34891,7 +34891,7 @@ export let chainTokenDictionary = {
       name: "8PAY Network",
       symbol: "8PAY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFeea0bDd3D07eb6FE305938878C0caDBFa169042.png",
+        "https://pancakeswap.finance/images/tokens/0xFeea0bDd3D07eb6FE305938878C0caDBFa169042.png",
       address: "0xFeea0bDd3D07eb6FE305938878C0caDBFa169042",
       decimals: "18",
     },
@@ -34899,7 +34899,7 @@ export let chainTokenDictionary = {
       name: "OIL Token",
       symbol: "OIL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb1b17DFf66d75b29d34f0Bf8622c406D8219B507.png",
+        "https://pancakeswap.finance/images/tokens/0xb1b17DFf66d75b29d34f0Bf8622c406D8219B507.png",
       address: "0xb1b17DFf66d75b29d34f0Bf8622c406D8219B507",
       decimals: "18",
     },
@@ -34907,7 +34907,7 @@ export let chainTokenDictionary = {
       name: "bnbVault.finance",
       symbol: "BORE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x62D7aA57125169101626a993fa46685313A774Ce.png",
+        "https://pancakeswap.finance/images/tokens/0x62D7aA57125169101626a993fa46685313A774Ce.png",
       address: "0x62D7aA57125169101626a993fa46685313A774Ce",
       decimals: "18",
     },
@@ -34915,7 +34915,7 @@ export let chainTokenDictionary = {
       name: "PoFi",
       symbol: "PoFi",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x461f6C9aE13a7daC7055C73fBF8daB529D667041.png",
+        "https://pancakeswap.finance/images/tokens/0x461f6C9aE13a7daC7055C73fBF8daB529D667041.png",
       address: "0x461f6C9aE13a7daC7055C73fBF8daB529D667041",
       decimals: "18",
     },
@@ -34923,7 +34923,7 @@ export let chainTokenDictionary = {
       name: "Zenfuse Trading Platform Token (BSC)",
       symbol: "ZEFU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x23EC58e45ac5313BCB6681F4f7827B8a8453AC45.png",
+        "https://pancakeswap.finance/images/tokens/0x23EC58e45ac5313BCB6681F4f7827B8a8453AC45.png",
       address: "0x23EC58e45ac5313BCB6681F4f7827B8a8453AC45",
       decimals: "18",
     },
@@ -34931,7 +34931,7 @@ export let chainTokenDictionary = {
       name: "Bitrue Token",
       symbol: "BTR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5a16E8cE8cA316407c6E6307095dc9540a8D62B3.png",
+        "https://pancakeswap.finance/images/tokens/0x5a16E8cE8cA316407c6E6307095dc9540a8D62B3.png",
       address: "0x5a16E8cE8cA316407c6E6307095dc9540a8D62B3",
       decimals: "18",
     },
@@ -34939,7 +34939,7 @@ export let chainTokenDictionary = {
       name: "aleph.im v2",
       symbol: "ALEPH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x82D2f8E02Afb160Dd5A480a617692e62de9038C4.png",
+        "https://pancakeswap.finance/images/tokens/0x82D2f8E02Afb160Dd5A480a617692e62de9038C4.png",
       address: "0x82D2f8E02Afb160Dd5A480a617692e62de9038C4",
       decimals: "18",
     },
@@ -34947,7 +34947,7 @@ export let chainTokenDictionary = {
       name: "VAULT Token",
       symbol: "VAULT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x66ca60D2D25398e7E08F87277E6E50ee41a3e11f.png",
+        "https://pancakeswap.finance/images/tokens/0x66ca60D2D25398e7E08F87277E6E50ee41a3e11f.png",
       address: "0x66ca60D2D25398e7E08F87277E6E50ee41a3e11f",
       decimals: "9",
     },
@@ -34955,7 +34955,7 @@ export let chainTokenDictionary = {
       name: "Great Navigation Coin",
       symbol: "GNC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF5Da5cbF695692aD4bcec7ec5b04E54EFcc2D170.png",
+        "https://pancakeswap.finance/images/tokens/0xF5Da5cbF695692aD4bcec7ec5b04E54EFcc2D170.png",
       address: "0xF5Da5cbF695692aD4bcec7ec5b04E54EFcc2D170",
       decimals: "18",
     },
@@ -34963,7 +34963,7 @@ export let chainTokenDictionary = {
       name: "What Do You Meme Token",
       symbol: "WDYMEME",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7643F0C207172497810ba6b76C5f3924d4ee7569.png",
+        "https://pancakeswap.finance/images/tokens/0x7643F0C207172497810ba6b76C5f3924d4ee7569.png",
       address: "0x7643F0C207172497810ba6b76C5f3924d4ee7569",
       decimals: "18",
     },
@@ -34971,7 +34971,7 @@ export let chainTokenDictionary = {
       name: "WindSwap",
       symbol: "WINDY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD1587Ee50e0333f0C4aDcF261379A61B1486c5d2.png",
+        "https://pancakeswap.finance/images/tokens/0xD1587Ee50e0333f0C4aDcF261379A61B1486c5d2.png",
       address: "0xD1587Ee50e0333f0C4aDcF261379A61B1486c5d2",
       decimals: "8",
     },
@@ -34979,7 +34979,7 @@ export let chainTokenDictionary = {
       name: "Rotomoon",
       symbol: "ROTO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa9B21900115843D655c4A8A5cb7aDF49e8F4113a.png",
+        "https://pancakeswap.finance/images/tokens/0xa9B21900115843D655c4A8A5cb7aDF49e8F4113a.png",
       address: "0xa9B21900115843D655c4A8A5cb7aDF49e8F4113a",
       decimals: "9",
     },
@@ -34987,7 +34987,7 @@ export let chainTokenDictionary = {
       name: "NFTArt.Finance",
       symbol: "NFTART",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF7844CB890F4C339c497aeAb599aBDc3c874B67A.png",
+        "https://pancakeswap.finance/images/tokens/0xF7844CB890F4C339c497aeAb599aBDc3c874B67A.png",
       address: "0xF7844CB890F4C339c497aeAb599aBDc3c874B67A",
       decimals: "9",
     },
@@ -34995,7 +34995,7 @@ export let chainTokenDictionary = {
       name: "MoMo KEY",
       symbol: "KEY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x85c128eE1feEb39A59490c720A9C563554B51D33.png",
+        "https://pancakeswap.finance/images/tokens/0x85c128eE1feEb39A59490c720A9C563554B51D33.png",
       address: "0x85c128eE1feEb39A59490c720A9C563554B51D33",
       decimals: "18",
     },
@@ -35003,7 +35003,7 @@ export let chainTokenDictionary = {
       name: "Milk",
       symbol: "MILK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb7CEF49d89321e22dd3F51a212d58398Ad542640.png",
+        "https://pancakeswap.finance/images/tokens/0xb7CEF49d89321e22dd3F51a212d58398Ad542640.png",
       address: "0xb7CEF49d89321e22dd3F51a212d58398Ad542640",
       decimals: "9",
     },
@@ -35011,7 +35011,7 @@ export let chainTokenDictionary = {
       name: "DeFi For You.",
       symbol: "DFY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD98560689C6e748DC37bc410B4d3096B1aA3D8C2.png",
+        "https://pancakeswap.finance/images/tokens/0xD98560689C6e748DC37bc410B4d3096B1aA3D8C2.png",
       address: "0xD98560689C6e748DC37bc410B4d3096B1aA3D8C2",
       decimals: "18",
     },
@@ -35019,7 +35019,7 @@ export let chainTokenDictionary = {
       name: "Twinci",
       symbol: "TWIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAF83F292fcED83032f52ced45ef7DBDdb586441a.png",
+        "https://pancakeswap.finance/images/tokens/0xAF83F292fcED83032f52ced45ef7DBDdb586441a.png",
       address: "0xAF83F292fcED83032f52ced45ef7DBDdb586441a",
       decimals: "18",
     },
@@ -35027,7 +35027,7 @@ export let chainTokenDictionary = {
       name: "WallStreetBets Token",
       symbol: "WSBT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8244609023097AeF71C702cCbaEFC0bde5b48694.png",
+        "https://pancakeswap.finance/images/tokens/0x8244609023097AeF71C702cCbaEFC0bde5b48694.png",
       address: "0x8244609023097AeF71C702cCbaEFC0bde5b48694",
       decimals: "18",
     },
@@ -35035,7 +35035,7 @@ export let chainTokenDictionary = {
       name: "GoldFarm",
       symbol: "$GOLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd0f653aD03ca32A792AbFA6d6711cdf1311e5d9D.png",
+        "https://pancakeswap.finance/images/tokens/0xd0f653aD03ca32A792AbFA6d6711cdf1311e5d9D.png",
       address: "0xd0f653aD03ca32A792AbFA6d6711cdf1311e5d9D",
       decimals: "18",
     },
@@ -35043,7 +35043,7 @@ export let chainTokenDictionary = {
       name: "growth Root Token",
       symbol: "gROOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8B571fE684133aCA1E926bEB86cb545E549C832D.png",
+        "https://pancakeswap.finance/images/tokens/0x8B571fE684133aCA1E926bEB86cb545E549C832D.png",
       address: "0x8B571fE684133aCA1E926bEB86cb545E549C832D",
       decimals: "18",
     },
@@ -35051,7 +35051,7 @@ export let chainTokenDictionary = {
       name: "Safe Community Token",
       symbol: "SAFECOM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4f5AfC97E501907201F94ef7De9F36C4633dcc75.png",
+        "https://pancakeswap.finance/images/tokens/0x4f5AfC97E501907201F94ef7De9F36C4633dcc75.png",
       address: "0x4f5AfC97E501907201F94ef7De9F36C4633dcc75",
       decimals: "18",
     },
@@ -35059,7 +35059,7 @@ export let chainTokenDictionary = {
       name: "Crow Token",
       symbol: "CROW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcc2E12a9b5b75360c6FBf23B584c275D52cDdb0E.png",
+        "https://pancakeswap.finance/images/tokens/0xcc2E12a9b5b75360c6FBf23B584c275D52cDdb0E.png",
       address: "0xcc2E12a9b5b75360c6FBf23B584c275D52cDdb0E",
       decimals: "18",
     },
@@ -35067,7 +35067,7 @@ export let chainTokenDictionary = {
       name: "Tardigrades.Finance",
       symbol: "TRDG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x92a42Db88Ed0F02c71D439e55962Ca7CAB0168b5.png",
+        "https://pancakeswap.finance/images/tokens/0x92a42Db88Ed0F02c71D439e55962Ca7CAB0168b5.png",
       address: "0x92a42Db88Ed0F02c71D439e55962Ca7CAB0168b5",
       decimals: "9",
     },
@@ -35075,7 +35075,7 @@ export let chainTokenDictionary = {
       name: "bDollar-peg DOT",
       symbol: "bpDOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x557b3aB377bbD68DFC6dADEFafA3CC4e4B6677c6.png",
+        "https://pancakeswap.finance/images/tokens/0x557b3aB377bbD68DFC6dADEFafA3CC4e4B6677c6.png",
       address: "0x557b3aB377bbD68DFC6dADEFafA3CC4e4B6677c6",
       decimals: "18",
     },
@@ -35083,7 +35083,7 @@ export let chainTokenDictionary = {
       name: "HOGL Finance",
       symbol: "HOGL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x182c763a4b2Fbd18C9B5f2D18102a0dDd9D5DF26.png",
+        "https://pancakeswap.finance/images/tokens/0x182c763a4b2Fbd18C9B5f2D18102a0dDd9D5DF26.png",
       address: "0x182c763a4b2Fbd18C9B5f2D18102a0dDd9D5DF26",
       decimals: "18",
     },
@@ -35091,7 +35091,7 @@ export let chainTokenDictionary = {
       name: "Stronk Alpaca",
       symbol: "sALPACA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6F695Bd5FFD25149176629f8491A5099426Ce7a7.png",
+        "https://pancakeswap.finance/images/tokens/0x6F695Bd5FFD25149176629f8491A5099426Ce7a7.png",
       address: "0x6F695Bd5FFD25149176629f8491A5099426Ce7a7",
       decimals: "18",
     },
@@ -35099,7 +35099,7 @@ export let chainTokenDictionary = {
       name: "CenterPrime",
       symbol: "CPX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB7B1bd104645D5A06120d369c63822b2AeAd1598.png",
+        "https://pancakeswap.finance/images/tokens/0xB7B1bd104645D5A06120d369c63822b2AeAd1598.png",
       address: "0xB7B1bd104645D5A06120d369c63822b2AeAd1598",
       decimals: "18",
     },
@@ -35107,7 +35107,7 @@ export let chainTokenDictionary = {
       name: "Raze Network",
       symbol: "RAZE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A.png",
+        "https://pancakeswap.finance/images/tokens/0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A.png",
       address: "0x65e66a61D0a8F1e686C2D6083ad611a10D84D97A",
       decimals: "18",
     },
@@ -35115,7 +35115,7 @@ export let chainTokenDictionary = {
       name: "CUE Protocol",
       symbol: "CUE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9b9D617D3445f0147Ece2322BaCe8db2768D2770.png",
+        "https://pancakeswap.finance/images/tokens/0x9b9D617D3445f0147Ece2322BaCe8db2768D2770.png",
       address: "0x9b9D617D3445f0147Ece2322BaCe8db2768D2770",
       decimals: "18",
     },
@@ -35123,7 +35123,7 @@ export let chainTokenDictionary = {
       name: "Chord Protocol",
       symbol: "CHORD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb2f7797389ad34Ebd3a30ac6402861844fAC7F5e.png",
+        "https://pancakeswap.finance/images/tokens/0xb2f7797389ad34Ebd3a30ac6402861844fAC7F5e.png",
       address: "0xb2f7797389ad34Ebd3a30ac6402861844fAC7F5e",
       decimals: "18",
     },
@@ -35131,7 +35131,7 @@ export let chainTokenDictionary = {
       name: "Blaze IT",
       symbol: "BLAZE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1d67f676640c3058d799A1a95e08739FEf127E64.png",
+        "https://pancakeswap.finance/images/tokens/0x1d67f676640c3058d799A1a95e08739FEf127E64.png",
       address: "0x1d67f676640c3058d799A1a95e08739FEf127E64",
       decimals: "9",
     },
@@ -35139,7 +35139,7 @@ export let chainTokenDictionary = {
       name: "Mindpong",
       symbol: "MPONG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7516CeB679E7f3e27A67039141dA150Ea763fCC8.png",
+        "https://pancakeswap.finance/images/tokens/0x7516CeB679E7f3e27A67039141dA150Ea763fCC8.png",
       address: "0x7516CeB679E7f3e27A67039141dA150Ea763fCC8",
       decimals: "9",
     },
@@ -35147,7 +35147,7 @@ export let chainTokenDictionary = {
       name: "SafeX Token",
       symbol: "SafeX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf42603d4Bfd72e3cF0016194dB9a0A7357B5d657.png",
+        "https://pancakeswap.finance/images/tokens/0xf42603d4Bfd72e3cF0016194dB9a0A7357B5d657.png",
       address: "0xf42603d4Bfd72e3cF0016194dB9a0A7357B5d657",
       decimals: "9",
     },
@@ -35155,7 +35155,7 @@ export let chainTokenDictionary = {
       name: "CHOWCHOW.finance",
       symbol: "CHOW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x925f2C11b99c1A4c46606898ee91eD3D450cFedA.png",
+        "https://pancakeswap.finance/images/tokens/0x925f2C11b99c1A4c46606898ee91eD3D450cFedA.png",
       address: "0x925f2C11b99c1A4c46606898ee91eD3D450cFedA",
       decimals: "9",
     },
@@ -35163,7 +35163,7 @@ export let chainTokenDictionary = {
       name: "Growth-Peg Token",
       symbol: "GRO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x336eD56D8615271b38EcEE6F4786B55d0EE91b96.png",
+        "https://pancakeswap.finance/images/tokens/0x336eD56D8615271b38EcEE6F4786B55d0EE91b96.png",
       address: "0x336eD56D8615271b38EcEE6F4786B55d0EE91b96",
       decimals: "18",
     },
@@ -35171,7 +35171,7 @@ export let chainTokenDictionary = {
       name: "NEWW Finance",
       symbol: "NEWW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x143364622fc215cACAF155ff9239369643126a55.png",
+        "https://pancakeswap.finance/images/tokens/0x143364622fc215cACAF155ff9239369643126a55.png",
       address: "0x143364622fc215cACAF155ff9239369643126a55",
       decimals: "18",
     },
@@ -35179,7 +35179,7 @@ export let chainTokenDictionary = {
       name: "passive.income",
       symbol: "PSI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9A5d9c681Db43D9863e9279c800A39449B7e1d6f.png",
+        "https://pancakeswap.finance/images/tokens/0x9A5d9c681Db43D9863e9279c800A39449B7e1d6f.png",
       address: "0x9A5d9c681Db43D9863e9279c800A39449B7e1d6f",
       decimals: "9",
     },
@@ -35187,7 +35187,7 @@ export let chainTokenDictionary = {
       name: "STOCH",
       symbol: "STOCH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb57A5BfF7141EC4a95a08c7321CB14fafD7952a8.png",
+        "https://pancakeswap.finance/images/tokens/0xb57A5BfF7141EC4a95a08c7321CB14fafD7952a8.png",
       address: "0xb57A5BfF7141EC4a95a08c7321CB14fafD7952a8",
       decimals: "18",
     },
@@ -35195,7 +35195,7 @@ export let chainTokenDictionary = {
       name: "UNICORN Token",
       symbol: "UNICORN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe3E1FabEaBD48491bD6902B0c32FDEee8D2Ff12b.png",
+        "https://pancakeswap.finance/images/tokens/0xe3E1FabEaBD48491bD6902B0c32FDEee8D2Ff12b.png",
       address: "0xe3E1FabEaBD48491bD6902B0c32FDEee8D2Ff12b",
       decimals: "18",
     },
@@ -35203,7 +35203,7 @@ export let chainTokenDictionary = {
       name: "Neonic",
       symbol: "NEON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x94026f0227cE0c9611e8a228f114F9F19CC3Fa87.png",
+        "https://pancakeswap.finance/images/tokens/0x94026f0227cE0c9611e8a228f114F9F19CC3Fa87.png",
       address: "0x94026f0227cE0c9611e8a228f114F9F19CC3Fa87",
       decimals: "18",
     },
@@ -35211,7 +35211,7 @@ export let chainTokenDictionary = {
       name: "DarkEnergyCrystals",
       symbol: "DEC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE9D7023f2132D55cbd4Ee1f78273CB7a3e74F10A.png",
+        "https://pancakeswap.finance/images/tokens/0xE9D7023f2132D55cbd4Ee1f78273CB7a3e74F10A.png",
       address: "0xE9D7023f2132D55cbd4Ee1f78273CB7a3e74F10A",
       decimals: "3",
     },
@@ -35219,7 +35219,7 @@ export let chainTokenDictionary = {
       name: "HONEY",
       symbol: "HONEY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1BD7dF20aE5e884C61b7017FaC557e82cCA6baEe.png",
+        "https://pancakeswap.finance/images/tokens/0x1BD7dF20aE5e884C61b7017FaC557e82cCA6baEe.png",
       address: "0x1BD7dF20aE5e884C61b7017FaC557e82cCA6baEe",
       decimals: "18",
     },
@@ -35227,7 +35227,7 @@ export let chainTokenDictionary = {
       name: "SnowgeCoin",
       symbol: "SNOWGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5E9280d53F28281Ce098C8F64e49F5f5DC9Ea185.png",
+        "https://pancakeswap.finance/images/tokens/0x5E9280d53F28281Ce098C8F64e49F5f5DC9Ea185.png",
       address: "0x5E9280d53F28281Ce098C8F64e49F5f5DC9Ea185",
       decimals: "9",
     },
@@ -35235,7 +35235,7 @@ export let chainTokenDictionary = {
       name: "GrandToken",
       symbol: "GRAND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd37eBaEb28c0A6C9a62D5c5c0119d464e28B367E.png",
+        "https://pancakeswap.finance/images/tokens/0xd37eBaEb28c0A6C9a62D5c5c0119d464e28B367E.png",
       address: "0xd37eBaEb28c0A6C9a62D5c5c0119d464e28B367E",
       decimals: "18",
     },
@@ -35243,7 +35243,7 @@ export let chainTokenDictionary = {
       name: "XDOG Token",
       symbol: "XDOG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x448567dAA98665334d034968DE9b64A9E2a4B5ee.png",
+        "https://pancakeswap.finance/images/tokens/0x448567dAA98665334d034968DE9b64A9E2a4B5ee.png",
       address: "0x448567dAA98665334d034968DE9b64A9E2a4B5ee",
       decimals: "18",
     },
@@ -35251,7 +35251,7 @@ export let chainTokenDictionary = {
       name: "VANCI.FINANCE",
       symbol: "VANCII",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8F9b482b74Afc0B7E8AEfc704f1f04DF208EE332.png",
+        "https://pancakeswap.finance/images/tokens/0x8F9b482b74Afc0B7E8AEfc704f1f04DF208EE332.png",
       address: "0x8F9b482b74Afc0B7E8AEfc704f1f04DF208EE332",
       decimals: "18",
     },
@@ -35259,7 +35259,7 @@ export let chainTokenDictionary = {
       name: "Veraswap",
       symbol: "VRAP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x271C418B045d05A1D52c6bF849d47b5B5B4d769e.png",
+        "https://pancakeswap.finance/images/tokens/0x271C418B045d05A1D52c6bF849d47b5B5B4d769e.png",
       address: "0x271C418B045d05A1D52c6bF849d47b5B5B4d769e",
       decimals: "18",
     },
@@ -35267,7 +35267,7 @@ export let chainTokenDictionary = {
       name: "Bingus Token",
       symbol: "BINGUS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdA20C8a5c3B1AB48e31ba6e43f0F2830E50218D8.png",
+        "https://pancakeswap.finance/images/tokens/0xdA20C8a5c3B1AB48e31ba6e43f0F2830E50218D8.png",
       address: "0xdA20C8a5c3B1AB48e31ba6e43f0F2830E50218D8",
       decimals: "9",
     },
@@ -35275,7 +35275,7 @@ export let chainTokenDictionary = {
       name: "HYFI",
       symbol: "HYFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9a319b959e33369C5eaA494a770117eE3e585318.png",
+        "https://pancakeswap.finance/images/tokens/0x9a319b959e33369C5eaA494a770117eE3e585318.png",
       address: "0x9a319b959e33369C5eaA494a770117eE3e585318",
       decimals: "18",
     },
@@ -35283,7 +35283,7 @@ export let chainTokenDictionary = {
       name: "Feta Token",
       symbol: "FETA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcB5EDCB7A2aDe21Ae4A695A5c7fFB7Aa01DFaA5d.png",
+        "https://pancakeswap.finance/images/tokens/0xcB5EDCB7A2aDe21Ae4A695A5c7fFB7Aa01DFaA5d.png",
       address: "0xcB5EDCB7A2aDe21Ae4A695A5c7fFB7Aa01DFaA5d",
       decimals: "9",
     },
@@ -35291,7 +35291,7 @@ export let chainTokenDictionary = {
       name: "SafeFairMoon",
       symbol: "SAFEFAIRMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe5c5923843Ba152758773AF7Ea73c21793899135.png",
+        "https://pancakeswap.finance/images/tokens/0xe5c5923843Ba152758773AF7Ea73c21793899135.png",
       address: "0xe5c5923843Ba152758773AF7Ea73c21793899135",
       decimals: "9",
     },
@@ -35299,7 +35299,7 @@ export let chainTokenDictionary = {
       name: "Mooni",
       symbol: "Mooni",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEd438051437c22A9Ef249B68c7E292435fE8B858.png",
+        "https://pancakeswap.finance/images/tokens/0xEd438051437c22A9Ef249B68c7E292435fE8B858.png",
       address: "0xEd438051437c22A9Ef249B68c7E292435fE8B858",
       decimals: "9",
     },
@@ -35307,7 +35307,7 @@ export let chainTokenDictionary = {
       name: "FastSwapToken",
       symbol: "FAST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4d338614FC25aFE6edf3994f331b4BAd32fb3c6A.png",
+        "https://pancakeswap.finance/images/tokens/0x4d338614FC25aFE6edf3994f331b4BAd32fb3c6A.png",
       address: "0x4d338614FC25aFE6edf3994f331b4BAd32fb3c6A",
       decimals: "18",
     },
@@ -35315,7 +35315,7 @@ export let chainTokenDictionary = {
       name: "Bingo Cash",
       symbol: "BGO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x579A6277a6c2c63a5b25006F63Bce5DC8D9c25e7.png",
+        "https://pancakeswap.finance/images/tokens/0x579A6277a6c2c63a5b25006F63Bce5DC8D9c25e7.png",
       address: "0x579A6277a6c2c63a5b25006F63Bce5DC8D9c25e7",
       decimals: "18",
     },
@@ -35323,7 +35323,7 @@ export let chainTokenDictionary = {
       name: "PMP",
       symbol: "PMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8d4FBB3AC63bf33851dCE80D63613Df1A515BC00.png",
+        "https://pancakeswap.finance/images/tokens/0x8d4FBB3AC63bf33851dCE80D63613Df1A515BC00.png",
       address: "0x8d4FBB3AC63bf33851dCE80D63613Df1A515BC00",
       decimals: "18",
     },
@@ -35331,7 +35331,7 @@ export let chainTokenDictionary = {
       name: "PorkSwap.finance",
       symbol: "PSWAP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x42539F50c5F8a0c929E7895EB265391F58b22a19.png",
+        "https://pancakeswap.finance/images/tokens/0x42539F50c5F8a0c929E7895EB265391F58b22a19.png",
       address: "0x42539F50c5F8a0c929E7895EB265391F58b22a19",
       decimals: "18",
     },
@@ -35339,7 +35339,7 @@ export let chainTokenDictionary = {
       name: "ASCENSION PROTOCOL V2",
       symbol: "ASCEND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf664264e835Bc27cBF71Da6a6633A6C7B99B9De1.png",
+        "https://pancakeswap.finance/images/tokens/0xf664264e835Bc27cBF71Da6a6633A6C7B99B9De1.png",
       address: "0xf664264e835Bc27cBF71Da6a6633A6C7B99B9De1",
       decimals: "9",
     },
@@ -35347,7 +35347,7 @@ export let chainTokenDictionary = {
       name: "LifeLine",
       symbol: "LLT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD37c1417DA7Bf5b02ffDEa8d5427022DC88A0eE2.png",
+        "https://pancakeswap.finance/images/tokens/0xD37c1417DA7Bf5b02ffDEa8d5427022DC88A0eE2.png",
       address: "0xD37c1417DA7Bf5b02ffDEa8d5427022DC88A0eE2",
       decimals: "8",
     },
@@ -35355,7 +35355,7 @@ export let chainTokenDictionary = {
       name: "BernCoin",
       symbol: "GBERN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x430290c7250aFfE0cb87442907F7EdffFF98C2c2.png",
+        "https://pancakeswap.finance/images/tokens/0x430290c7250aFfE0cb87442907F7EdffFF98C2c2.png",
       address: "0x430290c7250aFfE0cb87442907F7EdffFF98C2c2",
       decimals: "0",
     },
@@ -35363,7 +35363,7 @@ export let chainTokenDictionary = {
       name: "yBEARSwap",
       symbol: "sBEAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305.png",
+        "https://pancakeswap.finance/images/tokens/0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305.png",
       address: "0xdEC858d5ee93568CE4eA5bbf9169ceA23d2dE305",
       decimals: "18",
     },
@@ -35371,7 +35371,7 @@ export let chainTokenDictionary = {
       name: "RAKE",
       symbol: "RAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbDa8D53fe0F164915b46cd2EcfFD94254b6086a2.png",
+        "https://pancakeswap.finance/images/tokens/0xbDa8D53fe0F164915b46cd2EcfFD94254b6086a2.png",
       address: "0xbDa8D53fe0F164915b46cd2EcfFD94254b6086a2",
       decimals: "18",
     },
@@ -35379,7 +35379,7 @@ export let chainTokenDictionary = {
       name: "THIRM",
       symbol: "THIRM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x21Da60B286BaEfD4725A41Bb50a9237eb836a9Ed.png",
+        "https://pancakeswap.finance/images/tokens/0x21Da60B286BaEfD4725A41Bb50a9237eb836a9Ed.png",
       address: "0x21Da60B286BaEfD4725A41Bb50a9237eb836a9Ed",
       decimals: "18",
     },
@@ -35387,7 +35387,7 @@ export let chainTokenDictionary = {
       name: "tryon",
       symbol: "TRYON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x050f65BEf6bd15De57462cf75d06BafEB2A59118.png",
+        "https://pancakeswap.finance/images/tokens/0x050f65BEf6bd15De57462cf75d06BafEB2A59118.png",
       address: "0x050f65BEf6bd15De57462cf75d06BafEB2A59118",
       decimals: "18",
     },
@@ -35395,7 +35395,7 @@ export let chainTokenDictionary = {
       name: "Fatfi Protocol",
       symbol: "FAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x90e767A68a7d707B74D569C8E79f9bBb79b98a8b.png",
+        "https://pancakeswap.finance/images/tokens/0x90e767A68a7d707B74D569C8E79f9bBb79b98a8b.png",
       address: "0x90e767A68a7d707B74D569C8E79f9bBb79b98a8b",
       decimals: "18",
     },
@@ -35403,7 +35403,7 @@ export let chainTokenDictionary = {
       name: "Soup",
       symbol: "SOUP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x94F559aE621F1c810F31a6a620Ad7376776fe09E.png",
+        "https://pancakeswap.finance/images/tokens/0x94F559aE621F1c810F31a6a620Ad7376776fe09E.png",
       address: "0x94F559aE621F1c810F31a6a620Ad7376776fe09E",
       decimals: "18",
     },
@@ -35411,7 +35411,7 @@ export let chainTokenDictionary = {
       name: "VANCAT Sperm Token",
       symbol: "VCSPERM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE285510E5C14c2b8ff46147D9145f034B8Ff073B.png",
+        "https://pancakeswap.finance/images/tokens/0xE285510E5C14c2b8ff46147D9145f034B8Ff073B.png",
       address: "0xE285510E5C14c2b8ff46147D9145f034B8Ff073B",
       decimals: "0",
     },
@@ -35419,7 +35419,7 @@ export let chainTokenDictionary = {
       name: "OCTION TOKEN",
       symbol: "OCTI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6c1dE9907263F0c12261d88b65cA18F31163F29D.png",
+        "https://pancakeswap.finance/images/tokens/0x6c1dE9907263F0c12261d88b65cA18F31163F29D.png",
       address: "0x6c1dE9907263F0c12261d88b65cA18F31163F29D",
       decimals: "18",
     },
@@ -35427,7 +35427,7 @@ export let chainTokenDictionary = {
       name: "Wrapped BarterTrade",
       symbol: "tBART",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1bDF1eC9D5e2f6E0e6E95419bCa0f65c8E6C26B3.png",
+        "https://pancakeswap.finance/images/tokens/0x1bDF1eC9D5e2f6E0e6E95419bCa0f65c8E6C26B3.png",
       address: "0x1bDF1eC9D5e2f6E0e6E95419bCa0f65c8E6C26B3",
       decimals: "18",
     },
@@ -35435,7 +35435,7 @@ export let chainTokenDictionary = {
       name: "XEND",
       symbol: "XEND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4a080377f83D669D7bB83B3184a8A5E61B500608.png",
+        "https://pancakeswap.finance/images/tokens/0x4a080377f83D669D7bB83B3184a8A5E61B500608.png",
       address: "0x4a080377f83D669D7bB83B3184a8A5E61B500608",
       decimals: "18",
     },
@@ -35443,7 +35443,7 @@ export let chainTokenDictionary = {
       name: "ShareDeFi Protocol",
       symbol: "SHADE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9E1C8EF68a378DdCfd6607956c289FEDBfB56991.png",
+        "https://pancakeswap.finance/images/tokens/0x9E1C8EF68a378DdCfd6607956c289FEDBfB56991.png",
       address: "0x9E1C8EF68a378DdCfd6607956c289FEDBfB56991",
       decimals: "18",
     },
@@ -35451,7 +35451,7 @@ export let chainTokenDictionary = {
       name: "MarsMission.finance",
       symbol: "MARSM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x82EB29D3Eb0719aF341f6b18C0d9D749c0Cd16b6.png",
+        "https://pancakeswap.finance/images/tokens/0x82EB29D3Eb0719aF341f6b18C0d9D749c0Cd16b6.png",
       address: "0x82EB29D3Eb0719aF341f6b18C0d9D749c0Cd16b6",
       decimals: "9",
     },
@@ -35459,7 +35459,7 @@ export let chainTokenDictionary = {
       name: "FinNexus",
       symbol: "FNX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdFd9e2A17596caD6295EcFfDa42D9B6F63F7B5d5.png",
+        "https://pancakeswap.finance/images/tokens/0xdFd9e2A17596caD6295EcFfDa42D9B6F63F7B5d5.png",
       address: "0xdFd9e2A17596caD6295EcFfDa42D9B6F63F7B5d5",
       decimals: "18",
     },
@@ -35467,7 +35467,7 @@ export let chainTokenDictionary = {
       name: "xWIN Token",
       symbol: "XWIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd88ca08d8eec1E9E09562213Ae83A7853ebB5d28.png",
+        "https://pancakeswap.finance/images/tokens/0xd88ca08d8eec1E9E09562213Ae83A7853ebB5d28.png",
       address: "0xd88ca08d8eec1E9E09562213Ae83A7853ebB5d28",
       decimals: "18",
     },
@@ -35475,7 +35475,7 @@ export let chainTokenDictionary = {
       name: "Mooncoin",
       symbol: "MNC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5eF3098aA05d5d5F8c9Baf1D558aE6182Daa743C.png",
+        "https://pancakeswap.finance/images/tokens/0x5eF3098aA05d5d5F8c9Baf1D558aE6182Daa743C.png",
       address: "0x5eF3098aA05d5d5F8c9Baf1D558aE6182Daa743C",
       decimals: "9",
     },
@@ -35483,7 +35483,7 @@ export let chainTokenDictionary = {
       name: "MonoLisa.Shop",
       symbol: "MONOLISA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3E1401CA45211d53471dEad7456912c09ad01ACd.png",
+        "https://pancakeswap.finance/images/tokens/0x3E1401CA45211d53471dEad7456912c09ad01ACd.png",
       address: "0x3E1401CA45211d53471dEad7456912c09ad01ACd",
       decimals: "18",
     },
@@ -35491,7 +35491,7 @@ export let chainTokenDictionary = {
       name: "World Token",
       symbol: "WORLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x31FFbe9bf84b4d9d02cd40eCcAB4Af1E2877Bbc6.png",
+        "https://pancakeswap.finance/images/tokens/0x31FFbe9bf84b4d9d02cd40eCcAB4Af1E2877Bbc6.png",
       address: "0x31FFbe9bf84b4d9d02cd40eCcAB4Af1E2877Bbc6",
       decimals: "18",
     },
@@ -35499,7 +35499,7 @@ export let chainTokenDictionary = {
       name: "Rowket",
       symbol: "KET",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5ddAe05d2f854926E8070b435d2dfe5edCa246D9.png",
+        "https://pancakeswap.finance/images/tokens/0x5ddAe05d2f854926E8070b435d2dfe5edCa246D9.png",
       address: "0x5ddAe05d2f854926E8070b435d2dfe5edCa246D9",
       decimals: "8",
     },
@@ -35507,7 +35507,7 @@ export let chainTokenDictionary = {
       name: "DEFISocial",
       symbol: "bDFSocial",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x75de745a333a47Fe786e8DbBf3E9440d3d5Bc809.png",
+        "https://pancakeswap.finance/images/tokens/0x75de745a333a47Fe786e8DbBf3E9440d3d5Bc809.png",
       address: "0x75de745a333a47Fe786e8DbBf3E9440d3d5Bc809",
       decimals: "18",
     },
@@ -35515,7 +35515,7 @@ export let chainTokenDictionary = {
       name: "LEMUR",
       symbol: "LEM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb.png",
+        "https://pancakeswap.finance/images/tokens/0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb.png",
       address: "0xc35f46aAEb8aD17bCbAa78c03540FEffa44790Cb",
       decimals: "9",
     },
@@ -35523,7 +35523,7 @@ export let chainTokenDictionary = {
       name: "AntCoin",
       symbol: "ANT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x43F3918Ff115081cFbFb256A5bDE1e8d181f2907.png",
+        "https://pancakeswap.finance/images/tokens/0x43F3918Ff115081cFbFb256A5bDE1e8d181f2907.png",
       address: "0x43F3918Ff115081cFbFb256A5bDE1e8d181f2907",
       decimals: "18",
     },
@@ -35531,7 +35531,7 @@ export let chainTokenDictionary = {
       name: "SCAM Token",
       symbol: "SCAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4a3027204a98231B53A0798fB373e3B5016eaf82.png",
+        "https://pancakeswap.finance/images/tokens/0x4a3027204a98231B53A0798fB373e3B5016eaf82.png",
       address: "0x4a3027204a98231B53A0798fB373e3B5016eaf82",
       decimals: "9",
     },
@@ -35539,7 +35539,7 @@ export let chainTokenDictionary = {
       name: "Robo Blitz",
       symbol: "BLITZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6E474BCFB5f9165AE3f264E57e1DBeb6309Ad9FE.png",
+        "https://pancakeswap.finance/images/tokens/0x6E474BCFB5f9165AE3f264E57e1DBeb6309Ad9FE.png",
       address: "0x6E474BCFB5f9165AE3f264E57e1DBeb6309Ad9FE",
       decimals: "18",
     },
@@ -35547,7 +35547,7 @@ export let chainTokenDictionary = {
       name: "Philosoraptor",
       symbol: "RAPTR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf9A3FdA781c94942760860fc731c24301c83830A.png",
+        "https://pancakeswap.finance/images/tokens/0xf9A3FdA781c94942760860fc731c24301c83830A.png",
       address: "0xf9A3FdA781c94942760860fc731c24301c83830A",
       decimals: "9",
     },
@@ -35555,7 +35555,7 @@ export let chainTokenDictionary = {
       name: "Kianite",
       symbol: "KIAN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5ECE3F1542C4e1a06767457e4D8286beA772fc41.png",
+        "https://pancakeswap.finance/images/tokens/0x5ECE3F1542C4e1a06767457e4D8286beA772fc41.png",
       address: "0x5ECE3F1542C4e1a06767457e4D8286beA772fc41",
       decimals: "18",
     },
@@ -35563,7 +35563,7 @@ export let chainTokenDictionary = {
       name: "SOTA",
       symbol: "SOTA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0742b62eFB5f2eaBBc14567dfC0860CE0565bCf4.png",
+        "https://pancakeswap.finance/images/tokens/0x0742b62eFB5f2eaBBc14567dfC0860CE0565bCf4.png",
       address: "0x0742b62eFB5f2eaBBc14567dfC0860CE0565bCf4",
       decimals: "18",
     },
@@ -35571,7 +35571,7 @@ export let chainTokenDictionary = {
       name: "BSC-Peg Thunder Token",
       symbol: "TT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x990E7154bB999FAa9b2fa5Ed29E822703311eA85.png",
+        "https://pancakeswap.finance/images/tokens/0x990E7154bB999FAa9b2fa5Ed29E822703311eA85.png",
       address: "0x990E7154bB999FAa9b2fa5Ed29E822703311eA85",
       decimals: "18",
     },
@@ -35579,7 +35579,7 @@ export let chainTokenDictionary = {
       name: "CafeSwap Token",
       symbol: "BREW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x790Be81C3cA0e53974bE2688cDb954732C9862e1.png",
+        "https://pancakeswap.finance/images/tokens/0x790Be81C3cA0e53974bE2688cDb954732C9862e1.png",
       address: "0x790Be81C3cA0e53974bE2688cDb954732C9862e1",
       decimals: "18",
     },
@@ -35587,7 +35587,7 @@ export let chainTokenDictionary = {
       name: "biti city",
       symbol: "BITI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA25Dab5B75aC0E0738E58E49734295baD43d73F1.png",
+        "https://pancakeswap.finance/images/tokens/0xA25Dab5B75aC0E0738E58E49734295baD43d73F1.png",
       address: "0xA25Dab5B75aC0E0738E58E49734295baD43d73F1",
       decimals: "18",
     },
@@ -35595,7 +35595,7 @@ export let chainTokenDictionary = {
       name: "oinfinance",
       symbol: "OIN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x658E64FFcF40D240A43D52CA9342140316Ae44fA.png",
+        "https://pancakeswap.finance/images/tokens/0x658E64FFcF40D240A43D52CA9342140316Ae44fA.png",
       address: "0x658E64FFcF40D240A43D52CA9342140316Ae44fA",
       decimals: "8",
     },
@@ -35603,7 +35603,7 @@ export let chainTokenDictionary = {
       name: "Equalizer",
       symbol: "EQZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0.png",
+        "https://pancakeswap.finance/images/tokens/0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0.png",
       address: "0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0",
       decimals: "18",
     },
@@ -35611,7 +35611,7 @@ export let chainTokenDictionary = {
       name: "Vortex DeFi",
       symbol: "VTX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x070625d5A14706c30b8E2264753B2f5D035Bc1B4.png",
+        "https://pancakeswap.finance/images/tokens/0x070625d5A14706c30b8E2264753B2f5D035Bc1B4.png",
       address: "0x070625d5A14706c30b8E2264753B2f5D035Bc1B4",
       decimals: "18",
     },
@@ -35619,7 +35619,7 @@ export let chainTokenDictionary = {
       name: "Elastic BNB",
       symbol: "XBN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x547CBE0f0c25085e7015Aa6939b28402EB0CcDAC.png",
+        "https://pancakeswap.finance/images/tokens/0x547CBE0f0c25085e7015Aa6939b28402EB0CcDAC.png",
       address: "0x547CBE0f0c25085e7015Aa6939b28402EB0CcDAC",
       decimals: "18",
     },
@@ -35627,7 +35627,7 @@ export let chainTokenDictionary = {
       name: "IdoHunt.app",
       symbol: "IDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1773926aaBcE24D50cc6d28589654C2e9D237d2b.png",
+        "https://pancakeswap.finance/images/tokens/0x1773926aaBcE24D50cc6d28589654C2e9D237d2b.png",
       address: "0x1773926aaBcE24D50cc6d28589654C2e9D237d2b",
       decimals: "18",
     },
@@ -35635,7 +35635,7 @@ export let chainTokenDictionary = {
       name: "SPACEMAN LOL",
       symbol: "SML",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD930f493E153d745aFB124F9859bE8479e4b1862.png",
+        "https://pancakeswap.finance/images/tokens/0xD930f493E153d745aFB124F9859bE8479e4b1862.png",
       address: "0xD930f493E153d745aFB124F9859bE8479e4b1862",
       decimals: "9",
     },
@@ -35643,7 +35643,7 @@ export let chainTokenDictionary = {
       name: "Naruto 2",
       symbol: "NARUTO2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE3c40CA5A0D8b48C45A2609E558CEa98c5805351.png",
+        "https://pancakeswap.finance/images/tokens/0xE3c40CA5A0D8b48C45A2609E558CEa98c5805351.png",
       address: "0xE3c40CA5A0D8b48C45A2609E558CEa98c5805351",
       decimals: "9",
     },
@@ -35651,7 +35651,7 @@ export let chainTokenDictionary = {
       name: "ENVFinanceToken",
       symbol: "ENV",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4D2b1966F347E48B2d247F684d7677854083E4AB.png",
+        "https://pancakeswap.finance/images/tokens/0x4D2b1966F347E48B2d247F684d7677854083E4AB.png",
       address: "0x4D2b1966F347E48B2d247F684d7677854083E4AB",
       decimals: "8",
     },
@@ -35659,7 +35659,7 @@ export let chainTokenDictionary = {
       name: "Charitas",
       symbol: "CHAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6466849a30247D90f0c228A6c4b6b106ff18cAB9.png",
+        "https://pancakeswap.finance/images/tokens/0x6466849a30247D90f0c228A6c4b6b106ff18cAB9.png",
       address: "0x6466849a30247D90f0c228A6c4b6b106ff18cAB9",
       decimals: "18",
     },
@@ -35667,7 +35667,7 @@ export let chainTokenDictionary = {
       name: "DeepLock",
       symbol: "DEEP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x60DE5F9386b637Fe97aF1CC05F25548E9BAAee19.png",
+        "https://pancakeswap.finance/images/tokens/0x60DE5F9386b637Fe97aF1CC05F25548E9BAAee19.png",
       address: "0x60DE5F9386b637Fe97aF1CC05F25548E9BAAee19",
       decimals: "18",
     },
@@ -35675,7 +35675,7 @@ export let chainTokenDictionary = {
       name: "Eternal Cash",
       symbol: "EC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x400df62C3052fDBaad8C74C0226147F9bFaaF7eC.png",
+        "https://pancakeswap.finance/images/tokens/0x400df62C3052fDBaad8C74C0226147F9bFaaF7eC.png",
       address: "0x400df62C3052fDBaad8C74C0226147F9bFaaF7eC",
       decimals: "9",
     },
@@ -35683,7 +35683,7 @@ export let chainTokenDictionary = {
       name: "Dogemoon",
       symbol: "DOGEMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2f801292924433F41E34669b0817F990764EcAA0.png",
+        "https://pancakeswap.finance/images/tokens/0x2f801292924433F41E34669b0817F990764EcAA0.png",
       address: "0x2f801292924433F41E34669b0817F990764EcAA0",
       decimals: "9",
     },
@@ -35691,7 +35691,7 @@ export let chainTokenDictionary = {
       name: "The Token Kennel",
       symbol: "Kennel",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2C319Cde4E46F85f7a1004B9a81D4A52d896e208.png",
+        "https://pancakeswap.finance/images/tokens/0x2C319Cde4E46F85f7a1004B9a81D4A52d896e208.png",
       address: "0x2C319Cde4E46F85f7a1004B9a81D4A52d896e208",
       decimals: "18",
     },
@@ -35699,7 +35699,7 @@ export let chainTokenDictionary = {
       name: "ChainSwap.com Mapping Token",
       symbol: "TOKEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890.png",
+        "https://pancakeswap.finance/images/tokens/0x3B73c1B2ea59835cbfcADade5462b6aB630D9890.png",
       address: "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
       decimals: "18",
     },
@@ -35707,7 +35707,7 @@ export let chainTokenDictionary = {
       name: "Copiosa Coin",
       symbol: "COP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8789337a176e6e7223Ff115F1CD85C993D42C25c.png",
+        "https://pancakeswap.finance/images/tokens/0x8789337a176e6e7223Ff115F1CD85C993D42C25c.png",
       address: "0x8789337a176e6e7223Ff115F1CD85C993D42C25c",
       decimals: "18",
     },
@@ -35715,7 +35715,7 @@ export let chainTokenDictionary = {
       name: "Ramen Token",
       symbol: "Ramen",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4F47A0d15c1E53F3d94c069C7D16977c29F9CB6B.png",
+        "https://pancakeswap.finance/images/tokens/0x4F47A0d15c1E53F3d94c069C7D16977c29F9CB6B.png",
       address: "0x4F47A0d15c1E53F3d94c069C7D16977c29F9CB6B",
       decimals: "18",
     },
@@ -35723,7 +35723,7 @@ export let chainTokenDictionary = {
       name: "Portion",
       symbol: "PRT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0.png",
+        "https://pancakeswap.finance/images/tokens/0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0.png",
       address: "0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0",
       decimals: "18",
     },
@@ -35731,7 +35731,7 @@ export let chainTokenDictionary = {
       name: "Lottery Token",
       symbol: "LOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4E7Ae924FD9a5D60b56BE486b2900efE0c6a9CA7.png",
+        "https://pancakeswap.finance/images/tokens/0x4E7Ae924FD9a5D60b56BE486b2900efE0c6a9CA7.png",
       address: "0x4E7Ae924FD9a5D60b56BE486b2900efE0c6a9CA7",
       decimals: "9",
     },
@@ -35739,7 +35739,7 @@ export let chainTokenDictionary = {
       name: "Antimatter.Finance Mapping Token",
       symbol: "MATTER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1C9491865a1DE77C5b6e19d2E6a5F1D7a6F2b25F.png",
+        "https://pancakeswap.finance/images/tokens/0x1C9491865a1DE77C5b6e19d2E6a5F1D7a6F2b25F.png",
       address: "0x1C9491865a1DE77C5b6e19d2E6a5F1D7a6F2b25F",
       decimals: "18",
     },
@@ -35747,7 +35747,7 @@ export let chainTokenDictionary = {
       name: "Sishi Token",
       symbol: "SISHI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8E8538c75f273aB2dF6AdEEcD3622A9c314fcCf3.png",
+        "https://pancakeswap.finance/images/tokens/0x8E8538c75f273aB2dF6AdEEcD3622A9c314fcCf3.png",
       address: "0x8E8538c75f273aB2dF6AdEEcD3622A9c314fcCf3",
       decimals: "18",
     },
@@ -35755,7 +35755,7 @@ export let chainTokenDictionary = {
       name: "KIRA Network",
       symbol: "KEX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E.png",
+        "https://pancakeswap.finance/images/tokens/0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E.png",
       address: "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E",
       decimals: "6",
     },
@@ -35763,7 +35763,7 @@ export let chainTokenDictionary = {
       name: "SafeOrbit.io",
       symbol: "SAFEORBIT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0dA292E241096140Ce2b3d39e5699acC2eCa68fa.png",
+        "https://pancakeswap.finance/images/tokens/0x0dA292E241096140Ce2b3d39e5699acC2eCa68fa.png",
       address: "0x0dA292E241096140Ce2b3d39e5699acC2eCa68fa",
       decimals: "9",
     },
@@ -35771,7 +35771,7 @@ export let chainTokenDictionary = {
       name: "Gen Shards",
       symbol: "GS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9bA4c78b048EEed69f4eD3CFddeda7B51BAF7cA8.png",
+        "https://pancakeswap.finance/images/tokens/0x9bA4c78b048EEed69f4eD3CFddeda7B51BAF7cA8.png",
       address: "0x9bA4c78b048EEed69f4eD3CFddeda7B51BAF7cA8",
       decimals: "18",
     },
@@ -35779,7 +35779,7 @@ export let chainTokenDictionary = {
       name: "TreeDefi Token",
       symbol: "TREE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf0Fcd737fcE18F95621CC7841EbE0eA6EFCCf77e.png",
+        "https://pancakeswap.finance/images/tokens/0xf0Fcd737fcE18F95621CC7841EbE0eA6EFCCf77e.png",
       address: "0xf0Fcd737fcE18F95621CC7841EbE0eA6EFCCf77e",
       decimals: "18",
     },
@@ -35787,7 +35787,7 @@ export let chainTokenDictionary = {
       name: "JulSwap",
       symbol: "JulD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea.png",
+        "https://pancakeswap.finance/images/tokens/0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea.png",
       address: "0x5A41F637C3f7553dBa6dDC2D3cA92641096577ea",
       decimals: "18",
     },
@@ -35795,7 +35795,7 @@ export let chainTokenDictionary = {
       name: "EARTH Token",
       symbol: "EARTH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x65B050DEA610eC5b70C170D078c03937b01b9c76.png",
+        "https://pancakeswap.finance/images/tokens/0x65B050DEA610eC5b70C170D078c03937b01b9c76.png",
       address: "0x65B050DEA610eC5b70C170D078c03937b01b9c76",
       decimals: "18",
     },
@@ -35803,7 +35803,7 @@ export let chainTokenDictionary = {
       name: "SafeSun",
       symbol: "SAFESUN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA03C3a233940485D46eE77407343DA3221198427.png",
+        "https://pancakeswap.finance/images/tokens/0xA03C3a233940485D46eE77407343DA3221198427.png",
       address: "0xA03C3a233940485D46eE77407343DA3221198427",
       decimals: "9",
     },
@@ -35811,7 +35811,7 @@ export let chainTokenDictionary = {
       name: "pDollar Share",
       symbol: "sPDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC1e3bdF0E580DE25d6A8c2A419Da8C859589eD9d.png",
+        "https://pancakeswap.finance/images/tokens/0xC1e3bdF0E580DE25d6A8c2A419Da8C859589eD9d.png",
       address: "0xC1e3bdF0E580DE25d6A8c2A419Da8C859589eD9d",
       decimals: "18",
     },
@@ -35819,7 +35819,7 @@ export let chainTokenDictionary = {
       name: "Trustworks",
       symbol: "TRUST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2dBd86A424a815AD2A08a2D8dAE07007fed6Dc91.png",
+        "https://pancakeswap.finance/images/tokens/0x2dBd86A424a815AD2A08a2D8dAE07007fed6Dc91.png",
       address: "0x2dBd86A424a815AD2A08a2D8dAE07007fed6Dc91",
       decimals: "18",
     },
@@ -35827,7 +35827,7 @@ export let chainTokenDictionary = {
       name: "BlowFish",
       symbol: "BLOWF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA55BB91dE33B4abdf3aC64913D98A55ad84Dc3A8.png",
+        "https://pancakeswap.finance/images/tokens/0xA55BB91dE33B4abdf3aC64913D98A55ad84Dc3A8.png",
       address: "0xA55BB91dE33B4abdf3aC64913D98A55ad84Dc3A8",
       decimals: "18",
     },
@@ -35835,7 +35835,7 @@ export let chainTokenDictionary = {
       name: "Parachute",
       symbol: "PAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x19C91764A976aC6C1E2C2E4c5856F2939342a814.png",
+        "https://pancakeswap.finance/images/tokens/0x19C91764A976aC6C1E2C2E4c5856F2939342a814.png",
       address: "0x19C91764A976aC6C1E2C2E4c5856F2939342a814",
       decimals: "18",
     },
@@ -35843,7 +35843,7 @@ export let chainTokenDictionary = {
       name: "FWT",
       symbol: "FWT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x893169619461d3ABA810A40b5403c62F27e703F9.png",
+        "https://pancakeswap.finance/images/tokens/0x893169619461d3ABA810A40b5403c62F27e703F9.png",
       address: "0x893169619461d3ABA810A40b5403c62F27e703F9",
       decimals: "18",
     },
@@ -35851,7 +35851,7 @@ export let chainTokenDictionary = {
       name: "MOONSTORM",
       symbol: "MOONSTORM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbBeA1AC815E5402DF5Ee9c80A93FC3e72119469D.png",
+        "https://pancakeswap.finance/images/tokens/0xbBeA1AC815E5402DF5Ee9c80A93FC3e72119469D.png",
       address: "0xbBeA1AC815E5402DF5Ee9c80A93FC3e72119469D",
       decimals: "9",
     },
@@ -35859,7 +35859,7 @@ export let chainTokenDictionary = {
       name: "Long Asset",
       symbol: "LONG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd6004836cb07D063f2cB498C25e351CC93194079.png",
+        "https://pancakeswap.finance/images/tokens/0xd6004836cb07D063f2cB498C25e351CC93194079.png",
       address: "0xd6004836cb07D063f2cB498C25e351CC93194079",
       decimals: "18",
     },
@@ -35867,7 +35867,7 @@ export let chainTokenDictionary = {
       name: "Polis",
       symbol: "POLIS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb5bEa8a26D587CF665f2d78f077CcA3C7f6341BD.png",
+        "https://pancakeswap.finance/images/tokens/0xb5bEa8a26D587CF665f2d78f077CcA3C7f6341BD.png",
       address: "0xb5bEa8a26D587CF665f2d78f077CcA3C7f6341BD",
       decimals: "18",
     },
@@ -35875,7 +35875,7 @@ export let chainTokenDictionary = {
       name: "HAPI",
       symbol: "HAPI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54.png",
+        "https://pancakeswap.finance/images/tokens/0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54.png",
       address: "0xD9c2D319Cd7e6177336b0a9c93c21cb48d84Fb54",
       decimals: "18",
     },
@@ -35883,7 +35883,7 @@ export let chainTokenDictionary = {
       name: "SafeHouse",
       symbol: "SAH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB0CADEFdA5845eA8d0bfF0cCebE54c60cB69af68.png",
+        "https://pancakeswap.finance/images/tokens/0xB0CADEFdA5845eA8d0bfF0cCebE54c60cB69af68.png",
       address: "0xB0CADEFdA5845eA8d0bfF0cCebE54c60cB69af68",
       decimals: "9",
     },
@@ -35891,7 +35891,7 @@ export let chainTokenDictionary = {
       name: "Thunder Token",
       symbol: "TNDR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7Cc46141AB1057b1928de5Ad5Ee78Bb37eFC4868.png",
+        "https://pancakeswap.finance/images/tokens/0x7Cc46141AB1057b1928de5Ad5Ee78Bb37eFC4868.png",
       address: "0x7Cc46141AB1057b1928de5Ad5Ee78Bb37eFC4868",
       decimals: "18",
     },
@@ -35899,7 +35899,7 @@ export let chainTokenDictionary = {
       name: "B Non-Fungible Yearn",
       symbol: "BNFY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD3A3A69c575D81CE8E7cF1298cE760055A5669c1.png",
+        "https://pancakeswap.finance/images/tokens/0xD3A3A69c575D81CE8E7cF1298cE760055A5669c1.png",
       address: "0xD3A3A69c575D81CE8E7cF1298cE760055A5669c1",
       decimals: "18",
     },
@@ -35907,7 +35907,7 @@ export let chainTokenDictionary = {
       name: "HazeToken",
       symbol: "HAZE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78832Bd03078fb75A72d72FbF567BA90B6dAB317.png",
+        "https://pancakeswap.finance/images/tokens/0x78832Bd03078fb75A72d72FbF567BA90B6dAB317.png",
       address: "0x78832Bd03078fb75A72d72FbF567BA90B6dAB317",
       decimals: "18",
     },
@@ -35915,7 +35915,7 @@ export let chainTokenDictionary = {
       name: "UPONLY",
       symbol: "UPONLY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5bf1fCE818a59660433F4C1586F4DA1ea705dE27.png",
+        "https://pancakeswap.finance/images/tokens/0x5bf1fCE818a59660433F4C1586F4DA1ea705dE27.png",
       address: "0x5bf1fCE818a59660433F4C1586F4DA1ea705dE27",
       decimals: "9",
     },
@@ -35923,7 +35923,7 @@ export let chainTokenDictionary = {
       name: "Absorber",
       symbol: "ABS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6c5FE6e99D2484db7E4BF34F365ABA42d0E4dC20.png",
+        "https://pancakeswap.finance/images/tokens/0x6c5FE6e99D2484db7E4BF34F365ABA42d0E4dC20.png",
       address: "0x6c5FE6e99D2484db7E4BF34F365ABA42d0E4dC20",
       decimals: "18",
     },
@@ -35931,7 +35931,7 @@ export let chainTokenDictionary = {
       name: "RICH",
       symbol: "RICH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0D94335595ae842890BEC091eF8C47d62F545d99.png",
+        "https://pancakeswap.finance/images/tokens/0x0D94335595ae842890BEC091eF8C47d62F545d99.png",
       address: "0x0D94335595ae842890BEC091eF8C47d62F545d99",
       decimals: "8",
     },
@@ -35939,7 +35939,7 @@ export let chainTokenDictionary = {
       name: "KelVPN token",
       symbol: "KEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4e1b16Ef22935A575a6811D4616f98C4077E4408.png",
+        "https://pancakeswap.finance/images/tokens/0x4e1b16Ef22935A575a6811D4616f98C4077E4408.png",
       address: "0x4e1b16Ef22935A575a6811D4616f98C4077E4408",
       decimals: "18",
     },
@@ -35947,7 +35947,7 @@ export let chainTokenDictionary = {
       name: "Tezos Token",
       symbol: "XTZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x16939ef78684453bfDFb47825F8a5F714f12623a.png",
+        "https://pancakeswap.finance/images/tokens/0x16939ef78684453bfDFb47825F8a5F714f12623a.png",
       address: "0x16939ef78684453bfDFb47825F8a5F714f12623a",
       decimals: "18",
     },
@@ -35955,7 +35955,7 @@ export let chainTokenDictionary = {
       name: "Wookie",
       symbol: "WOOKIE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE973021B7AF61dBfC4aC7dd56C4Ba5d1Df3c57dD.png",
+        "https://pancakeswap.finance/images/tokens/0xE973021B7AF61dBfC4aC7dd56C4Ba5d1Df3c57dD.png",
       address: "0xE973021B7AF61dBfC4aC7dd56C4Ba5d1Df3c57dD",
       decimals: "9",
     },
@@ -35963,7 +35963,7 @@ export let chainTokenDictionary = {
       name: "ICA",
       symbol: "ICA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x95111f630aC215Eb74599ED42C67E2c2790d69e2.png",
+        "https://pancakeswap.finance/images/tokens/0x95111f630aC215Eb74599ED42C67E2c2790d69e2.png",
       address: "0x95111f630aC215Eb74599ED42C67E2c2790d69e2",
       decimals: "18",
     },
@@ -35971,7 +35971,7 @@ export let chainTokenDictionary = {
       name: "SpaceMusk ",
       symbol: "SPACEMUSK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x23b6E3E426C63d13D3457105ceebb6B4c7B059B7.png",
+        "https://pancakeswap.finance/images/tokens/0x23b6E3E426C63d13D3457105ceebb6B4c7B059B7.png",
       address: "0x23b6E3E426C63d13D3457105ceebb6B4c7B059B7",
       decimals: "9",
     },
@@ -35979,7 +35979,7 @@ export let chainTokenDictionary = {
       name: "CyberTime Finance Token",
       symbol: "CTF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x410319197d3394652B7ddDc669E58fbe30B56090.png",
+        "https://pancakeswap.finance/images/tokens/0x410319197d3394652B7ddDc669E58fbe30B56090.png",
       address: "0x410319197d3394652B7ddDc669E58fbe30B56090",
       decimals: "18",
     },
@@ -35987,7 +35987,7 @@ export let chainTokenDictionary = {
       name: "Pocket Bomb",
       symbol: "PBOM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3Ea50B7Ef6a7eaf7E966E2cb72b519C16557497c.png",
+        "https://pancakeswap.finance/images/tokens/0x3Ea50B7Ef6a7eaf7E966E2cb72b519C16557497c.png",
       address: "0x3Ea50B7Ef6a7eaf7E966E2cb72b519C16557497c",
       decimals: "9",
     },
@@ -35995,7 +35995,7 @@ export let chainTokenDictionary = {
       name: "BICHON TOKENT",
       symbol: "BICHON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xDf394853D830424CaFCCF7Be7dF065366cF31a69.png",
+        "https://pancakeswap.finance/images/tokens/0xDf394853D830424CaFCCF7Be7dF065366cF31a69.png",
       address: "0xDf394853D830424CaFCCF7Be7dF065366cF31a69",
       decimals: "9",
     },
@@ -36003,7 +36003,7 @@ export let chainTokenDictionary = {
       name: "MultiBridge Token",
       symbol: "BRIDGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2763B15B36797F9152a6edf8BBe83aB889E2f69C.png",
+        "https://pancakeswap.finance/images/tokens/0x2763B15B36797F9152a6edf8BBe83aB889E2f69C.png",
       address: "0x2763B15B36797F9152a6edf8BBe83aB889E2f69C",
       decimals: "18",
     },
@@ -36011,7 +36011,7 @@ export let chainTokenDictionary = {
       name: "ElonWeed",
       symbol: "ELONWEED",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x97B46a912899E957095577fA2d14f355A57fFb5c.png",
+        "https://pancakeswap.finance/images/tokens/0x97B46a912899E957095577fA2d14f355A57fFb5c.png",
       address: "0x97B46a912899E957095577fA2d14f355A57fFb5c",
       decimals: "9",
     },
@@ -36019,7 +36019,7 @@ export let chainTokenDictionary = {
       name: "PolkastarterToken",
       symbol: "POLS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7e624FA0E1c4AbFD309cC15719b7E2580887f570.png",
+        "https://pancakeswap.finance/images/tokens/0x7e624FA0E1c4AbFD309cC15719b7E2580887f570.png",
       address: "0x7e624FA0E1c4AbFD309cC15719b7E2580887f570",
       decimals: "18",
     },
@@ -36027,7 +36027,7 @@ export let chainTokenDictionary = {
       name: "DIESEL TOKEN",
       symbol: "DIESEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe1eA2E1907d93F154234CE3b5A7418faf175fE11.png",
+        "https://pancakeswap.finance/images/tokens/0xe1eA2E1907d93F154234CE3b5A7418faf175fE11.png",
       address: "0xe1eA2E1907d93F154234CE3b5A7418faf175fE11",
       decimals: "18",
     },
@@ -36035,7 +36035,7 @@ export let chainTokenDictionary = {
       name: "dART Token",
       symbol: "dART",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5a4623F305A8d7904ED68638AF3B4328678edDBF.png",
+        "https://pancakeswap.finance/images/tokens/0x5a4623F305A8d7904ED68638AF3B4328678edDBF.png",
       address: "0x5a4623F305A8d7904ED68638AF3B4328678edDBF",
       decimals: "18",
     },
@@ -36043,7 +36043,7 @@ export let chainTokenDictionary = {
       name: "BSCS Token",
       symbol: "BSCS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd1f19A8CC2B82bbC79922A60FFDF77fc96bac40D.png",
+        "https://pancakeswap.finance/images/tokens/0xd1f19A8CC2B82bbC79922A60FFDF77fc96bac40D.png",
       address: "0xd1f19A8CC2B82bbC79922A60FFDF77fc96bac40D",
       decimals: "18",
     },
@@ -36051,7 +36051,7 @@ export let chainTokenDictionary = {
       name: "King of the Hill",
       symbol: "KOTH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x068968b263fCBD260b73175e930c6C920E7E1ba0.png",
+        "https://pancakeswap.finance/images/tokens/0x068968b263fCBD260b73175e930c6C920E7E1ba0.png",
       address: "0x068968b263fCBD260b73175e930c6C920E7E1ba0",
       decimals: "18",
     },
@@ -36059,7 +36059,7 @@ export let chainTokenDictionary = {
       name: "Satozhi",
       symbol: "SATOZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf4341fA52669cea0c1836095529A7E9B04b8b88D.png",
+        "https://pancakeswap.finance/images/tokens/0xf4341fA52669cea0c1836095529A7E9B04b8b88D.png",
       address: "0xf4341fA52669cea0c1836095529A7E9B04b8b88D",
       decimals: "8",
     },
@@ -36067,7 +36067,7 @@ export let chainTokenDictionary = {
       name: "Newscrypto",
       symbol: "NWC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x968F6f898a6Df937fC1859b323aC2F14643e3fED.png",
+        "https://pancakeswap.finance/images/tokens/0x968F6f898a6Df937fC1859b323aC2F14643e3fED.png",
       address: "0x968F6f898a6Df937fC1859b323aC2F14643e3fED",
       decimals: "18",
     },
@@ -36075,7 +36075,7 @@ export let chainTokenDictionary = {
       name: "Fair BTC",
       symbol: "FAIRBTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x10E027343977e55BEBEAA6FC65804021829D41d4.png",
+        "https://pancakeswap.finance/images/tokens/0x10E027343977e55BEBEAA6FC65804021829D41d4.png",
       address: "0x10E027343977e55BEBEAA6FC65804021829D41d4",
       decimals: "9",
     },
@@ -36083,7 +36083,7 @@ export let chainTokenDictionary = {
       name: "Torpedo",
       symbol: "TORPEDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAF169E53e9f07DE6F9F4Eac67e2833C623f0c122.png",
+        "https://pancakeswap.finance/images/tokens/0xAF169E53e9f07DE6F9F4Eac67e2833C623f0c122.png",
       address: "0xAF169E53e9f07DE6F9F4Eac67e2833C623f0c122",
       decimals: "9",
     },
@@ -36091,7 +36091,7 @@ export let chainTokenDictionary = {
       name: "Rune",
       symbol: "RUNE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA9776B590bfc2f956711b3419910A5Ec1F63153E.png",
+        "https://pancakeswap.finance/images/tokens/0xA9776B590bfc2f956711b3419910A5Ec1F63153E.png",
       address: "0xA9776B590bfc2f956711b3419910A5Ec1F63153E",
       decimals: "18",
     },
@@ -36099,7 +36099,7 @@ export let chainTokenDictionary = {
       name: "FairMoon",
       symbol: "FAIRMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfe75cD11E283813eC44B4592476109Ba3706cef6.png",
+        "https://pancakeswap.finance/images/tokens/0xfe75cD11E283813eC44B4592476109Ba3706cef6.png",
       address: "0xfe75cD11E283813eC44B4592476109Ba3706cef6",
       decimals: "9",
     },
@@ -36107,7 +36107,7 @@ export let chainTokenDictionary = {
       name: "Shopping.io on BSC",
       symbol: "SPI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78A18Db278F9c7c9657F61dA519e6Ef43794DD5D.png",
+        "https://pancakeswap.finance/images/tokens/0x78A18Db278F9c7c9657F61dA519e6Ef43794DD5D.png",
       address: "0x78A18Db278F9c7c9657F61dA519e6Ef43794DD5D",
       decimals: "18",
     },
@@ -36115,7 +36115,7 @@ export let chainTokenDictionary = {
       name: "MOONCUNT",
       symbol: "CUNT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5BF5a3C97DD86064A6B97432b04dDB5FfCf98331.png",
+        "https://pancakeswap.finance/images/tokens/0x5BF5a3C97DD86064A6B97432b04dDB5FfCf98331.png",
       address: "0x5BF5a3C97DD86064A6B97432b04dDB5FfCf98331",
       decimals: "18",
     },
@@ -36123,7 +36123,7 @@ export let chainTokenDictionary = {
       name: "NFTSwaps",
       symbol: "SWAPS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc536462e5A9fdacD4F1008A91e7DABa1374c0226.png",
+        "https://pancakeswap.finance/images/tokens/0xc536462e5A9fdacD4F1008A91e7DABa1374c0226.png",
       address: "0xc536462e5A9fdacD4F1008A91e7DABa1374c0226",
       decimals: "18",
     },
@@ -36131,7 +36131,7 @@ export let chainTokenDictionary = {
       name: "FEAST.finance",
       symbol: "FEAST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf2Df8458130F00c94bCDE2Dd3F288cF608187F87.png",
+        "https://pancakeswap.finance/images/tokens/0xf2Df8458130F00c94bCDE2Dd3F288cF608187F87.png",
       address: "0xf2Df8458130F00c94bCDE2Dd3F288cF608187F87",
       decimals: "9",
     },
@@ -36139,7 +36139,7 @@ export let chainTokenDictionary = {
       name: "Nord Token",
       symbol: "NORD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6e9730EcFfBed43fD876A264C982e254ef05a0DE.png",
+        "https://pancakeswap.finance/images/tokens/0x6e9730EcFfBed43fD876A264C982e254ef05a0DE.png",
       address: "0x6e9730EcFfBed43fD876A264C982e254ef05a0DE",
       decimals: "18",
     },
@@ -36147,7 +36147,7 @@ export let chainTokenDictionary = {
       name: "100xCoin",
       symbol: "100x",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x016C285d5b918B92aa85EF1e147498BADfe30d69.png",
+        "https://pancakeswap.finance/images/tokens/0x016C285d5b918B92aa85EF1e147498BADfe30d69.png",
       address: "0x016C285d5b918B92aa85EF1e147498BADfe30d69",
       decimals: "18",
     },
@@ -36155,7 +36155,7 @@ export let chainTokenDictionary = {
       name: "Friction Finance",
       symbol: "TAO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf0443834B7b21104b7102Edbe8F9ec06204Cd395.png",
+        "https://pancakeswap.finance/images/tokens/0xf0443834B7b21104b7102Edbe8F9ec06204Cd395.png",
       address: "0xf0443834B7b21104b7102Edbe8F9ec06204Cd395",
       decimals: "9",
     },
@@ -36163,7 +36163,7 @@ export let chainTokenDictionary = {
       name: "Zoo Project Finance ",
       symbol: "ZOOP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc0A590204dBbc01195453449003b3ad0faB45b56.png",
+        "https://pancakeswap.finance/images/tokens/0xc0A590204dBbc01195453449003b3ad0faB45b56.png",
       address: "0xc0A590204dBbc01195453449003b3ad0faB45b56",
       decimals: "18",
     },
@@ -36171,7 +36171,7 @@ export let chainTokenDictionary = {
       name: "budz.finance",
       symbol: "BUDZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFB161ddA30991A4E48DE65F0AC4eB17809f0c6b2.png",
+        "https://pancakeswap.finance/images/tokens/0xFB161ddA30991A4E48DE65F0AC4eB17809f0c6b2.png",
       address: "0xFB161ddA30991A4E48DE65F0AC4eB17809f0c6b2",
       decimals: "18",
     },
@@ -36179,7 +36179,7 @@ export let chainTokenDictionary = {
       name: "MilkyWay Token by SpaceSwap v2",
       symbol: "MILK2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4A5a34212404f30C5aB7eB61b078fA4A55AdC5a5.png",
+        "https://pancakeswap.finance/images/tokens/0x4A5a34212404f30C5aB7eB61b078fA4A55AdC5a5.png",
       address: "0x4A5a34212404f30C5aB7eB61b078fA4A55AdC5a5",
       decimals: "18",
     },
@@ -36187,7 +36187,7 @@ export let chainTokenDictionary = {
       name: "SHAKE token by SpaceSwap v2",
       symbol: "SHAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbA8A6Ef5f15ED18e7184f44a775060a6bF91d8d0.png",
+        "https://pancakeswap.finance/images/tokens/0xbA8A6Ef5f15ED18e7184f44a775060a6bF91d8d0.png",
       address: "0xbA8A6Ef5f15ED18e7184f44a775060a6bF91d8d0",
       decimals: "18",
     },
@@ -36195,7 +36195,7 @@ export let chainTokenDictionary = {
       name: "Echelon DAO",
       symbol: "ECHO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6aaa14929D74b8533343C1A5b6e42443f59b6F6F.png",
+        "https://pancakeswap.finance/images/tokens/0x6aaa14929D74b8533343C1A5b6e42443f59b6F6F.png",
       address: "0x6aaa14929D74b8533343C1A5b6e42443f59b6F6F",
       decimals: "18",
     },
@@ -36203,7 +36203,7 @@ export let chainTokenDictionary = {
       name: "Bitcoin Cash Token",
       symbol: "BCH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf.png",
+        "https://pancakeswap.finance/images/tokens/0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf.png",
       address: "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
       decimals: "18",
     },
@@ -36211,7 +36211,7 @@ export let chainTokenDictionary = {
       name: "BOGECOIN",
       symbol: "BOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x248C45AF3b2f73Bc40FA159f2a90ce9caD7A77BA.png",
+        "https://pancakeswap.finance/images/tokens/0x248C45AF3b2f73Bc40FA159f2a90ce9caD7A77BA.png",
       address: "0x248C45AF3b2f73Bc40FA159f2a90ce9caD7A77BA",
       decimals: "9",
     },
@@ -36219,7 +36219,7 @@ export let chainTokenDictionary = {
       name: "Thunderstorm",
       symbol: "$THUNDER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xee84E260FaE848F55EbdE322b9595682590c456C.png",
+        "https://pancakeswap.finance/images/tokens/0xee84E260FaE848F55EbdE322b9595682590c456C.png",
       address: "0xee84E260FaE848F55EbdE322b9595682590c456C",
       decimals: "8",
     },
@@ -36227,7 +36227,7 @@ export let chainTokenDictionary = {
       name: "SpaceCowBoy",
       symbol: "SCB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdcAf1Afc07d9e1C057bd5cd144659910C4b91682.png",
+        "https://pancakeswap.finance/images/tokens/0xdcAf1Afc07d9e1C057bd5cd144659910C4b91682.png",
       address: "0xdcAf1Afc07d9e1C057bd5cd144659910C4b91682",
       decimals: "18",
     },
@@ -36235,7 +36235,7 @@ export let chainTokenDictionary = {
       name: "SafeETH",
       symbol: "SAFEETH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x47FdfeA2c5741Acd7Be0377029D6C507154D86B9.png",
+        "https://pancakeswap.finance/images/tokens/0x47FdfeA2c5741Acd7Be0377029D6C507154D86B9.png",
       address: "0x47FdfeA2c5741Acd7Be0377029D6C507154D86B9",
       decimals: "9",
     },
@@ -36243,7 +36243,7 @@ export let chainTokenDictionary = {
       name: "Block Duelers",
       symbol: "BDT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x286a61a9B193F1b92d3A0FaB4Fd16028786273f3.png",
+        "https://pancakeswap.finance/images/tokens/0x286a61a9B193F1b92d3A0FaB4Fd16028786273f3.png",
       address: "0x286a61a9B193F1b92d3A0FaB4Fd16028786273f3",
       decimals: "18",
     },
@@ -36251,7 +36251,7 @@ export let chainTokenDictionary = {
       name: "Butter",
       symbol: "BUTTER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0110fF9e7E4028a5337F07841437B92d5bf53762.png",
+        "https://pancakeswap.finance/images/tokens/0x0110fF9e7E4028a5337F07841437B92d5bf53762.png",
       address: "0x0110fF9e7E4028a5337F07841437B92d5bf53762",
       decimals: "9",
     },
@@ -36259,7 +36259,7 @@ export let chainTokenDictionary = {
       name: "Water Finance",
       symbol: "WATER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x57f81252D1187754048F5aF1938226B9034B599f.png",
+        "https://pancakeswap.finance/images/tokens/0x57f81252D1187754048F5aF1938226B9034B599f.png",
       address: "0x57f81252D1187754048F5aF1938226B9034B599f",
       decimals: "8",
     },
@@ -36267,7 +36267,7 @@ export let chainTokenDictionary = {
       name: "GNY",
       symbol: "GNY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe4A4Ad6E0B773f47D28f548742a23eFD73798332.png",
+        "https://pancakeswap.finance/images/tokens/0xe4A4Ad6E0B773f47D28f548742a23eFD73798332.png",
       address: "0xe4A4Ad6E0B773f47D28f548742a23eFD73798332",
       decimals: "18",
     },
@@ -36275,7 +36275,7 @@ export let chainTokenDictionary = {
       name: "RevoNetwork",
       symbol: "REVO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x678e5f70b6b582dfADB3dBD68AF17801d34555c5.png",
+        "https://pancakeswap.finance/images/tokens/0x678e5f70b6b582dfADB3dBD68AF17801d34555c5.png",
       address: "0x678e5f70b6b582dfADB3dBD68AF17801d34555c5",
       decimals: "18",
     },
@@ -36283,7 +36283,7 @@ export let chainTokenDictionary = {
       name: "Ape",
       symbol: "APE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x82bbd3DBae09eba3F3B1EA48d0A469140Ed9dfb5.png",
+        "https://pancakeswap.finance/images/tokens/0x82bbd3DBae09eba3F3B1EA48d0A469140Ed9dfb5.png",
       address: "0x82bbd3DBae09eba3F3B1EA48d0A469140Ed9dfb5",
       decimals: "18",
     },
@@ -36291,7 +36291,7 @@ export let chainTokenDictionary = {
       name: "BitGay",
       symbol: "BitGay",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x98fc5B3a39D712Fa5a826Df4F9c47Bb6c0F6F8a9.png",
+        "https://pancakeswap.finance/images/tokens/0x98fc5B3a39D712Fa5a826Df4F9c47Bb6c0F6F8a9.png",
       address: "0x98fc5B3a39D712Fa5a826Df4F9c47Bb6c0F6F8a9",
       decimals: "9",
     },
@@ -36299,7 +36299,7 @@ export let chainTokenDictionary = {
       name: "trees.finance",
       symbol: "BLAZE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD581A700d6dF06Bc7f755816f9d9317d14a13f7c.png",
+        "https://pancakeswap.finance/images/tokens/0xD581A700d6dF06Bc7f755816f9d9317d14a13f7c.png",
       address: "0xD581A700d6dF06Bc7f755816f9d9317d14a13f7c",
       decimals: "9",
     },
@@ -36307,7 +36307,7 @@ export let chainTokenDictionary = {
       name: "DungeonSwap Token",
       symbol: "DND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x14c358b573a4cE45364a3DBD84BBb4Dae87af034.png",
+        "https://pancakeswap.finance/images/tokens/0x14c358b573a4cE45364a3DBD84BBb4Dae87af034.png",
       address: "0x14c358b573a4cE45364a3DBD84BBb4Dae87af034",
       decimals: "18",
     },
@@ -36315,7 +36315,7 @@ export let chainTokenDictionary = {
       name: "JULb",
       symbol: "JULb",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x32dFFc3fE8E3EF3571bF8a72c0d0015C5373f41D.png",
+        "https://pancakeswap.finance/images/tokens/0x32dFFc3fE8E3EF3571bF8a72c0d0015C5373f41D.png",
       address: "0x32dFFc3fE8E3EF3571bF8a72c0d0015C5373f41D",
       decimals: "18",
     },
@@ -36323,7 +36323,7 @@ export let chainTokenDictionary = {
       name: "Smart Advertising Transaction Token",
       symbol: "SATT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x448BEE2d93Be708b54eE6353A7CC35C4933F1156.png",
+        "https://pancakeswap.finance/images/tokens/0x448BEE2d93Be708b54eE6353A7CC35C4933F1156.png",
       address: "0x448BEE2d93Be708b54eE6353A7CC35C4933F1156",
       decimals: "18",
     },
@@ -36331,7 +36331,7 @@ export let chainTokenDictionary = {
       name: "Shrimp",
       symbol: "SHRMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xeeEEeEEe82a747508b66431cFe9443aCE4e30881.png",
+        "https://pancakeswap.finance/images/tokens/0xeeEEeEEe82a747508b66431cFe9443aCE4e30881.png",
       address: "0xeeEEeEEe82a747508b66431cFe9443aCE4e30881",
       decimals: "18",
     },
@@ -36339,7 +36339,7 @@ export let chainTokenDictionary = {
       name: "Moon Here Token",
       symbol: "MORE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf84c682279E6B687Fc3449954e25377ECC1A59f9.png",
+        "https://pancakeswap.finance/images/tokens/0xf84c682279E6B687Fc3449954e25377ECC1A59f9.png",
       address: "0xf84c682279E6B687Fc3449954e25377ECC1A59f9",
       decimals: "9",
     },
@@ -36347,7 +36347,7 @@ export let chainTokenDictionary = {
       name: "DoveSwap Token",
       symbol: "Dove",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2Bf56908B0f2440Ad11169d281967EB76665F8c6.png",
+        "https://pancakeswap.finance/images/tokens/0x2Bf56908B0f2440Ad11169d281967EB76665F8c6.png",
       address: "0x2Bf56908B0f2440Ad11169d281967EB76665F8c6",
       decimals: "18",
     },
@@ -36355,7 +36355,7 @@ export let chainTokenDictionary = {
       name: "UpBots",
       symbol: "UBXT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBbEB90cFb6FAFa1F69AA130B7341089AbeEF5811.png",
+        "https://pancakeswap.finance/images/tokens/0xBbEB90cFb6FAFa1F69AA130B7341089AbeEF5811.png",
       address: "0xBbEB90cFb6FAFa1F69AA130B7341089AbeEF5811",
       decimals: "18",
     },
@@ -36363,7 +36363,7 @@ export let chainTokenDictionary = {
       name: "Bingo Share",
       symbol: "sBGO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x53F39324Fbb209693332B87aA94D5519A1a49aB0.png",
+        "https://pancakeswap.finance/images/tokens/0x53F39324Fbb209693332B87aA94D5519A1a49aB0.png",
       address: "0x53F39324Fbb209693332B87aA94D5519A1a49aB0",
       decimals: "18",
     },
@@ -36371,7 +36371,7 @@ export let chainTokenDictionary = {
       name: "DuckDaoDime",
       symbol: "DDIM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc9132C76060F6b319764Ea075973a650A1a53bC9.png",
+        "https://pancakeswap.finance/images/tokens/0xc9132C76060F6b319764Ea075973a650A1a53bC9.png",
       address: "0xc9132C76060F6b319764Ea075973a650A1a53bC9",
       decimals: "18",
     },
@@ -36379,7 +36379,7 @@ export let chainTokenDictionary = {
       name: "ThunderShock",
       symbol: "SHOCK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1EdFd83a24ca52F76E2e51d91CDb49e7390dcc85.png",
+        "https://pancakeswap.finance/images/tokens/0x1EdFd83a24ca52F76E2e51d91CDb49e7390dcc85.png",
       address: "0x1EdFd83a24ca52F76E2e51d91CDb49e7390dcc85",
       decimals: "9",
     },
@@ -36387,7 +36387,7 @@ export let chainTokenDictionary = {
       name: "ZDCASH",
       symbol: "ZDCASH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD0759956faE5F5E55C84fdFF2341b93d0303A62D.png",
+        "https://pancakeswap.finance/images/tokens/0xD0759956faE5F5E55C84fdFF2341b93d0303A62D.png",
       address: "0xD0759956faE5F5E55C84fdFF2341b93d0303A62D",
       decimals: "18",
     },
@@ -36395,7 +36395,7 @@ export let chainTokenDictionary = {
       name: "wearegrooot.finance",
       symbol: "GROOOT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5AB41EAA399E0Dbdb35BdF49DC8CA0C0692f5fC5.png",
+        "https://pancakeswap.finance/images/tokens/0x5AB41EAA399E0Dbdb35BdF49DC8CA0C0692f5fC5.png",
       address: "0x5AB41EAA399E0Dbdb35BdF49DC8CA0C0692f5fC5",
       decimals: "9",
     },
@@ -36403,7 +36403,7 @@ export let chainTokenDictionary = {
       name: "Moon Safe",
       symbol: "MOONSAFE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2C125b09C2DBed3d1669a3183298285e5cf46154.png",
+        "https://pancakeswap.finance/images/tokens/0x2C125b09C2DBed3d1669a3183298285e5cf46154.png",
       address: "0x2C125b09C2DBed3d1669a3183298285e5cf46154",
       decimals: "9",
     },
@@ -36411,7 +36411,7 @@ export let chainTokenDictionary = {
       name: "BaseTown",
       symbol: "BTOWN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6119E160C2EEB1dcfbA7263293D8Bc4B788A82aD.png",
+        "https://pancakeswap.finance/images/tokens/0x6119E160C2EEB1dcfbA7263293D8Bc4B788A82aD.png",
       address: "0x6119E160C2EEB1dcfbA7263293D8Bc4B788A82aD",
       decimals: "9",
     },
@@ -36419,7 +36419,7 @@ export let chainTokenDictionary = {
       name: "NagaSwap",
       symbol: "BNW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA15083664eb19899885CCc2B4Fd03977b26d3a2d.png",
+        "https://pancakeswap.finance/images/tokens/0xA15083664eb19899885CCc2B4Fd03977b26d3a2d.png",
       address: "0xA15083664eb19899885CCc2B4Fd03977b26d3a2d",
       decimals: "18",
     },
@@ -36427,7 +36427,7 @@ export let chainTokenDictionary = {
       name: "SafeTreasure",
       symbol: "YARRR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6F0C00185D476Dd1D6D547e15Ae42bEeAE9b15c8.png",
+        "https://pancakeswap.finance/images/tokens/0x6F0C00185D476Dd1D6D547e15Ae42bEeAE9b15c8.png",
       address: "0x6F0C00185D476Dd1D6D547e15Ae42bEeAE9b15c8",
       decimals: "9",
     },
@@ -36435,7 +36435,7 @@ export let chainTokenDictionary = {
       name: "MoonBlast",
       symbol: "MOONBLAST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc6fb9183D5DCd42F352475a288378Dfafd90213e.png",
+        "https://pancakeswap.finance/images/tokens/0xc6fb9183D5DCd42F352475a288378Dfafd90213e.png",
       address: "0xc6fb9183D5DCd42F352475a288378Dfafd90213e",
       decimals: "9",
     },
@@ -36443,7 +36443,7 @@ export let chainTokenDictionary = {
       name: "Sensible Finance",
       symbol: "SENSIBLE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7374d161a4a281B7FC817B8FF7cF778A4004f109.png",
+        "https://pancakeswap.finance/images/tokens/0x7374d161a4a281B7FC817B8FF7cF778A4004f109.png",
       address: "0x7374d161a4a281B7FC817B8FF7cF778A4004f109",
       decimals: "9",
     },
@@ -36451,7 +36451,7 @@ export let chainTokenDictionary = {
       name: "Money",
       symbol: "MONEY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7Ae50952AC80e984A038CAA8Aa86a4f7352734Ba.png",
+        "https://pancakeswap.finance/images/tokens/0x7Ae50952AC80e984A038CAA8Aa86a4f7352734Ba.png",
       address: "0x7Ae50952AC80e984A038CAA8Aa86a4f7352734Ba",
       decimals: "18",
     },
@@ -36459,7 +36459,7 @@ export let chainTokenDictionary = {
       name: "MECHAZILLA",
       symbol: "MECHAZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4F14De0706513D304aef977712ec3eEDc62cD650.png",
+        "https://pancakeswap.finance/images/tokens/0x4F14De0706513D304aef977712ec3eEDc62cD650.png",
       address: "0x4F14De0706513D304aef977712ec3eEDc62cD650",
       decimals: "9",
     },
@@ -36467,7 +36467,7 @@ export let chainTokenDictionary = {
       name: "ShibaCorgi",
       symbol: "ShiCo",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x092BBec1342affFd16Cfb41B56343D5A299CDf0D.png",
+        "https://pancakeswap.finance/images/tokens/0x092BBec1342affFd16Cfb41B56343D5A299CDf0D.png",
       address: "0x092BBec1342affFd16Cfb41B56343D5A299CDf0D",
       decimals: "9",
     },
@@ -36475,7 +36475,7 @@ export let chainTokenDictionary = {
       name: "ECOMI",
       symbol: "OMI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0Ca958394bf4F68D30454421388A6A4Af8652E4B.png",
+        "https://pancakeswap.finance/images/tokens/0x0Ca958394bf4F68D30454421388A6A4Af8652E4B.png",
       address: "0x0Ca958394bf4F68D30454421388A6A4Af8652E4B",
       decimals: "18",
     },
@@ -36483,7 +36483,7 @@ export let chainTokenDictionary = {
       name: "SpaceDoge",
       symbol: "SODE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6e2307de122cd9465b7f47dd73a5F89BB29E4285.png",
+        "https://pancakeswap.finance/images/tokens/0x6e2307de122cd9465b7f47dd73a5F89BB29E4285.png",
       address: "0x6e2307de122cd9465b7f47dd73a5F89BB29E4285",
       decimals: "9",
     },
@@ -36491,7 +36491,7 @@ export let chainTokenDictionary = {
       name: "Frog.Finance",
       symbol: "FROG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x035f0470755dBb305fB2B4Ff775Fb7B4Ce2354E5.png",
+        "https://pancakeswap.finance/images/tokens/0x035f0470755dBb305fB2B4Ff775Fb7B4Ce2354E5.png",
       address: "0x035f0470755dBb305fB2B4Ff775Fb7B4Ce2354E5",
       decimals: "8",
     },
@@ -36499,7 +36499,7 @@ export let chainTokenDictionary = {
       name: "Multiplay Token",
       symbol: "MTP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe56F12123c583De823720A603b2DC11D659C12fC.png",
+        "https://pancakeswap.finance/images/tokens/0xe56F12123c583De823720A603b2DC11D659C12fC.png",
       address: "0xe56F12123c583De823720A603b2DC11D659C12fC",
       decimals: "18",
     },
@@ -36507,7 +36507,7 @@ export let chainTokenDictionary = {
       name: "Fair HOGE",
       symbol: "FAIRHOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6fDb74841B167ff6A58552D2E00365dC554eD656.png",
+        "https://pancakeswap.finance/images/tokens/0x6fDb74841B167ff6A58552D2E00365dC554eD656.png",
       address: "0x6fDb74841B167ff6A58552D2E00365dC554eD656",
       decimals: "9",
     },
@@ -36515,7 +36515,7 @@ export let chainTokenDictionary = {
       name: "DeerFi",
       symbol: "DEER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb05CAe0ce4DEd675c9829acA7fDd0C4025351351.png",
+        "https://pancakeswap.finance/images/tokens/0xb05CAe0ce4DEd675c9829acA7fDd0C4025351351.png",
       address: "0xb05CAe0ce4DEd675c9829acA7fDd0C4025351351",
       decimals: "18",
     },
@@ -36523,7 +36523,7 @@ export let chainTokenDictionary = {
       name: "vlad.finance",
       symbol: "VLAD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x279d41f3f78fe5C1f0BA41aE963d6E545113C973.png",
+        "https://pancakeswap.finance/images/tokens/0x279d41f3f78fe5C1f0BA41aE963d6E545113C973.png",
       address: "0x279d41f3f78fe5C1f0BA41aE963d6E545113C973",
       decimals: "8",
     },
@@ -36531,7 +36531,7 @@ export let chainTokenDictionary = {
       name: "Rug Busters ",
       symbol: "RUGBUST",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x57bb0f40479D7Dd0caa67f2A579273A8e9c038Ee.png",
+        "https://pancakeswap.finance/images/tokens/0x57bb0f40479D7Dd0caa67f2A579273A8e9c038Ee.png",
       address: "0x57bb0f40479D7Dd0caa67f2A579273A8e9c038Ee",
       decimals: "18",
     },
@@ -36539,7 +36539,7 @@ export let chainTokenDictionary = {
       name: "Moon Corgi",
       symbol: "MOONCORGI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6d825Cda515024D83ABF929FAe99Ca4e137b6094.png",
+        "https://pancakeswap.finance/images/tokens/0x6d825Cda515024D83ABF929FAe99Ca4e137b6094.png",
       address: "0x6d825Cda515024D83ABF929FAe99Ca4e137b6094",
       decimals: "9",
     },
@@ -36547,7 +36547,7 @@ export let chainTokenDictionary = {
       name: "VANCI GOVERNANCE",
       symbol: "VANCI-G",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd27b9173fB4BbB8050F8BC597E4CA9dF564e4c1C.png",
+        "https://pancakeswap.finance/images/tokens/0xd27b9173fB4BbB8050F8BC597E4CA9dF564e4c1C.png",
       address: "0xd27b9173fB4BbB8050F8BC597E4CA9dF564e4c1C",
       decimals: "18",
     },
@@ -36555,7 +36555,7 @@ export let chainTokenDictionary = {
       name: "Brainaut",
       symbol: "BRN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5749085C36A521f71AD2050Cb600B2165aabdF68.png",
+        "https://pancakeswap.finance/images/tokens/0x5749085C36A521f71AD2050Cb600B2165aabdF68.png",
       address: "0x5749085C36A521f71AD2050Cb600B2165aabdF68",
       decimals: "8",
     },
@@ -36563,7 +36563,7 @@ export let chainTokenDictionary = {
       name: "PEACOCKCOIN",
       symbol: "PEKC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x050787DE0cF5Da03D9387b344334D51cAE5DD0Fd.png",
+        "https://pancakeswap.finance/images/tokens/0x050787DE0cF5Da03D9387b344334D51cAE5DD0Fd.png",
       address: "0x050787DE0cF5Da03D9387b344334D51cAE5DD0Fd",
       decimals: "9",
     },
@@ -36571,7 +36571,7 @@ export let chainTokenDictionary = {
       name: "DOGEBASE",
       symbol: "DOGEBASE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7F02fADBa29FE0026FaC10c065942f76F7DDDe2d.png",
+        "https://pancakeswap.finance/images/tokens/0x7F02fADBa29FE0026FaC10c065942f76F7DDDe2d.png",
       address: "0x7F02fADBa29FE0026FaC10c065942f76F7DDDe2d",
       decimals: "18",
     },
@@ -36579,7 +36579,7 @@ export let chainTokenDictionary = {
       name: "GaDoShi",
       symbol: "GADOSHI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x619b20C554Df4f915173a0f4F34C82e6c2CD944D.png",
+        "https://pancakeswap.finance/images/tokens/0x619b20C554Df4f915173a0f4F34C82e6c2CD944D.png",
       address: "0x619b20C554Df4f915173a0f4F34C82e6c2CD944D",
       decimals: "8",
     },
@@ -36587,7 +36587,7 @@ export let chainTokenDictionary = {
       name: "PhoenixDefi.Finance",
       symbol: "PNIX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc25D94fc3f8D7bD1d88f89802fe075338F71dEC7.png",
+        "https://pancakeswap.finance/images/tokens/0xc25D94fc3f8D7bD1d88f89802fe075338F71dEC7.png",
       address: "0xc25D94fc3f8D7bD1d88f89802fe075338F71dEC7",
       decimals: "8",
     },
@@ -36595,7 +36595,7 @@ export let chainTokenDictionary = {
       name: "RealfinanceNetwork",
       symbol: "REFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x641a6Dc991A49f7BE9Fe3C72c5d0FBb223eDb12f.png",
+        "https://pancakeswap.finance/images/tokens/0x641a6Dc991A49f7BE9Fe3C72c5d0FBb223eDb12f.png",
       address: "0x641a6Dc991A49f7BE9Fe3C72c5d0FBb223eDb12f",
       decimals: "18",
     },
@@ -36603,7 +36603,7 @@ export let chainTokenDictionary = {
       name: "FairOrca",
       symbol: "ORCA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1ca40FCAC21038091900b4cA62B39599F3c6b6c8.png",
+        "https://pancakeswap.finance/images/tokens/0x1ca40FCAC21038091900b4cA62B39599F3c6b6c8.png",
       address: "0x1ca40FCAC21038091900b4cA62B39599F3c6b6c8",
       decimals: "9",
     },
@@ -36611,7 +36611,7 @@ export let chainTokenDictionary = {
       name: "Pasta Token",
       symbol: "PASTA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAB9D0Fae6eB062F2698C2D429a1BE9185A5D4F6E.png",
+        "https://pancakeswap.finance/images/tokens/0xAB9D0Fae6eB062F2698C2D429a1BE9185A5D4F6E.png",
       address: "0xAB9D0Fae6eB062F2698C2D429a1BE9185A5D4F6E",
       decimals: "18",
     },
@@ -36619,7 +36619,7 @@ export let chainTokenDictionary = {
       name: "Bliquid",
       symbol: "BLIQ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC97faC34CeB0Bb1B2bdAf3b59ADA378b99111a22.png",
+        "https://pancakeswap.finance/images/tokens/0xC97faC34CeB0Bb1B2bdAf3b59ADA378b99111a22.png",
       address: "0xC97faC34CeB0Bb1B2bdAf3b59ADA378b99111a22",
       decimals: "18",
     },
@@ -36627,7 +36627,7 @@ export let chainTokenDictionary = {
       name: "yBEAR.finance",
       symbol: "yBEAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b.png",
+        "https://pancakeswap.finance/images/tokens/0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b.png",
       address: "0xA8dA060eBD32A753005c6Ee476A0D79177C6EA8b",
       decimals: "9",
     },
@@ -36635,7 +36635,7 @@ export let chainTokenDictionary = {
       name: "nugz.finance",
       symbol: "NUGZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFD2eDE6C009ED305FE01A3410f945B580aeBC37B.png",
+        "https://pancakeswap.finance/images/tokens/0xFD2eDE6C009ED305FE01A3410f945B580aeBC37B.png",
       address: "0xFD2eDE6C009ED305FE01A3410f945B580aeBC37B",
       decimals: "18",
     },
@@ -36643,7 +36643,7 @@ export let chainTokenDictionary = {
       name: "Poly-Peg COOK",
       symbol: "COOK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x965b0Df5BDA0E7a0649324D78f03D5F7F2De086a.png",
+        "https://pancakeswap.finance/images/tokens/0x965b0Df5BDA0E7a0649324D78f03D5F7F2De086a.png",
       address: "0x965b0Df5BDA0E7a0649324D78f03D5F7F2De086a",
       decimals: "18",
     },
@@ -36651,7 +36651,7 @@ export let chainTokenDictionary = {
       name: "OXI",
       symbol: "OXI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4a6309ea1c386efee3F6FcDFAD800A7936cf3d1F.png",
+        "https://pancakeswap.finance/images/tokens/0x4a6309ea1c386efee3F6FcDFAD800A7936cf3d1F.png",
       address: "0x4a6309ea1c386efee3F6FcDFAD800A7936cf3d1F",
       decimals: "9",
     },
@@ -36659,7 +36659,7 @@ export let chainTokenDictionary = {
       name: "MoonJuice",
       symbol: "MOJO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8087E4c1735C1373F0D04b88d4Dbe1FAe1149123.png",
+        "https://pancakeswap.finance/images/tokens/0x8087E4c1735C1373F0D04b88d4Dbe1FAe1149123.png",
       address: "0x8087E4c1735C1373F0D04b88d4Dbe1FAe1149123",
       decimals: "9",
     },
@@ -36667,7 +36667,7 @@ export let chainTokenDictionary = {
       name: "BB21",
       symbol: "BB21",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x70512C7f3D3009BE997559D279B991461c451D70.png",
+        "https://pancakeswap.finance/images/tokens/0x70512C7f3D3009BE997559D279B991461c451D70.png",
       address: "0x70512C7f3D3009BE997559D279B991461c451D70",
       decimals: "18",
     },
@@ -36675,7 +36675,7 @@ export let chainTokenDictionary = {
       name: "Statera",
       symbol: "STA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1f63670f1faC519eC57FCa17B986871d6Cf7B52F.png",
+        "https://pancakeswap.finance/images/tokens/0x1f63670f1faC519eC57FCa17B986871d6Cf7B52F.png",
       address: "0x1f63670f1faC519eC57FCa17B986871d6Cf7B52F",
       decimals: "18",
     },
@@ -36683,7 +36683,7 @@ export let chainTokenDictionary = {
       name: "EAC",
       symbol: "EAC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x89f7dE81870eaBf2f46c2320C419c38252443B02.png",
+        "https://pancakeswap.finance/images/tokens/0x89f7dE81870eaBf2f46c2320C419c38252443B02.png",
       address: "0x89f7dE81870eaBf2f46c2320C419c38252443B02",
       decimals: "18",
     },
@@ -36691,7 +36691,7 @@ export let chainTokenDictionary = {
       name: "Robonomics",
       symbol: "XRT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC0A51ac9d548BdcDe53Fa59448029e41A39FEB20.png",
+        "https://pancakeswap.finance/images/tokens/0xC0A51ac9d548BdcDe53Fa59448029e41A39FEB20.png",
       address: "0xC0A51ac9d548BdcDe53Fa59448029e41A39FEB20",
       decimals: "9",
     },
@@ -36699,7 +36699,7 @@ export let chainTokenDictionary = {
       name: "MATH Token",
       symbol: "MATH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF218184Af829Cf2b0019F8E6F0b2423498a36983.png",
+        "https://pancakeswap.finance/images/tokens/0xF218184Af829Cf2b0019F8E6F0b2423498a36983.png",
       address: "0xF218184Af829Cf2b0019F8E6F0b2423498a36983",
       decimals: "18",
     },
@@ -36707,7 +36707,7 @@ export let chainTokenDictionary = {
       name: "SPACEBROS",
       symbol: "SPACEBROS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf064d692A6cAa293340AF3992f1de08eA83265ac.png",
+        "https://pancakeswap.finance/images/tokens/0xf064d692A6cAa293340AF3992f1de08eA83265ac.png",
       address: "0xf064d692A6cAa293340AF3992f1de08eA83265ac",
       decimals: "6",
     },
@@ -36715,7 +36715,7 @@ export let chainTokenDictionary = {
       name: "SafeMarsClassic",
       symbol: "SAFEMARSCLASSIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x620A86dBb9b8E52DCA4Daa37548fd9271bf476c5.png",
+        "https://pancakeswap.finance/images/tokens/0x620A86dBb9b8E52DCA4Daa37548fd9271bf476c5.png",
       address: "0x620A86dBb9b8E52DCA4Daa37548fd9271bf476c5",
       decimals: "9",
     },
@@ -36723,7 +36723,7 @@ export let chainTokenDictionary = {
       name: "ReChain",
       symbol: "RECH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF4DB3Dd2046D05D81980be2e65eA325597F0743b.png",
+        "https://pancakeswap.finance/images/tokens/0xF4DB3Dd2046D05D81980be2e65eA325597F0743b.png",
       address: "0xF4DB3Dd2046D05D81980be2e65eA325597F0743b",
       decimals: "9",
     },
@@ -36731,7 +36731,7 @@ export let chainTokenDictionary = {
       name: "COCOPAD",
       symbol: "COCO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFd431CB76965cF80c6FCec011a273B46df23EB04.png",
+        "https://pancakeswap.finance/images/tokens/0xFd431CB76965cF80c6FCec011a273B46df23EB04.png",
       address: "0xFd431CB76965cF80c6FCec011a273B46df23EB04",
       decimals: "18",
     },
@@ -36739,7 +36739,7 @@ export let chainTokenDictionary = {
       name: "Pomsky",
       symbol: "POMP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdB8689a8faBa4DE3bC95189dF6157F87Af0736D2.png",
+        "https://pancakeswap.finance/images/tokens/0xdB8689a8faBa4DE3bC95189dF6157F87Af0736D2.png",
       address: "0xdB8689a8faBa4DE3bC95189dF6157F87Af0736D2",
       decimals: "18",
     },
@@ -36747,7 +36747,7 @@ export let chainTokenDictionary = {
       name: "88Lotto",
       symbol: "88Lotto",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x30ae1FdDc9686e94dd9c249991f2E352969d8eC3.png",
+        "https://pancakeswap.finance/images/tokens/0x30ae1FdDc9686e94dd9c249991f2E352969d8eC3.png",
       address: "0x30ae1FdDc9686e94dd9c249991f2E352969d8eC3",
       decimals: "8",
     },
@@ -36755,7 +36755,7 @@ export let chainTokenDictionary = {
       name: "HybridProtocol",
       symbol: "HIP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD71a0C0A47358FBbD1c4dB64AAF9cb1d6D50c1e8.png",
+        "https://pancakeswap.finance/images/tokens/0xD71a0C0A47358FBbD1c4dB64AAF9cb1d6D50c1e8.png",
       address: "0xD71a0C0A47358FBbD1c4dB64AAF9cb1d6D50c1e8",
       decimals: "18",
     },
@@ -36763,7 +36763,7 @@ export let chainTokenDictionary = {
       name: "Charizard Token",
       symbol: "CHZ006",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x706954491EBFD6b38e5B1e6F079dBEfae0F5EBa0.png",
+        "https://pancakeswap.finance/images/tokens/0x706954491EBFD6b38e5B1e6F079dBEfae0F5EBa0.png",
       address: "0x706954491EBFD6b38e5B1e6F079dBEfae0F5EBa0",
       decimals: "8",
     },
@@ -36771,7 +36771,7 @@ export let chainTokenDictionary = {
       name: "trees finance",
       symbol: "GANJA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x447C324f7EB99e512Ff18308203B36d3C2607e0E.png",
+        "https://pancakeswap.finance/images/tokens/0x447C324f7EB99e512Ff18308203B36d3C2607e0E.png",
       address: "0x447C324f7EB99e512Ff18308203B36d3C2607e0E",
       decimals: "18",
     },
@@ -36779,7 +36779,7 @@ export let chainTokenDictionary = {
       name: "Finminity",
       symbol: "FMT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x99c6e435eC259A7E8d65E1955C9423DB624bA54C.png",
+        "https://pancakeswap.finance/images/tokens/0x99c6e435eC259A7E8d65E1955C9423DB624bA54C.png",
       address: "0x99c6e435eC259A7E8d65E1955C9423DB624bA54C",
       decimals: "18",
     },
@@ -36787,7 +36787,7 @@ export let chainTokenDictionary = {
       name: "OVR",
       symbol: "OVR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7E35D0e9180bF3A1fc47b0d110bE7a21A10B41Fe.png",
+        "https://pancakeswap.finance/images/tokens/0x7E35D0e9180bF3A1fc47b0d110bE7a21A10B41Fe.png",
       address: "0x7E35D0e9180bF3A1fc47b0d110bE7a21A10B41Fe",
       decimals: "18",
     },
@@ -36795,7 +36795,7 @@ export let chainTokenDictionary = {
       name: "CORD.Finance",
       symbol: "CORD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa3506A4f978862A296b29816C4e65cf1a6F54AAA.png",
+        "https://pancakeswap.finance/images/tokens/0xa3506A4f978862A296b29816C4e65cf1a6F54AAA.png",
       address: "0xa3506A4f978862A296b29816C4e65cf1a6F54AAA",
       decimals: "18",
     },
@@ -36803,7 +36803,7 @@ export let chainTokenDictionary = {
       name: "Curate on BSC",
       symbol: "XCUR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x708C671Aa997da536869B50B6C67FA0C32Ce80B2.png",
+        "https://pancakeswap.finance/images/tokens/0x708C671Aa997da536869B50B6C67FA0C32Ce80B2.png",
       address: "0x708C671Aa997da536869B50B6C67FA0C32Ce80B2",
       decimals: "8",
     },
@@ -36811,7 +36811,7 @@ export let chainTokenDictionary = {
       name: "Roul(ette)",
       symbol: "$ROUL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x712661a1976992a8f8c82FE74ba4E81a82De1F32.png",
+        "https://pancakeswap.finance/images/tokens/0x712661a1976992a8f8c82FE74ba4E81a82De1F32.png",
       address: "0x712661a1976992a8f8c82FE74ba4E81a82De1F32",
       decimals: "18",
     },
@@ -36819,7 +36819,7 @@ export let chainTokenDictionary = {
       name: "Pika Finance",
       symbol: "PIKA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x50D370cc853217099Bef3815FaaBfc563139eC2A.png",
+        "https://pancakeswap.finance/images/tokens/0x50D370cc853217099Bef3815FaaBfc563139eC2A.png",
       address: "0x50D370cc853217099Bef3815FaaBfc563139eC2A",
       decimals: "18",
     },
@@ -36827,7 +36827,7 @@ export let chainTokenDictionary = {
       name: "1INCH Token",
       symbol: "1INCH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x111111111117dC0aa78b770fA6A738034120C302.png",
+        "https://pancakeswap.finance/images/tokens/0x111111111117dC0aa78b770fA6A738034120C302.png",
       address: "0x111111111117dC0aa78b770fA6A738034120C302",
       decimals: "18",
     },
@@ -36835,7 +36835,7 @@ export let chainTokenDictionary = {
       name: "Mixsome",
       symbol: "SOME",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc039C13470be809beD1C2CD42339Ccb22e0970f2.png",
+        "https://pancakeswap.finance/images/tokens/0xc039C13470be809beD1C2CD42339Ccb22e0970f2.png",
       address: "0xc039C13470be809beD1C2CD42339Ccb22e0970f2",
       decimals: "18",
     },
@@ -36843,7 +36843,7 @@ export let chainTokenDictionary = {
       name: "BlueToken",
       symbol: "BLUE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x36C0556c2B15aED79F842675Ff030782738eF9e8.png",
+        "https://pancakeswap.finance/images/tokens/0x36C0556c2B15aED79F842675Ff030782738eF9e8.png",
       address: "0x36C0556c2B15aED79F842675Ff030782738eF9e8",
       decimals: "18",
     },
@@ -36851,7 +36851,7 @@ export let chainTokenDictionary = {
       name: "Pokeball",
       symbol: "POKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcdAd3683335a4a96d2c437Dd4513b061E4AEc4ff.png",
+        "https://pancakeswap.finance/images/tokens/0xcdAd3683335a4a96d2c437Dd4513b061E4AEc4ff.png",
       address: "0xcdAd3683335a4a96d2c437Dd4513b061E4AEc4ff",
       decimals: "18",
     },
@@ -36859,7 +36859,7 @@ export let chainTokenDictionary = {
       name: "KimochiToken",
       symbol: "KIMOCHI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4dA95bd392811897cde899d25FACe253a424BfD4.png",
+        "https://pancakeswap.finance/images/tokens/0x4dA95bd392811897cde899d25FACe253a424BfD4.png",
       address: "0x4dA95bd392811897cde899d25FACe253a424BfD4",
       decimals: "18",
     },
@@ -36867,7 +36867,7 @@ export let chainTokenDictionary = {
       name: "Kindcow Finance",
       symbol: "KIND",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE3Ba88c38D2789FE58465020CC0FB60b70c10d32.png",
+        "https://pancakeswap.finance/images/tokens/0xE3Ba88c38D2789FE58465020CC0FB60b70c10d32.png",
       address: "0xE3Ba88c38D2789FE58465020CC0FB60b70c10d32",
       decimals: "8",
     },
@@ -36875,7 +36875,7 @@ export let chainTokenDictionary = {
       name: "Fair BSC",
       symbol: "FAIRBSC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcBfB07B453c52A287f42E1270eE1eBCc7C5eE823.png",
+        "https://pancakeswap.finance/images/tokens/0xcBfB07B453c52A287f42E1270eE1eBCc7C5eE823.png",
       address: "0xcBfB07B453c52A287f42E1270eE1eBCc7C5eE823",
       decimals: "9",
     },
@@ -36883,7 +36883,7 @@ export let chainTokenDictionary = {
       name: "STEALTHMOON",
       symbol: "STMN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x80C13cd989cf831E12f8a31CAB56B6613f21D0A8.png",
+        "https://pancakeswap.finance/images/tokens/0x80C13cd989cf831E12f8a31CAB56B6613f21D0A8.png",
       address: "0x80C13cd989cf831E12f8a31CAB56B6613f21D0A8",
       decimals: "9",
     },
@@ -36891,7 +36891,7 @@ export let chainTokenDictionary = {
       name: "BAET",
       symbol: "BAET",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4960761d99FE51a6EbF08FF6d89AB47fA69be15c.png",
+        "https://pancakeswap.finance/images/tokens/0x4960761d99FE51a6EbF08FF6d89AB47fA69be15c.png",
       address: "0x4960761d99FE51a6EbF08FF6d89AB47fA69be15c",
       decimals: "18",
     },
@@ -36899,7 +36899,7 @@ export let chainTokenDictionary = {
       name: "POWERNETWORK.IO",
       symbol: "POWER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF3563ae9F87905ac8D611ed1b1bE2e7118f871AB.png",
+        "https://pancakeswap.finance/images/tokens/0xF3563ae9F87905ac8D611ed1b1bE2e7118f871AB.png",
       address: "0xF3563ae9F87905ac8D611ed1b1bE2e7118f871AB",
       decimals: "9",
     },
@@ -36907,7 +36907,7 @@ export let chainTokenDictionary = {
       name: "PhaserBSC",
       symbol: "PHX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3b1B01441f8Ae64d7d72c1e8A4A8646831fDA0c2.png",
+        "https://pancakeswap.finance/images/tokens/0x3b1B01441f8Ae64d7d72c1e8A4A8646831fDA0c2.png",
       address: "0x3b1B01441f8Ae64d7d72c1e8A4A8646831fDA0c2",
       decimals: "18",
     },
@@ -36915,7 +36915,7 @@ export let chainTokenDictionary = {
       name: "Ignite",
       symbol: "IGT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6814dc8f102aDc36c4000cd6AA54EF90994dA20c.png",
+        "https://pancakeswap.finance/images/tokens/0x6814dc8f102aDc36c4000cd6AA54EF90994dA20c.png",
       address: "0x6814dc8f102aDc36c4000cd6AA54EF90994dA20c",
       decimals: "18",
     },
@@ -36923,7 +36923,7 @@ export let chainTokenDictionary = {
       name: "Morphose Token",
       symbol: "MORPH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2b15bc62d1FB46ADE4763A3c5ea0917460bb25F1.png",
+        "https://pancakeswap.finance/images/tokens/0x2b15bc62d1FB46ADE4763A3c5ea0917460bb25F1.png",
       address: "0x2b15bc62d1FB46ADE4763A3c5ea0917460bb25F1",
       decimals: "18",
     },
@@ -36931,7 +36931,7 @@ export let chainTokenDictionary = {
       name: "XBSC.FINANCE",
       symbol: "XBSC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x809257844b26DD40fD14170C1E2b887e29BBe274.png",
+        "https://pancakeswap.finance/images/tokens/0x809257844b26DD40fD14170C1E2b887e29BBe274.png",
       address: "0x809257844b26DD40fD14170C1E2b887e29BBe274",
       decimals: "18",
     },
@@ -36939,7 +36939,7 @@ export let chainTokenDictionary = {
       name: "Frax",
       symbol: "FRAX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x29cED01C447166958605519F10DcF8b0255fB379.png",
+        "https://pancakeswap.finance/images/tokens/0x29cED01C447166958605519F10DcF8b0255fB379.png",
       address: "0x29cED01C447166958605519F10DcF8b0255fB379",
       decimals: "18",
     },
@@ -36947,7 +36947,7 @@ export let chainTokenDictionary = {
       name: "Frax Share",
       symbol: "FXS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xDE2F075f6F14EB9D96755b24E416A53E736Ca363.png",
+        "https://pancakeswap.finance/images/tokens/0xDE2F075f6F14EB9D96755b24E416A53E736Ca363.png",
       address: "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363",
       decimals: "18",
     },
@@ -36955,7 +36955,7 @@ export let chainTokenDictionary = {
       name: "TORJ.world",
       symbol: "TORJ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xECD2376a8C5Ece76323282441a1b935Bbcb45Ec2.png",
+        "https://pancakeswap.finance/images/tokens/0xECD2376a8C5Ece76323282441a1b935Bbcb45Ec2.png",
       address: "0xECD2376a8C5Ece76323282441a1b935Bbcb45Ec2",
       decimals: "3",
     },
@@ -36963,7 +36963,7 @@ export let chainTokenDictionary = {
       name: "Anteres Governance",
       symbol: "BNG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbDcd6014b53f8A955562bac454f2A6b5224Aca7B.png",
+        "https://pancakeswap.finance/images/tokens/0xbDcd6014b53f8A955562bac454f2A6b5224Aca7B.png",
       address: "0xbDcd6014b53f8A955562bac454f2A6b5224Aca7B",
       decimals: "18",
     },
@@ -36971,7 +36971,7 @@ export let chainTokenDictionary = {
       name: "MoonTrust Token",
       symbol: "MNTT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x390037d710C86F88F05174599425B77c72Eda305.png",
+        "https://pancakeswap.finance/images/tokens/0x390037d710C86F88F05174599425B77c72Eda305.png",
       address: "0x390037d710C86F88F05174599425B77c72Eda305",
       decimals: "18",
     },
@@ -36979,7 +36979,7 @@ export let chainTokenDictionary = {
       name: "Mountain - Climb Token Finance",
       symbol: "MNTN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA7Fcb2BAaBDA9dB593e24B25A1a32bfb5168018b.png",
+        "https://pancakeswap.finance/images/tokens/0xA7Fcb2BAaBDA9dB593e24B25A1a32bfb5168018b.png",
       address: "0xA7Fcb2BAaBDA9dB593e24B25A1a32bfb5168018b",
       decimals: "18",
     },
@@ -36987,7 +36987,7 @@ export let chainTokenDictionary = {
       name: "Fair Space",
       symbol: "FAIRSPACE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4D691BBEcE09A34BA5175639639146B25739cf35.png",
+        "https://pancakeswap.finance/images/tokens/0x4D691BBEcE09A34BA5175639639146B25739cf35.png",
       address: "0x4D691BBEcE09A34BA5175639639146B25739cf35",
       decimals: "9",
     },
@@ -36995,7 +36995,7 @@ export let chainTokenDictionary = {
       name: "BTAP",
       symbol: "BTAP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x270371C58D9D775ED73971Dd414656107384f235.png",
+        "https://pancakeswap.finance/images/tokens/0x270371C58D9D775ED73971Dd414656107384f235.png",
       address: "0x270371C58D9D775ED73971Dd414656107384f235",
       decimals: "18",
     },
@@ -37003,7 +37003,7 @@ export let chainTokenDictionary = {
       name: "PicaArtMoney",
       symbol: "PICA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x59687A62d5070012D65092b2825D021aFB8650E2.png",
+        "https://pancakeswap.finance/images/tokens/0x59687A62d5070012D65092b2825D021aFB8650E2.png",
       address: "0x59687A62d5070012D65092b2825D021aFB8650E2",
       decimals: "18",
     },
@@ -37011,7 +37011,7 @@ export let chainTokenDictionary = {
       name: "SafeMercury",
       symbol: "SFMC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x30B16A8DCf457ec72928e38F3BD3059D44db3014.png",
+        "https://pancakeswap.finance/images/tokens/0x30B16A8DCf457ec72928e38F3BD3059D44db3014.png",
       address: "0x30B16A8DCf457ec72928e38F3BD3059D44db3014",
       decimals: "18",
     },
@@ -37019,7 +37019,7 @@ export let chainTokenDictionary = {
       name: "Unilayer",
       symbol: "LAYER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc2c23a86DEF9e9f5972a633b3d25F7ecBFA5e575.png",
+        "https://pancakeswap.finance/images/tokens/0xc2c23a86DEF9e9f5972a633b3d25F7ecBFA5e575.png",
       address: "0xc2c23a86DEF9e9f5972a633b3d25F7ecBFA5e575",
       decimals: "18",
     },
@@ -37027,7 +37027,7 @@ export let chainTokenDictionary = {
       name: "LunarHighway",
       symbol: "LUNAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4e8a9D0BF525d78fd9E0c88710099f227F6924cf.png",
+        "https://pancakeswap.finance/images/tokens/0x4e8a9D0BF525d78fd9E0c88710099f227F6924cf.png",
       address: "0x4e8a9D0BF525d78fd9E0c88710099f227F6924cf",
       decimals: "9",
     },
@@ -37035,7 +37035,7 @@ export let chainTokenDictionary = {
       name: "Solar",
       symbol: "SOLAR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x818221B4BaA65F34eFaF7Aba58E5C2bb22B9EfB9.png",
+        "https://pancakeswap.finance/images/tokens/0x818221B4BaA65F34eFaF7Aba58E5C2bb22B9EfB9.png",
       address: "0x818221B4BaA65F34eFaF7Aba58E5C2bb22B9EfB9",
       decimals: "9",
     },
@@ -37043,7 +37043,7 @@ export let chainTokenDictionary = {
       name: "Rocket Moon",
       symbol: "ROCKETMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD32751Cd37762D247809C85B1d24cB6d2A18Bddf.png",
+        "https://pancakeswap.finance/images/tokens/0xD32751Cd37762D247809C85B1d24cB6d2A18Bddf.png",
       address: "0xD32751Cd37762D247809C85B1d24cB6d2A18Bddf",
       decimals: "9",
     },
@@ -37051,7 +37051,7 @@ export let chainTokenDictionary = {
       name: "MoonWalk",
       symbol: "MWalk",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9FCCb6F4146Eb225635935a610b2a98B3F4a3fb2.png",
+        "https://pancakeswap.finance/images/tokens/0x9FCCb6F4146Eb225635935a610b2a98B3F4a3fb2.png",
       address: "0x9FCCb6F4146Eb225635935a610b2a98B3F4a3fb2",
       decimals: "9",
     },
@@ -37059,7 +37059,7 @@ export let chainTokenDictionary = {
       name: "Diamond Hands Finance",
       symbol: "DMDHANDS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3Ec58e6e861931dC21ca955096a5ecdc704FA76a.png",
+        "https://pancakeswap.finance/images/tokens/0x3Ec58e6e861931dC21ca955096a5ecdc704FA76a.png",
       address: "0x3Ec58e6e861931dC21ca955096a5ecdc704FA76a",
       decimals: "10",
     },
@@ -37067,7 +37067,7 @@ export let chainTokenDictionary = {
       name: "Fair Mars",
       symbol: "FMARS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3974FAa1429134b968c1B5684eEBc4C96281AfB0.png",
+        "https://pancakeswap.finance/images/tokens/0x3974FAa1429134b968c1B5684eEBc4C96281AfB0.png",
       address: "0x3974FAa1429134b968c1B5684eEBc4C96281AfB0",
       decimals: "9",
     },
@@ -37075,7 +37075,7 @@ export let chainTokenDictionary = {
       name: "Paybswap",
       symbol: "PAYB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x916792fD41855914Ba4B71285C8A05B866f0618b.png",
+        "https://pancakeswap.finance/images/tokens/0x916792fD41855914Ba4B71285C8A05B866f0618b.png",
       address: "0x916792fD41855914Ba4B71285C8A05B866f0618b",
       decimals: "18",
     },
@@ -37083,7 +37083,7 @@ export let chainTokenDictionary = {
       name: "Whirl Finance",
       symbol: "WHIRL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7f479d78380Ad00341fdD7322fE8AEf766e29e5A.png",
+        "https://pancakeswap.finance/images/tokens/0x7f479d78380Ad00341fdD7322fE8AEf766e29e5A.png",
       address: "0x7f479d78380Ad00341fdD7322fE8AEf766e29e5A",
       decimals: "18",
     },
@@ -37091,7 +37091,7 @@ export let chainTokenDictionary = {
       name: "bDollar Bond",
       symbol: "bBDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9586b02B09bd68A7cD4aa9167a61B78F43092063.png",
+        "https://pancakeswap.finance/images/tokens/0x9586b02B09bd68A7cD4aa9167a61B78F43092063.png",
       address: "0x9586b02B09bd68A7cD4aa9167a61B78F43092063",
       decimals: "18",
     },
@@ -37099,7 +37099,7 @@ export let chainTokenDictionary = {
       name: "hodlearn.net",
       symbol: "HODL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd7bf683cAd197f4f869678cdDC345b38B483d8E4.png",
+        "https://pancakeswap.finance/images/tokens/0xd7bf683cAd197f4f869678cdDC345b38B483d8E4.png",
       address: "0xd7bf683cAd197f4f869678cdDC345b38B483d8E4",
       decimals: "9",
     },
@@ -37107,7 +37107,7 @@ export let chainTokenDictionary = {
       name: "Space Sharks",
       symbol: "SPACESHARKS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbdfB7A9e5A74cD722A9691570108CAaacB17674A.png",
+        "https://pancakeswap.finance/images/tokens/0xbdfB7A9e5A74cD722A9691570108CAaacB17674A.png",
       address: "0xbdfB7A9e5A74cD722A9691570108CAaacB17674A",
       decimals: "9",
     },
@@ -37115,7 +37115,7 @@ export let chainTokenDictionary = {
       name: "Propel",
       symbol: "PROPEL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9B44Df3318972bE845d83f961735609137C4C23c.png",
+        "https://pancakeswap.finance/images/tokens/0x9B44Df3318972bE845d83f961735609137C4C23c.png",
       address: "0x9B44Df3318972bE845d83f961735609137C4C23c",
       decimals: "18",
     },
@@ -37123,7 +37123,7 @@ export let chainTokenDictionary = {
       name: "QIAN second generation dollar",
       symbol: "QSD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x07AaA29E63FFEB2EBf59B33eE61437E1a91A3bb2.png",
+        "https://pancakeswap.finance/images/tokens/0x07AaA29E63FFEB2EBf59B33eE61437E1a91A3bb2.png",
       address: "0x07AaA29E63FFEB2EBf59B33eE61437E1a91A3bb2",
       decimals: "18",
     },
@@ -37131,7 +37131,7 @@ export let chainTokenDictionary = {
       name: "TOPS",
       symbol: "TOPS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x842446d1Fd581fa12A4c34663a745C9df51E9364.png",
+        "https://pancakeswap.finance/images/tokens/0x842446d1Fd581fa12A4c34663a745C9df51E9364.png",
       address: "0x842446d1Fd581fa12A4c34663a745C9df51E9364",
       decimals: "8",
     },
@@ -37139,7 +37139,7 @@ export let chainTokenDictionary = {
       name: "Royal ",
       symbol: "ROY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcbcB497D505469F34463BBd5490CC46aE43f81cA.png",
+        "https://pancakeswap.finance/images/tokens/0xcbcB497D505469F34463BBd5490CC46aE43f81cA.png",
       address: "0xcbcB497D505469F34463BBd5490CC46aE43f81cA",
       decimals: "18",
     },
@@ -37147,7 +37147,7 @@ export let chainTokenDictionary = {
       name: "NANAZ",
       symbol: "NANAZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3B7E4E48Cdc9A7BA84B66D4541EE01Aa70b0272C.png",
+        "https://pancakeswap.finance/images/tokens/0x3B7E4E48Cdc9A7BA84B66D4541EE01Aa70b0272C.png",
       address: "0x3B7E4E48Cdc9A7BA84B66D4541EE01Aa70b0272C",
       decimals: "18",
     },
@@ -37155,7 +37155,7 @@ export let chainTokenDictionary = {
       name: "Galactic Empire",
       symbol: "SITH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBAe9e4b3eFD6bBA48Ab3Aa3BFaF21b302c86AA19.png",
+        "https://pancakeswap.finance/images/tokens/0xBAe9e4b3eFD6bBA48Ab3Aa3BFaF21b302c86AA19.png",
       address: "0xBAe9e4b3eFD6bBA48Ab3Aa3BFaF21b302c86AA19",
       decimals: "9",
     },
@@ -37163,7 +37163,7 @@ export let chainTokenDictionary = {
       name: "FlashX Ultra",
       symbol: "FSXU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa94b7a842aADB617a0B08fA744e033C6De2f7595.png",
+        "https://pancakeswap.finance/images/tokens/0xa94b7a842aADB617a0B08fA744e033C6De2f7595.png",
       address: "0xa94b7a842aADB617a0B08fA744e033C6De2f7595",
       decimals: "8",
     },
@@ -37171,7 +37171,7 @@ export let chainTokenDictionary = {
       name: "PhoenixSwap Token",
       symbol: "PNIXS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x509949c4ee0C1C2c765CF9B23c75D823981E22aE.png",
+        "https://pancakeswap.finance/images/tokens/0x509949c4ee0C1C2c765CF9B23c75D823981E22aE.png",
       address: "0x509949c4ee0C1C2c765CF9B23c75D823981E22aE",
       decimals: "18",
     },
@@ -37179,7 +37179,7 @@ export let chainTokenDictionary = {
       name: "ApiaryDAO",
       symbol: "APYD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC5310Dc104473f5E0dD025f1862Bb697b3912296.png",
+        "https://pancakeswap.finance/images/tokens/0xC5310Dc104473f5E0dD025f1862Bb697b3912296.png",
       address: "0xC5310Dc104473f5E0dD025f1862Bb697b3912296",
       decimals: "18",
     },
@@ -37187,7 +37187,7 @@ export let chainTokenDictionary = {
       name: "TriToken",
       symbol: "TRI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x18782B1D35D377905368de4A18Ebad055594862D.png",
+        "https://pancakeswap.finance/images/tokens/0x18782B1D35D377905368de4A18Ebad055594862D.png",
       address: "0x18782B1D35D377905368de4A18Ebad055594862D",
       decimals: "18",
     },
@@ -37195,7 +37195,7 @@ export let chainTokenDictionary = {
       name: "Billion Happiness",
       symbol: "BHC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6fd7c98458a943f469E1Cf4eA85B173f5Cd342F4.png",
+        "https://pancakeswap.finance/images/tokens/0x6fd7c98458a943f469E1Cf4eA85B173f5Cd342F4.png",
       address: "0x6fd7c98458a943f469E1Cf4eA85B173f5Cd342F4",
       decimals: "18",
     },
@@ -37203,7 +37203,7 @@ export let chainTokenDictionary = {
       name: "CaptainPlanetMusk",
       symbol: "CPM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x736eFd266E3Ef784Ca02F6a9B4a8f9c518D76817.png",
+        "https://pancakeswap.finance/images/tokens/0x736eFd266E3Ef784Ca02F6a9B4a8f9c518D76817.png",
       address: "0x736eFd266E3Ef784Ca02F6a9B4a8f9c518D76817",
       decimals: "9",
     },
@@ -37211,7 +37211,7 @@ export let chainTokenDictionary = {
       name: "Anime",
       symbol: "ANI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xaC472D0EED2B8a2f57a6E304eA7eBD8E88D1d36f.png",
+        "https://pancakeswap.finance/images/tokens/0xaC472D0EED2B8a2f57a6E304eA7eBD8E88D1d36f.png",
       address: "0xaC472D0EED2B8a2f57a6E304eA7eBD8E88D1d36f",
       decimals: "18",
     },
@@ -37219,7 +37219,7 @@ export let chainTokenDictionary = {
       name: "KeyFi Token",
       symbol: "KEYFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4b6000F9163de2E3f0a01eC37E06e1469DBbcE9d.png",
+        "https://pancakeswap.finance/images/tokens/0x4b6000F9163de2E3f0a01eC37E06e1469DBbcE9d.png",
       address: "0x4b6000F9163de2E3f0a01eC37E06e1469DBbcE9d",
       decimals: "18",
     },
@@ -37227,7 +37227,7 @@ export let chainTokenDictionary = {
       name: "CarrotCake",
       symbol: "cCAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x47C4f3ffc31c135AFC0C157068f6E0eEA90b7dC9.png",
+        "https://pancakeswap.finance/images/tokens/0x47C4f3ffc31c135AFC0C157068f6E0eEA90b7dC9.png",
       address: "0x47C4f3ffc31c135AFC0C157068f6E0eEA90b7dC9",
       decimals: "18",
     },
@@ -37235,7 +37235,7 @@ export let chainTokenDictionary = {
       name: "GorillaYield.finance",
       symbol: "yAPE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x64b783A80D0C05bEd0E2F1a638465a7ba3F4A6fB.png",
+        "https://pancakeswap.finance/images/tokens/0x64b783A80D0C05bEd0E2F1a638465a7ba3F4A6fB.png",
       address: "0x64b783A80D0C05bEd0E2F1a638465a7ba3F4A6fB",
       decimals: "8",
     },
@@ -37243,7 +37243,7 @@ export let chainTokenDictionary = {
       name: "Astronaut",
       symbol: "NAUT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x05B339B0A346bF01f851ddE47a5d485c34FE220c.png",
+        "https://pancakeswap.finance/images/tokens/0x05B339B0A346bF01f851ddE47a5d485c34FE220c.png",
       address: "0x05B339B0A346bF01f851ddE47a5d485c34FE220c",
       decimals: "8",
     },
@@ -37251,7 +37251,7 @@ export let chainTokenDictionary = {
       name: "BT.Finance",
       symbol: "BT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5478a575Ece4FB4768d1d43eDf5826cfe1c6225A.png",
+        "https://pancakeswap.finance/images/tokens/0x5478a575Ece4FB4768d1d43eDf5826cfe1c6225A.png",
       address: "0x5478a575Ece4FB4768d1d43eDf5826cfe1c6225A",
       decimals: "18",
     },
@@ -37259,7 +37259,7 @@ export let chainTokenDictionary = {
       name: "Dogecoin",
       symbol: "DOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png",
+        "https://pancakeswap.finance/images/tokens/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png",
       address: "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
       decimals: "8",
     },
@@ -37267,7 +37267,7 @@ export let chainTokenDictionary = {
       name: "Philosoraptor",
       symbol: "RAPTR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEF23a5A1BE4468cdc9C8244d60AD2b4443F5E486.png",
+        "https://pancakeswap.finance/images/tokens/0xEF23a5A1BE4468cdc9C8244d60AD2b4443F5E486.png",
       address: "0xEF23a5A1BE4468cdc9C8244d60AD2b4443F5E486",
       decimals: "9",
     },
@@ -37275,7 +37275,7 @@ export let chainTokenDictionary = {
       name: "Soup Share",
       symbol: "SOUPS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x69F27E70E820197A6e495219D9aC34C8C6dA7EeE.png",
+        "https://pancakeswap.finance/images/tokens/0x69F27E70E820197A6e495219D9aC34C8C6dA7EeE.png",
       address: "0x69F27E70E820197A6e495219D9aC34C8C6dA7EeE",
       decimals: "18",
     },
@@ -37283,7 +37283,7 @@ export let chainTokenDictionary = {
       name: "CBDoge",
       symbol: "CBD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x516495657206d91BC8025F2B1dd59eF58804f1f9.png",
+        "https://pancakeswap.finance/images/tokens/0x516495657206d91BC8025F2B1dd59eF58804f1f9.png",
       address: "0x516495657206d91BC8025F2B1dd59eF58804f1f9",
       decimals: "8",
     },
@@ -37291,7 +37291,7 @@ export let chainTokenDictionary = {
       name: "ProjectPanda",
       symbol: "PNDA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4273d797Ebc0063d5d887B1e67daD4A43E2Fd244.png",
+        "https://pancakeswap.finance/images/tokens/0x4273d797Ebc0063d5d887B1e67daD4A43E2Fd244.png",
       address: "0x4273d797Ebc0063d5d887B1e67daD4A43E2Fd244",
       decimals: "18",
     },
@@ -37299,7 +37299,7 @@ export let chainTokenDictionary = {
       name: "Biscuit Farm Finance",
       symbol: "BCU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC294a07Df611CFc515DcdC7D377648a7a0d85c8f.png",
+        "https://pancakeswap.finance/images/tokens/0xC294a07Df611CFc515DcdC7D377648a7a0d85c8f.png",
       address: "0xC294a07Df611CFc515DcdC7D377648a7a0d85c8f",
       decimals: "18",
     },
@@ -37307,7 +37307,7 @@ export let chainTokenDictionary = {
       name: "Gen Token",
       symbol: "GEN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB0F2939A1c0e43683E5954c9Fe142F7df9F8D967.png",
+        "https://pancakeswap.finance/images/tokens/0xB0F2939A1c0e43683E5954c9Fe142F7df9F8D967.png",
       address: "0xB0F2939A1c0e43683E5954c9Fe142F7df9F8D967",
       decimals: "18",
     },
@@ -37315,7 +37315,7 @@ export let chainTokenDictionary = {
       name: "Golden Duck",
       symbol: "GOLDUCK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1a1c6f9F6B4E535130E9b1de46bBc76130b61Feb.png",
+        "https://pancakeswap.finance/images/tokens/0x1a1c6f9F6B4E535130E9b1de46bBc76130b61Feb.png",
       address: "0x1a1c6f9F6B4E535130E9b1de46bBc76130b61Feb",
       decimals: "9",
     },
@@ -37323,7 +37323,7 @@ export let chainTokenDictionary = {
       name: "DragonFarm.finance",
       symbol: "DRAGON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x251a3184857488dc90fA9c9A52fd2D8dF473D92C.png",
+        "https://pancakeswap.finance/images/tokens/0x251a3184857488dc90fA9c9A52fd2D8dF473D92C.png",
       address: "0x251a3184857488dc90fA9c9A52fd2D8dF473D92C",
       decimals: "8",
     },
@@ -37331,7 +37331,7 @@ export let chainTokenDictionary = {
       name: "SuccessKid",
       symbol: "SKIDDO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x73d8Fd2a7e264b0c19cB981294C0cd11389Cc0b8.png",
+        "https://pancakeswap.finance/images/tokens/0x73d8Fd2a7e264b0c19cB981294C0cd11389Cc0b8.png",
       address: "0x73d8Fd2a7e264b0c19cB981294C0cd11389Cc0b8",
       decimals: "9",
     },
@@ -37339,7 +37339,7 @@ export let chainTokenDictionary = {
       name: "STRIKE COIN",
       symbol: "STRIKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBE2a26889CE30a1515055a192797083B1FDe8844.png",
+        "https://pancakeswap.finance/images/tokens/0xBE2a26889CE30a1515055a192797083B1FDe8844.png",
       address: "0xBE2a26889CE30a1515055a192797083B1FDe8844",
       decimals: "3",
     },
@@ -37347,7 +37347,7 @@ export let chainTokenDictionary = {
       name: "Dopple Token",
       symbol: "DOP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x844FA82f1E54824655470970F7004Dd90546bB28.png",
+        "https://pancakeswap.finance/images/tokens/0x844FA82f1E54824655470970F7004Dd90546bB28.png",
       address: "0x844FA82f1E54824655470970F7004Dd90546bB28",
       decimals: "18",
     },
@@ -37355,7 +37355,7 @@ export let chainTokenDictionary = {
       name: "DLP Duck Token",
       symbol: "DUCK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5D186E28934c6B0fF5Fc2feCE15D1F34f78cBd87.png",
+        "https://pancakeswap.finance/images/tokens/0x5D186E28934c6B0fF5Fc2feCE15D1F34f78cBd87.png",
       address: "0x5D186E28934c6B0fF5Fc2feCE15D1F34f78cBd87",
       decimals: "18",
     },
@@ -37363,7 +37363,7 @@ export let chainTokenDictionary = {
       name: "CryptoBlades Skill Token",
       symbol: "SKILL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab.png",
+        "https://pancakeswap.finance/images/tokens/0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab.png",
       address: "0x154A9F9cbd3449AD22FDaE23044319D6eF2a1Fab",
       decimals: "18",
     },
@@ -37371,7 +37371,7 @@ export let chainTokenDictionary = {
       name: "Verum Protocol",
       symbol: "VRM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5ed934d24EBa708E04b910d21828beA2DC919246.png",
+        "https://pancakeswap.finance/images/tokens/0x5ed934d24EBa708E04b910d21828beA2DC919246.png",
       address: "0x5ed934d24EBa708E04b910d21828beA2DC919246",
       decimals: "18",
     },
@@ -37379,7 +37379,7 @@ export let chainTokenDictionary = {
       name: "LunarEclipse",
       symbol: "LECL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e.png",
+        "https://pancakeswap.finance/images/tokens/0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e.png",
       address: "0x18dB09873c18D3b8D33C8EAea321a909DeaDe87e",
       decimals: "9",
     },
@@ -37387,7 +37387,7 @@ export let chainTokenDictionary = {
       name: "BrickChain",
       symbol: "BRICK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc4DaA5a9f2B832eD0f9Bc579662883cD53EA9d61.png",
+        "https://pancakeswap.finance/images/tokens/0xc4DaA5a9f2B832eD0f9Bc579662883cD53EA9d61.png",
       address: "0xc4DaA5a9f2B832eD0f9Bc579662883cD53EA9d61",
       decimals: "18",
     },
@@ -37395,7 +37395,7 @@ export let chainTokenDictionary = {
       name: "DangerARK",
       symbol: "$dARK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6204A9f075EeE382e485b27B7D44a38b9f9a0CBA.png",
+        "https://pancakeswap.finance/images/tokens/0x6204A9f075EeE382e485b27B7D44a38b9f9a0CBA.png",
       address: "0x6204A9f075EeE382e485b27B7D44a38b9f9a0CBA",
       decimals: "8",
     },
@@ -37403,7 +37403,7 @@ export let chainTokenDictionary = {
       name: "PhoenixDAO",
       symbol: "PHNX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7e2c683EEc39813C191f6a40d259984dd5880c0A.png",
+        "https://pancakeswap.finance/images/tokens/0x7e2c683EEc39813C191f6a40d259984dd5880c0A.png",
       address: "0x7e2c683EEc39813C191f6a40d259984dd5880c0A",
       decimals: "18",
     },
@@ -37411,7 +37411,7 @@ export let chainTokenDictionary = {
       name: "Golden Rupee",
       symbol: "gRUPEE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8efa59bf5F47c6FE0E97C15cAd12f2Be6BB899a1.png",
+        "https://pancakeswap.finance/images/tokens/0x8efa59bf5F47c6FE0E97C15cAd12f2Be6BB899a1.png",
       address: "0x8efa59bf5F47c6FE0E97C15cAd12f2Be6BB899a1",
       decimals: "18",
     },
@@ -37419,7 +37419,7 @@ export let chainTokenDictionary = {
       name: "Narco Protocol",
       symbol: "NCP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3F4cA61e82a9Ec1E89d1244397e976524fc9Ae18.png",
+        "https://pancakeswap.finance/images/tokens/0x3F4cA61e82a9Ec1E89d1244397e976524fc9Ae18.png",
       address: "0x3F4cA61e82a9Ec1E89d1244397e976524fc9Ae18",
       decimals: "9",
     },
@@ -37427,7 +37427,7 @@ export let chainTokenDictionary = {
       name: "HogeClassic",
       symbol: "HOGECLASSIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb7E4c57DC7EA754B2949E2C4203a42aF08786FAa.png",
+        "https://pancakeswap.finance/images/tokens/0xb7E4c57DC7EA754B2949E2C4203a42aF08786FAa.png",
       address: "0xb7E4c57DC7EA754B2949E2C4203a42aF08786FAa",
       decimals: "9",
     },
@@ -37435,7 +37435,7 @@ export let chainTokenDictionary = {
       name: "Salt Token",
       symbol: "SALT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2849b1aE7E04A3D9Bc288673A92477CF63F28aF4.png",
+        "https://pancakeswap.finance/images/tokens/0x2849b1aE7E04A3D9Bc288673A92477CF63F28aF4.png",
       address: "0x2849b1aE7E04A3D9Bc288673A92477CF63F28aF4",
       decimals: "18",
     },
@@ -37443,7 +37443,7 @@ export let chainTokenDictionary = {
       name: "Strainz",
       symbol: "STRAINZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7F1AddbB144363730a433A21ACDaB7b36F988252.png",
+        "https://pancakeswap.finance/images/tokens/0x7F1AddbB144363730a433A21ACDaB7b36F988252.png",
       address: "0x7F1AddbB144363730a433A21ACDaB7b36F988252",
       decimals: "0",
     },
@@ -37451,7 +37451,7 @@ export let chainTokenDictionary = {
       name: "Strains",
       symbol: "SFN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdCA8a5bb74Ec9536D13511C51f6A68821Bf6a1a6.png",
+        "https://pancakeswap.finance/images/tokens/0xdCA8a5bb74Ec9536D13511C51f6A68821Bf6a1a6.png",
       address: "0xdCA8a5bb74Ec9536D13511C51f6A68821Bf6a1a6",
       decimals: "8",
     },
@@ -37459,7 +37459,7 @@ export let chainTokenDictionary = {
       name: "Mythic Finance",
       symbol: "MYTHIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc558E7Eb17592E698ca5d7da78d4bCF758E96fDE.png",
+        "https://pancakeswap.finance/images/tokens/0xc558E7Eb17592E698ca5d7da78d4bCF758E96fDE.png",
       address: "0xc558E7Eb17592E698ca5d7da78d4bCF758E96fDE",
       decimals: "18",
     },
@@ -37467,7 +37467,7 @@ export let chainTokenDictionary = {
       name: "Kambria Yield Tuning Engine",
       symbol: "KYTE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0995d8643645Dd0CEa60ab1acFA5AD2f642273D3.png",
+        "https://pancakeswap.finance/images/tokens/0x0995d8643645Dd0CEa60ab1acFA5AD2f642273D3.png",
       address: "0x0995d8643645Dd0CEa60ab1acFA5AD2f642273D3",
       decimals: "18",
     },
@@ -37475,7 +37475,7 @@ export let chainTokenDictionary = {
       name: "Wrapped Rocket Bunny",
       symbol: "bWBUNNY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB41037cf7237f5d231C9C60Dcb50f605e846488F.png",
+        "https://pancakeswap.finance/images/tokens/0xB41037cf7237f5d231C9C60Dcb50f605e846488F.png",
       address: "0xB41037cf7237f5d231C9C60Dcb50f605e846488F",
       decimals: "9",
     },
@@ -37483,7 +37483,7 @@ export let chainTokenDictionary = {
       name: "TSUKI",
       symbol: "TSUKI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3Fd9e7041C45622e8026199A46f763C9807f66f3.png",
+        "https://pancakeswap.finance/images/tokens/0x3Fd9e7041C45622e8026199A46f763C9807f66f3.png",
       address: "0x3Fd9e7041C45622e8026199A46f763C9807f66f3",
       decimals: "18",
     },
@@ -37491,7 +37491,7 @@ export let chainTokenDictionary = {
       name: "QUAI on BSC",
       symbol: "QUAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3Dc2d7434bDbB4Ca1A8A6bCC8a8075AEaE2d2179.png",
+        "https://pancakeswap.finance/images/tokens/0x3Dc2d7434bDbB4Ca1A8A6bCC8a8075AEaE2d2179.png",
       address: "0x3Dc2d7434bDbB4Ca1A8A6bCC8a8075AEaE2d2179",
       decimals: "18",
     },
@@ -37499,7 +37499,7 @@ export let chainTokenDictionary = {
       name: "Beta.Fork",
       symbol: "BETAF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8df7cdAd824Ea5983f97bA1043EEc22C815930CF.png",
+        "https://pancakeswap.finance/images/tokens/0x8df7cdAd824Ea5983f97bA1043EEc22C815930CF.png",
       address: "0x8df7cdAd824Ea5983f97bA1043EEc22C815930CF",
       decimals: "18",
     },
@@ -37507,7 +37507,7 @@ export let chainTokenDictionary = {
       name: "KUSH DOGE",
       symbol: "KOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x140f34c8B7a417EE274AdFBD1d429511DC07e14d.png",
+        "https://pancakeswap.finance/images/tokens/0x140f34c8B7a417EE274AdFBD1d429511DC07e14d.png",
       address: "0x140f34c8B7a417EE274AdFBD1d429511DC07e14d",
       decimals: "9",
     },
@@ -37515,7 +37515,7 @@ export let chainTokenDictionary = {
       name: "Mars Craters",
       symbol: "CRATER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x57F35f7Bbacf5248C5120e517c4EAB4aB1048C6F.png",
+        "https://pancakeswap.finance/images/tokens/0x57F35f7Bbacf5248C5120e517c4EAB4aB1048C6F.png",
       address: "0x57F35f7Bbacf5248C5120e517c4EAB4aB1048C6F",
       decimals: "9",
     },
@@ -37523,7 +37523,7 @@ export let chainTokenDictionary = {
       name: "SafeMoon Classic",
       symbol: "SAFEMOON CLASSIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF1720079f5611A589795C5C3BA114F112B53e17E.png",
+        "https://pancakeswap.finance/images/tokens/0xF1720079f5611A589795C5C3BA114F112B53e17E.png",
       address: "0xF1720079f5611A589795C5C3BA114F112B53e17E",
       decimals: "9",
     },
@@ -37531,7 +37531,7 @@ export let chainTokenDictionary = {
       name: "Mixty Finace",
       symbol: "MXF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdf065aa3a18Ae67055fF44bD26506fDe6CE13312.png",
+        "https://pancakeswap.finance/images/tokens/0xdf065aa3a18Ae67055fF44bD26506fDe6CE13312.png",
       address: "0xdf065aa3a18Ae67055fF44bD26506fDe6CE13312",
       decimals: "18",
     },
@@ -37539,7 +37539,7 @@ export let chainTokenDictionary = {
       name: "SafeStar Classic",
       symbol: "SSC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA4eCdB4c6d8Db224aD4fA657ff572BD0987b46e7.png",
+        "https://pancakeswap.finance/images/tokens/0xA4eCdB4c6d8Db224aD4fA657ff572BD0987b46e7.png",
       address: "0xA4eCdB4c6d8Db224aD4fA657ff572BD0987b46e7",
       decimals: "9",
     },
@@ -37547,7 +37547,7 @@ export let chainTokenDictionary = {
       name: "CarbonDEFI.finance",
       symbol: "CARBO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc3236733841893DdbD8Eac9F647eEC29DA63F400.png",
+        "https://pancakeswap.finance/images/tokens/0xc3236733841893DdbD8Eac9F647eEC29DA63F400.png",
       address: "0xc3236733841893DdbD8Eac9F647eEC29DA63F400",
       decimals: "18",
     },
@@ -37555,7 +37555,7 @@ export let chainTokenDictionary = {
       name: "InfiniteDivs",
       symbol: "ID",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x91E4470D0Cd8566F2565Cc00118Ee30282C753AB.png",
+        "https://pancakeswap.finance/images/tokens/0x91E4470D0Cd8566F2565Cc00118Ee30282C753AB.png",
       address: "0x91E4470D0Cd8566F2565Cc00118Ee30282C753AB",
       decimals: "8",
     },
@@ -37563,7 +37563,7 @@ export let chainTokenDictionary = {
       name: "AceD Entertainment",
       symbol: "AceD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3B98bbefe14B98000f10124ca95eD298AC9dB3Ff.png",
+        "https://pancakeswap.finance/images/tokens/0x3B98bbefe14B98000f10124ca95eD298AC9dB3Ff.png",
       address: "0x3B98bbefe14B98000f10124ca95eD298AC9dB3Ff",
       decimals: "18",
     },
@@ -37571,7 +37571,7 @@ export let chainTokenDictionary = {
       name: "Bamboo Token",
       symbol: "BBOO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd909840613fCb0fADC6ee7E5eCF30cDEf4281a68.png",
+        "https://pancakeswap.finance/images/tokens/0xd909840613fCb0fADC6ee7E5eCF30cDEf4281a68.png",
       address: "0xd909840613fCb0fADC6ee7E5eCF30cDEf4281a68",
       decimals: "18",
     },
@@ -37579,7 +37579,7 @@ export let chainTokenDictionary = {
       name: "Hachiko",
       symbol: "Hachiko",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x87Ffc48C9f89fc5dfA05836e083406D684FD6331.png",
+        "https://pancakeswap.finance/images/tokens/0x87Ffc48C9f89fc5dfA05836e083406D684FD6331.png",
       address: "0x87Ffc48C9f89fc5dfA05836e083406D684FD6331",
       decimals: "9",
     },
@@ -37587,7 +37587,7 @@ export let chainTokenDictionary = {
       name: "MoonStop.Space MOON STOP",
       symbol: "MNSTP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x150159C72F0F9Ef9000BF95E242dE6682480D6D3.png",
+        "https://pancakeswap.finance/images/tokens/0x150159C72F0F9Ef9000BF95E242dE6682480D6D3.png",
       address: "0x150159C72F0F9Ef9000BF95E242dE6682480D6D3",
       decimals: "9",
     },
@@ -37595,7 +37595,7 @@ export let chainTokenDictionary = {
       name: "SaturnV Gold",
       symbol: "SATVG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD5E5B7C09C79b94Cc5f6d82e7C996D3181F8Fd93.png",
+        "https://pancakeswap.finance/images/tokens/0xD5E5B7C09C79b94Cc5f6d82e7C996D3181F8Fd93.png",
       address: "0xD5E5B7C09C79b94Cc5f6d82e7C996D3181F8Fd93",
       decimals: "9",
     },
@@ -37603,7 +37603,7 @@ export let chainTokenDictionary = {
       name: "Paperplane.finance",
       symbol: "PPLANE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8FeFF2d4e0BD1625DbD4161c7a93553dE1b5c1cB.png",
+        "https://pancakeswap.finance/images/tokens/0x8FeFF2d4e0BD1625DbD4161c7a93553dE1b5c1cB.png",
       address: "0x8FeFF2d4e0BD1625DbD4161c7a93553dE1b5c1cB",
       decimals: "18",
     },
@@ -37611,7 +37611,7 @@ export let chainTokenDictionary = {
       name: "Magikarp",
       symbol: "MAGI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xc603b1fba6A5b502Be4f1Ab27591bF4e75A3460c.png",
+        "https://pancakeswap.finance/images/tokens/0xc603b1fba6A5b502Be4f1Ab27591bF4e75A3460c.png",
       address: "0xc603b1fba6A5b502Be4f1Ab27591bF4e75A3460c",
       decimals: "8",
     },
@@ -37619,7 +37619,7 @@ export let chainTokenDictionary = {
       name: "StableX Token",
       symbol: "STAX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0Da6Ed8B13214Ff28e9Ca979Dd37439e8a88F6c4.png",
+        "https://pancakeswap.finance/images/tokens/0x0Da6Ed8B13214Ff28e9Ca979Dd37439e8a88F6c4.png",
       address: "0x0Da6Ed8B13214Ff28e9Ca979Dd37439e8a88F6c4",
       decimals: "18",
     },
@@ -37627,7 +37627,7 @@ export let chainTokenDictionary = {
       name: "Safe Orbit",
       symbol: "SAFEORBIT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xeCD372DB37b4Cca10aF973474C564278d62B7888.png",
+        "https://pancakeswap.finance/images/tokens/0xeCD372DB37b4Cca10aF973474C564278d62B7888.png",
       address: "0xeCD372DB37b4Cca10aF973474C564278d62B7888",
       decimals: "9",
     },
@@ -37635,7 +37635,7 @@ export let chainTokenDictionary = {
       name: "bDollar-peg XAU",
       symbol: "bpXAU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xeaaF11ff129c2e44801CA6C169C32BeE728cFe8e.png",
+        "https://pancakeswap.finance/images/tokens/0xeaaF11ff129c2e44801CA6C169C32BeE728cFe8e.png",
       address: "0xeaaF11ff129c2e44801CA6C169C32BeE728cFe8e",
       decimals: "18",
     },
@@ -37643,7 +37643,7 @@ export let chainTokenDictionary = {
       name: "GAMMA Token",
       symbol: "GAMMA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4EC3AbdCec65238812a58EAf0096291a4C60a8dB.png",
+        "https://pancakeswap.finance/images/tokens/0x4EC3AbdCec65238812a58EAf0096291a4C60a8dB.png",
       address: "0x4EC3AbdCec65238812a58EAf0096291a4C60a8dB",
       decimals: "18",
     },
@@ -37651,7 +37651,7 @@ export let chainTokenDictionary = {
       name: "LetsFkinGalaxy",
       symbol: "LFG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xaCbF7C954C7cE8F14bbc553C1A86c303bE351339.png",
+        "https://pancakeswap.finance/images/tokens/0xaCbF7C954C7cE8F14bbc553C1A86c303bE351339.png",
       address: "0xaCbF7C954C7cE8F14bbc553C1A86c303bE351339",
       decimals: "9",
     },
@@ -37659,7 +37659,7 @@ export let chainTokenDictionary = {
       name: "HummingBird Finance",
       symbol: "HMNG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x14357D294fBabbE0fbF59503370c772d563b35b6.png",
+        "https://pancakeswap.finance/images/tokens/0x14357D294fBabbE0fbF59503370c772d563b35b6.png",
       address: "0x14357D294fBabbE0fbF59503370c772d563b35b6",
       decimals: "9",
     },
@@ -37667,7 +37667,7 @@ export let chainTokenDictionary = {
       name: "SafeElongate",
       symbol: "SAFEELONGATE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3469438a255b0571E48896055294c3A16C223e4c.png",
+        "https://pancakeswap.finance/images/tokens/0x3469438a255b0571E48896055294c3A16C223e4c.png",
       address: "0x3469438a255b0571E48896055294c3A16C223e4c",
       decimals: "9",
     },
@@ -37675,7 +37675,7 @@ export let chainTokenDictionary = {
       name: "SuperMoon",
       symbol: "SUPERMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCe3d14581dDE02F377F0EE99ED771D6fBe716361.png",
+        "https://pancakeswap.finance/images/tokens/0xCe3d14581dDE02F377F0EE99ED771D6fBe716361.png",
       address: "0xCe3d14581dDE02F377F0EE99ED771D6fBe716361",
       decimals: "9",
     },
@@ -37683,7 +37683,7 @@ export let chainTokenDictionary = {
       name: "Reliance",
       symbol: "Rely",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x727D0b444B86BE03DBA3ece809d8AF292c6ad5Fc.png",
+        "https://pancakeswap.finance/images/tokens/0x727D0b444B86BE03DBA3ece809d8AF292c6ad5Fc.png",
       address: "0x727D0b444B86BE03DBA3ece809d8AF292c6ad5Fc",
       decimals: "9",
     },
@@ -37691,7 +37691,7 @@ export let chainTokenDictionary = {
       name: "Steam token",
       symbol: "STEAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x072e3D0D4f14dd82a16B0a33678c6104e9009ED9.png",
+        "https://pancakeswap.finance/images/tokens/0x072e3D0D4f14dd82a16B0a33678c6104e9009ED9.png",
       address: "0x072e3D0D4f14dd82a16B0a33678c6104e9009ED9",
       decimals: "18",
     },
@@ -37699,7 +37699,7 @@ export let chainTokenDictionary = {
       name: "SAFE SPARTAN",
       symbol: "SAFESPARTAN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7b8e0A44958921FD35dC9e8fFbe5f4e763F94cb0.png",
+        "https://pancakeswap.finance/images/tokens/0x7b8e0A44958921FD35dC9e8fFbe5f4e763F94cb0.png",
       address: "0x7b8e0A44958921FD35dC9e8fFbe5f4e763F94cb0",
       decimals: "9",
     },
@@ -37707,7 +37707,7 @@ export let chainTokenDictionary = {
       name: "YieldPanda.finance",
       symbol: "yPANDA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9806aec346064183b5cE441313231DFf89811f7A.png",
+        "https://pancakeswap.finance/images/tokens/0x9806aec346064183b5cE441313231DFf89811f7A.png",
       address: "0x9806aec346064183b5cE441313231DFf89811f7A",
       decimals: "8",
     },
@@ -37715,7 +37715,7 @@ export let chainTokenDictionary = {
       name: "Norse Finance",
       symbol: "NFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x43f001914C7d347D152f296E8539086fE49F8bD6.png",
+        "https://pancakeswap.finance/images/tokens/0x43f001914C7d347D152f296E8539086fE49F8bD6.png",
       address: "0x43f001914C7d347D152f296E8539086fE49F8bD6",
       decimals: "18",
     },
@@ -37723,7 +37723,7 @@ export let chainTokenDictionary = {
       name: "TreeDefi Token",
       symbol: "SEED",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x40B34cC972908060D6d527276e17c105d224559d.png",
+        "https://pancakeswap.finance/images/tokens/0x40B34cC972908060D6d527276e17c105d224559d.png",
       address: "0x40B34cC972908060D6d527276e17c105d224559d",
       decimals: "18",
     },
@@ -37731,7 +37731,7 @@ export let chainTokenDictionary = {
       name: "BSC DOG Token",
       symbol: "BSCDOG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xaB329b1B7785be9f954bacFc7Fa663Ce9b36338d.png",
+        "https://pancakeswap.finance/images/tokens/0xaB329b1B7785be9f954bacFc7Fa663Ce9b36338d.png",
       address: "0xaB329b1B7785be9f954bacFc7Fa663Ce9b36338d",
       decimals: "9",
     },
@@ -37739,7 +37739,7 @@ export let chainTokenDictionary = {
       name: "MemeFarm",
       symbol: "MFRM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x206340f3361404910F45cA0893980EF3f9b418ea.png",
+        "https://pancakeswap.finance/images/tokens/0x206340f3361404910F45cA0893980EF3f9b418ea.png",
       address: "0x206340f3361404910F45cA0893980EF3f9b418ea",
       decimals: "18",
     },
@@ -37747,7 +37747,7 @@ export let chainTokenDictionary = {
       name: "KPOP Token",
       symbol: "KPOP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x779859313567B96d5d3fb7f531b73E1BF008C4A9.png",
+        "https://pancakeswap.finance/images/tokens/0x779859313567B96d5d3fb7f531b73E1BF008C4A9.png",
       address: "0x779859313567B96d5d3fb7f531b73E1BF008C4A9",
       decimals: "18",
     },
@@ -37755,7 +37755,7 @@ export let chainTokenDictionary = {
       name: "Rooster Finance",
       symbol: "RTF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb4A92eDAb7c9Ba94b6637E8052D8bd133EC4221C.png",
+        "https://pancakeswap.finance/images/tokens/0xb4A92eDAb7c9Ba94b6637E8052D8bd133EC4221C.png",
       address: "0xb4A92eDAb7c9Ba94b6637E8052D8bd133EC4221C",
       decimals: "9",
     },
@@ -37763,7 +37763,7 @@ export let chainTokenDictionary = {
       name: "Rottie",
       symbol: "Rottie",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8F9A88de1ebf681ff0E81F79d8d06CDCB230C852.png",
+        "https://pancakeswap.finance/images/tokens/0x8F9A88de1ebf681ff0E81F79d8d06CDCB230C852.png",
       address: "0x8F9A88de1ebf681ff0E81F79d8d06CDCB230C852",
       decimals: "9",
     },
@@ -37771,7 +37771,7 @@ export let chainTokenDictionary = {
       name: "Baked.Finance",
       symbol: "BAKED",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x643427d133065272a106Db4AF1A88Eba15150B00.png",
+        "https://pancakeswap.finance/images/tokens/0x643427d133065272a106Db4AF1A88Eba15150B00.png",
       address: "0x643427d133065272a106Db4AF1A88Eba15150B00",
       decimals: "9",
     },
@@ -37779,7 +37779,7 @@ export let chainTokenDictionary = {
       name: "Thor Token",
       symbol: "THOR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x91a92482526EB04E60E4372A919B74027f1ad935.png",
+        "https://pancakeswap.finance/images/tokens/0x91a92482526EB04E60E4372A919B74027f1ad935.png",
       address: "0x91a92482526EB04E60E4372A919B74027f1ad935",
       decimals: "18",
     },
@@ -37787,7 +37787,7 @@ export let chainTokenDictionary = {
       name: "Shield Protocol",
       symbol: "SHIELD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x60b3BC37593853c04410c4F07fE4D6748245BF77.png",
+        "https://pancakeswap.finance/images/tokens/0x60b3BC37593853c04410c4F07fE4D6748245BF77.png",
       address: "0x60b3BC37593853c04410c4F07fE4D6748245BF77",
       decimals: "18",
     },
@@ -37795,7 +37795,7 @@ export let chainTokenDictionary = {
       name: "MoonBreaker Token",
       symbol: "MBR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8656093690A2EE6Fa80A85E546Bf02B81408119A.png",
+        "https://pancakeswap.finance/images/tokens/0x8656093690A2EE6Fa80A85E546Bf02B81408119A.png",
       address: "0x8656093690A2EE6Fa80A85E546Bf02B81408119A",
       decimals: "18",
     },
@@ -37803,7 +37803,7 @@ export let chainTokenDictionary = {
       name: "Moon Pepe",
       symbol: "MOONPEPE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEe559996Ddc8ab4d7186C62CE118a8494d58F4e4.png",
+        "https://pancakeswap.finance/images/tokens/0xEe559996Ddc8ab4d7186C62CE118a8494d58F4e4.png",
       address: "0xEe559996Ddc8ab4d7186C62CE118a8494d58F4e4",
       decimals: "9",
     },
@@ -37811,7 +37811,7 @@ export let chainTokenDictionary = {
       name: "bDollar-peg EUR",
       symbol: "bpEUR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC66087b151E5de3a414a22d442f073c0E19f17F2.png",
+        "https://pancakeswap.finance/images/tokens/0xC66087b151E5de3a414a22d442f073c0E19f17F2.png",
       address: "0xC66087b151E5de3a414a22d442f073c0E19f17F2",
       decimals: "18",
     },
@@ -37819,7 +37819,7 @@ export let chainTokenDictionary = {
       name: "Wynaut",
       symbol: "WYNAUT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x067a5ad3f0f91AcF512fFE66Ea77f37b4DcaaF18.png",
+        "https://pancakeswap.finance/images/tokens/0x067a5ad3f0f91AcF512fFE66Ea77f37b4DcaaF18.png",
       address: "0x067a5ad3f0f91AcF512fFE66Ea77f37b4DcaaF18",
       decimals: "8",
     },
@@ -37827,7 +37827,7 @@ export let chainTokenDictionary = {
       name: "ElonGateClassic",
       symbol: "ElonGateClassic",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x37261CA77D152f3578C6d27fab9cCDAF81674831.png",
+        "https://pancakeswap.finance/images/tokens/0x37261CA77D152f3578C6d27fab9cCDAF81674831.png",
       address: "0x37261CA77D152f3578C6d27fab9cCDAF81674831",
       decimals: "9",
     },
@@ -37835,7 +37835,7 @@ export let chainTokenDictionary = {
       name: "CelerToken",
       symbol: "CELR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163.png",
+        "https://pancakeswap.finance/images/tokens/0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163.png",
       address: "0x1f9f6a696C6Fd109cD3956F45dC709d2b3902163",
       decimals: "18",
     },
@@ -37843,7 +37843,7 @@ export let chainTokenDictionary = {
       name: "Smaugs NFT",
       symbol: "SMG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6bfd576220e8444CA4Cc5f89Efbd7f02a4C94C16.png",
+        "https://pancakeswap.finance/images/tokens/0x6bfd576220e8444CA4Cc5f89Efbd7f02a4C94C16.png",
       address: "0x6bfd576220e8444CA4Cc5f89Efbd7f02a4C94C16",
       decimals: "8",
     },
@@ -37851,7 +37851,7 @@ export let chainTokenDictionary = {
       name: "MyKitty",
       symbol: "KITTY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe6f3bB835575Ca880F7feCAAfD7233FAe46Bc6E7.png",
+        "https://pancakeswap.finance/images/tokens/0xe6f3bB835575Ca880F7feCAAfD7233FAe46Bc6E7.png",
       address: "0xe6f3bB835575Ca880F7feCAAfD7233FAe46Bc6E7",
       decimals: "9",
     },
@@ -37859,7 +37859,7 @@ export let chainTokenDictionary = {
       name: "t.me/only1token",
       symbol: "O1T",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6cFeb2d07623fd884f525e7c33B6FC97147c4F41.png",
+        "https://pancakeswap.finance/images/tokens/0x6cFeb2d07623fd884f525e7c33B6FC97147c4F41.png",
       address: "0x6cFeb2d07623fd884f525e7c33B6FC97147c4F41",
       decimals: "18",
     },
@@ -37867,7 +37867,7 @@ export let chainTokenDictionary = {
       name: "AdEx Network",
       symbol: "ADX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.png",
+        "https://pancakeswap.finance/images/tokens/0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819.png",
       address: "0x6bfF4Fb161347ad7de4A625AE5aa3A1CA7077819",
       decimals: "18",
     },
@@ -37875,7 +37875,7 @@ export let chainTokenDictionary = {
       name: "YFII.finance Token",
       symbol: "YFII",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5.png",
+        "https://pancakeswap.finance/images/tokens/0x7F70642d88cf1C4a3a7abb072B53B929b653edA5.png",
       address: "0x7F70642d88cf1C4a3a7abb072B53B929b653edA5",
       decimals: "18",
     },
@@ -37883,7 +37883,7 @@ export let chainTokenDictionary = {
       name: "Memes Token",
       symbol: "MEMES",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x40B165Fd5dDc75ad0bDDc9ADd0adAbff5431a975.png",
+        "https://pancakeswap.finance/images/tokens/0x40B165Fd5dDc75ad0bDDc9ADd0adAbff5431a975.png",
       address: "0x40B165Fd5dDc75ad0bDDc9ADd0adAbff5431a975",
       decimals: "9",
     },
@@ -37891,7 +37891,7 @@ export let chainTokenDictionary = {
       name: "Safe Protocol",
       symbol: "SAFEP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA8c514D991F59baB02d32b68f04204cB89261c88.png",
+        "https://pancakeswap.finance/images/tokens/0xA8c514D991F59baB02d32b68f04204cB89261c88.png",
       address: "0xA8c514D991F59baB02d32b68f04204cB89261c88",
       decimals: "8",
     },
@@ -37899,7 +37899,7 @@ export let chainTokenDictionary = {
       name: "Bullmoon",
       symbol: "BLMV2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x25317667a3A1265Fe65aa42b260bE1998b0b2088.png",
+        "https://pancakeswap.finance/images/tokens/0x25317667a3A1265Fe65aa42b260bE1998b0b2088.png",
       address: "0x25317667a3A1265Fe65aa42b260bE1998b0b2088",
       decimals: "9",
     },
@@ -37907,7 +37907,7 @@ export let chainTokenDictionary = {
       name: "WORMv2 BSC",
       symbol: "WORMv2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB88d645b41909f74e1379129E2852920aA65DdCE.png",
+        "https://pancakeswap.finance/images/tokens/0xB88d645b41909f74e1379129E2852920aA65DdCE.png",
       address: "0xB88d645b41909f74e1379129E2852920aA65DdCE",
       decimals: "18",
     },
@@ -37915,7 +37915,7 @@ export let chainTokenDictionary = {
       name: "Cryptokek.com",
       symbol: "KEK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x627524d78B4fC840C887ffeC90563c7A42b671fD.png",
+        "https://pancakeswap.finance/images/tokens/0x627524d78B4fC840C887ffeC90563c7A42b671fD.png",
       address: "0x627524d78B4fC840C887ffeC90563c7A42b671fD",
       decimals: "18",
     },
@@ -37923,7 +37923,7 @@ export let chainTokenDictionary = {
       name: "SafeDoge",
       symbol: "sDOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xed4C1c07898305ECF01163842666116deb406CA3.png",
+        "https://pancakeswap.finance/images/tokens/0xed4C1c07898305ECF01163842666116deb406CA3.png",
       address: "0xed4C1c07898305ECF01163842666116deb406CA3",
       decimals: "18",
     },
@@ -37931,7 +37931,7 @@ export let chainTokenDictionary = {
       name: "Turbo Protocol",
       symbol: "TURBOv2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe4a43f8Bdaf4fC6a3b118A5448983fe783724BC8.png",
+        "https://pancakeswap.finance/images/tokens/0xe4a43f8Bdaf4fC6a3b118A5448983fe783724BC8.png",
       address: "0xe4a43f8Bdaf4fC6a3b118A5448983fe783724BC8",
       decimals: "18",
     },
@@ -37939,7 +37939,7 @@ export let chainTokenDictionary = {
       name: "THE CRYPTO SHOW",
       symbol: "SHOW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf93Bf375d759fc3E37B165411a6cC3C7D1b28078.png",
+        "https://pancakeswap.finance/images/tokens/0xf93Bf375d759fc3E37B165411a6cC3C7D1b28078.png",
       address: "0xf93Bf375d759fc3E37B165411a6cC3C7D1b28078",
       decimals: "18",
     },
@@ -37947,7 +37947,7 @@ export let chainTokenDictionary = {
       name: "Lendefi Token",
       symbol: "LDFI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAe1119B918f971F232FED504D48604D5FeF7277F.png",
+        "https://pancakeswap.finance/images/tokens/0xAe1119B918f971F232FED504D48604D5FeF7277F.png",
       address: "0xAe1119B918f971F232FED504D48604D5FeF7277F",
       decimals: "18",
     },
@@ -37955,7 +37955,7 @@ export let chainTokenDictionary = {
       name: "Trodl",
       symbol: "TRO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa428Ac85dbF40047645e18866E70D27103091355.png",
+        "https://pancakeswap.finance/images/tokens/0xa428Ac85dbF40047645e18866E70D27103091355.png",
       address: "0xa428Ac85dbF40047645e18866E70D27103091355",
       decimals: "18",
     },
@@ -37963,7 +37963,7 @@ export let chainTokenDictionary = {
       name: "El",
       symbol: "EL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x210C14fbeCC2BD9B6231199470DA12AD45F64D45.png",
+        "https://pancakeswap.finance/images/tokens/0x210C14fbeCC2BD9B6231199470DA12AD45F64D45.png",
       address: "0x210C14fbeCC2BD9B6231199470DA12AD45F64D45",
       decimals: "18",
     },
@@ -37971,7 +37971,7 @@ export let chainTokenDictionary = {
       name: "ROCKS",
       symbol: "ROCKS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA01000C52b234a92563BA61e5649b7C76E1ba0f3.png",
+        "https://pancakeswap.finance/images/tokens/0xA01000C52b234a92563BA61e5649b7C76E1ba0f3.png",
       address: "0xA01000C52b234a92563BA61e5649b7C76E1ba0f3",
       decimals: "18",
     },
@@ -37979,7 +37979,7 @@ export let chainTokenDictionary = {
       name: "Time Capsule Protocol FM",
       symbol: "TCPFM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFD121aED91E9efb3b37a9459642317f283F9EF73.png",
+        "https://pancakeswap.finance/images/tokens/0xFD121aED91E9efb3b37a9459642317f283F9EF73.png",
       address: "0xFD121aED91E9efb3b37a9459642317f283F9EF73",
       decimals: "18",
     },
@@ -37987,7 +37987,7 @@ export let chainTokenDictionary = {
       name: "AXXA.AI - Initial Public Offering",
       symbol: "XXAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x30a2f5b205420438eB4C9365f845025D1d75417E.png",
+        "https://pancakeswap.finance/images/tokens/0x30a2f5b205420438eB4C9365f845025D1d75417E.png",
       address: "0x30a2f5b205420438eB4C9365f845025D1d75417E",
       decimals: "18",
     },
@@ -37995,7 +37995,7 @@ export let chainTokenDictionary = {
       name: "SafeQuake",
       symbol: "SQuake",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1D9F80eD3B5C480F13260fC396eA9a795c565325.png",
+        "https://pancakeswap.finance/images/tokens/0x1D9F80eD3B5C480F13260fC396eA9a795c565325.png",
       address: "0x1D9F80eD3B5C480F13260fC396eA9a795c565325",
       decimals: "9",
     },
@@ -38003,7 +38003,7 @@ export let chainTokenDictionary = {
       name: "Shurcoin",
       symbol: "SHUR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x755D31A8494BCe7fD39351acbCC754Ef028397de.png",
+        "https://pancakeswap.finance/images/tokens/0x755D31A8494BCe7fD39351acbCC754Ef028397de.png",
       address: "0x755D31A8494BCe7fD39351acbCC754Ef028397de",
       decimals: "9",
     },
@@ -38011,7 +38011,7 @@ export let chainTokenDictionary = {
       name: "MoonKitty",
       symbol: "MOONKITTY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb54eA77647207F0eA1f60d4C14f838662264Ef65.png",
+        "https://pancakeswap.finance/images/tokens/0xb54eA77647207F0eA1f60d4C14f838662264Ef65.png",
       address: "0xb54eA77647207F0eA1f60d4C14f838662264Ef65",
       decimals: "9",
     },
@@ -38019,7 +38019,7 @@ export let chainTokenDictionary = {
       name: "SafeSatoshiMoon",
       symbol: "SSM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB67d3576c3197826B656c254483E3C20f8ba93FD.png",
+        "https://pancakeswap.finance/images/tokens/0xB67d3576c3197826B656c254483E3C20f8ba93FD.png",
       address: "0xB67d3576c3197826B656c254483E3C20f8ba93FD",
       decimals: "9",
     },
@@ -38027,7 +38027,7 @@ export let chainTokenDictionary = {
       name: "SafuSocks",
       symbol: "SAFU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x21e6D42f4176d6ca1A97FC606F80D500416F2650.png",
+        "https://pancakeswap.finance/images/tokens/0x21e6D42f4176d6ca1A97FC606F80D500416F2650.png",
       address: "0x21e6D42f4176d6ca1A97FC606F80D500416F2650",
       decimals: "18",
     },
@@ -38035,7 +38035,7 @@ export let chainTokenDictionary = {
       name: "StarBaseX",
       symbol: "SBX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x181ACd8744d9059199FEae71c2d2208Ec13f308F.png",
+        "https://pancakeswap.finance/images/tokens/0x181ACd8744d9059199FEae71c2d2208Ec13f308F.png",
       address: "0x181ACd8744d9059199FEae71c2d2208Ec13f308F",
       decimals: "9",
     },
@@ -38043,7 +38043,7 @@ export let chainTokenDictionary = {
       name: "Interstellar",
       symbol: "Interstellar",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3c34e93ec5843D78b2fCc82EE6129490aEE9ce92.png",
+        "https://pancakeswap.finance/images/tokens/0x3c34e93ec5843D78b2fCc82EE6129490aEE9ce92.png",
       address: "0x3c34e93ec5843D78b2fCc82EE6129490aEE9ce92",
       decimals: "9",
     },
@@ -38051,7 +38051,7 @@ export let chainTokenDictionary = {
       name: "YVS.Finance on BSC",
       symbol: "YVS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x47c1C7B9D7941A7265D123DCfb100D8FB5348213.png",
+        "https://pancakeswap.finance/images/tokens/0x47c1C7B9D7941A7265D123DCfb100D8FB5348213.png",
       address: "0x47c1C7B9D7941A7265D123DCfb100D8FB5348213",
       decimals: "18",
     },
@@ -38059,7 +38059,7 @@ export let chainTokenDictionary = {
       name: "SafeEarth",
       symbol: "SAFEEARTH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEB993263ea76160a08F5C8fDc0227A1E56d9E070.png",
+        "https://pancakeswap.finance/images/tokens/0xEB993263ea76160a08F5C8fDc0227A1E56d9E070.png",
       address: "0xEB993263ea76160a08F5C8fDc0227A1E56d9E070",
       decimals: "9",
     },
@@ -38067,7 +38067,7 @@ export let chainTokenDictionary = {
       name: "asi.finance",
       symbol: "BASI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8F671544a39B2c0905BEaC1C1009389D6922305F.png",
+        "https://pancakeswap.finance/images/tokens/0x8F671544a39B2c0905BEaC1C1009389D6922305F.png",
       address: "0x8F671544a39B2c0905BEaC1C1009389D6922305F",
       decimals: "18",
     },
@@ -38075,7 +38075,7 @@ export let chainTokenDictionary = {
       name: "ZETH",
       symbol: "ZETH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdbEb98858f5d4Dca13EA0272B2b786E9415d3992.png",
+        "https://pancakeswap.finance/images/tokens/0xdbEb98858f5d4Dca13EA0272B2b786E9415d3992.png",
       address: "0xdbEb98858f5d4Dca13EA0272B2b786E9415d3992",
       decimals: "18",
     },
@@ -38083,7 +38083,7 @@ export let chainTokenDictionary = {
       name: "Soak Token",
       symbol: "SOAK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x849233FF1aea15D80EF658B2871664C9Ca994063.png",
+        "https://pancakeswap.finance/images/tokens/0x849233FF1aea15D80EF658B2871664C9Ca994063.png",
       address: "0x849233FF1aea15D80EF658B2871664C9Ca994063",
       decimals: "18",
     },
@@ -38091,7 +38091,7 @@ export let chainTokenDictionary = {
       name: "Woof",
       symbol: "Woof",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8887917b46f71dBCb5E895E85887Dc2EaA64b22a.png",
+        "https://pancakeswap.finance/images/tokens/0x8887917b46f71dBCb5E895E85887Dc2EaA64b22a.png",
       address: "0x8887917b46f71dBCb5E895E85887Dc2EaA64b22a",
       decimals: "9",
     },
@@ -38099,7 +38099,7 @@ export let chainTokenDictionary = {
       name: "100xTESLA",
       symbol: "100XTESLA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE3A836a0968508e2C36cd72C66FA0ABE5813A170.png",
+        "https://pancakeswap.finance/images/tokens/0xE3A836a0968508e2C36cd72C66FA0ABE5813A170.png",
       address: "0xE3A836a0968508e2C36cd72C66FA0ABE5813A170",
       decimals: "9",
     },
@@ -38107,7 +38107,7 @@ export let chainTokenDictionary = {
       name: "Moon Charge",
       symbol: "MOONCHARGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE782Ac6Bb8b764fc0E75d40Fe47688C9c8A3AB48.png",
+        "https://pancakeswap.finance/images/tokens/0xE782Ac6Bb8b764fc0E75d40Fe47688C9c8A3AB48.png",
       address: "0xE782Ac6Bb8b764fc0E75d40Fe47688C9c8A3AB48",
       decimals: "9",
     },
@@ -38115,7 +38115,7 @@ export let chainTokenDictionary = {
       name: "VAULTWORLD",
       symbol: "VAULT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd456Be0fF7007B3d8ad656136487A23e771F5762.png",
+        "https://pancakeswap.finance/images/tokens/0xd456Be0fF7007B3d8ad656136487A23e771F5762.png",
       address: "0xd456Be0fF7007B3d8ad656136487A23e771F5762",
       decimals: "18",
     },
@@ -38123,7 +38123,7 @@ export let chainTokenDictionary = {
       name: "Nebula",
       symbol: "NEBULA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x644ce926Df0d1F6B601899d1Ed184e21b52B7eAE.png",
+        "https://pancakeswap.finance/images/tokens/0x644ce926Df0d1F6B601899d1Ed184e21b52B7eAE.png",
       address: "0x644ce926Df0d1F6B601899d1Ed184e21b52B7eAE",
       decimals: "18",
     },
@@ -38131,7 +38131,7 @@ export let chainTokenDictionary = {
       name: "1Million Token",
       symbol: "b1MT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8d67448d4f6231ABc070a42A8905084b79E09136.png",
+        "https://pancakeswap.finance/images/tokens/0x8d67448d4f6231ABc070a42A8905084b79E09136.png",
       address: "0x8d67448d4f6231ABc070a42A8905084b79E09136",
       decimals: "7",
     },
@@ -38139,7 +38139,7 @@ export let chainTokenDictionary = {
       name: "APOyield SOULS",
       symbol: "SOUL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x67d012F731c23F0313CEA1186d0121779c77fcFE.png",
+        "https://pancakeswap.finance/images/tokens/0x67d012F731c23F0313CEA1186d0121779c77fcFE.png",
       address: "0x67d012F731c23F0313CEA1186d0121779c77fcFE",
       decimals: "8",
     },
@@ -38147,7 +38147,7 @@ export let chainTokenDictionary = {
       name: "ComfyMoon",
       symbol: "CMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE0CA602819679bDd273145FBC0135412546c80eD.png",
+        "https://pancakeswap.finance/images/tokens/0xE0CA602819679bDd273145FBC0135412546c80eD.png",
       address: "0xE0CA602819679bDd273145FBC0135412546c80eD",
       decimals: "9",
     },
@@ -38155,7 +38155,7 @@ export let chainTokenDictionary = {
       name: "KilimanjaroToken",
       symbol: "KILI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x865d0c78d08BD6e5f0db6BCbF36d3F8EB4ad48F8.png",
+        "https://pancakeswap.finance/images/tokens/0x865d0c78d08BD6e5f0db6BCbF36d3F8EB4ad48F8.png",
       address: "0x865d0c78d08BD6e5f0db6BCbF36d3F8EB4ad48F8",
       decimals: "4",
     },
@@ -38163,7 +38163,7 @@ export let chainTokenDictionary = {
       name: "MoonVest.Network",
       symbol: "MVN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0323e7752c2d404718E2bEAa57D7b6eE4021ae36.png",
+        "https://pancakeswap.finance/images/tokens/0x0323e7752c2d404718E2bEAa57D7b6eE4021ae36.png",
       address: "0x0323e7752c2d404718E2bEAa57D7b6eE4021ae36",
       decimals: "12",
     },
@@ -38171,7 +38171,7 @@ export let chainTokenDictionary = {
       name: "Harem Token",
       symbol: "bHAREM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE62EBb28028F80F7471144F12A6666E1915b1e11.png",
+        "https://pancakeswap.finance/images/tokens/0xE62EBb28028F80F7471144F12A6666E1915b1e11.png",
       address: "0xE62EBb28028F80F7471144F12A6666E1915b1e11",
       decimals: "18",
     },
@@ -38179,7 +38179,7 @@ export let chainTokenDictionary = {
       name: "ORO Token",
       symbol: "ORO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9f998d62B81AF019E3346AF141f90ccCD679825E.png",
+        "https://pancakeswap.finance/images/tokens/0x9f998d62B81AF019E3346AF141f90ccCD679825E.png",
       address: "0x9f998d62B81AF019E3346AF141f90ccCD679825E",
       decimals: "18",
     },
@@ -38187,7 +38187,7 @@ export let chainTokenDictionary = {
       name: "bCORGI",
       symbol: "bCORGI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBF746586E1758E4a3038768144b4DA8f09022f77.png",
+        "https://pancakeswap.finance/images/tokens/0xBF746586E1758E4a3038768144b4DA8f09022f77.png",
       address: "0xBF746586E1758E4a3038768144b4DA8f09022f77",
       decimals: "9",
     },
@@ -38195,7 +38195,7 @@ export let chainTokenDictionary = {
       name: "Fair ETH",
       symbol: "FAIRETH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xe1d54f3DB627164c1EA55cC8dd9Ed9bf71C269cE.png",
+        "https://pancakeswap.finance/images/tokens/0xe1d54f3DB627164c1EA55cC8dd9Ed9bf71C269cE.png",
       address: "0xe1d54f3DB627164c1EA55cC8dd9Ed9bf71C269cE",
       decimals: "9",
     },
@@ -38203,7 +38203,7 @@ export let chainTokenDictionary = {
       name: "yokai.money",
       symbol: "YOKAI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFF4245b8Fd43f75476608a94768EbB29bb678c2C.png",
+        "https://pancakeswap.finance/images/tokens/0xFF4245b8Fd43f75476608a94768EbB29bb678c2C.png",
       address: "0xFF4245b8Fd43f75476608a94768EbB29bb678c2C",
       decimals: "18",
     },
@@ -38211,7 +38211,7 @@ export let chainTokenDictionary = {
       name: "yumcha token",
       symbol: "yumcha",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC7d0CE2961396d02059f06e8DF7Dd37E6809d478.png",
+        "https://pancakeswap.finance/images/tokens/0xC7d0CE2961396d02059f06e8DF7Dd37E6809d478.png",
       address: "0xC7d0CE2961396d02059f06e8DF7Dd37E6809d478",
       decimals: "18",
     },
@@ -38219,7 +38219,7 @@ export let chainTokenDictionary = {
       name: "OffToSpace",
       symbol: "OffToSpace",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC3C1d9A42406BFf33A860a993265B8e31A8E48d8.png",
+        "https://pancakeswap.finance/images/tokens/0xC3C1d9A42406BFf33A860a993265B8e31A8E48d8.png",
       address: "0xC3C1d9A42406BFf33A860a993265B8e31A8E48d8",
       decimals: "9",
     },
@@ -38227,7 +38227,7 @@ export let chainTokenDictionary = {
       name: "Vista Protocol",
       symbol: "Vista",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd16983f76C83d6ded8a20483dA3d2A5daE74Ac7c.png",
+        "https://pancakeswap.finance/images/tokens/0xd16983f76C83d6ded8a20483dA3d2A5daE74Ac7c.png",
       address: "0xd16983f76C83d6ded8a20483dA3d2A5daE74Ac7c",
       decimals: "8",
     },
@@ -38235,7 +38235,7 @@ export let chainTokenDictionary = {
       name: "VANGOLD",
       symbol: "VGD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFd91Fa8fab5cA11569E256fa8844Bc2abecc331D.png",
+        "https://pancakeswap.finance/images/tokens/0xFd91Fa8fab5cA11569E256fa8844Bc2abecc331D.png",
       address: "0xFd91Fa8fab5cA11569E256fa8844Bc2abecc331D",
       decimals: "18",
     },
@@ -38243,7 +38243,7 @@ export let chainTokenDictionary = {
       name: "DaftCoin",
       symbol: "DAFT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8E83EB3cC2585b9648687C3d1D9C7a2d17448772.png",
+        "https://pancakeswap.finance/images/tokens/0x8E83EB3cC2585b9648687C3d1D9C7a2d17448772.png",
       address: "0x8E83EB3cC2585b9648687C3d1D9C7a2d17448772",
       decimals: "8",
     },
@@ -38251,7 +38251,7 @@ export let chainTokenDictionary = {
       name: "PHENOMENON",
       symbol: "PHN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1Bd549630C4C26dfdb2850fA7A0dDB166DD25693.png",
+        "https://pancakeswap.finance/images/tokens/0x1Bd549630C4C26dfdb2850fA7A0dDB166DD25693.png",
       address: "0x1Bd549630C4C26dfdb2850fA7A0dDB166DD25693",
       decimals: "18",
     },
@@ -38259,7 +38259,7 @@ export let chainTokenDictionary = {
       name: "Penny Token",
       symbol: "PENNY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x119Bea1c1CfCf6aB6245E51bb51753a5Acc1B395.png",
+        "https://pancakeswap.finance/images/tokens/0x119Bea1c1CfCf6aB6245E51bb51753a5Acc1B395.png",
       address: "0x119Bea1c1CfCf6aB6245E51bb51753a5Acc1B395",
       decimals: "9",
     },
@@ -38267,7 +38267,7 @@ export let chainTokenDictionary = {
       name: "NOFOMO Token",
       symbol: "NOFOMO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x58ffA6C86d1F09BaB5Fc10750bdBb038C096251f.png",
+        "https://pancakeswap.finance/images/tokens/0x58ffA6C86d1F09BaB5Fc10750bdBb038C096251f.png",
       address: "0x58ffA6C86d1F09BaB5Fc10750bdBb038C096251f",
       decimals: "9",
     },
@@ -38275,7 +38275,7 @@ export let chainTokenDictionary = {
       name: "Balloon Token v2",
       symbol: "BLNv2",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x887bf46573b9a77c4060919E786B881f08f15de4.png",
+        "https://pancakeswap.finance/images/tokens/0x887bf46573b9a77c4060919E786B881f08f15de4.png",
       address: "0x887bf46573b9a77c4060919E786B881f08f15de4",
       decimals: "18",
     },
@@ -38283,7 +38283,7 @@ export let chainTokenDictionary = {
       name: "PUG",
       symbol: "PUG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1a4590f128d90a6B9576F99926E4D5c8ad855C97.png",
+        "https://pancakeswap.finance/images/tokens/0x1a4590f128d90a6B9576F99926E4D5c8ad855C97.png",
       address: "0x1a4590f128d90a6B9576F99926E4D5c8ad855C97",
       decimals: "9",
     },
@@ -38291,7 +38291,7 @@ export let chainTokenDictionary = {
       name: "Community Moon Token",
       symbol: "CMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa45f92fE427B3Fa3C3FF9b9069819798E030b734.png",
+        "https://pancakeswap.finance/images/tokens/0xa45f92fE427B3Fa3C3FF9b9069819798E030b734.png",
       address: "0xa45f92fE427B3Fa3C3FF9b9069819798E030b734",
       decimals: "18",
     },
@@ -38299,7 +38299,7 @@ export let chainTokenDictionary = {
       name: "NVT",
       symbol: "NVT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x69f28f8c0F3FaCA64e46e72edb80C29703873f4B.png",
+        "https://pancakeswap.finance/images/tokens/0x69f28f8c0F3FaCA64e46e72edb80C29703873f4B.png",
       address: "0x69f28f8c0F3FaCA64e46e72edb80C29703873f4B",
       decimals: "18",
     },
@@ -38307,7 +38307,7 @@ export let chainTokenDictionary = {
       name: "AstroBeam",
       symbol: "BEAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x38d8b1ac6967C5714F935074DA9Ed63B16a65Edc.png",
+        "https://pancakeswap.finance/images/tokens/0x38d8b1ac6967C5714F935074DA9Ed63B16a65Edc.png",
       address: "0x38d8b1ac6967C5714F935074DA9Ed63B16a65Edc",
       decimals: "12",
     },
@@ -38315,7 +38315,7 @@ export let chainTokenDictionary = {
       name: "Fair FOX",
       symbol: "FAIRFOX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF89E58400e4726DFa63B04c9e2b34c808270ffbf.png",
+        "https://pancakeswap.finance/images/tokens/0xF89E58400e4726DFa63B04c9e2b34c808270ffbf.png",
       address: "0xF89E58400e4726DFa63B04c9e2b34c808270ffbf",
       decimals: "9",
     },
@@ -38323,7 +38323,7 @@ export let chainTokenDictionary = {
       name: "ShitCoin",
       symbol: "SHIT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x036D5EE4f645d65EfDFC47527293190d847C410a.png",
+        "https://pancakeswap.finance/images/tokens/0x036D5EE4f645d65EfDFC47527293190d847C410a.png",
       address: "0x036D5EE4f645d65EfDFC47527293190d847C410a",
       decimals: "9",
     },
@@ -38331,7 +38331,7 @@ export let chainTokenDictionary = {
       name: "SAFUBNB",
       symbol: "SBNB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFCA4b113308bA3c9c81F6df3886C9F5c770C70D6.png",
+        "https://pancakeswap.finance/images/tokens/0xFCA4b113308bA3c9c81F6df3886C9F5c770C70D6.png",
       address: "0xFCA4b113308bA3c9c81F6df3886C9F5c770C70D6",
       decimals: "9",
     },
@@ -38339,7 +38339,7 @@ export let chainTokenDictionary = {
       name: "Wrapped LQX",
       symbol: "WLQX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4495e673eE53c61CE79c35D5e299733639362aEc.png",
+        "https://pancakeswap.finance/images/tokens/0x4495e673eE53c61CE79c35D5e299733639362aEc.png",
       address: "0x4495e673eE53c61CE79c35D5e299733639362aEc",
       decimals: "18",
     },
@@ -38347,7 +38347,7 @@ export let chainTokenDictionary = {
       name: "TOTORO",
       symbol: "TOTORO",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x83C43fDc737541196C6085Ae4378dB3Dbaa90c99.png",
+        "https://pancakeswap.finance/images/tokens/0x83C43fDc737541196C6085Ae4378dB3Dbaa90c99.png",
       address: "0x83C43fDc737541196C6085Ae4378dB3Dbaa90c99",
       decimals: "0",
     },
@@ -38355,7 +38355,7 @@ export let chainTokenDictionary = {
       name: "CRYPTO BULL",
       symbol: "CBULL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x80050AA57BB00e9d75f4381FE09035a95eB8fC0e.png",
+        "https://pancakeswap.finance/images/tokens/0x80050AA57BB00e9d75f4381FE09035a95eB8fC0e.png",
       address: "0x80050AA57BB00e9d75f4381FE09035a95eB8fC0e",
       decimals: "18",
     },
@@ -38363,7 +38363,7 @@ export let chainTokenDictionary = {
       name: "HUSKY BEP20",
       symbol: "HUSKY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfB73f583f0Ee3285dA426CA4153D66c6E78406dB.png",
+        "https://pancakeswap.finance/images/tokens/0xfB73f583f0Ee3285dA426CA4153D66c6E78406dB.png",
       address: "0xfB73f583f0Ee3285dA426CA4153D66c6E78406dB",
       decimals: "9",
     },
@@ -38371,7 +38371,7 @@ export let chainTokenDictionary = {
       name: "BIGNITE",
       symbol: "BIGNITE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0CF2b5aABF844b49480dBF5e6192b873A865FAE4.png",
+        "https://pancakeswap.finance/images/tokens/0x0CF2b5aABF844b49480dBF5e6192b873A865FAE4.png",
       address: "0x0CF2b5aABF844b49480dBF5e6192b873A865FAE4",
       decimals: "9",
     },
@@ -38379,7 +38379,7 @@ export let chainTokenDictionary = {
       name: "DeFiPie Token",
       symbol: "PIE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC4B35d3A24E3e8941c5d87fD21D0725642F50308.png",
+        "https://pancakeswap.finance/images/tokens/0xC4B35d3A24E3e8941c5d87fD21D0725642F50308.png",
       address: "0xC4B35d3A24E3e8941c5d87fD21D0725642F50308",
       decimals: "18",
     },
@@ -38387,7 +38387,7 @@ export let chainTokenDictionary = {
       name: "Claw",
       symbol: "CLAW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x18A323B43a06c1319168f522513F318391f8CAc5.png",
+        "https://pancakeswap.finance/images/tokens/0x18A323B43a06c1319168f522513F318391f8CAc5.png",
       address: "0x18A323B43a06c1319168f522513F318391f8CAc5",
       decimals: "9",
     },
@@ -38395,7 +38395,7 @@ export let chainTokenDictionary = {
       name: "JNTR/b",
       symbol: "JNTR/b",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x78e1936f065Fd4082387622878C7d11c9f05ECF4.png",
+        "https://pancakeswap.finance/images/tokens/0x78e1936f065Fd4082387622878C7d11c9f05ECF4.png",
       address: "0x78e1936f065Fd4082387622878C7d11c9f05ECF4",
       decimals: "18",
     },
@@ -38403,7 +38403,7 @@ export let chainTokenDictionary = {
       name: "pTokens TLOS",
       symbol: "TLOS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb6C53431608E626AC81a9776ac3e999c5556717c.png",
+        "https://pancakeswap.finance/images/tokens/0xb6C53431608E626AC81a9776ac3e999c5556717c.png",
       address: "0xb6C53431608E626AC81a9776ac3e999c5556717c",
       decimals: "18",
     },
@@ -38411,7 +38411,7 @@ export let chainTokenDictionary = {
       name: "Rhythm and Beats",
       symbol: "BEATS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA6A598C4593C91b810e3E63763340edB244D0C4b.png",
+        "https://pancakeswap.finance/images/tokens/0xA6A598C4593C91b810e3E63763340edB244D0C4b.png",
       address: "0xA6A598C4593C91b810e3E63763340edB244D0C4b",
       decimals: "18",
     },
@@ -38419,7 +38419,7 @@ export let chainTokenDictionary = {
       name: "Tir",
       symbol: "TIR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x125a3E00a9A11317d4d95349E68Ba0bC744ADDc4.png",
+        "https://pancakeswap.finance/images/tokens/0x125a3E00a9A11317d4d95349E68Ba0bC744ADDc4.png",
       address: "0x125a3E00a9A11317d4d95349E68Ba0bC744ADDc4",
       decimals: "18",
     },
@@ -38427,7 +38427,7 @@ export let chainTokenDictionary = {
       name: "ClinTex",
       symbol: "CTI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3f670f65B9Ce89b82e82121fD68c340ac22C08D6.png",
+        "https://pancakeswap.finance/images/tokens/0x3f670f65B9Ce89b82e82121fD68c340ac22C08D6.png",
       address: "0x3f670f65B9Ce89b82e82121fD68c340ac22C08D6",
       decimals: "18",
     },
@@ -38435,7 +38435,7 @@ export let chainTokenDictionary = {
       name: "COTI Token",
       symbol: "COTI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB.png",
+        "https://pancakeswap.finance/images/tokens/0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB.png",
       address: "0xAdBAF88B39D37Dc68775eD1541F1bf83A5A45feB",
       decimals: "18",
     },
@@ -38443,7 +38443,7 @@ export let chainTokenDictionary = {
       name: "BNB Cash",
       symbol: "BNBC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x31B5d91806AF3364678715f4C5Bf50c1e3bAE10A.png",
+        "https://pancakeswap.finance/images/tokens/0x31B5d91806AF3364678715f4C5Bf50c1e3bAE10A.png",
       address: "0x31B5d91806AF3364678715f4C5Bf50c1e3bAE10A",
       decimals: "18",
     },
@@ -38451,7 +38451,7 @@ export let chainTokenDictionary = {
       name: "DefyCoin",
       symbol: "DEFY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xdBE4CC36D0C19858d8cc7c5030593E9922aC680D.png",
+        "https://pancakeswap.finance/images/tokens/0xdBE4CC36D0C19858d8cc7c5030593E9922aC680D.png",
       address: "0xdBE4CC36D0C19858d8cc7c5030593E9922aC680D",
       decimals: "8",
     },
@@ -38459,7 +38459,7 @@ export let chainTokenDictionary = {
       name: "RAZOR",
       symbol: "RAZOR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd.png",
+        "https://pancakeswap.finance/images/tokens/0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd.png",
       address: "0x50DE6856358Cc35f3A9a57eAAA34BD4cB707d2cd",
       decimals: "18",
     },
@@ -38467,7 +38467,7 @@ export let chainTokenDictionary = {
       name: "Slime",
       symbol: "SLME",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4fCfA6cC8914ab455B5b33Df916d90BFe70b6AB1.png",
+        "https://pancakeswap.finance/images/tokens/0x4fCfA6cC8914ab455B5b33Df916d90BFe70b6AB1.png",
       address: "0x4fCfA6cC8914ab455B5b33Df916d90BFe70b6AB1",
       decimals: "18",
     },
@@ -38475,7 +38475,7 @@ export let chainTokenDictionary = {
       name: "SPACEXELON",
       symbol: "XELON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x816157Da2B9559F9696D3968546dea2aBDF0888e.png",
+        "https://pancakeswap.finance/images/tokens/0x816157Da2B9559F9696D3968546dea2aBDF0888e.png",
       address: "0x816157Da2B9559F9696D3968546dea2aBDF0888e",
       decimals: "9",
     },
@@ -38483,7 +38483,7 @@ export let chainTokenDictionary = {
       name: "MoonBTC",
       symbol: "MOONBTC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x83d9145a32A9F2f1fE24e7ABe48455ef5B6cEdF3.png",
+        "https://pancakeswap.finance/images/tokens/0x83d9145a32A9F2f1fE24e7ABe48455ef5B6cEdF3.png",
       address: "0x83d9145a32A9F2f1fE24e7ABe48455ef5B6cEdF3",
       decimals: "9",
     },
@@ -38491,7 +38491,7 @@ export let chainTokenDictionary = {
       name: "QIAN governance token",
       symbol: "KUN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1A2fb0Af670D0234c2857FaD35b789F8Cb725584.png",
+        "https://pancakeswap.finance/images/tokens/0x1A2fb0Af670D0234c2857FaD35b789F8Cb725584.png",
       address: "0x1A2fb0Af670D0234c2857FaD35b789F8Cb725584",
       decimals: "18",
     },
@@ -38499,7 +38499,7 @@ export let chainTokenDictionary = {
       name: "Paris Saint-Germain",
       symbol: "PSG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1.png",
+        "https://pancakeswap.finance/images/tokens/0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1.png",
       address: "0xBc5609612b7C44BEf426De600B5fd1379DB2EcF1",
       decimals: "2",
     },
@@ -38507,7 +38507,7 @@ export let chainTokenDictionary = {
       name: "Fair Venus",
       symbol: "FAIRVENUS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x691e82F821D0414b5C3B0aD46148e6bA1AF7809e.png",
+        "https://pancakeswap.finance/images/tokens/0x691e82F821D0414b5C3B0aD46148e6bA1AF7809e.png",
       address: "0x691e82F821D0414b5C3B0aD46148e6bA1AF7809e",
       decimals: "9",
     },
@@ -38515,7 +38515,7 @@ export let chainTokenDictionary = {
       name: "Donkey King",
       symbol: "DONK",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C.png",
+        "https://pancakeswap.finance/images/tokens/0x1F82a9b541FE4C322B5cd81DCB066620D57de35C.png",
       address: "0x1F82a9b541FE4C322B5cd81DCB066620D57de35C",
       decimals: "9",
     },
@@ -38523,7 +38523,7 @@ export let chainTokenDictionary = {
       name: "SafeGalaxyClassic",
       symbol: "SafeGalaxyClassic",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6827aED0e64478B1a7af75431e56f9a449852c63.png",
+        "https://pancakeswap.finance/images/tokens/0x6827aED0e64478B1a7af75431e56f9a449852c63.png",
       address: "0x6827aED0e64478B1a7af75431e56f9a449852c63",
       decimals: "18",
     },
@@ -38531,7 +38531,7 @@ export let chainTokenDictionary = {
       name: "Guru",
       symbol: "Guru",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xF1932eC9784B695520258F968b9575724af6eFa8.png",
+        "https://pancakeswap.finance/images/tokens/0xF1932eC9784B695520258F968b9575724af6eFa8.png",
       address: "0xF1932eC9784B695520258F968b9575724af6eFa8",
       decimals: "18",
     },
@@ -38539,7 +38539,7 @@ export let chainTokenDictionary = {
       name: "UniCycle",
       symbol: "CYCLE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5fE2A9183804E8d3094D695CB0610d3e00E1F355.png",
+        "https://pancakeswap.finance/images/tokens/0x5fE2A9183804E8d3094D695CB0610d3e00E1F355.png",
       address: "0x5fE2A9183804E8d3094D695CB0610d3e00E1F355",
       decimals: "18",
     },
@@ -38547,7 +38547,7 @@ export let chainTokenDictionary = {
       name: "Beer Token",
       symbol: "BEER",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD5a0dAd4E6f399CdC346ff04fd90ec0B511fCeF9.png",
+        "https://pancakeswap.finance/images/tokens/0xD5a0dAd4E6f399CdC346ff04fd90ec0B511fCeF9.png",
       address: "0xD5a0dAd4E6f399CdC346ff04fd90ec0B511fCeF9",
       decimals: "9",
     },
@@ -38555,7 +38555,7 @@ export let chainTokenDictionary = {
       name: "Moose Token",
       symbol: "MOOSE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xb204B5A6BeC76f7Fc1e64d7d0bF1F74c56C9886A.png",
+        "https://pancakeswap.finance/images/tokens/0xb204B5A6BeC76f7Fc1e64d7d0bF1F74c56C9886A.png",
       address: "0xb204B5A6BeC76f7Fc1e64d7d0bF1F74c56C9886A",
       decimals: "18",
     },
@@ -38563,7 +38563,7 @@ export let chainTokenDictionary = {
       name: " Cashaa",
       symbol: "CAS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x780207B8C0Fdc32cF60E957415bFa1f2d4d9718c.png",
+        "https://pancakeswap.finance/images/tokens/0x780207B8C0Fdc32cF60E957415bFa1f2d4d9718c.png",
       address: "0x780207B8C0Fdc32cF60E957415bFa1f2d4d9718c",
       decimals: "18",
     },
@@ -38571,7 +38571,7 @@ export let chainTokenDictionary = {
       name: "SuperNova Protocol",
       symbol: "SUPERN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0C038Bc02C8C9945f194b17C703f800526900A74.png",
+        "https://pancakeswap.finance/images/tokens/0x0C038Bc02C8C9945f194b17C703f800526900A74.png",
       address: "0x0C038Bc02C8C9945f194b17C703f800526900A74",
       decimals: "9",
     },
@@ -38579,7 +38579,7 @@ export let chainTokenDictionary = {
       name: "Cream",
       symbol: "CREAM",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888.png",
+        "https://pancakeswap.finance/images/tokens/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888.png",
       address: "0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888",
       decimals: "18",
     },
@@ -38587,7 +38587,7 @@ export let chainTokenDictionary = {
       name: "Plankz",
       symbol: "PLZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9ce15E6AC4b22b9163a668747b8D93ceFBAE5099.png",
+        "https://pancakeswap.finance/images/tokens/0x9ce15E6AC4b22b9163a668747b8D93ceFBAE5099.png",
       address: "0x9ce15E6AC4b22b9163a668747b8D93ceFBAE5099",
       decimals: "8",
     },
@@ -38595,7 +38595,7 @@ export let chainTokenDictionary = {
       name: "LeagueOfWhales",
       symbol: "LOW",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x30Cf268072f222Cf4e90630FC78f8D3986249B50.png",
+        "https://pancakeswap.finance/images/tokens/0x30Cf268072f222Cf4e90630FC78f8D3986249B50.png",
       address: "0x30Cf268072f222Cf4e90630FC78f8D3986249B50",
       decimals: "9",
     },
@@ -38603,7 +38603,7 @@ export let chainTokenDictionary = {
       name: "SafeOdyssey",
       symbol: "SafeOdyssey",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd5aD668442283FD658995852812Bc5545E3d01c8.png",
+        "https://pancakeswap.finance/images/tokens/0xd5aD668442283FD658995852812Bc5545E3d01c8.png",
       address: "0xd5aD668442283FD658995852812Bc5545E3d01c8",
       decimals: "9",
     },
@@ -38611,7 +38611,7 @@ export let chainTokenDictionary = {
       name: "CozyToken",
       symbol: "COZY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE43E9c20De12C57258b3A3C408163E472bEfAd16.png",
+        "https://pancakeswap.finance/images/tokens/0xE43E9c20De12C57258b3A3C408163E472bEfAd16.png",
       address: "0xE43E9c20De12C57258b3A3C408163E472bEfAd16",
       decimals: "9",
     },
@@ -38619,7 +38619,7 @@ export let chainTokenDictionary = {
       name: "Hidden Society",
       symbol: "HDS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2c33bC0523B1a3702aD23F1AA908db4d3920e28e.png",
+        "https://pancakeswap.finance/images/tokens/0x2c33bC0523B1a3702aD23F1AA908db4d3920e28e.png",
       address: "0x2c33bC0523B1a3702aD23F1AA908db4d3920e28e",
       decimals: "9",
     },
@@ -38627,7 +38627,7 @@ export let chainTokenDictionary = {
       name: "RiskHorizon",
       symbol: "RH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFF13b4aaA61C3a4C257A754d259f91A6f34Bf899.png",
+        "https://pancakeswap.finance/images/tokens/0xFF13b4aaA61C3a4C257A754d259f91A6f34Bf899.png",
       address: "0xFF13b4aaA61C3a4C257A754d259f91A6f34Bf899",
       decimals: "9",
     },
@@ -38635,7 +38635,7 @@ export let chainTokenDictionary = {
       name: "Dog Owner",
       symbol: "DOGOWN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfa5DbE839C674C5a8A74dB57eE661fadE60bbf58.png",
+        "https://pancakeswap.finance/images/tokens/0xfa5DbE839C674C5a8A74dB57eE661fadE60bbf58.png",
       address: "0xfa5DbE839C674C5a8A74dB57eE661fadE60bbf58",
       decimals: "18",
     },
@@ -38643,7 +38643,7 @@ export let chainTokenDictionary = {
       name: "Synth oUSD",
       symbol: "oUSD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6BF2Be9468314281cD28A94c35f967caFd388325.png",
+        "https://pancakeswap.finance/images/tokens/0x6BF2Be9468314281cD28A94c35f967caFd388325.png",
       address: "0x6BF2Be9468314281cD28A94c35f967caFd388325",
       decimals: "18",
     },
@@ -38651,7 +38651,7 @@ export let chainTokenDictionary = {
       name: "SpaceOwl",
       symbol: "SPOWL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xFb8e88409029697E59a11C14783CcBF224EdED42.png",
+        "https://pancakeswap.finance/images/tokens/0xFb8e88409029697E59a11C14783CcBF224EdED42.png",
       address: "0xFb8e88409029697E59a11C14783CcBF224EdED42",
       decimals: "9",
     },
@@ -38659,7 +38659,7 @@ export let chainTokenDictionary = {
       name: "CuteCat",
       symbol: "CUTECAT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x15e301679aDC4CD8867CdFb52eee91e62fBf22f0.png",
+        "https://pancakeswap.finance/images/tokens/0x15e301679aDC4CD8867CdFb52eee91e62fBf22f0.png",
       address: "0x15e301679aDC4CD8867CdFb52eee91e62fBf22f0",
       decimals: "9",
     },
@@ -38667,7 +38667,7 @@ export let chainTokenDictionary = {
       name: "DogeBSC",
       symbol: "DogeBSC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1060ae67986a1a5A02eE023E3F5DfC2f5D04eBb4.png",
+        "https://pancakeswap.finance/images/tokens/0x1060ae67986a1a5A02eE023E3F5DfC2f5D04eBb4.png",
       address: "0x1060ae67986a1a5A02eE023E3F5DfC2f5D04eBb4",
       decimals: "9",
     },
@@ -38675,7 +38675,7 @@ export let chainTokenDictionary = {
       name: "Felatoken",
       symbol: "FELA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd513417D3Ceb6331f21284EBb533952b95620A7E.png",
+        "https://pancakeswap.finance/images/tokens/0xd513417D3Ceb6331f21284EBb533952b95620A7E.png",
       address: "0xd513417D3Ceb6331f21284EBb533952b95620A7E",
       decimals: "9",
     },
@@ -38683,7 +38683,7 @@ export let chainTokenDictionary = {
       name: "GOLDFISH",
       symbol: "GFISH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA3b7446d998475aa4b521243Da8a139D83ef1435.png",
+        "https://pancakeswap.finance/images/tokens/0xA3b7446d998475aa4b521243Da8a139D83ef1435.png",
       address: "0xA3b7446d998475aa4b521243Da8a139D83ef1435",
       decimals: "9",
     },
@@ -38691,7 +38691,7 @@ export let chainTokenDictionary = {
       name: "BakeryToken",
       symbol: "BAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5.png",
+        "https://pancakeswap.finance/images/tokens/0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5.png",
       address: "0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5",
       decimals: "18",
     },
@@ -38699,7 +38699,7 @@ export let chainTokenDictionary = {
       name: "PajeetCoin",
       symbol: "PAJEET",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x17db6F8E0e7D2fF64ddF5dc04589d6156b675d19.png",
+        "https://pancakeswap.finance/images/tokens/0x17db6F8E0e7D2fF64ddF5dc04589d6156b675d19.png",
       address: "0x17db6F8E0e7D2fF64ddF5dc04589d6156b675d19",
       decimals: "15",
     },
@@ -38707,7 +38707,7 @@ export let chainTokenDictionary = {
       name: "FairStar",
       symbol: "FAIRS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x994483F4c61878AA0319AcFC49D8aE6c86eDF6fa.png",
+        "https://pancakeswap.finance/images/tokens/0x994483F4c61878AA0319AcFC49D8aE6c86eDF6fa.png",
       address: "0x994483F4c61878AA0319AcFC49D8aE6c86eDF6fa",
       decimals: "5",
     },
@@ -38715,7 +38715,7 @@ export let chainTokenDictionary = {
       name: "cCBD",
       symbol: "cCBD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x131DEd61462cb0f8034656D9294F79247f72Ad0b.png",
+        "https://pancakeswap.finance/images/tokens/0x131DEd61462cb0f8034656D9294F79247f72Ad0b.png",
       address: "0x131DEd61462cb0f8034656D9294F79247f72Ad0b",
       decimals: "18",
     },
@@ -38723,7 +38723,7 @@ export let chainTokenDictionary = {
       name: "FairTesla",
       symbol: "FAIRTESLA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9F83a2566302bBC5Fa32C757050852c317A2B9c5.png",
+        "https://pancakeswap.finance/images/tokens/0x9F83a2566302bBC5Fa32C757050852c317A2B9c5.png",
       address: "0x9F83a2566302bBC5Fa32C757050852c317A2B9c5",
       decimals: "9",
     },
@@ -38731,7 +38731,7 @@ export let chainTokenDictionary = {
       name: "Space Cats",
       symbol: "Spcats",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x31e7Aa57E7F33527cB93844844c2329A12C290fF.png",
+        "https://pancakeswap.finance/images/tokens/0x31e7Aa57E7F33527cB93844844c2329A12C290fF.png",
       address: "0x31e7Aa57E7F33527cB93844844c2329A12C290fF",
       decimals: "18",
     },
@@ -38739,7 +38739,7 @@ export let chainTokenDictionary = {
       name: "ClassicMoon",
       symbol: "CLASSIC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1D721b30d11e5afE396F1dB2483584c6D0aE7242.png",
+        "https://pancakeswap.finance/images/tokens/0x1D721b30d11e5afE396F1dB2483584c6D0aE7242.png",
       address: "0x1D721b30d11e5afE396F1dB2483584c6D0aE7242",
       decimals: "9",
     },
@@ -38747,7 +38747,7 @@ export let chainTokenDictionary = {
       name: "Perseus",
       symbol: "PERSEUS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB6a44818431f6638A7a4eBb2FA3044FfDBAf6A3E.png",
+        "https://pancakeswap.finance/images/tokens/0xB6a44818431f6638A7a4eBb2FA3044FfDBAf6A3E.png",
       address: "0xB6a44818431f6638A7a4eBb2FA3044FfDBAf6A3E",
       decimals: "8",
     },
@@ -38755,7 +38755,7 @@ export let chainTokenDictionary = {
       name: "Monster Slayer Cash",
       symbol: "MSC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8C784C49097Dcc637b93232e15810D53871992BF.png",
+        "https://pancakeswap.finance/images/tokens/0x8C784C49097Dcc637b93232e15810D53871992BF.png",
       address: "0x8C784C49097Dcc637b93232e15810D53871992BF",
       decimals: "18",
     },
@@ -38763,7 +38763,7 @@ export let chainTokenDictionary = {
       name: "FairLaunch",
       symbol: "FLC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xE2D8E65F6a17bdBb898049E49902eEcA36e24980.png",
+        "https://pancakeswap.finance/images/tokens/0xE2D8E65F6a17bdBb898049E49902eEcA36e24980.png",
       address: "0xE2D8E65F6a17bdBb898049E49902eEcA36e24980",
       decimals: "9",
     },
@@ -38771,7 +38771,7 @@ export let chainTokenDictionary = {
       name: "EmeraldDream",
       symbol: "EDD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf93427f2e62c54E9BFA5046cEA77297b7De39217.png",
+        "https://pancakeswap.finance/images/tokens/0xf93427f2e62c54E9BFA5046cEA77297b7De39217.png",
       address: "0xf93427f2e62c54E9BFA5046cEA77297b7De39217",
       decimals: "9",
     },
@@ -38779,7 +38779,7 @@ export let chainTokenDictionary = {
       name: "DeCEX",
       symbol: "DCX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xBa7D84c76B1CB41Ee787E63164f38372791C9C56.png",
+        "https://pancakeswap.finance/images/tokens/0xBa7D84c76B1CB41Ee787E63164f38372791C9C56.png",
       address: "0xBa7D84c76B1CB41Ee787E63164f38372791C9C56",
       decimals: "18",
     },
@@ -38787,7 +38787,7 @@ export let chainTokenDictionary = {
       name: "MILF Token",
       symbol: "MILF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4f200873cF6201a389cF8dc13d00f7F4F8F3dbb6.png",
+        "https://pancakeswap.finance/images/tokens/0x4f200873cF6201a389cF8dc13d00f7F4F8F3dbb6.png",
       address: "0x4f200873cF6201a389cF8dc13d00f7F4F8F3dbb6",
       decimals: "9",
     },
@@ -38795,7 +38795,7 @@ export let chainTokenDictionary = {
       name: "Collateral",
       symbol: "COLL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA4CB040B85e94F5c0C32ea1151B20D3aB40B3493.png",
+        "https://pancakeswap.finance/images/tokens/0xA4CB040B85e94F5c0C32ea1151B20D3aB40B3493.png",
       address: "0xA4CB040B85e94F5c0C32ea1151B20D3aB40B3493",
       decimals: "18",
     },
@@ -38803,7 +38803,7 @@ export let chainTokenDictionary = {
       name: "GoldPancakeSwap",
       symbol: "GoldCake",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9cE89Aa89F5d6fF1c02243EeC80A62048221fAa2.png",
+        "https://pancakeswap.finance/images/tokens/0x9cE89Aa89F5d6fF1c02243EeC80A62048221fAa2.png",
       address: "0x9cE89Aa89F5d6fF1c02243EeC80A62048221fAa2",
       decimals: "18",
     },
@@ -38811,7 +38811,7 @@ export let chainTokenDictionary = {
       name: "Phytonutrient Token",
       symbol: "PHY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xae63595ed0bcfdDefF2ebb74a20aE96727783a67.png",
+        "https://pancakeswap.finance/images/tokens/0xae63595ed0bcfdDefF2ebb74a20aE96727783a67.png",
       address: "0xae63595ed0bcfdDefF2ebb74a20aE96727783a67",
       decimals: "18",
     },
@@ -38819,7 +38819,7 @@ export let chainTokenDictionary = {
       name: "Super Mars",
       symbol: "SUPERMARS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x5B2398A75ecf16B832122B2b29C24E7B1367131a.png",
+        "https://pancakeswap.finance/images/tokens/0x5B2398A75ecf16B832122B2b29C24E7B1367131a.png",
       address: "0x5B2398A75ecf16B832122B2b29C24E7B1367131a",
       decimals: "18",
     },
@@ -38827,7 +38827,7 @@ export let chainTokenDictionary = {
       name: "APEcoin",
       symbol: "APE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xa9eA4b786ee5b7A733c035564Bfd9341A4c9FC1e.png",
+        "https://pancakeswap.finance/images/tokens/0xa9eA4b786ee5b7A733c035564Bfd9341A4c9FC1e.png",
       address: "0xa9eA4b786ee5b7A733c035564Bfd9341A4c9FC1e",
       decimals: "18",
     },
@@ -38835,7 +38835,7 @@ export let chainTokenDictionary = {
       name: "lUSD",
       symbol: "lUSD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e.png",
+        "https://pancakeswap.finance/images/tokens/0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e.png",
       address: "0x23e8a70534308a4AAF76fb8C32ec13d17a3BD89e",
       decimals: "18",
     },
@@ -38843,7 +38843,7 @@ export let chainTokenDictionary = {
       name: "Golden Doggo",
       symbol: "GDOG",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9605a3de6e88e3e3442cC04964BC1F8C6034Df6c.png",
+        "https://pancakeswap.finance/images/tokens/0x9605a3de6e88e3e3442cC04964BC1F8C6034Df6c.png",
       address: "0x9605a3de6e88e3e3442cC04964BC1F8C6034Df6c",
       decimals: "18",
     },
@@ -38851,7 +38851,7 @@ export let chainTokenDictionary = {
       name: "Vox.Finance",
       symbol: "VOXb",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC227f8EECC481A8e8BAa30A4754B109b81C4DfA4.png",
+        "https://pancakeswap.finance/images/tokens/0xC227f8EECC481A8e8BAa30A4754B109b81C4DfA4.png",
       address: "0xC227f8EECC481A8e8BAa30A4754B109b81C4DfA4",
       decimals: "18",
     },
@@ -38859,7 +38859,7 @@ export let chainTokenDictionary = {
       name: "Blockchain Certified Data Token",
       symbol: "BCDT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x8683e604cdf911cD72652a04bf9D571697A86A60.png",
+        "https://pancakeswap.finance/images/tokens/0x8683e604cdf911cD72652a04bf9D571697A86A60.png",
       address: "0x8683e604cdf911cD72652a04bf9D571697A86A60",
       decimals: "18",
     },
@@ -38867,7 +38867,7 @@ export let chainTokenDictionary = {
       name: "Butterfly Protocol Governance Token",
       symbol: "bBFLY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x56cdF1385E01357Dc362383bee6A5ebA1d6F0967.png",
+        "https://pancakeswap.finance/images/tokens/0x56cdF1385E01357Dc362383bee6A5ebA1d6F0967.png",
       address: "0x56cdF1385E01357Dc362383bee6A5ebA1d6F0967",
       decimals: "18",
     },
@@ -38875,7 +38875,7 @@ export let chainTokenDictionary = {
       name: "Moonboy",
       symbol: "MOONBOY",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEd2c17DBbCe2D8Ae976a1534a1e537DB0138ecDd.png",
+        "https://pancakeswap.finance/images/tokens/0xEd2c17DBbCe2D8Ae976a1534a1e537DB0138ecDd.png",
       address: "0xEd2c17DBbCe2D8Ae976a1534a1e537DB0138ecDd",
       decimals: "9",
     },
@@ -38883,7 +38883,7 @@ export let chainTokenDictionary = {
       name: "MOONSUN",
       symbol: "MOONSUN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x27cfF7F536CC6fA22dAFC97f2b76e01176566CBd.png",
+        "https://pancakeswap.finance/images/tokens/0x27cfF7F536CC6fA22dAFC97f2b76e01176566CBd.png",
       address: "0x27cfF7F536CC6fA22dAFC97f2b76e01176566CBd",
       decimals: "18",
     },
@@ -38891,7 +38891,7 @@ export let chainTokenDictionary = {
       name: "ShibaMoon",
       symbol: "ShibaMoon",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x48698AdfA5E50b97d43bD27A27f2c15988C090a9.png",
+        "https://pancakeswap.finance/images/tokens/0x48698AdfA5E50b97d43bD27A27f2c15988C090a9.png",
       address: "0x48698AdfA5E50b97d43bD27A27f2c15988C090a9",
       decimals: "9",
     },
@@ -38899,7 +38899,7 @@ export let chainTokenDictionary = {
       name: "Fair Rocket",
       symbol: "FAIRROCKET",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9E8BbE508Cb5DB41a23a962398405c71436FDF28.png",
+        "https://pancakeswap.finance/images/tokens/0x9E8BbE508Cb5DB41a23a962398405c71436FDF28.png",
       address: "0x9E8BbE508Cb5DB41a23a962398405c71436FDF28",
       decimals: "9",
     },
@@ -38907,7 +38907,7 @@ export let chainTokenDictionary = {
       name: "Greenhouse Coin",
       symbol: "GHC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x95f3144954aC3854C51bcaA2183D1FE394FB7528.png",
+        "https://pancakeswap.finance/images/tokens/0x95f3144954aC3854C51bcaA2183D1FE394FB7528.png",
       address: "0x95f3144954aC3854C51bcaA2183D1FE394FB7528",
       decimals: "9",
     },
@@ -38915,7 +38915,7 @@ export let chainTokenDictionary = {
       name: "UnmarshalToken",
       symbol: "MARSH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256.png",
+        "https://pancakeswap.finance/images/tokens/0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256.png",
       address: "0x2FA5dAF6Fe0708fBD63b1A7D1592577284f52256",
       decimals: "18",
     },
@@ -38923,7 +38923,7 @@ export let chainTokenDictionary = {
       name: "JazzDefi.com",
       symbol: "JAZZ",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x77F2a1E63054c45093abcB0B83f16a0CE79b7018.png",
+        "https://pancakeswap.finance/images/tokens/0x77F2a1E63054c45093abcB0B83f16a0CE79b7018.png",
       address: "0x77F2a1E63054c45093abcB0B83f16a0CE79b7018",
       decimals: "18",
     },
@@ -38931,7 +38931,7 @@ export let chainTokenDictionary = {
       name: "Frenchie",
       symbol: "FREN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x13958e1eb63dFB8540Eaf6ed7DcbBc1A60FD52AF.png",
+        "https://pancakeswap.finance/images/tokens/0x13958e1eb63dFB8540Eaf6ed7DcbBc1A60FD52AF.png",
       address: "0x13958e1eb63dFB8540Eaf6ed7DcbBc1A60FD52AF",
       decimals: "18",
     },
@@ -38939,7 +38939,7 @@ export let chainTokenDictionary = {
       name: "DUSA",
       symbol: "DUSA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x376ba3FFAc2643555731349faE9FC8Ca28E2c9A2.png",
+        "https://pancakeswap.finance/images/tokens/0x376ba3FFAc2643555731349faE9FC8Ca28E2c9A2.png",
       address: "0x376ba3FFAc2643555731349faE9FC8Ca28E2c9A2",
       decimals: "8",
     },
@@ -38947,7 +38947,7 @@ export let chainTokenDictionary = {
       name: "Save Moon",
       symbol: "SAVEMOON",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf4351554e76cF3Eb2280F3D7AdA9699B23D964C3.png",
+        "https://pancakeswap.finance/images/tokens/0xf4351554e76cF3Eb2280F3D7AdA9699B23D964C3.png",
       address: "0xf4351554e76cF3Eb2280F3D7AdA9699B23D964C3",
       decimals: "9",
     },
@@ -38955,7 +38955,7 @@ export let chainTokenDictionary = {
       name: "Unifty",
       symbol: "bNIF",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x3aD4eC50f30dAb25C60e0e71755AF6B9690B1297.png",
+        "https://pancakeswap.finance/images/tokens/0x3aD4eC50f30dAb25C60e0e71755AF6B9690B1297.png",
       address: "0x3aD4eC50f30dAb25C60e0e71755AF6B9690B1297",
       decimals: "18",
     },
@@ -38963,7 +38963,7 @@ export let chainTokenDictionary = {
       name: "ASTROWRLD",
       symbol: "WRLD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x99eFE9261b91C18bA35C3c003aac23AeD983946B.png",
+        "https://pancakeswap.finance/images/tokens/0x99eFE9261b91C18bA35C3c003aac23AeD983946B.png",
       address: "0x99eFE9261b91C18bA35C3c003aac23AeD983946B",
       decimals: "9",
     },
@@ -38971,7 +38971,7 @@ export let chainTokenDictionary = {
       name: "FEB Token",
       symbol: "FEB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA72a0564d0e887123112e6A4DC1abA7611Ad861d.png",
+        "https://pancakeswap.finance/images/tokens/0xA72a0564d0e887123112e6A4DC1abA7611Ad861d.png",
       address: "0xA72a0564d0e887123112e6A4DC1abA7611Ad861d",
       decimals: "0",
     },
@@ -38979,7 +38979,7 @@ export let chainTokenDictionary = {
       name: "Falopa",
       symbol: "FLP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x87ff96aba480f1813aF5c780387d8De7cf7D8261.png",
+        "https://pancakeswap.finance/images/tokens/0x87ff96aba480f1813aF5c780387d8De7cf7D8261.png",
       address: "0x87ff96aba480f1813aF5c780387d8De7cf7D8261",
       decimals: "18",
     },
@@ -38987,7 +38987,7 @@ export let chainTokenDictionary = {
       name: "Astra",
       symbol: "ASTRA",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x6eB6B5CA233140E501b24e6C355C7Ebfd2d35219.png",
+        "https://pancakeswap.finance/images/tokens/0x6eB6B5CA233140E501b24e6C355C7Ebfd2d35219.png",
       address: "0x6eB6B5CA233140E501b24e6C355C7Ebfd2d35219",
       decimals: "8",
     },
@@ -38995,7 +38995,7 @@ export let chainTokenDictionary = {
       name: "Niubi Token",
       symbol: "NIU",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xfA90d5d5Ff08D9A06C9fDF89B4B22217b9dbc418.png",
+        "https://pancakeswap.finance/images/tokens/0xfA90d5d5Ff08D9A06C9fDF89B4B22217b9dbc418.png",
       address: "0xfA90d5d5Ff08D9A06C9fDF89B4B22217b9dbc418",
       decimals: "18",
     },
@@ -39003,7 +39003,7 @@ export let chainTokenDictionary = {
       name: "BYC",
       symbol: "BYC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xcE2528c42512a2DC477017Fc390653f4742F2F16.png",
+        "https://pancakeswap.finance/images/tokens/0xcE2528c42512a2DC477017Fc390653f4742F2F16.png",
       address: "0xcE2528c42512a2DC477017Fc390653f4742F2F16",
       decimals: "18",
     },
@@ -39011,7 +39011,7 @@ export let chainTokenDictionary = {
       name: "Dragon Ball Token",
       symbol: "DBALL",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9.png",
+        "https://pancakeswap.finance/images/tokens/0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9.png",
       address: "0xceB2f5e9C7F2D3BCd12A7560D73c56f3396af3F9",
       decimals: "18",
     },
@@ -39019,7 +39019,7 @@ export let chainTokenDictionary = {
       name: "BSC Toolz",
       symbol: "BSCT",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xD6e346cc52623E59205030055aA74ABFEf7FE7Fe.png",
+        "https://pancakeswap.finance/images/tokens/0xD6e346cc52623E59205030055aA74ABFEf7FE7Fe.png",
       address: "0xD6e346cc52623E59205030055aA74ABFEf7FE7Fe",
       decimals: "18",
     },
@@ -39027,7 +39027,7 @@ export let chainTokenDictionary = {
       name: "Knights of the Round Table Token",
       symbol: "TABLE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xf5a2F7418035ce76967F515f39d65719bB0453B6.png",
+        "https://pancakeswap.finance/images/tokens/0xf5a2F7418035ce76967F515f39d65719bB0453B6.png",
       address: "0xf5a2F7418035ce76967F515f39d65719bB0453B6",
       decimals: "18",
     },
@@ -39035,7 +39035,7 @@ export let chainTokenDictionary = {
       name: "MoonDeluxe",
       symbol: "MOONDELUXE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x44654aC902aBA59aE7daa9A658a7c1c6ea4ec46f.png",
+        "https://pancakeswap.finance/images/tokens/0x44654aC902aBA59aE7daa9A658a7c1c6ea4ec46f.png",
       address: "0x44654aC902aBA59aE7daa9A658a7c1c6ea4ec46f",
       decimals: "9",
     },
@@ -39043,7 +39043,7 @@ export let chainTokenDictionary = {
       name: "DeFinomics.Finance",
       symbol: "DFN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xCb52860ADB0556999B13DdF58967A881D1Aa1C10.png",
+        "https://pancakeswap.finance/images/tokens/0xCb52860ADB0556999B13DdF58967A881D1Aa1C10.png",
       address: "0xCb52860ADB0556999B13DdF58967A881D1Aa1C10",
       decimals: "18",
     },
@@ -39051,7 +39051,7 @@ export let chainTokenDictionary = {
       name: "BlackBerry Token",
       symbol: "BB",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x86bBc9838C3370e0fD570b4ee8087f5aCa299977.png",
+        "https://pancakeswap.finance/images/tokens/0x86bBc9838C3370e0fD570b4ee8087f5aCa299977.png",
       address: "0x86bBc9838C3370e0fD570b4ee8087f5aCa299977",
       decimals: "0",
     },
@@ -39059,7 +39059,7 @@ export let chainTokenDictionary = {
       name: "Spore Token",
       symbol: "SPORE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x77f6A5f1B7a2b6D6C322Af8581317D6Bb0a52689.png",
+        "https://pancakeswap.finance/images/tokens/0x77f6A5f1B7a2b6D6C322Af8581317D6Bb0a52689.png",
       address: "0x77f6A5f1B7a2b6D6C322Af8581317D6Bb0a52689",
       decimals: "18",
     },
@@ -39067,7 +39067,7 @@ export let chainTokenDictionary = {
       name: "@FINALMARS",
       symbol: "FINALMARS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x42D8E9be6ee13239991f2e2D0e925159e013c21f.png",
+        "https://pancakeswap.finance/images/tokens/0x42D8E9be6ee13239991f2e2D0e925159e013c21f.png",
       address: "0x42D8E9be6ee13239991f2e2D0e925159e013c21f",
       decimals: "9",
     },
@@ -39075,7 +39075,7 @@ export let chainTokenDictionary = {
       name: "bDollar-peg UNI",
       symbol: "bpUNI",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xd3B7233C3cE74C9A603b1717E5D265B1B97Ee48A.png",
+        "https://pancakeswap.finance/images/tokens/0xd3B7233C3cE74C9A603b1717E5D265B1B97Ee48A.png",
       address: "0xd3B7233C3cE74C9A603b1717E5D265B1B97Ee48A",
       decimals: "18",
     },
@@ -39083,7 +39083,7 @@ export let chainTokenDictionary = {
       name: "SafeUniverse",
       symbol: "SFUV",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x0923cFC847da033DA2294F44403067255978B189.png",
+        "https://pancakeswap.finance/images/tokens/0x0923cFC847da033DA2294F44403067255978B189.png",
       address: "0x0923cFC847da033DA2294F44403067255978B189",
       decimals: "18",
     },
@@ -39091,7 +39091,7 @@ export let chainTokenDictionary = {
       name: "FairSpaceX",
       symbol: "FAIRSPACEX",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x7fD3c5B56708D48877218241A9A8Ceb4CD48929C.png",
+        "https://pancakeswap.finance/images/tokens/0x7fD3c5B56708D48877218241A9A8Ceb4CD48929C.png",
       address: "0x7fD3c5B56708D48877218241A9A8Ceb4CD48929C",
       decimals: "9",
     },
@@ -39099,7 +39099,7 @@ export let chainTokenDictionary = {
       name: "Moon Mars Token",
       symbol: "MOONMARS",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2C69402a7d3f80F78EDbAf4EAB31963ebf10328D.png",
+        "https://pancakeswap.finance/images/tokens/0x2C69402a7d3f80F78EDbAf4EAB31963ebf10328D.png",
       address: "0x2C69402a7d3f80F78EDbAf4EAB31963ebf10328D",
       decimals: "18",
     },
@@ -39107,7 +39107,7 @@ export let chainTokenDictionary = {
       name: "Wrapped ZCore",
       symbol: "WZCR",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1F01Dc57C66C2f87D8eab9C625D335e9defE6912.png",
+        "https://pancakeswap.finance/images/tokens/0x1F01Dc57C66C2f87D8eab9C625D335e9defE6912.png",
       address: "0x1F01Dc57C66C2f87D8eab9C625D335e9defE6912",
       decimals: "18",
     },
@@ -39115,7 +39115,7 @@ export let chainTokenDictionary = {
       name: "Daily",
       symbol: "Daily",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB20b17d86F868B9C2A1e6201bA881D68c1325dE4.png",
+        "https://pancakeswap.finance/images/tokens/0xB20b17d86F868B9C2A1e6201bA881D68c1325dE4.png",
       address: "0xB20b17d86F868B9C2A1e6201bA881D68c1325dE4",
       decimals: "18",
     },
@@ -39123,7 +39123,7 @@ export let chainTokenDictionary = {
       name: "Fair XRP",
       symbol: "FAIRXRP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x4d55dE8567609a90B45231380A8de7Aa021468dF.png",
+        "https://pancakeswap.finance/images/tokens/0x4d55dE8567609a90B45231380A8de7Aa021468dF.png",
       address: "0x4d55dE8567609a90B45231380A8de7Aa021468dF",
       decimals: "9",
     },
@@ -39131,7 +39131,7 @@ export let chainTokenDictionary = {
       name: "DiamondGen",
       symbol: "DEGN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x15295789023327A6e6292C7F555429abB924957F.png",
+        "https://pancakeswap.finance/images/tokens/0x15295789023327A6e6292C7F555429abB924957F.png",
       address: "0x15295789023327A6e6292C7F555429abB924957F",
       decimals: "9",
     },
@@ -39139,7 +39139,7 @@ export let chainTokenDictionary = {
       name: "Hot Doge",
       symbol: "HotDoge",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x1991501f1398663F69dD7391C055bb0DF6514F76.png",
+        "https://pancakeswap.finance/images/tokens/0x1991501f1398663F69dD7391C055bb0DF6514F76.png",
       address: "0x1991501f1398663F69dD7391C055bb0DF6514F76",
       decimals: "9",
     },
@@ -39147,7 +39147,7 @@ export let chainTokenDictionary = {
       name: "Capitalism",
       symbol: "ADC",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xA578B6A692d455AB59DC32D52fb3706417d18724.png",
+        "https://pancakeswap.finance/images/tokens/0xA578B6A692d455AB59DC32D52fb3706417d18724.png",
       address: "0xA578B6A692d455AB59DC32D52fb3706417d18724",
       decimals: "9",
     },
@@ -39155,7 +39155,7 @@ export let chainTokenDictionary = {
       name: "Safe Doge",
       symbol: "SAFEDOGE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x00814e5F7DF2a13626AeF5a9E4b527913eB8044A.png",
+        "https://pancakeswap.finance/images/tokens/0x00814e5F7DF2a13626AeF5a9E4b527913eB8044A.png",
       address: "0x00814e5F7DF2a13626AeF5a9E4b527913eB8044A",
       decimals: "18",
     },
@@ -39163,7 +39163,7 @@ export let chainTokenDictionary = {
       name: "SafeStake",
       symbol: "SAFESTAKE",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x2c9382EDb3c7D063DC86b0E903480E291bf40932.png",
+        "https://pancakeswap.finance/images/tokens/0x2c9382EDb3c7D063DC86b0E903480E291bf40932.png",
       address: "0x2c9382EDb3c7D063DC86b0E903480E291bf40932",
       decimals: "9",
     },
@@ -39171,7 +39171,7 @@ export let chainTokenDictionary = {
       name: "FairSpacePills",
       symbol: "FSP",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xB49023337d764639663F1498d31e3765176E74e6.png",
+        "https://pancakeswap.finance/images/tokens/0xB49023337d764639663F1498d31e3765176E74e6.png",
       address: "0xB49023337d764639663F1498d31e3765176E74e6",
       decimals: "9",
     },
@@ -39179,7 +39179,7 @@ export let chainTokenDictionary = {
       name: "GoldRush",
       symbol: "GRUSH",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xEc86aB5C9052B1daE0b9749136965f573a85754f.png",
+        "https://pancakeswap.finance/images/tokens/0xEc86aB5C9052B1daE0b9749136965f573a85754f.png",
       address: "0xEc86aB5C9052B1daE0b9749136965f573a85754f",
       decimals: "9",
     },
@@ -39187,7 +39187,7 @@ export let chainTokenDictionary = {
       name: "SafeSun",
       symbol: "SAFESUN",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0xC3a1cB41bb55f80DcABADf53beDec28c42Bd0253.png",
+        "https://pancakeswap.finance/images/tokens/0xC3a1cB41bb55f80DcABADf53beDec28c42Bd0253.png",
       address: "0xC3a1cB41bb55f80DcABADf53beDec28c42Bd0253",
       decimals: "9",
     },
@@ -39195,13 +39195,20 @@ export let chainTokenDictionary = {
       name: "ScoobyDoo",
       symbol: "SBD",
       thumb:
-        "https://exchange.pancakeswap.finance/images/coins/0x9fed7fFd20D7B818a9629c8A19b5DcE8E412A7D0.png",
+        "https://pancakeswap.finance/images/tokens/0x9fed7fFd20D7B818a9629c8A19b5DcE8E412A7D0.png",
       address: "0x9fed7fFd20D7B818a9629c8A19b5DcE8E412A7D0",
       decimals: "9",
     },
   ],
   // Binance testnet
   97: [
+    {
+      name: "Binance Coin",
+      symbol: "BNB",
+      thumb: "https://v1exchange.pancakeswap.finance/images/coins/bnb.png",
+      address: "0x0000000000000000000000000000000000000000",
+      decimals: 18,
+    },
     {
       name: "Test Token",
       symbol: "AAA",
@@ -39222,13 +39229,6 @@ export let chainTokenDictionary = {
       thumb: "assets/img/crash-test.png",
       address: "0x69f90E517C21E3117e1535fA2092dC1f3633F560",
       decimals: 18,
-    },
-    {
-      name: "Binance Coin",
-      symbol: "BNB",
-      thumb: "https://v1exchange.pancakeswap.finance/images/coins/bnb.png",
-      address: "0x0000000000000000000000000000000000000000",
-      decimals: 18,
     }
   ],
   // Matic mainnet
@@ -39244,6 +39244,14 @@ export let chainTokenDictionary = {
   ],
   // Matic testnet
   80001: [
+    {
+      name: "Polygon",
+      symbol: "MATIC",
+      thumb:
+        "https://assets.coingecko.com/coins/images/4713/thumb/matic___polygon.jpg",
+      address: "0x0000000000000000000000000000000000000000",
+      decimals: "18",
+    },
     {
       name: "Test Token",
       symbol: "AAA",
@@ -39264,14 +39272,6 @@ export let chainTokenDictionary = {
       thumb: "assets/img/crash-test.png",
       address: "0x7190Bb56c586Bf9Dd8013C450af8C51af5EaE156",
       decimals: 18,
-    },
-    {
-      name: "Polygon",
-      symbol: "MATIC",
-      thumb:
-        "https://assets.coingecko.com/coins/images/4713/thumb/matic___polygon.jpg",
-      address: "0x0000000000000000000000000000000000000000",
-      decimals: "18",
     }
   ]
 };

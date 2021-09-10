@@ -11,6 +11,7 @@ export class GovernanceProposalComponent implements OnInit, OnDestroy {
 
     @Input() proposal;
 
+    alphabet = "abcdefghijklmnopqrstuvwxyz";
     proposalId = `proposal_${Math.random().toString(36).substring(2)}`;
     startDatetime;
     endDatetime;

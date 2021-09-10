@@ -8,8 +8,10 @@ import { LoadingIndicatorService } from './loading-indicator.service';
 import { ToasterService } from './toaster.service';
 import BigNumber from 'bignumber.js';
 import { ConfirmDialogService } from './confirm-dialog.service';
-import { SmartInterval } from '../../assets/js/custom-utils';
+import { SmartInterval, deviceType } from '../../assets/js/custom-utils';
 import { ViewConsoleService } from './view-console.service';
+
+import { WalletLink } from 'walletlink';
 
 // This is needed to get Web3 and Web3Modal into this service
 let win: any = window;
@@ -62,11 +64,9 @@ export class ContractService {
     // Unpkg imports
     private Web3Modal = win.Web3Modal.default;
     private WalletConnectProvider = win.WalletConnectProvider.default;
-    private Fortmatic = win.Fortmatic;
 
     // API keys for various providers
-    private WALLECTCONNECT_APIKEY = 'b5b51030cf3e451bb523a3f2ca10e3ff';
-    private FORTMATIC_APIKEY = 'pk_test_ADCE42E053643A95';
+    private INFURA_ID = 'b5b51030cf3e451bb523a3f2ca10e3ff';
 
     private web3Modal;
     private provider;
@@ -77,7 +77,8 @@ export class ContractService {
         private ngZone: NgZone,
         private toasterServ: ToasterService,
         private confirmDialogServ: ConfirmDialogService,
-        private viewConsoleServ: ViewConsoleService) {
+        private viewConsoleServ: ViewConsoleService
+    ) {
         this.init();
     }
 
@@ -111,8 +112,10 @@ export class ContractService {
     async disconnect(): Promise<void> {
 
         this.web3 = null;
-        this.provider.removeAllListeners('chainChanged');
-        this.provider.removeAllListeners('accountsChanged');
+        if ("removeAllListeners" in this.provider) {
+            this.provider.removeAllListeners('chainChanged');
+            this.provider.removeAllListeners('accountsChanged');
+        }
 
         if (this.provider.close) {
             await this.provider.close();
@@ -134,25 +137,111 @@ export class ContractService {
 
     private init(): void {
 
-        let providerOptions = {
-            walletconnect: {
-                package: this.WalletConnectProvider,
-                options: {
-                    infuraId: this.WALLECTCONNECT_APIKEY
-                }
-            },
-            fortmatic: {
-                package: this.Fortmatic,
-                options: {
-                    key: this.FORTMATIC_APIKEY
+        let MetaMaskOpts = {
+            "custom-metamask": {
+                display: {
+                  logo: "assets/img/metamask-logo.svg",
+                  name: "MetaMask Wallet",
+                  description: "Connect to your MetaMask Wallet"
+                },
+                package: true,
+                connector: async () => {
+
+                    // Ask the user on mobile to open the MetaMask app
+                    if (deviceType() !== "desktop") {
+                        win.location = "https://metamask.app.link/dapp/www.ethbox.org/app/";
+                        return;
+                    }
+
+                    let provider = null;
+                    if (typeof win.ethereum !== 'undefined') {
+                        provider = win.ethereum;
+                        try {
+                            await provider.request({ method: 'eth_requestAccounts' });
+                        } catch (error) {
+                            throw new Error("User Rejected");
+                        }
+                    } else {
+                        throw new Error("No MetaMask Wallet found");
+                    }
+                    return provider;
                 }
             }
         };
 
+        let WalletConnectOpts = {
+            walletconnect: {
+                package: this.WalletConnectProvider,
+                options: {
+                    infuraId: this.INFURA_ID
+                }
+            }
+        };
+
+        let BinanceChainWalletOpts = {
+            "custom-binancechainwallet": {
+                display: {
+                  logo: "assets/img/binance-logo.svg",
+                  name: "Binance Chain Wallet",
+                  description: "Connect to your Binance Chain Wallet"
+                },
+                package: true,
+                connector: async () => {
+                    let provider = null;
+                    if (typeof win.BinanceChain !== 'undefined') {
+                        provider = win.BinanceChain;
+                        try {
+                            await provider.request({ method: 'eth_requestAccounts' });
+                        } catch (error) {
+                            throw new Error("User Rejected");
+                        }
+                    } else {
+                        throw new Error("No Binance Chain Wallet found");
+                    }
+                    return provider;
+                }
+            }
+        };
+
+        let CoinbaseWalletOpts = {
+            "custom-coinbase": {
+                display: {
+                    logo: 'assets/img/coinbase-logo.svg', 
+                    name: 'Coinbase',
+                    description: 'Scan with WalletLink to connect'
+                },
+                options: {
+                    appName: 'ethbox',
+                    networkUrl: `https://mainnet.infura.io/v3/${this.INFURA_ID}`,
+                    chainId: 1
+                },
+                package: WalletLink,
+                connector: async (_, options) => {
+                    let { appName, networkUrl, chainId } = options
+                    let walletLink = new WalletLink({ appName });
+                    let provider = walletLink.makeWeb3Provider(networkUrl, chainId);
+                    await provider.enable();
+                    return provider;
+                }
+            }
+        };
+
+        // Put here providers that work on every device
+        let providerOptions = {
+            ...MetaMaskOpts,
+            ...WalletConnectOpts,
+            ...CoinbaseWalletOpts
+        };
+
+        // Put here providers that only works on desktop
+        if (deviceType() === "desktop") {
+            Object.assign(providerOptions, BinanceChainWalletOpts);
+        }
+
         this.web3Modal = new this.Web3Modal({
-            cacheProvider: true,
+            cacheProvider: deviceType() === "desktop", // Clear cache only on desktop to avoid getting stuck when using deep link
             providerOptions,
-            disableInjectedProvider: false
+            disableInjectedProvider: true
         });
 
         this.boxesInterval = new SmartInterval(
@@ -164,7 +253,7 @@ export class ContractService {
             this.boxesIntervalStartDelay
         );
 
-        this.connect();
+        // this.connect(); // This launches the connection modal automatically
     }
 
     private async fetchVariables(): Promise<void> {
@@ -774,58 +863,65 @@ export class ContractService {
             baseTokenWei = sendWei;
         }
 
-        this.loadingIndicatorServ.on();
-        this.ethboxContract.methods
-            .createBox(
-                boxInputs.recipient,
-                boxInputs.sendTokenAddress,
-                sendWei,
-                boxInputs.requestTokenAddress,
-                requestWei,
-                passHashHash)
-            .send({
-                from: this.selectedAccount$.getValue(),
-                value: baseTokenWei
-            })
-            .on("transactionHash", hash =>
-                this.ngZone.run(() => {
-
-                    this.toasterServ.toastMessage$.next({
-                        type: "secondary",
-                        message: "Waiting for transaction to confirm (may take a while, depending on network load)...",
-                        duration: "short"
-                    });
-
-                    this.viewConsoleServ.warning(`Waiting for transaction to confirm (tx hash: ${hash})`);
-
-                }))
-            .on("receipt", receipt =>
-                this.ngZone.run(() => {
-
-                    this.toasterServ.toastMessage$.next({
-                        type: "success",
-                        message: "Your outgoing transaction has been confirmed!",
-                        duration: "long"
-                    });
-
-                    this.viewConsoleServ.log(`Box creation confirmed (gas used: ${receipt.gasUsed}, tx hash: ${receipt.transactionHash})`);
-
-                    this.boxInteraction$.next(true);
-                    this.loadingIndicatorServ.off();
-                }))
-            .on("error", error =>
-                this.ngZone.run(() => {
-
-                    this.toasterServ.toastMessage$.next({
-                        type: "danger",
-                        message: "Sending aborted by user.",
-                        duration: "long"
-                    });
-
-                    this.viewConsoleServ.error("Box creation aborted");
-
-                    this.loadingIndicatorServ.off();
-                }));
+        // Wrapping this into a promise so that I can have the result back by awaiting it
+        return new Promise((resolve, reject) => {
+            this.loadingIndicatorServ.on();
+            this.ethboxContract.methods
+                .createBox(
+                    boxInputs.recipient,
+                    boxInputs.sendTokenAddress,
+                    sendWei,
+                    boxInputs.requestTokenAddress,
+                    requestWei,
+                    passHashHash)
+                .send({
+                    from: this.selectedAccount$.getValue(),
+                    value: baseTokenWei
+                })
+                .on("transactionHash", hash =>
+                    this.ngZone.run(() => {
+    
+                        this.toasterServ.toastMessage$.next({
+                            type: "secondary",
+                            message: "Waiting for transaction to confirm (may take a while, depending on network load)...",
+                            duration: "short"
+                        });
+    
+                        this.viewConsoleServ.warning(`Waiting for transaction to confirm (tx hash: ${hash})`);
+    
+                    }))
+                .on("receipt", receipt =>
+                    this.ngZone.run(() => {
+    
+                        this.toasterServ.toastMessage$.next({
+                            type: "success",
+                            message: "Your outgoing transaction has been confirmed!",
+                            duration: "long"
+                        });
+    
+                        this.viewConsoleServ.log(`Box creation confirmed (gas used: ${receipt.gasUsed}, tx hash: ${receipt.transactionHash})`);
+    
+                        this.boxInteraction$.next(true);
+                        this.loadingIndicatorServ.off();
+    
+                        resolve(receipt);
+                    }))
+                .on("error", error =>
+                    this.ngZone.run(() => {
+    
+                        this.toasterServ.toastMessage$.next({
+                            type: "danger",
+                            message: "Sending aborted.",
+                            duration: "long"
+                        });
+    
+                        this.viewConsoleServ.error("Box creation aborted");
+    
+                        this.loadingIndicatorServ.off();
+    
+                        reject(error);
+                    }));
+        });
     }
 
     async createBoxWithPrivacy(boxInputs: BoxInputs): Promise<void> {
@@ -846,56 +942,63 @@ export class ContractService {
             baseTokenWei = sendWei;
         }
 
-        this.loadingIndicatorServ.on();
-        this.ethboxContract.methods
-            .createBoxWithPrivacy(
-                recipientHash,
-                boxInputs.sendTokenAddress,
-                sendWei,
-                passHashHash)
-            .send({
-                from: this.selectedAccount$.getValue(),
-                value: baseTokenWei
-            })
-            .on("transactionHash", hash =>
-                this.ngZone.run(() => {
+        // Wrapping this into a promise so that I can have the result back by awaiting it
+        return new Promise((resolve, reject) => {
+            this.loadingIndicatorServ.on();
+            this.ethboxContract.methods
+                .createBoxWithPrivacy(
+                    recipientHash,
+                    boxInputs.sendTokenAddress,
+                    sendWei,
+                    passHashHash)
+                .send({
+                    from: this.selectedAccount$.getValue(),
+                    value: baseTokenWei
+                })
+                .on("transactionHash", hash =>
+                    this.ngZone.run(() => {
 
-                    this.toasterServ.toastMessage$.next({
-                        type: "secondary",
-                        message: "Waiting for transaction to confirm (may take a while, depending on network load)...",
-                        duration: "short"
-                    });
+                        this.toasterServ.toastMessage$.next({
+                            type: "secondary",
+                            message: "Waiting for transaction to confirm (may take a while, depending on network load)...",
+                            duration: "short"
+                        });
 
-                    this.viewConsoleServ.warning(`Waiting for transaction to confirm (tx hash: ${hash})`);
+                        this.viewConsoleServ.warning(`Waiting for transaction to confirm (tx hash: ${hash})`);
 
-                }))
-            .on("receipt", receipt =>
-                this.ngZone.run(() => {
+                    }))
+                .on("receipt", receipt =>
+                    this.ngZone.run(() => {
 
-                    this.toasterServ.toastMessage$.next({
-                        type: "success",
-                        message: "Your outgoing transaction has been confirmed!",
-                        duration: "long"
-                    });
+                        this.toasterServ.toastMessage$.next({
+                            type: "success",
+                            message: "Your outgoing transaction has been confirmed!",
+                            duration: "long"
+                        });
 
-                    this.viewConsoleServ.log(`Box with privacy creation confirmed (gas used: ${receipt.gasUsed}, tx hash: ${receipt.transactionHash})`);
+                        this.viewConsoleServ.log(`Box with privacy creation confirmed (gas used: ${receipt.gasUsed}, tx hash: ${receipt.transactionHash})`);
 
-                    this.boxInteraction$.next(true);
-                    this.loadingIndicatorServ.off();
-                }))
-            .on("error", error =>
-                this.ngZone.run(() => {
+                        this.boxInteraction$.next(true);
+                        this.loadingIndicatorServ.off();
 
-                    this.toasterServ.toastMessage$.next({
-                        type: "danger",
-                        message: "Sending aborted by user.",
-                        duration: "long"
-                    });
+                        resolve(receipt);
+                    }))
+                .on("error", error =>
+                    this.ngZone.run(() => {
 
-                    this.viewConsoleServ.error("Box with privacy creation aborted");
+                        this.toasterServ.toastMessage$.next({
+                            type: "danger",
+                            message: "Sending aborted.",
+                            duration: "long"
+                        });
 
-                    this.loadingIndicatorServ.off();
-                }));
+                        this.viewConsoleServ.error("Box with privacy creation aborted");
+
+                        this.loadingIndicatorServ.off();
+
+                        reject(error);
+                    }));
+        });
     }
 
     async cancelBox(boxIndex: number): Promise<void> {

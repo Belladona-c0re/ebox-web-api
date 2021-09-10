@@ -14,7 +14,7 @@
       <div
         *ngIf="(contractServ.isAppReady$ | async) && (contractServ.isEthereumTestnet() || contractServ.isBinanceTestnet() || contractServ.isMaticTestnet()) && isMenuUntouched"
         class="position-absolute p-3 bg-eboxdark text-white"
-        style="top: 33px!important; left: 33px!important; border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; border-top-right-radius: 1rem; width: 18ch"
+        style="top: 33px!important; left: 33px!important; border-bottom-left-radius: 1rem; border-bottom-right-radius: 1rem; border-top-right-radius: 1rem; width: 18ch; z-index: 1;"
       >
         Test tokens here!
       </div>

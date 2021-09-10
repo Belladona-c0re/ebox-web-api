@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ViewConsoleService } from 'src/app/services/view-console.service';
 
 @Component({
@@ -8,30 +8,31 @@ import { ViewConsoleService } from 'src/app/services/view-console.service';
 })
 export class ViewConsoleComponent implements OnInit {
 
+    @ViewChild("consoleOpeningCheckbox") consoleOpeningCheckbox;
+
     messages;
+
+    consoleShowState = JSON.parse(localStorage.getItem("consoleShowState")) || false;
 
     constructor(private viewConsoleServ: ViewConsoleService) { }
 
     ngOnInit(): void {
         this.messages = this.viewConsoleServ.messages;
         // setInterval(() => this.viewConsoleServ.log("I like ice cream"), 1000);
+    }
 
-        var viewConsole: any = document.querySelector("#view-console");
-        var handle: any = document.querySelector("#view-console-handle");
+    ngAfterViewInit() {
+        // Show the console if the consoleShowState is true
+        if (this.consoleShowState) {
+            this.consoleOpeningCheckbox.nativeElement.checked = true;
+        }
+    }
 
-        // (1) When mouse is down on "handle" start the drag-and-drop
-        handle.addEventListener("mousedown", () => {
-
-            let onMouseMove = ev => viewConsole.style.height = window.innerHeight - ev.pageY + 'px'
-
-            // (2) Track the mouse movements on the entire document
-            document.addEventListener('mousemove', onMouseMove);
-
-            // (3) When mouse is up anywhere in the document remove "onMouseMove" from the listeners
-            document.addEventListener("mouseup", () => 
-                document.removeEventListener('mousemove', onMouseMove)
-            );
-        });
+    setConsoleShowState(checkbox) {
+        localStorage.setItem(
+            "consoleShowState",
+            JSON.stringify(checkbox.checked)
+        );
     }
 
 }

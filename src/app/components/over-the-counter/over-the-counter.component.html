@@ -25,11 +25,11 @@
       </div>
       <div class="d-flex flex-column p-3">
         <!-- recipient input -->
-        <div class="bg-eboxdark mb-3 rounded-alot text-white">
-          <label for="recipient-input" class="pt-3 px-3 w-100">
+        <div class="p-3 bg-eboxdark mb-3 rounded-alot text-white">
+          <label for="recipient-input" class="w-100">
             Recipient
           </label>
-          <div class="d-flex p-3 pt-1">
+          <div class="d-flex">
             <input
               #recipientInput
               (input)="recipient = recipientInput.value; syncButtonFunctionality()"
@@ -49,18 +49,19 @@
               "
             ></app-address-book>
           </div>
+          <small class="{{ recipientInputColor }}">{{ recipientInputText }}</small>
         </div>
         <!-- end of recipient input -->
 
         <!-- passphrase input -->
-        <div class="bg-eboxdark mb-3 rounded-alot text-white">
-          <label for="password-input" class="pt-3 px-3 w-100">
+        <div class="p-3 bg-eboxdark mb-3 rounded-alot text-white">
+          <label for="password-input" class="w-100">
             Passphrase
           </label>
-          <div class="d-flex p-3 pt-1">
+          <div class="d-flex">
             <input
               #passwordInput
-              (input)="password = passwordInput.value"
+              (input)="password = passwordInput.value; syncButtonFunctionality()"
               id="password-input"
               class="flex-grow-1 me-3 input-nostyle"
               type="password"
@@ -80,15 +81,22 @@
               <i class="bi bi-eye"></i>
             </button>
           </div>
+          <small class="d-flex gap-1">
+            <div class="pass-rect-strength d-none" style="background-color: red; width: 15px; height: 5px;"></div>
+            <div class="pass-rect-strength d-none" style="background-color: orange; width: 15px; height: 5px;"></div>
+            <div class="pass-rect-strength d-none" style="background-color: yellow; width: 15px; height: 5px;"></div>
+            <div class="pass-rect-strength d-none" style="background-color: greenyellow; width: 15px; height: 5px;"></div>
+            <div class="pass-rect-strength d-none" style="background-color: green; width: 15px; height: 5px;"></div>
+          </small>
         </div>
         <!-- end of passphrase input -->
 
         <!-- send amount input -->
-        <div class="bg-eboxdark mb-3 rounded-alot text-white">
-          <label for="send-amount-input" class="pt-3 px-3 w-100">
+        <div class="p-3 bg-eboxdark mb-3 rounded-alot text-white">
+          <label for="send-amount-input" class="w-100">
             Send amount
           </label>
-          <div class="d-flex flex-column flex-lg-row gap-3 p-3 pt-lg-0">
+          <div class="d-flex flex-column flex-lg-row my-2 my-lg-0 gap-2">
             <input
               #sendValueInput
               (input)="sendValue = sendValueInput.value; syncButtonFunctionality()"
@@ -105,15 +113,16 @@
               (onTokenBalanceUpdated)="sendTokenBalance = $event; syncButtonFunctionality()"
             ></app-token-selector>
           </div>
+          <small class="{{ sendValueInputColor }}">{{ sendValueInputText }}</small>
         </div>
         <!-- end of send amount input -->
 
         <!-- request amount input -->
-        <div class="bg-eboxdark mb-3 rounded-alot text-white">
-          <label for="request-amount-input" class="pt-3 px-3 w-100">
+        <div class="p-3 bg-eboxdark mb-3 rounded-alot text-white">
+          <label for="request-amount-input" class="w-100">
             Request amount
           </label>
-          <div class="d-flex flex-column flex-lg-row gap-3 p-3 pt-lg-0">
+          <div class="d-flex flex-column flex-lg-row my-2 my-lg-0 gap-2">
             <input
               #requestValueInput
               (input)="requestValue = requestValueInput.value; syncButtonFunctionality()"
@@ -130,17 +139,18 @@
               [isBalanceEnabled]="false"
             ></app-token-selector>
           </div>
+          <small class="{{ requestValueInputColor }}">{{ requestValueInputText }}</small>
         </div>
         <!-- end of request amount input -->
 
         <div class="text-end">
-          <a class="btn btn-outline-eboxprimary rounded-alot" data-bs-toggle="collapse" href="#advanced-options">
+          <a class="btn btn-outline-eboxprimary rounded-alot" data-bs-toggle="collapse" href="#advanced-options" (click)="setAdvancedUser()">
             Advanced options
             <i class="bi bi-three-dots-vertical"></i>
           </a>
         </div>
 
-        <div class="collapse" id="advanced-options">
+        <div class="collapse" [class.show]="isAdvancedUser" id="advanced-options">
           <div class="d-flex flex-column gap-3 border p-3 mt-3 rounded-alot">
             <!-- allow partial checkbox -->
             <!-- <div class="bg-eboxdark p-3 rounded-alot text-white">
@@ -200,6 +210,22 @@
               </label>
             </div>
             <!-- end of privacy checkbox -->
+
+            <!-- keep inputs checkbox -->
+            <div class="bg-eboxdark p-3 rounded-alot text-white">
+              <input
+                #keepInputsCheckbox
+                class="form-check-input me-3"
+                type="checkbox"
+                [checked]="keepInputs ? 'checked' : ''"
+                (change)="setKeepInputs(keepInputsCheckbox)"
+                id="keep-inputs"
+              >
+              <label class="form-check-label" for="keep-inputs">
+                Keep inputs after sending
+              </label>
+            </div>
+            <!-- end of keep inputs checkbox -->
           </div>
         </div>
 

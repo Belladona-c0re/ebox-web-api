@@ -6,7 +6,7 @@
   appearance: none;
   -webkit-appearance: none;
 
-  background-image: url("/assets/img/binance-switch.png");
+  background-image: url("src/assets/img/binance-switch.png");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 25px;
@@ -18,7 +18,7 @@
 }
 
 .switch:checked {
-  background-image: url("/assets/img/ethereum-switch.png");
+  background-image: url("src/assets/img/ethereum-switch.png");
   background-size: cover;
   transition: background-image 1s ease-in-out;
 }

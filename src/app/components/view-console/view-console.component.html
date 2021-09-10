@@ -1,24 +1,7 @@
-<style>
-    #view-console-wrapper {
-        bottom: 0;
-        right: 1rem;
-        z-index: 10;
-    }
-    #view-console-handle {
-        background-color: #fff;
-        padding: 4px 15px;
-        z-index: 100;
-        user-select: none;
-    }
-    #view-console {
-        background: linear-gradient(rgba(0, 0, 0, .66), rgba(0, 0, 0, .99));
-        height: 17px;
-    }
-</style>
-
-<div id="view-console-wrapper" class="d-none d-lg-block position-fixed col-12 col-md-8 col-lg-6 col-xxl-4">
-    <div id="view-console-handle" class="position-absolute start-50 top-0 translate-middle rounded-pill border">Drag to open >_</div>
-    <div id="view-console" class="px-3 pt-3 text-white overflow-auto border-top border-start rounded-alot-top font-monospace text-break">
+<input hidden id="console-opening-trigger" type="checkbox" #consoleOpeningCheckbox (input)="setConsoleShowState(consoleOpeningCheckbox)">
+<div id="view-console-wrapper" class="position-fixed">
+    <label for="console-opening-trigger" id="view-console-handle" class="position-absolute start-100 rounded-alot-top border-top border-dark">Console</label>
+    <div id="view-console" class="px-3 pt-3 overflow-auto font-monospace text-break">
         <ul class="list-unstyled d-grid gap-2">
             <li
                 *ngFor="let m of messages?.reverse()"

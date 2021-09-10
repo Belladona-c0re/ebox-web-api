@@ -227,7 +227,10 @@ export class StakingComponent implements OnInit, OnDestroy {
 
         let results = await this.stakingServ.getData(this.pageMonth, this.pageDate);
         this.fetchedRewards = results
-            .map(result => ({ ...result, apy: 100 * 12 * result.reward / result.balance }));
+            .map(result => ({ 
+                ...result,
+                apy: 100 * ((1 + result.reward / result.balance) ** 12 - 1)
+            }));
 
         this.userRewardObjAPI = this.fetchedRewards
             .find(item => item.address.toLowerCase() == this.selectedAccount.toLowerCase());
