@@ -66,7 +66,7 @@ export class ContractService {
     private WalletConnectProvider = win.WalletConnectProvider.default;
 
     // API keys for various providers
-    private INFURA_ID = 'b5b51030cf3e451bb523a3f2ca10e3ff';
+    private INFURA_ID = '0x3b9bA781797b57872687Ce5d5219A1A4Bc0e85ea';
 
     private web3Modal;
     private provider;
@@ -83,7 +83,6 @@ export class ContractService {
     }
 
     async connect(): Promise<void> {
-
         try {
             this.provider = await this.web3Modal.connect();
             this.web3 = new win.Web3(this.provider);

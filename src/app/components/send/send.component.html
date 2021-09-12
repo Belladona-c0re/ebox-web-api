@@ -73,11 +73,8 @@
             <button
               (mousedown)="passwordInput.setAttribute('type', 'text')"
               (mouseup)="passwordInput.setAttribute('type', 'password')"
-              [disabled]="
-                !isAppReady || (loadingIndicatorServ.isLoading$ | async) ? 'disabled' : null
-              "
-              class="btn text-white"
-            >
+              [disabled]="!isAppReady || (loadingIndicatorServ.isLoading$ | async) ? 'disabled' : null"
+              class="btn text-white">
               <i class="bi bi-eye"></i>
             </button>
           </div>
